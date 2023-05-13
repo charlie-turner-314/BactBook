@@ -1,3 +1,7 @@
+# Bactbook
+This projects user interface is built off of the existing Staphbook project. The original README.md file is below.
+This project aims to provide the staphbook functionality to the bactopia pipeline, enabling data visualization of all bacteria types.
+
 # Staphbook
 "A social network for genomes"
 
