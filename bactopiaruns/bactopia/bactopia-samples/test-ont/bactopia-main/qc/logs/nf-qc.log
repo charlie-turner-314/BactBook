@@ -1,0 +1,43 @@
+Skipping error correction. Have a recommended ONT error corrector? Let me know!
+[2023-05-14][01:50:07][rasusa][[37mINFO[0m] Target number of bases to subsample to is: 35800000
+[2023-05-14][01:50:07][rasusa][[37mINFO[0m] Gathering read lengths...
+[2023-05-14][01:50:07][rasusa][[37mINFO[0m] 4201 reads detected
+[2023-05-14][01:50:07][rasusa][[37mINFO[0m] Keeping 4201 reads
+[2023-05-14][01:50:07][rasusa][[33mWARN[0m] Requested coverage (100.00x) is not possible as the actual coverage is 34.28x - output will be the same as the input
+[2023-05-14][01:50:07][rasusa][[37mINFO[0m] Done 🎉
+results/summary/test-ont-original/
+results/summary/test-ont-original/test-ont-original_WeightedHistogramReadlength.html
+results/summary/test-ont-original/test-ont-original_LengthvsQualityScatterPlot_dot.png
+results/summary/test-ont-original/test-ont-original_NanoPlot-report.html
+results/summary/test-ont-original/test-ont-original_NanoPlot_20230514_0150.log
+results/summary/test-ont-original/test-ont-original_Non_weightedHistogramReadlength.html
+results/summary/test-ont-original/test-ont-original_LengthvsQualityScatterPlot_kde.png
+results/summary/test-ont-original/test-ont-original_Yield_By_Length.png
+results/summary/test-ont-original/test-ont-original_WeightedLogTransformed_HistogramReadlength.html
+results/summary/test-ont-original/test-ont-original_WeightedHistogramReadlength.png
+results/summary/test-ont-original/test-ont-original_Non_weightedLogTransformed_HistogramReadlength.html
+results/summary/test-ont-original/test-ont-original_WeightedLogTransformed_HistogramReadlength.png
+results/summary/test-ont-original/test-ont-original_Yield_By_Length.html
+results/summary/test-ont-original/test-ont-original_Non_weightedHistogramReadlength.png
+results/summary/test-ont-original/test-ont-original_LengthvsQualityScatterPlot_dot.html
+results/summary/test-ont-original/test-ont-original_Non_weightedLogTransformed_HistogramReadlength.png
+results/summary/test-ont-original/test-ont-original_NanoStats.txt
+results/summary/test-ont-original/test-ont-original_LengthvsQualityScatterPlot_kde.html
+results/summary/test-ont-final/
+results/summary/test-ont-final/test-ont-final_LengthvsQualityScatterPlot_dot.html
+results/summary/test-ont-final/test-ont-final_Non_weightedHistogramReadlength.html
+results/summary/test-ont-final/test-ont-final_Non_weightedLogTransformed_HistogramReadlength.html
+results/summary/test-ont-final/test-ont-final_NanoPlot-report.html
+results/summary/test-ont-final/test-ont-final_Yield_By_Length.html
+results/summary/test-ont-final/test-ont-final_Non_weightedLogTransformed_HistogramReadlength.png
+results/summary/test-ont-final/test-ont-final_Yield_By_Length.png
+results/summary/test-ont-final/test-ont-final_Non_weightedHistogramReadlength.png
+results/summary/test-ont-final/test-ont-final_LengthvsQualityScatterPlot_dot.png
+results/summary/test-ont-final/test-ont-final_WeightedLogTransformed_HistogramReadlength.png
+results/summary/test-ont-final/test-ont-final_WeightedHistogramReadlength.html
+results/summary/test-ont-final/test-ont-final_WeightedLogTransformed_HistogramReadlength.html
+results/summary/test-ont-final/test-ont-final_WeightedHistogramReadlength.png
+results/summary/test-ont-final/test-ont-final_NanoPlot_20230514_0150.log
+results/summary/test-ont-final/test-ont-final_LengthvsQualityScatterPlot_kde.png
+results/summary/test-ont-final/test-ont-final_LengthvsQualityScatterPlot_kde.html
+results/summary/test-ont-final/test-ont-final_NanoStats.txt

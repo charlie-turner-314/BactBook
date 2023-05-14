@@ -1,0 +1,23 @@
+Sketching from stdin...
+Writing to test-se-k21.msh...
+Sketching from stdin...
+Writing to test-se-k31.msh...
+[K
+== This is sourmash version 4.6.1. ==
+[K== Please cite Brown and Irber (2016), doi:10.21105/joss.00027. ==
+
+[Kcomputing signatures for files: test-se.fna.gz
+[KComputing a total of 1 signature(s) for each input.
+[K... reading sequences from test-se.fna.gz
+[K... test-se.fna.gz 73 sequences
+[Kcalculated 1 signature for 73 sequences taken from 1 files
+[Ksaved 1 signature(s) to 'test-se.sig'
+ERROR: mash-refseq88.k21.msh.xz does not look like a sketch (.msh)
+[K
+== This is sourmash version 4.6.1. ==
+[K== Please cite Brown and Irber (2016), doi:10.21105/joss.00027. ==
+
+[K[K[K... loading database gtdb-rs207.genomic-reps.dna.k31.lca.json.gz[K[K[Kloaded 1 LCA databases. ksize=31, scaled=10000 moltype=DNA
+[Kfinding query signatures...
+[Koutputting classifications to -
+[K[K[K... classifying test-se (file 1 of 1)[K[K[Kclassified 1 signatures total

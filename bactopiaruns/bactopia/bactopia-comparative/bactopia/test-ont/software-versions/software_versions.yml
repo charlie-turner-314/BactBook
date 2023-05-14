@@ -1,0 +1,62 @@
+BACTOPIA:AMRFINDERPLUS:AMRFINDERPLUS_RUN:
+  amrfinderplus: 3.11.11
+  amrfinderplus-database: 2023-04-17.1
+BACTOPIA:ANNOTATOR:PROKKA_MODULE:
+  makeblastdb: 2.9.0+
+  prokka: 1.14.6
+BACTOPIA:ASSEMBLER:ASSEMBLER_MODULE:
+  any2fasta: 0.4.2
+  assembly-scan: 1.0.0
+  bwa: 0.7.17-r1188
+  flash: 1.2.11
+  flye: 2.9.1-b1780
+  medaka: 1.5.0
+  megahit: 1.2.9
+  miniasm: 0.3-r179
+  minimap2: 2.24-r1122
+  nanoq: 0.9.0
+  pigz: '2.6'
+  pilon: '1.24'
+  racon: 1.5.0
+  rasusa: 0.7.0
+  raven: 1.8.1
+  samclip: 0.4.0
+  samtools: '1.15'
+  shovill: 1.1.0
+  shovill-se: 1.1.0
+  skesa: 2.4.0
+  spades.py: 3.15.5
+  unicycler: 0.5.0
+  velvetg: 1.2.10
+  velveth: 1.2.10
+BACTOPIA:GATHER:GATHER_MODULE:
+  art: 2.5.8
+  fastq-dl: 2.0.0
+  fastq-scan: 1.0.1
+  mash: '2.3'
+  ncbi-genome-download: 0.3.1
+  pigz: '2.6'
+BACTOPIA:MLST:MLST_MODULE:
+  mlst: 2.23.0
+  mlst-database: 2.23.0-20230421
+BACTOPIA:QC:QC_MODULE:
+  bbduk: '39.01'
+  fastp: 0.23.2
+  fastq-scan: 1.0.1
+  fastqc: 0.11.9
+  lighter: 1.1.2
+  nanoplot: 1.41.0
+  nanoq: 0.9.0
+  pigz: '2.6'
+  porechop: 0.2.4
+  rasusa: 0.7.0
+BACTOPIA:SKETCHER:SKETCHER_MODULE:
+  mash: '2.3'
+  sourmash: 4.6.1
+Workflow:
+  Nextflow: 23.04.1
+  bactopia: 3.0.0
+  date: 2023-05-14 01:56:26.387792
+custom_dumpsoftwareversions:
+  python: 3.11.0
+  yaml: '6.0'

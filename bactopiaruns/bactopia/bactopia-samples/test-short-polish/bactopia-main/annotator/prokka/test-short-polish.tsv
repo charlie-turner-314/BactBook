@@ -1,0 +1,609 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+test-short-polish_00001	CDS	369	mutS_1			DNA mismatch repair protein MutS
+test-short-polish_00002	CDS	369	mutS_2			DNA mismatch repair protein MutS
+test-short-polish_00003	CDS	198				hypothetical protein
+test-short-polish_00004	CDS	132	mutS_3			DNA mismatch repair protein MutS
+test-short-polish_00005	CDS	369	rsmH_1	2.1.1.199		Ribosomal RNA small subunit methyltransferase H
+test-short-polish_00006	CDS	279	rsmH_2	2.1.1.199		Ribosomal RNA small subunit methyltransferase H
+test-short-polish_00007	CDS	402	rpsI			30S ribosomal protein S9
+test-short-polish_00008	CDS	309	rplM			50S ribosomal protein L13
+test-short-polish_00009	CDS	456	hisG			ATP phosphoribosyltransferase
+test-short-polish_00010	CDS	447	gatA_1			Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatA
+test-short-polish_00011	CDS	171	gatA_2			Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatA
+test-short-polish_00012	CDS	420	gatB			Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatB
+test-short-polish_00013	CDS	138				hypothetical protein
+test-short-polish_00014	CDS	231				NAD(P)/FAD-dependent oxidoreductase
+test-short-polish_00015	CDS	336	crtI	1.3.99.31	COG1233	Phytoene desaturase (lycopene-forming)
+test-short-polish_00016	CDS	222				NAD(P)/FAD-dependent oxidoreductase
+test-short-polish_00017	CDS	183				hypothetical protein
+test-short-polish_00018	CDS	252				hypothetical protein
+test-short-polish_00019	CDS	192				hypothetical protein
+test-short-polish_00020	CDS	348				hypothetical protein
+test-short-polish_00021	CDS	678	prfA_1			peptide chain release factor 1
+test-short-polish_00022	CDS	327	prfA_2			Peptide chain release factor 1
+test-short-polish_00023	CDS	558				ribose-phosphate pyrophosphokinase
+test-short-polish_00024	CDS	333				ribose-phosphate pyrophosphokinase
+test-short-polish_00025	CDS	249				hypothetical protein
+test-short-polish_00026	CDS	291				hypothetical protein
+test-short-polish_00027	CDS	177				hypothetical protein
+test-short-polish_00028	tRNA	74				tRNA-Met(cat)
+test-short-polish_00029	tRNA	75				tRNA-Asn(gtt)
+test-short-polish_00030	CDS	414	trpC			indole-3-glycerol phosphate synthase TrpC
+test-short-polish_00031	CDS	174				hypothetical protein
+test-short-polish_00032	CDS	399	trpD_1			anthranilate phosphoribosyltransferase
+test-short-polish_00033	CDS	126	trpD_2	2.4.2.18		Anthranilate phosphoribosyltransferase
+test-short-polish_00034	CDS	417	trpD_3			anthranilate phosphoribosyltransferase
+test-short-polish_00035	CDS	204				aminodeoxychorismate/anthranilate synthase component II
+test-short-polish_00036	CDS	279				aminodeoxychorismate/anthranilate synthase component II
+test-short-polish_00037	CDS	1155	trpE_1			anthranilate synthase component I
+test-short-polish_00038	CDS	207				hypothetical protein
+test-short-polish_00039	tRNA	74				tRNA-Lys(ttt)
+test-short-polish_00040	CDS	138				hypothetical protein
+test-short-polish_00041	tRNA	77				tRNA-Val(gac)
+test-short-polish_00042	CDS	177	apbC			iron-sulfur cluster carrier protein ApbC
+test-short-polish_00043	tRNA	83				tRNA-Leu(taa)
+test-short-polish_00044	tRNA	72				tRNA-Cys(gca)
+test-short-polish_00045	CDS	252				Grx4 family monothiol glutaredoxin
+test-short-polish_00046	CDS	138				argininosuccinate synthase
+test-short-polish_00047	CDS	909				argininosuccinate synthase
+test-short-polish_00048	CDS	291				co-chaperone GroES
+test-short-polish_00049	CDS	1632	groL			chaperonin GroEL
+test-short-polish_00050	CDS	1446	lepA			translation elongation factor 4
+test-short-polish_00051	CDS	147				hypothetical protein
+test-short-polish_00052	CDS	372				aspartate aminotransferase family protein
+test-short-polish_00053	CDS	456	astC			succinylornithine/acetylornithine transaminase
+test-short-polish_00054	CDS	345				valine--tRNA ligase
+test-short-polish_00055	CDS	690				valine--tRNA ligase
+test-short-polish_00056	CDS	144				valine--tRNA ligase
+test-short-polish_00057	CDS	960				valine--tRNA ligase
+test-short-polish_00058	CDS	564	ahpC			alkyl hydroperoxide reductase subunit C
+test-short-polish_00059	CDS	189				YfhL family 4Fe-4S dicluster ferredoxin
+test-short-polish_00060	CDS	807	trpA			tryptophan synthase subunit alpha
+test-short-polish_00061	CDS	1182	trpB			tryptophan synthase subunit beta
+test-short-polish_00062	CDS	117				hypothetical protein
+test-short-polish_00063	CDS	180				hypothetical protein
+test-short-polish_00064	CDS	477	ybeY	3.1.-.-	COG0319	Endoribonuclease YbeY
+test-short-polish_00065	CDS	2580	leuS_1			leucine--tRNA ligase
+test-short-polish_00066	CDS	264				hypothetical protein
+test-short-polish_00067	CDS	297				hypothetical protein
+test-short-polish_00068	CDS	177				hypothetical protein
+test-short-polish_00069	CDS	1086	leuS_2			leucine--tRNA ligase
+test-short-polish_00070	CDS	516	leuS_3			leucine--tRNA ligase
+test-short-polish_00071	CDS	132				hypothetical protein
+test-short-polish_00072	CDS	456	leuS_4			leucine--tRNA ligase
+test-short-polish_00073	CDS	183				hypothetical protein
+test-short-polish_00074	CDS	258				hypothetical protein
+test-short-polish_00075	CDS	279				hypothetical protein
+test-short-polish_00076	CDS	315	leuS_5			leucine--tRNA ligase
+test-short-polish_00077	CDS	375	leuS_6			leucine--tRNA ligase
+test-short-polish_00078	rRNA	1443				16S ribosomal RNA
+test-short-polish_00079	tRNA	75				tRNA-Ile(gat)
+test-short-polish_00080	rRNA	2868				23S ribosomal RNA
+test-short-polish_00081	rRNA	109				5S ribosomal RNA
+test-short-polish_00082	CDS	129				hypothetical protein
+test-short-polish_00083	CDS	201				hypothetical protein
+test-short-polish_00084	CDS	213				hypothetical protein
+test-short-polish_00085	CDS	1434	gltX			glutamate--tRNA ligase
+test-short-polish_00086	CDS	2454				2-oxoglutarate dehydrogenase E1 component
+test-short-polish_00087	CDS	330	odhB_1			2-oxoglutarate dehydrogenase complex dihydrolipoyllysine-residue succinyltransferase
+test-short-polish_00088	CDS	120	odhB_2			2-oxoglutarate dehydrogenase complex dihydrolipoyllysine-residue succinyltransferase
+test-short-polish_00089	CDS	234	odhB_3			2-oxoglutarate dehydrogenase complex dihydrolipoyllysine-residue succinyltransferase
+test-short-polish_00090	CDS	1419	lpdA_1			dihydrolipoyl dehydrogenase
+test-short-polish_00091	CDS	165				hypothetical protein
+test-short-polish_00092	CDS	267				hypothetical protein
+test-short-polish_00093	CDS	165				hypothetical protein
+test-short-polish_00094	CDS	174	odhB_4			2-oxoglutarate dehydrogenase complex dihydrolipoyllysine-residue succinyltransferase
+test-short-polish_00095	CDS	141	odhB_5			2-oxoglutarate dehydrogenase complex dihydrolipoyllysine-residue succinyltransferase
+test-short-polish_00096	CDS	336				hypothetical protein
+test-short-polish_00097	CDS	225	sucA	1.2.4.2	COG0567	2-oxoglutarate dehydrogenase E1 component
+test-short-polish_00098	CDS	165	odhB_6			2-oxoglutarate dehydrogenase complex dihydrolipoyllysine-residue succinyltransferase
+test-short-polish_00099	CDS	177	odhB_7			2-oxoglutarate dehydrogenase complex dihydrolipoyllysine-residue succinyltransferase
+test-short-polish_00100	CDS	1419	lpdA_2			dihydrolipoyl dehydrogenase
+test-short-polish_00101	CDS	249				hypothetical protein
+test-short-polish_00102	CDS	1476	fusA_1			elongation factor G
+test-short-polish_00103	CDS	474	rpsG			30S ribosomal protein S7
+test-short-polish_00104	CDS	369	rpsL			30S ribosomal protein S12
+test-short-polish_00105	CDS	4119	rpoC			DNA-directed RNA polymerase subunit beta'
+test-short-polish_00106	CDS	432	rpoB_1			DNA-directed RNA polymerase subunit beta
+test-short-polish_00107	CDS	255	rpoB_2			DNA-directed RNA polymerase subunit beta
+test-short-polish_00108	CDS	2337	rpoB_3			DNA-directed RNA polymerase subunit beta
+test-short-polish_00109	CDS	159	rpoB_4			DNA-directed RNA polymerase subunit beta
+test-short-polish_00110	CDS	168	rpoB_5			DNA-directed RNA polymerase subunit beta
+test-short-polish_00111	CDS	141				hypothetical protein
+test-short-polish_00112	CDS	252				hypothetical protein
+test-short-polish_00113	CDS	261				hypothetical protein
+test-short-polish_00114	CDS	282	rplK			50S ribosomal protein L11
+test-short-polish_00115	CDS	117				hypothetical protein
+test-short-polish_00116	CDS	297	nusG			transcription termination/antitermination protein NusG
+test-short-polish_00117	CDS	165				hypothetical protein
+test-short-polish_00118	tRNA	73				tRNA-Trp(cca)
+test-short-polish_00119	tRNA	74				tRNA-Thr(agt)
+test-short-polish_00120	tRNA	73				tRNA-Gly(tcc)
+test-short-polish_00121	CDS	783	gnd			decarboxylating 6-phosphogluconate dehydrogenase
+test-short-polish_00122	tRNA	86				tRNA-Ser(gga)
+test-short-polish_00123	CDS	165				hypothetical protein
+test-short-polish_00124	CDS	234				ABC transporter permease
+test-short-polish_00125	CDS	159				ABC transporter permease
+test-short-polish_00126	CDS	279				hypothetical protein
+test-short-polish_00127	CDS	180				hypothetical protein
+test-short-polish_00128	CDS	165				hypothetical protein
+test-short-polish_00129	CDS	165				family 2A encapsulin nanocompartment cargo protein cysteine desulfurase
+test-short-polish_00130	CDS	273				hypothetical protein
+test-short-polish_00131	CDS	360	mnmA_1			tRNA 2-thiouridine(34) synthase MnmA
+test-short-polish_00132	CDS	156	infA_1			translation initiation factor IF-1
+test-short-polish_00133	tRNA	74				tRNA-Glu(ttc)
+test-short-polish_00134	tRNA	76				tRNA-Gly(gcc)
+test-short-polish_00135	CDS	288				hypothetical protein
+test-short-polish_00136	CDS	168				hypothetical protein
+test-short-polish_00137	CDS	162				ABC transporter permease
+test-short-polish_00138	CDS	255				ABC transporter permease
+test-short-polish_00139	tRNA	83				tRNA-Ser(gga)
+test-short-polish_00140	CDS	744	cyoB			cytochrome o ubiquinol oxidase subunit I
+test-short-polish_00141	CDS	372				hypothetical protein
+test-short-polish_00142	CDS	210				hypothetical protein
+test-short-polish_00143	CDS	195				hypothetical protein
+test-short-polish_00144	CDS	225				hypothetical protein
+test-short-polish_00145	CDS	285	cyoE	2.5.1.141	COG0109	Protoheme IX farnesyltransferase
+test-short-polish_00146	tRNA	81				tRNA-Tyr(gta)
+test-short-polish_00147	CDS	99				hypothetical protein
+test-short-polish_00148	CDS	237	pnp_1	2.7.7.8		Polyribonucleotide nucleotidyltransferase
+test-short-polish_00149	CDS	147				hypothetical protein
+test-short-polish_00150	CDS	234				hypothetical protein
+test-short-polish_00151	CDS	1299	pnp_2			polyribonucleotide nucleotidyltransferase
+test-short-polish_00152	tRNA	88				tRNA-Leu(tag)
+test-short-polish_00153	CDS	204				hypothetical protein
+test-short-polish_00154	CDS	231				hypothetical protein
+test-short-polish_00155	CDS	228	nfuA_1			Fe/S biogenesis protein NfuA
+test-short-polish_00156	CDS	318	nfuA_2			Fe-S biogenesis protein NfuA
+test-short-polish_00157	CDS	300	sufE			cysteine desulfuration protein SufE
+test-short-polish_00158	CDS	384	hisI	3.5.4.19	COG0139	Phosphoribosyl-AMP cyclohydrolase
+test-short-polish_00159	CDS	126				hypothetical protein
+test-short-polish_00160	tRNA	74				tRNA-Asp(gtc)
+test-short-polish_00161	tRNA	73				tRNA-Val(tac)
+test-short-polish_00162	CDS	192				hypothetical protein
+test-short-polish_00163	CDS	105				hypothetical protein
+test-short-polish_00164	CDS	471				hypothetical protein
+test-short-polish_00165	CDS	1962	aceE			pyruvate dehydrogenase (acetyl-transferring), homodimeric type
+test-short-polish_00166	CDS	876	dapA			4-hydroxy-tetrahydrodipicolinate synthase
+test-short-polish_00167	CDS	1545	rpsA			30S ribosomal protein S1
+test-short-polish_00168	CDS	1017				bifunctional prephenate dehydrogenase/3-phosphoshikimate 1-carboxyvinyltransferase
+test-short-polish_00169	CDS	288				bifunctional prephenate dehydrogenase/3-phosphoshikimate 1-carboxyvinyltransferase
+test-short-polish_00170	CDS	1080	pheA			prephenate dehydratase
+test-short-polish_00171	CDS	2547	gyrA			DNA gyrase subunit A
+test-short-polish_00172	CDS	414	secA_1		COG0653	Protein translocase subunit SecA
+test-short-polish_00173	CDS	591	secA_2			preprotein translocase subunit SecA
+test-short-polish_00174	CDS	741	secA_3			preprotein translocase subunit SecA
+test-short-polish_00175	tRNA	76				tRNA-Arg(ccg)
+test-short-polish_00176	CDS	1026	leuC			3-isopropylmalate dehydratase large subunit
+test-short-polish_00177	CDS	324	aroC_1	4.2.3.5		Chorismate synthase
+test-short-polish_00178	CDS	753	aroC_2			chorismate synthase
+test-short-polish_00179	CDS	258				hypothetical protein
+test-short-polish_00180	CDS	129				hypothetical protein
+test-short-polish_00181	CDS	147				hypothetical protein
+test-short-polish_00182	CDS	126				hypothetical protein
+test-short-polish_00183	CDS	174	nuoM_1			NADH-quinone oxidoreductase subunit M
+test-short-polish_00184	CDS	327	nuoM_2			NADH-quinone oxidoreductase subunit M
+test-short-polish_00185	CDS	465	nuoM_3			NADH-quinone oxidoreductase subunit M
+test-short-polish_00186	CDS	93				hypothetical protein
+test-short-polish_00187	CDS	300				hypothetical protein
+test-short-polish_00188	CDS	372	nuoL_1			NADH-quinone oxidoreductase subunit L
+test-short-polish_00189	CDS	783	nuoL_2			NADH-quinone oxidoreductase subunit L
+test-short-polish_00190	CDS	183				hypothetical protein
+test-short-polish_00191	CDS	267	nuoK			NADH-quinone oxidoreductase subunit NuoK
+test-short-polish_00192	CDS	267	nuoJ			NADH-quinone oxidoreductase subunit J
+test-short-polish_00193	CDS	150	nuoI_1			NADH-quinone oxidoreductase subunit NuoI
+test-short-polish_00194	CDS	276	nuoI_2			NADH-quinone oxidoreductase subunit NuoI
+test-short-polish_00195	CDS	180	ndhA_1	7.1.1.-		NAD(P)H-quinone oxidoreductase subunit 1, chloroplastic
+test-short-polish_00196	CDS	285	nuoH			NADH-quinone oxidoreductase subunit NuoH
+test-short-polish_00197	CDS	282	ndhA_2	7.1.1.-		NAD(P)H-quinone oxidoreductase subunit 1, chloroplastic
+test-short-polish_00198	CDS	387	nuoG_1			NADH-quinone oxidoreductase subunit NuoG
+test-short-polish_00199	CDS	159	nuoG_2	7.1.1.-	COG1034	NADH-quinone oxidoreductase subunit G
+test-short-polish_00200	CDS	363	nuoG_3			NADH-quinone oxidoreductase subunit NuoG
+test-short-polish_00201	CDS	459	nuoG_4			NADH-quinone oxidoreductase subunit NuoG
+test-short-polish_00202	CDS	282	nuoG_5			NADH-quinone oxidoreductase subunit NuoG
+test-short-polish_00203	CDS	171	nuoF_1			NADH-quinone oxidoreductase subunit NuoF
+test-short-polish_00204	CDS	279	nuoF_2			NADH-quinone oxidoreductase subunit NuoF
+test-short-polish_00205	CDS	438	nuoF_3			NADH-quinone oxidoreductase subunit NuoF
+test-short-polish_00206	CDS	1647	nuoC			NADH-quinone oxidoreductase subunit C/D
+test-short-polish_00207	CDS	246				hypothetical protein
+test-short-polish_00208	CDS	333				NADH-quinone oxidoreductase subunit B
+test-short-polish_00209	CDS	120	rpmH			50S ribosomal protein L34
+test-short-polish_00210	CDS	255				hypothetical protein
+test-short-polish_00211	CDS	165				hypothetical protein
+test-short-polish_00212	CDS	252	thrC_1			threonine synthase
+test-short-polish_00213	CDS	1275				homoserine dehydrogenase
+test-short-polish_00214	CDS	354	rplS			50S ribosomal protein L19
+test-short-polish_00215	CDS	120				hypothetical protein
+test-short-polish_00216	CDS	276	rpsP			30S ribosomal protein S16
+test-short-polish_00217	CDS	1017	ilvC			ketol-acid reductoisomerase
+test-short-polish_00218	CDS	492	ilvN			acetolactate synthase small subunit
+test-short-polish_00219	CDS	1137				acetolactate synthase 3 large subunit
+test-short-polish_00220	CDS	570				acetolactate synthase 3 large subunit
+test-short-polish_00221	CDS	645				MarC family NAAT transporter
+test-short-polish_00222	tRNA	74				tRNA-Phe(gaa)
+test-short-polish_00223	CDS	207	hisB	3.1.3.15		Histidine biosynthesis bifunctional protein HisB
+test-short-polish_00224	CDS	159				hypothetical protein
+test-short-polish_00225	CDS	102				hypothetical protein
+test-short-polish_00226	CDS	96				hypothetical protein
+test-short-polish_00227	CDS	120				hypothetical protein
+test-short-polish_00228	CDS	279	hisA			1-(5-phosphoribosyl)-5-[(5- phosphoribosylamino)methylideneamino]imidazole-4- carboxamide isomerase
+test-short-polish_00229	CDS	204				hypothetical protein
+test-short-polish_00230	CDS	234	hisF_1			imidazole glycerol phosphate synthase subunit HisF
+test-short-polish_00231	CDS	345	hisF_2			imidazole glycerol phosphate synthase subunit HisF
+test-short-polish_00232	CDS	153				hypothetical protein
+test-short-polish_00233	CDS	255	hisC_1			histidinol-phosphate transaminase
+test-short-polish_00234	CDS	192	hisC_2	2.6.1.9		Histidinol-phosphate aminotransferase
+test-short-polish_00235	CDS	159				hypothetical protein
+test-short-polish_00236	CDS	345				homoserine kinase
+test-short-polish_00237	CDS	195				hypothetical protein
+test-short-polish_00238	CDS	213				hypothetical protein
+test-short-polish_00239	CDS	711				AI-2E family transporter
+test-short-polish_00240	tRNA	73				tRNA-Thr(cgt)
+test-short-polish_00241	CDS	285				hypothetical protein
+test-short-polish_00242	CDS	144				cold-shock protein
+test-short-polish_00243	CDS	243				hypothetical protein
+test-short-polish_00244	CDS	246	leuA_1			2-isopropylmalate synthase
+test-short-polish_00245	CDS	405	leuA_2			2-isopropylmalate synthase
+test-short-polish_00246	CDS	231	acpP			acyl carrier protein
+test-short-polish_00247	CDS	165	rpmF			50S ribosomal protein L32
+test-short-polish_00248	CDS	189	rluC			23S rRNA pseudouridine(955/2504/2580) synthase RluC
+test-short-polish_00249	CDS	210	rne_1			ribonuclease E
+test-short-polish_00250	CDS	1344	rne_2			ribonuclease E
+test-short-polish_00251	CDS	1581				MFS transporter
+test-short-polish_00252	CDS	204	aroB_1			3-dehydroquinate synthase
+test-short-polish_00253	CDS	444	aroB_2			3-dehydroquinate synthase
+test-short-polish_00254	CDS	129				hypothetical protein
+test-short-polish_00255	CDS	171	aroK	2.7.1.71		Shikimate kinase
+test-short-polish_00256	CDS	522	hslV			ATP-dependent protease subunit HslV
+test-short-polish_00257	CDS	1260	hslU			ATP-dependent protease ATPase subunit HslU
+test-short-polish_00258	CDS	165				hypothetical protein
+test-short-polish_00259	CDS	309	metE_1			5-methyltetrahydropteroyltriglutamate-- homocysteine S-methyltransferase
+test-short-polish_00260	CDS	1155	metE_2			5-methyltetrahydropteroyltriglutamate-- homocysteine S-methyltransferase
+test-short-polish_00261	CDS	474	metE_3			5-methyltetrahydropteroyltriglutamate-- homocysteine S-methyltransferase
+test-short-polish_00262	CDS	102				hypothetical protein
+test-short-polish_00263	CDS	549				3-deoxy-7-phosphoheptulonate synthase
+test-short-polish_00264	CDS	492				3-deoxy-7-phosphoheptulonate synthase
+test-short-polish_00265	CDS	639	rho_1			transcription termination factor Rho
+test-short-polish_00266	CDS	576	rho_2			transcription termination factor Rho
+test-short-polish_00267	CDS	231	tilS	6.3.4.19	COG0037	tRNA(Ile)-lysidine synthase
+test-short-polish_00268	CDS	186				hypothetical protein
+test-short-polish_00269	CDS	159				hypothetical protein
+test-short-polish_00270	CDS	330	dnaE_1			DNA polymerase III subunit alpha
+test-short-polish_00271	CDS	294	dnaE_2			DNA polymerase III subunit alpha
+test-short-polish_00272	CDS	708	dnaE_3			DNA polymerase III subunit alpha
+test-short-polish_00273	CDS	432	dnaE_4			DNA polymerase III subunit alpha
+test-short-polish_00274	CDS	225				hypothetical protein
+test-short-polish_00275	CDS	432	tsf_1			translation elongation factor Ts
+test-short-polish_00276	CDS	342	tsf_2			translation elongation factor Ts
+test-short-polish_00277	CDS	177	rpsB_1			30S ribosomal protein S2
+test-short-polish_00278	CDS	285	map			type I methionyl aminopeptidase
+test-short-polish_00279	CDS	213				hypothetical protein
+test-short-polish_00280	CDS	444	dapD_1			2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase
+test-short-polish_00281	CDS	510	dapD_2	2.3.1.117		2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase
+test-short-polish_00282	CDS	207	dapE_1			succinyl-diaminopimelate desuccinylase
+test-short-polish_00283	CDS	564	dapE_2			succinyl-diaminopimelate desuccinylase
+test-short-polish_00284	tRNA	76				tRNA-Ala(tgc)
+test-short-polish_00285	tRNA	74				tRNA-Arg(acg)
+test-short-polish_00286	CDS	741	serS			serine--tRNA ligase
+test-short-polish_00287	CDS	333	argO		COG1279	Arginine exporter protein ArgO
+test-short-polish_00288	CDS	282				LysE/ArgO family amino acid transporter
+test-short-polish_00289	CDS	636				phosphoribosylanthranilate isomerase
+test-short-polish_00290	CDS	825	truA			tRNA pseudouridine(38-40) synthase TruA
+test-short-polish_00291	CDS	138	asd_1			aspartate-semialdehyde dehydrogenase
+test-short-polish_00292	CDS	798	asd_2			aspartate-semialdehyde dehydrogenase
+test-short-polish_00293	CDS	117	asd_3			aspartate-semialdehyde dehydrogenase
+test-short-polish_00294	CDS	1086	leuB			3-isopropylmalate dehydrogenase
+test-short-polish_00295	CDS	234	leuD_1			3-isopropylmalate dehydratase small subunit
+test-short-polish_00296	CDS	246	leuD_2			3-isopropylmalate dehydratase small subunit
+test-short-polish_00297	CDS	192	leuD_3			3-isopropylmalate dehydratase small subunit
+test-short-polish_00298	CDS	597				ornithine carbamoyltransferase
+test-short-polish_00299	CDS	195				ornithine carbamoyltransferase
+test-short-polish_00300	CDS	111				hypothetical protein
+test-short-polish_00301	CDS	207				hypothetical protein
+test-short-polish_00302	CDS	1371	atpD			F0F1 ATP synthase subunit beta
+test-short-polish_00303	CDS	138	atpG			F0F1 ATP synthase subunit gamma
+test-short-polish_00304	CDS	1404	atpA			F0F1 ATP synthase subunit alpha
+test-short-polish_00305	CDS	90				hypothetical protein
+test-short-polish_00306	CDS	288	atpB_1			F0F1 ATP synthase subunit A
+test-short-polish_00307	CDS	318	atpB_2			F0F1 ATP synthase subunit A
+test-short-polish_00308	CDS	174				hypothetical protein
+test-short-polish_00309	CDS	240	ilvA_1			threonine ammonia-lyase, biosynthetic
+test-short-polish_00310	CDS	240	ilvA_2			threonine ammonia-lyase, biosynthetic
+test-short-polish_00311	CDS	201				hypothetical protein
+test-short-polish_00312	CDS	927	ilvA_3			threonine ammonia-lyase, biosynthetic
+test-short-polish_00313	CDS	504	glyQ			glycine--tRNA ligase subunit alpha
+test-short-polish_00314	CDS	153				hypothetical protein
+test-short-polish_00315	CDS	207				hypothetical protein
+test-short-polish_00316	CDS	207				hypothetical protein
+test-short-polish_00317	CDS	258	glyS			glycine--tRNA ligase subunit beta
+test-short-polish_00318	CDS	309				hypothetical protein
+test-short-polish_00319	tRNA	74				tRNA-Met(cat)
+test-short-polish_00320	CDS	156	ftsH_1			ATP-dependent zinc metalloprotease FtsH
+test-short-polish_00321	CDS	465	ftsH_2			ATP-dependent zinc metalloprotease FtsH
+test-short-polish_00322	tRNA	75				tRNA-Ile(tat)
+test-short-polish_00323	CDS	255	nusA_1			transcription termination factor NusA
+test-short-polish_00324	CDS	168				hypothetical protein
+test-short-polish_00325	CDS	456	nusA_2			transcription termination factor NusA
+test-short-polish_00326	CDS	231	nusA_3			transcription termination factor NusA
+test-short-polish_00327	CDS	261				hypothetical protein
+test-short-polish_00328	CDS	1242	infB_1			translation initiation factor IF-2
+test-short-polish_00329	CDS	231	pheT_1			phenylalanine--tRNA ligase subunit beta
+test-short-polish_00330	CDS	336				hypothetical protein
+test-short-polish_00331	CDS	1359	pheT_2			phenylalanine--tRNA ligase subunit beta
+test-short-polish_00332	CDS	159	pheS_1			phenylalanine--tRNA ligase subunit alpha
+test-short-polish_00333	CDS	309	pheS_2			phenylalanine--tRNA ligase subunit alpha
+test-short-polish_00334	CDS	222				hypothetical protein
+test-short-polish_00335	CDS	108				hypothetical protein
+test-short-polish_00336	CDS	195	infC			Translation initiation factor IF-3
+test-short-polish_00337	CDS	222				hypothetical protein
+test-short-polish_00338	CDS	153				hypothetical protein
+test-short-polish_00339	CDS	129				hypothetical protein
+test-short-polish_00340	CDS	168				proline--tRNA ligase
+test-short-polish_00341	CDS	576				proline--tRNA ligase
+test-short-polish_00342	CDS	366	proS_1			proline--tRNA ligase
+test-short-polish_00343	CDS	219	proS_2			proline--tRNA ligase
+test-short-polish_00344	CDS	276				proline--tRNA ligase
+test-short-polish_00345	CDS	324				proline--tRNA ligase
+test-short-polish_00346	CDS	1197	proS_3			proline--tRNA ligase
+test-short-polish_00347	CDS	168				proline--tRNA ligase
+test-short-polish_00348	CDS	204				hypothetical protein
+test-short-polish_00349	CDS	321	pheS_3			phenylalanine--tRNA ligase subunit alpha
+test-short-polish_00350	CDS	210	pheS_4			phenylalanine--tRNA ligase subunit alpha
+test-short-polish_00351	CDS	408	fusA_2			elongation factor G
+test-short-polish_00352	CDS	1200	tuf			elongation factor Tu
+test-short-polish_00353	CDS	315	rpsJ			30S ribosomal protein S10
+test-short-polish_00354	CDS	318	rplC			50S ribosomal protein L3
+test-short-polish_00355	CDS	312	rplD			50S ribosomal protein L4
+test-short-polish_00356	CDS	258	rplW			50S ribosomal protein L23
+test-short-polish_00357	CDS	801	rplB			50S ribosomal protein L2
+test-short-polish_00358	CDS	279	rpsS			30S ribosomal protein S19
+test-short-polish_00359	CDS	342	rplV			50S ribosomal protein L22
+test-short-polish_00360	CDS	681	rpsC_1			30S ribosomal protein S3
+test-short-polish_00361	CDS	414	rplP_1			50S ribosomal protein L16
+test-short-polish_00362	CDS	192	rpmC_1			50S ribosomal protein L29
+test-short-polish_00363	CDS	138	rpsQ_1			30S ribosomal protein S17
+test-short-polish_00364	CDS	375	rplN_1			50S ribosomal protein L14
+test-short-polish_00365	CDS	303	rplX_1			50S ribosomal protein L24
+test-short-polish_00366	CDS	501	rplE_1			50S ribosomal protein L5
+test-short-polish_00367	CDS	306	rpsN_1			30S ribosomal protein S14
+test-short-polish_00368	CDS	384	rpsH_1			30S ribosomal protein S8
+test-short-polish_00369	CDS	150				hypothetical protein
+test-short-polish_00370	CDS	141				hypothetical protein
+test-short-polish_00371	CDS	216	rplR_1			50S ribosomal protein L18
+test-short-polish_00372	CDS	513	rpsE_1			30S ribosomal protein S5
+test-short-polish_00373	CDS	147				hypothetical protein
+test-short-polish_00374	CDS	246				hypothetical protein
+test-short-polish_00375	CDS	165				hypothetical protein
+test-short-polish_00376	CDS	516	rpsE_2			30S ribosomal protein S5
+test-short-polish_00377	CDS	216	rplR_2			50S ribosomal protein L18
+test-short-polish_00378	CDS	333	rplF			50S ribosomal protein L6
+test-short-polish_00379	CDS	150				hypothetical protein
+test-short-polish_00380	CDS	384	rpsH_2			30S ribosomal protein S8
+test-short-polish_00381	CDS	237	rpsN_2			30S ribosomal protein S14
+test-short-polish_00382	CDS	501	rplE_2			50S ribosomal protein L5
+test-short-polish_00383	CDS	156	rplX_2			50S ribosomal protein L24
+test-short-polish_00384	CDS	372	rplN_2			50S ribosomal protein L14
+test-short-polish_00385	CDS	252	rpsQ_2			30S ribosomal protein S17
+test-short-polish_00386	CDS	192	rpmC_2			50S ribosomal protein L29
+test-short-polish_00387	CDS	315	rplP_2			50S ribosomal protein L16
+test-short-polish_00388	CDS	192				hypothetical protein
+test-short-polish_00389	CDS	462	rpsC_2			30S ribosomal protein S3
+test-short-polish_00390	CDS	207	rpmB			50S ribosomal protein L28
+test-short-polish_00391	CDS	339	rpoH_1		COG0568	RNA polymerase sigma factor RpoH
+test-short-polish_00392	CDS	396	rpoH_2			RNA polymerase sigma factor RpoH
+test-short-polish_00393	CDS	615	rsmD			16S rRNA (guanine(966)-N(2))-methyltransferase RsmD
+test-short-polish_00394	CDS	885	lysS_1			lysine--tRNA ligase
+test-short-polish_00395	CDS	213	lysS_2			lysine--tRNA ligase
+test-short-polish_00396	CDS	174				hypothetical protein
+test-short-polish_00397	CDS	753	prfB			peptide chain release factor 2
+test-short-polish_00398	CDS	1197	ileS_1			isoleucine--tRNA ligase
+test-short-polish_00399	CDS	141				hypothetical protein
+test-short-polish_00400	CDS	1491	ileS_2			isoleucine--tRNA ligase
+test-short-polish_00401	CDS	240	rpsT			30S ribosomal protein S20
+test-short-polish_00402	CDS	984	cgtA			Obg family GTPase CgtA
+test-short-polish_00403	CDS	267	rpmA			50S ribosomal protein L27
+test-short-polish_00404	CDS	222	rplU			50S ribosomal protein L21
+test-short-polish_00405	CDS	207				hypothetical protein
+test-short-polish_00406	CDS	351	rplQ_1			50S ribosomal protein L17
+test-short-polish_00407	CDS	990	rpoA			DNA-directed RNA polymerase subunit alpha
+test-short-polish_00408	CDS	612	rpsD			30S ribosomal protein S4
+test-short-polish_00409	CDS	393	rpsK			30S ribosomal protein S11
+test-short-polish_00410	CDS	351	rpsM			30S ribosomal protein S13
+test-short-polish_00411	CDS	114	rpmJ			50S ribosomal protein L36
+test-short-polish_00412	CDS	1158	secY			preprotein translocase subunit SecY
+test-short-polish_00413	CDS	144				hypothetical protein
+test-short-polish_00414	tRNA	76				tRNA-Gly(gcc)
+test-short-polish_00415	tRNA	74				tRNA-Glu(ttc)
+test-short-polish_00416	CDS	255	infA_2			translation initiation factor IF-1
+test-short-polish_00417	CDS	162				hypothetical protein
+test-short-polish_00418	CDS	228	csd_1			cysteine desulfurase
+test-short-polish_00419	CDS	282				cysteine desulfurase
+test-short-polish_00420	CDS	195				hypothetical protein
+test-short-polish_00421	CDS	189	sufD_1			Fe-S cluster assembly protein SufD
+test-short-polish_00422	CDS	351				hypothetical protein
+test-short-polish_00423	CDS	384				hypothetical protein
+test-short-polish_00424	CDS	252	sufC_1			Fe-S cluster assembly ATPase SufC
+test-short-polish_00425	CDS	264	sufC_2			Fe-S cluster assembly ATPase SufC
+test-short-polish_00426	CDS	726	sufD_2			Fe-S cluster assembly protein SufD
+test-short-polish_00427	CDS	741				cysteine desulfurase
+test-short-polish_00428	CDS	219	csd_2			cysteine desulfurase
+test-short-polish_00429	CDS	249	mnmA_2	2.8.1.13		tRNA-specific 2-thiouridylase MnmA
+test-short-polish_00430	CDS	120	infA_3			translation initiation factor IF-1
+test-short-polish_00431	tRNA	75				tRNA-Glu(ttc)
+test-short-polish_00432	tRNA	76				tRNA-Gly(gcc)
+test-short-polish_00433	CDS	189				hypothetical protein
+test-short-polish_00434	CDS	267				hypothetical protein
+test-short-polish_00435	CDS	147				hypothetical protein
+test-short-polish_00436	CDS	162	zwf			glucose-6-phosphate dehydrogenase
+test-short-polish_00437	CDS	429				glucokinase
+test-short-polish_00438	CDS	108				hypothetical protein
+test-short-polish_00439	CDS	114				hypothetical protein
+test-short-polish_00440	CDS	780				glutamine--tRNA ligase/YqeY domain fusion protein
+test-short-polish_00441	CDS	234				hypothetical protein
+test-short-polish_00442	tRNA	77				tRNA-Pro(tgg)
+test-short-polish_00443	CDS	189	nusA_4			transcription termination factor NusA
+test-short-polish_00444	CDS	201	nusA_5			Transcription termination/antitermination protein NusA
+test-short-polish_00445	CDS	360	nusA_6			transcription termination factor NusA
+test-short-polish_00446	CDS	171				hypothetical protein
+test-short-polish_00447	tRNA	74				tRNA-Met(cat)
+test-short-polish_00448	tRNA	85				tRNA-Leu(gag)
+test-short-polish_00449	CDS	192				hypothetical protein
+test-short-polish_00450	CDS	1563	ftsH_3			ATP-dependent zinc metalloprotease FtsH
+test-short-polish_00451	CDS	402	carB_1			carbamoyl-phosphate synthase large subunit
+test-short-polish_00452	CDS	198	carB_2			carbamoyl-phosphate synthase large subunit
+test-short-polish_00453	CDS	240	carB_3			carbamoyl-phosphate synthase large subunit
+test-short-polish_00454	CDS	201	carB_4			carbamoyl-phosphate synthase large subunit
+test-short-polish_00455	CDS	165				hypothetical protein
+test-short-polish_00456	CDS	300	carB_5			carbamoyl-phosphate synthase large subunit
+test-short-polish_00457	CDS	228	carB_6			carbamoyl-phosphate synthase large subunit
+test-short-polish_00458	CDS	339	carB_7			carbamoyl-phosphate synthase large subunit
+test-short-polish_00459	CDS	219				hypothetical protein
+test-short-polish_00460	CDS	267	carA_1			glutamine-hydrolyzing carbamoyl-phosphate synthase small subunit
+test-short-polish_00461	CDS	213	carA_2	6.3.5.5	COG0505	Carbamoyl-phosphate synthase small chain
+test-short-polish_00462	CDS	441	carA_3			glutamine-hydrolyzing carbamoyl-phosphate synthase small subunit
+test-short-polish_00463	CDS	153	dapB	1.17.1.8		4-hydroxy-tetrahydrodipicolinate reductase
+test-short-polish_00464	CDS	279				hypothetical protein
+test-short-polish_00465	CDS	393				ATP phosphoribosyltransferase regulatory subunit
+test-short-polish_00466	CDS	111				hypothetical protein
+test-short-polish_00467	CDS	549	ilvD_1			dihydroxy-acid dehydratase
+test-short-polish_00468	CDS	609	ilvD_2			dihydroxy-acid dehydratase
+test-short-polish_00469	CDS	198	ilvD_3			dihydroxy-acid dehydratase
+test-short-polish_00470	CDS	192	ilvD_4			dihydroxy-acid dehydratase
+test-short-polish_00471	CDS	120	lon_1	3.4.21.53		Lon protease
+test-short-polish_00472	CDS	384	lon_2			endopeptidase La
+test-short-polish_00473	CDS	384	lon_3			endopeptidase La
+test-short-polish_00474	CDS	471	lon_4			endopeptidase La
+test-short-polish_00475	CDS	381	pal			Peptidoglycan-associated lipoprotein
+test-short-polish_00476	tRNA	88				tRNA-Ser(tga)
+test-short-polish_00477	tRNA	94				tRNA-Ser(cga)
+test-short-polish_00478	tRNA	91				tRNA-Ser(cga)
+test-short-polish_00479	tRNA	90				tRNA-Ser(tga)
+test-short-polish_00480	CDS	138				hypothetical protein
+test-short-polish_00481	CDS	264				hypothetical protein
+test-short-polish_00482	CDS	243	aspS_1			aspartate--tRNA ligase
+test-short-polish_00483	CDS	273	aspS_2			aspartate--tRNA ligase
+test-short-polish_00484	CDS	393				hypothetical protein
+test-short-polish_00485	CDS	609	nuoM_4			NADH-quinone oxidoreductase subunit M
+test-short-polish_00486	CDS	501	nuoM_5			NADH-quinone oxidoreductase subunit M
+test-short-polish_00487	CDS	129				hypothetical protein
+test-short-polish_00488	CDS	393	nuoN_1			NADH-quinone oxidoreductase subunit NuoN
+test-short-polish_00489	CDS	480	nuoN_2			NADH-quinone oxidoreductase subunit NuoN
+test-short-polish_00490	CDS	249	ndhB	7.1.1.-		NAD(P)H-quinone oxidoreductase subunit 2, chloroplastic
+test-short-polish_00491	CDS	591	nuoN_3			NADH-quinone oxidoreductase subunit NuoN
+test-short-polish_00492	CDS	390	nuoN_4			NADH-quinone oxidoreductase subunit NuoN
+test-short-polish_00493	CDS	417	nuoM_6			NADH-quinone oxidoreductase subunit M
+test-short-polish_00494	CDS	147	nuoM_7			NADH-quinone oxidoreductase subunit M
+test-short-polish_00495	CDS	528	nuoM_8			NADH-quinone oxidoreductase subunit M
+test-short-polish_00496	CDS	285				hypothetical protein
+test-short-polish_00497	CDS	192				hypothetical protein
+test-short-polish_00498	CDS	153				hypothetical protein
+test-short-polish_00499	CDS	303				hypothetical protein
+test-short-polish_00500	CDS	180				hypothetical protein
+test-short-polish_00501	CDS	177	infB_2			Translation initiation factor IF-2
+test-short-polish_00502	CDS	201				hypothetical protein
+test-short-polish_00503	CDS	102				hypothetical protein
+test-short-polish_00504	CDS	300	nusA_7			transcription termination factor NusA
+test-short-polish_00505	CDS	114	nusA_8		COG0195	Transcription termination/antitermination protein NusA
+test-short-polish_00506	CDS	216				hypothetical protein
+test-short-polish_00507	CDS	189				hypothetical protein
+test-short-polish_00508	CDS	126				hypothetical protein
+test-short-polish_00509	CDS	702	sufB_1			Fe-S cluster assembly protein SufB
+test-short-polish_00510	CDS	1050	sufB_2			Fe-S cluster assembly protein SufB
+test-short-polish_00511	CDS	288				hypothetical protein
+test-short-polish_00512	CDS	150				hypothetical protein
+test-short-polish_00513	CDS	168				hypothetical protein
+test-short-polish_00514	CDS	174				hypothetical protein
+test-short-polish_00515	CDS	111				hypothetical protein
+test-short-polish_00516	CDS	144				hypothetical protein
+test-short-polish_00517	CDS	183				hypothetical protein
+test-short-polish_00518	CDS	177				hypothetical protein
+test-short-polish_00519	CDS	144				hypothetical protein
+test-short-polish_00520	CDS	1074	thrC_2			threonine synthase
+test-short-polish_00521	CDS	165				hypothetical protein
+test-short-polish_00522	CDS	276				hypothetical protein
+test-short-polish_00523	tRNA	73				tRNA-Met(cat)
+test-short-polish_00524	tRNA	86				tRNA-Lys(ttt)
+test-short-polish_00525	CDS	168				hypothetical protein
+test-short-polish_00526	CDS	216				hypothetical protein
+test-short-polish_00527	CDS	1599	ftsH_4			ATP-dependent zinc metalloprotease FtsH
+test-short-polish_00528	CDS	408	greA			Transcription elongation factor GreA
+test-short-polish_00529	CDS	957	carB_8			carbamoyl-phosphate synthase large subunit
+test-short-polish_00530	CDS	387	carB_9			carbamoyl-phosphate synthase large subunit
+test-short-polish_00531	CDS	543	carB_10			carbamoyl-phosphate synthase large subunit
+test-short-polish_00532	CDS	747	carB_11			carbamoyl-phosphate synthase large subunit
+test-short-polish_00533	CDS	207	carA_4	6.3.5.5		Carbamoyl-phosphate synthase small chain
+test-short-polish_00534	CDS	192	mnmG_1			tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG
+test-short-polish_00535	CDS	99				hypothetical protein
+test-short-polish_00536	CDS	246	mnmE_1	3.6.-.-		tRNA modification GTPase MnmE
+test-short-polish_00537	CDS	291	mnmE_2			tRNA uridine-5-carboxymethylaminomethyl(34) synthesis GTPase MnmE
+test-short-polish_00538	CDS	531	mnmE_3	3.6.-.-	COG0486	tRNA modification GTPase MnmE
+test-short-polish_00539	CDS	576	yidC			membrane protein insertase YidC
+test-short-polish_00540	CDS	324				hypothetical protein
+test-short-polish_00541	CDS	606	mnmG_2			tRNA uridine-5-carboxymethylaminomethyl(34) synthesis enzyme MnmG
+test-short-polish_00542	CDS	174				hypothetical protein
+test-short-polish_00543	CDS	126				hypothetical protein
+test-short-polish_00544	CDS	162				hypothetical protein
+test-short-polish_00545	CDS	195				hypothetical protein
+test-short-polish_00546	CDS	141				hypothetical protein
+test-short-polish_00547	CDS	372	rpoD_1			RNA polymerase sigma factor RpoD
+test-short-polish_00548	CDS	117				hypothetical protein
+test-short-polish_00549	CDS	345	rpoD_2			RNA polymerase sigma factor RpoD
+test-short-polish_00550	CDS	210				hypothetical protein
+test-short-polish_00551	CDS	147	cyoA			cytochrome o ubiquinol oxidase subunit II
+test-short-polish_00552	CDS	147				hypothetical protein
+test-short-polish_00553	CDS	279				hypothetical protein
+test-short-polish_00554	CDS	189				hypothetical protein
+test-short-polish_00555	tRNA	74				tRNA-Met(cat)
+test-short-polish_00556	CDS	315				hypothetical protein
+test-short-polish_00557	CDS	108				hypothetical protein
+test-short-polish_00558	CDS	231				hypothetical protein
+test-short-polish_00559	CDS	153	dnaB			replicative DNA helicase
+test-short-polish_00560	CDS	171				hypothetical protein
+test-short-polish_00561	CDS	126				hypothetical protein
+test-short-polish_00562	CDS	204				hypothetical protein
+test-short-polish_00563	CDS	255				hypothetical protein
+test-short-polish_00564	CDS	180				hypothetical protein
+test-short-polish_00565	CDS	165				hypothetical protein
+test-short-polish_00566	CDS	126	trpD_4	2.4.2.18		Anthranilate phosphoribosyltransferase
+test-short-polish_00567	CDS	156				hypothetical protein
+test-short-polish_00568	CDS	210	trpE_2			anthranilate synthase component I
+test-short-polish_00569	CDS	228				hypothetical protein
+test-short-polish_00570	CDS	198				hypothetical protein
+test-short-polish_00571	CDS	147	clpX			ATP-dependent Clp protease ATP-binding subunit ClpX
+test-short-polish_00572	CDS	246	clpP			ATP-dependent Clp endopeptidase proteolytic subunit ClpP
+test-short-polish_00573	CDS	1044	dnaJ			molecular chaperone DnaJ
+test-short-polish_00574	CDS	1386	dnaK_1			molecular chaperone DnaK
+test-short-polish_00575	CDS	417	dnaK_2			molecular chaperone DnaK
+test-short-polish_00576	CDS	177				hypothetical protein
+test-short-polish_00577	CDS	180				hypothetical protein
+test-short-polish_00578	CDS	387	mgtE_1			magnesium transporter
+test-short-polish_00579	CDS	183	aspS_3			aspartate--tRNA ligase
+test-short-polish_00580	CDS	231	aspS_4			aspartate--tRNA ligase
+test-short-polish_00581	CDS	138				hypothetical protein
+test-short-polish_00582	CDS	219				hypothetical protein
+test-short-polish_00583	CDS	1029	hisS			histidine--tRNA ligase
+test-short-polish_00584	CDS	276	der			GTPase Der
+test-short-polish_00585	tRNA	72				tRNA-His(gtg)
+test-short-polish_00586	tRNA	74				tRNA-Arg(tct)
+test-short-polish_00587	tRNA	89				tRNA-Ser(tga)
+test-short-polish_00588	CDS	99				hypothetical protein
+test-short-polish_00589	CDS	351	rplQ_2			50S ribosomal protein L17
+test-short-polish_00590	CDS	432	gltP_1			glutamate/aspartate:proton symporter GltP
+test-short-polish_00591	CDS	126	gltP_2			glutamate/aspartate:proton symporter GltP
+test-short-polish_00592	CDS	207	rpsB_2			30S ribosomal protein S2
+test-short-polish_00593	CDS	210	rpsB_3			30S ribosomal protein S2
+test-short-polish_00594	CDS	273	TSFM			Elongation factor Ts, mitochondrial
+test-short-polish_00595	CDS	204	tsaD			tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase complex transferase subunit TsaD
+test-short-polish_00596	CDS	117				hypothetical protein
+test-short-polish_00597	CDS	213	gyrB_1	5.6.2.2		DNA gyrase subunit B
+test-short-polish_00598	CDS	426	gyrB_2			DNA topoisomerase (ATP-hydrolyzing) subunit B
+test-short-polish_00599	CDS	321	gyrB_3			DNA topoisomerase (ATP-hydrolyzing) subunit B
+test-short-polish_00600	CDS	240	cls			cardiolipin synthase
+test-short-polish_00601	CDS	693	mgtE_2			magnesium transporter
+test-short-polish_00602	CDS	255	gltP_3			glutamate/aspartate:proton symporter GltP
+test-short-polish_00603	CDS	216	gltP_4			glutamate/aspartate:proton symporter GltP
+test-short-polish_00604	CDS	132				hypothetical protein
+test-short-polish_00605	CDS	789	tyrS			tyrosine--tRNA ligase
+test-short-polish_00606	CDS	186				hypothetical protein
+test-short-polish_00607	CDS	267				hypothetical protein
+test-short-polish_00608	tRNA	84				tRNA-Ser(gct)

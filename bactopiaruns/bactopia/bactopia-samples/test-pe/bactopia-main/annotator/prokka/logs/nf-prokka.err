@@ -1,0 +1,156 @@
+[01:37:15] This is prokka 1.14.6
+[01:37:15] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[01:37:15] Homepage is https://github.com/tseemann/prokka
+[01:37:15] Local time is Sun May 14 01:37:15 2023
+[01:37:15] You are not telling me who you are!
+[01:37:15] Operating system is linux
+[01:37:15] You have BioPerl 1.007002
+[01:37:15] System has 8 cores.
+[01:37:15] Will use maximum of 4 cores.
+[01:37:15] Annotating as >>> Bacteria <<<
+[01:37:15] Creating new output folder: test-pe
+[01:37:15] Running: mkdir -p test\-pe
+[01:37:15] Using filename prefix: test-pe.XXX
+[01:37:15] Setting HMMER_NCPU=1
+[01:37:15] Writing log to: test-pe/test-pe.log
+[01:37:15] Command: /usr/local/bin/prokka --evalue 1e-09 --coverage 80 --centre Bactopia --cpus 4 --prefix test-pe --locustag test-pe --proteins proteins.faa test-pe.fna
+[01:37:15] Appending to PATH: /usr/local/bin
+[01:37:15] Looking for 'aragorn' - found /usr/local/bin/aragorn
+[01:37:15] Determined aragorn version is 001002 from 'ARAGORN v1.2.38 Dean Laslett'
+[01:37:15] Looking for 'barrnap' - found /usr/local/bin/barrnap
+[01:37:15] Determined barrnap version is 000009 from 'barrnap 0.9'
+[01:37:15] Looking for 'blastp' - found /usr/local/bin/blastp
+[01:37:15] Determined blastp version is 002009 from 'blastp: 2.9.0+'
+[01:37:15] Looking for 'cmpress' - found /usr/local/bin/cmpress
+[01:37:15] Determined cmpress version is 001001 from '# INFERNAL 1.1.2 (July 2016)'
+[01:37:15] Looking for 'cmscan' - found /usr/local/bin/cmscan
+[01:37:15] Determined cmscan version is 001001 from '# INFERNAL 1.1.2 (July 2016)'
+[01:37:15] Looking for 'egrep' - found /bin/egrep
+[01:37:15] Looking for 'find' - found /usr/bin/find
+[01:37:15] Looking for 'grep' - found /bin/grep
+[01:37:15] Looking for 'hmmpress' - found /usr/local/bin/hmmpress
+[01:37:15] Determined hmmpress version is 003003 from '# HMMER 3.3 (Nov 2019); http://hmmer.org/'
+[01:37:15] Looking for 'hmmscan' - found /usr/local/bin/hmmscan
+[01:37:15] Determined hmmscan version is 003003 from '# HMMER 3.3 (Nov 2019); http://hmmer.org/'
+[01:37:15] Looking for 'java' - found /usr/local/bin/java
+[01:37:15] Looking for 'makeblastdb' - found /usr/local/bin/makeblastdb
+[01:37:15] Determined makeblastdb version is 002009 from 'makeblastdb: 2.9.0+'
+[01:37:15] Looking for 'minced' - found /usr/local/bin/minced
+[01:37:15] Determined minced version is 004002 from 'minced 0.4.2'
+[01:37:15] Looking for 'parallel' - found /usr/local/bin/parallel
+[01:37:15] Determined parallel version is 20200122 from 'GNU parallel 20200122'
+[01:37:15] Looking for 'prodigal' - found /usr/local/bin/prodigal
+[01:37:15] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[01:37:15] Looking for 'prokka-genbank_to_fasta_db' - found /usr/local/bin/prokka-genbank_to_fasta_db
+[01:37:15] Looking for 'sed' - found /bin/sed
+[01:37:15] Looking for 'tbl2asn' - found /usr/local/bin/tbl2asn
+[01:37:15] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[01:37:15] Using genetic code table 11.
+[01:37:15] Loading and checking input file: test-pe.fna
+[01:37:15] Wrote 80 contigs totalling 159095 bp.
+[01:37:15] Predicting tRNAs and tmRNAs
+[01:37:15] Running: aragorn -l -gc11  -w test\-pe\/test\-pe\.fna
+[01:37:15] 1 tRNA-Ile [2263,2337] 35 (gat)
+[01:37:15] 1 tRNA-Arg [1767,1842] 36 (ccg)
+[01:37:15] 1 tRNA-Thr c[786,858] 34 (cgt)
+[01:37:15] 1 tRNA-Pro c[1983,2056] 35 (tgg)
+[01:37:15] 1 tRNA-Ser c[839,922] 35 (gct)
+[01:37:15] 1 tRNA-Asp c[869,942] 35 (gtc)
+[01:37:15] Found 6 tRNAs
+[01:37:15] Predicting Ribosomal RNAs
+[01:37:15] Running Barrnap with 4 threads
+[01:37:16] 1 gnl|Bactopia|test-pe_5 687 16S ribosomal RNA
+[01:37:16] 2 gnl|Bactopia|test-pe_5 2365 23S ribosomal RNA
+[01:37:16] 3 gnl|Bactopia|test-pe_5 5264 5S ribosomal RNA
+[01:37:16] Found 3 rRNAs
+[01:37:16] Skipping ncRNA search, enable with --rfam if desired.
+[01:37:16] Total of 9 tRNA + rRNA features
+[01:37:16] Searching for CRISPR repeats
+[01:37:16] Found 0 CRISPRs
+[01:37:16] Predicting coding sequences
+[01:37:16] Contigs total 159095 bp, so using single mode
+[01:37:16] Running: prodigal -i test\-pe\/test\-pe\.fna -c -m -g 11 -p single -f sco -q
+[01:37:16] Excluding CDS which overlaps existing RNA (rRNA) at gnl|Bactopia|test-pe_5:1153..1281 on + strand
+[01:37:16] Found 98 CDS
+[01:37:16] Connecting features back to sequences
+[01:37:16] Not using genus-specific database. Try --usegenus to enable it.
+[01:37:16] Preparing user-supplied primary BLAST annotation source: proteins.faa
+[01:37:16] Guessed source was in fasta format.
+[01:37:16] Running: makeblastdb -dbtype prot -in proteins\.faa -out test\-pe\/proteins -logfile /dev/null
+[01:37:17] Using /inference source as 'proteins.faa'
+[01:37:17] Annotating CDS, please be patient.
+[01:37:17] Will use 4 CPUs for similarity searching.
+[01:37:17] There are still 98 unannotated CDS left (started with 98)
+[01:37:17] Will use blast to search against test-pe/proteins with 4 CPUs
+[01:37:17] Running: cat test\-pe\/test\-pe\.proteins\.tmp\.35\.faa | parallel --gnu --plain -j 4 --block 3155 --recstart '>' --pipe blastp -query - -db test-pe/proteins -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > test\-pe\/test\-pe\.proteins\.tmp\.35\.blast 2> /dev/null
+[01:37:20] Deleting unwanted file: test-pe/test-pe.proteins.tmp.35.faa
+[01:37:20] Deleting unwanted file: test-pe/test-pe.proteins.tmp.35.blast
+[01:37:20] There are still 12 unannotated CDS left (started with 98)
+[01:37:20] Will use blast to search against /usr/local/db/kingdom/Bacteria/IS with 4 CPUs
+[01:37:20] Running: cat test\-pe\/test\-pe\.IS\.tmp\.35\.faa | parallel --gnu --plain -j 4 --block 142 --recstart '>' --pipe blastp -query - -db /usr/local/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > test\-pe\/test\-pe\.IS\.tmp\.35\.blast 2> /dev/null
+[01:37:20] Deleting unwanted file: test-pe/test-pe.IS.tmp.35.faa
+[01:37:20] Deleting unwanted file: test-pe/test-pe.IS.tmp.35.blast
+[01:37:20] There are still 12 unannotated CDS left (started with 98)
+[01:37:20] Will use blast to search against /usr/local/db/kingdom/Bacteria/AMR with 4 CPUs
+[01:37:20] Running: cat test\-pe\/test\-pe\.AMR\.tmp\.35\.faa | parallel --gnu --plain -j 4 --block 142 --recstart '>' --pipe blastp -query - -db /usr/local/db/kingdom/Bacteria/AMR -evalue 9.99999999999999e-301 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > test\-pe\/test\-pe\.AMR\.tmp\.35\.blast 2> /dev/null
+[01:37:21] Deleting unwanted file: test-pe/test-pe.AMR.tmp.35.faa
+[01:37:21] Deleting unwanted file: test-pe/test-pe.AMR.tmp.35.blast
+[01:37:21] There are still 12 unannotated CDS left (started with 98)
+[01:37:21] Will use blast to search against /usr/local/db/kingdom/Bacteria/sprot with 4 CPUs
+[01:37:21] Running: cat test\-pe\/test\-pe\.sprot\.tmp\.35\.faa | parallel --gnu --plain -j 4 --block 142 --recstart '>' --pipe blastp -query - -db /usr/local/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > test\-pe\/test\-pe\.sprot\.tmp\.35\.blast 2> /dev/null
+[01:37:21] Deleting unwanted file: test-pe/test-pe.sprot.tmp.35.faa
+[01:37:21] Deleting unwanted file: test-pe/test-pe.sprot.tmp.35.blast
+[01:37:21] There are still 12 unannotated CDS left (started with 98)
+[01:37:21] Will use hmmer3 to search against /usr/local/db/hmm/HAMAP.hmm with 4 CPUs
+[01:37:21] Running: cat test\-pe\/test\-pe\.HAMAP\.hmm\.tmp\.35\.faa | parallel --gnu --plain -j 4 --block 142 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /usr/local/db/hmm/HAMAP.hmm /dev/stdin > test\-pe\/test\-pe\.HAMAP\.hmm\.tmp\.35\.hmmer3 2> /dev/null
+[01:37:22] Deleting unwanted file: test-pe/test-pe.HAMAP.hmm.tmp.35.faa
+[01:37:22] Deleting unwanted file: test-pe/test-pe.HAMAP.hmm.tmp.35.hmmer3
+[01:37:22] Deleting unwanted file: test-pe/proteins.psq
+[01:37:22] Deleting unwanted file: test-pe/proteins.phr
+[01:37:22] Deleting unwanted file: test-pe/proteins.pin
+[01:37:22] Labelling remaining 12 proteins as 'hypothetical protein'
+[01:37:22] Found 73 unique /gene codes.
+[01:37:22] Fixed 0 colliding /gene names.
+[01:37:22] Adding /locus_tag identifiers
+[01:37:22] Assigned 107 locus_tags to CDS and RNA features.
+[01:37:22] Writing outputs to test-pe/
+[01:37:22] Generating annotation statistics file
+[01:37:22] Generating Genbank and Sequin files
+[01:37:22] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z test\-pe\/test\-pe\.err -i test\-pe\/test\-pe\.fsa 2> /dev/null
+[01:37:22] Deleting unwanted file: test-pe/errorsummary.val
+[01:37:22] Deleting unwanted file: test-pe/test-pe.dr
+[01:37:22] Deleting unwanted file: test-pe/test-pe.fixedproducts
+[01:37:22] Deleting unwanted file: test-pe/test-pe.ecn
+[01:37:22] Deleting unwanted file: test-pe/test-pe.val
+[01:37:22] Repairing broken .GBK output that tbl2asn produces...
+[01:37:22] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < test\-pe\/test\-pe\.gbf > test\-pe\/test\-pe\.gbk
+[01:37:22] Deleting unwanted file: test-pe/test-pe.gbf
+[01:37:22] Output files:
+[01:37:22] test-pe/test-pe.log
+[01:37:22] test-pe/test-pe.tbl
+[01:37:22] test-pe/test-pe.sqn
+[01:37:22] test-pe/test-pe.gff
+[01:37:22] test-pe/test-pe.tsv
+[01:37:22] test-pe/test-pe.gbk
+[01:37:22] test-pe/test-pe.fsa
+[01:37:22] test-pe/test-pe.err
+[01:37:22] test-pe/test-pe.ffn
+[01:37:22] test-pe/test-pe.faa
+[01:37:22] test-pe/test-pe.txt
+[01:37:22] test-pe/test-pe.fna
+[01:37:22] Annotation finished successfully.
+[01:37:22] Walltime used: 0.12 minutes
+[01:37:22] If you use this result please cite the Prokka paper:
+[01:37:22] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[01:37:22] Type 'prokka --citation' for more details.
+[01:37:22] Share and enjoy!
+blastdb/
+blastdb/!{meta.id}.faa.pin
+blastdb/!{meta.id}.ffn.nin
+blastdb/!{meta.id}.fna.nhr
+blastdb/!{meta.id}.ffn.nhr
+blastdb/!{meta.id}.fna.nsq
+blastdb/!{meta.id}.ffn.nsq
+blastdb/!{meta.id}.faa.phr
+blastdb/!{meta.id}.faa.psq
+blastdb/!{meta.id}.fna.nin

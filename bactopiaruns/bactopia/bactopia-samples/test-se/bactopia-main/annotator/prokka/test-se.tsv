@@ -1,0 +1,68 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+test-se_00001	CDS	216	rplR			50S ribosomal protein L18
+test-se_00002	CDS	516	rpsE			30S ribosomal protein S5
+test-se_00003	CDS	453	rplO			50S ribosomal protein L15
+test-se_00004	CDS	1194	secY			preprotein translocase subunit SecY
+test-se_00005	CDS	114	rpmJ			50S ribosomal protein L36
+test-se_00006	CDS	351	rpsM			30S ribosomal protein S13
+test-se_00007	CDS	393	rpsK			30S ribosomal protein S11
+test-se_00008	CDS	612	rpsD			30S ribosomal protein S4
+test-se_00009	CDS	990	rpoA			DNA-directed RNA polymerase subunit alpha
+test-se_00010	CDS	351	rplQ			50S ribosomal protein L17
+test-se_00011	rRNA	1533				16S ribosomal RNA
+test-se_00012	tRNA	75				tRNA-Ile(gat)
+test-se_00013	rRNA	2868				23S ribosomal RNA
+test-se_00014	rRNA	109				5S ribosomal RNA
+test-se_00015	CDS	351	rpsL			30S ribosomal protein S12
+test-se_00016	CDS	474	rpsG			30S ribosomal protein S7
+test-se_00017	CDS	2136	fusA			elongation factor G
+test-se_00018	CDS	642				argininosuccinate synthase
+test-se_00019	CDS	291				co-chaperone GroES
+test-se_00020	CDS	1632	groL			chaperonin GroEL
+test-se_00021	CDS	2592	leuS			leucine--tRNA ligase
+test-se_00022	CDS	801	rplB			50S ribosomal protein L2
+test-se_00023	CDS	279	rpsS			30S ribosomal protein S19
+test-se_00024	CDS	342	rplV			50S ribosomal protein L22
+test-se_00025	CDS	681	rpsC			30S ribosomal protein S3
+test-se_00026	CDS	414	rplP			50S ribosomal protein L16
+test-se_00027	CDS	1182	trpB			tryptophan synthase subunit beta
+test-se_00028	CDS	807	trpA			tryptophan synthase subunit alpha
+test-se_00029	CDS	189				YfhL family 4Fe-4S dicluster ferredoxin
+test-se_00030	CDS	564	ahpC			alkyl hydroperoxide reductase subunit C
+test-se_00031	CDS	2547	gyrA			DNA gyrase subunit A
+test-se_00032	CDS	1386	dnaK			molecular chaperone DnaK
+test-se_00033	CDS	1044	dnaJ			molecular chaperone DnaJ
+test-se_00034	CDS	714	cgtA			Obg family GTPase CgtA
+test-se_00035	CDS	240	rpsT			30S ribosomal protein S20
+test-se_00036	tRNA	74				tRNA-Pro(tgg)
+test-se_00037	CDS	1026	leuC			3-isopropylmalate dehydratase large subunit
+test-se_00038	tRNA	76				tRNA-Arg(ccg)
+test-se_00039	CDS	177	odhB			2-oxoglutarate dehydrogenase complex dihydrolipoyllysine-residue succinyltransferase
+test-se_00040	CDS	1419	lpdA			dihydrolipoyl dehydrogenase
+test-se_00041	CDS	636				phosphoribosylanthranilate isomerase
+test-se_00042	CDS	381	truA			tRNA pseudouridine(38-40) synthase TruA
+test-se_00043	CDS	972	sufB			Fe-S cluster assembly protein SufB
+test-se_00044	CDS	492	ilvN			acetolactate synthase small subunit
+test-se_00045	CDS	1017	ilvC			ketol-acid reductoisomerase
+test-se_00046	CDS	645				MarC family NAAT transporter
+test-se_00047	CDS	1371	atpD			F0F1 ATP synthase subunit beta
+test-se_00048	CDS	354	rplS			50S ribosomal protein L19
+test-se_00049	CDS	180				hypothetical protein
+test-se_00050	CDS	378				hypothetical protein
+test-se_00051	CDS	1209	pnp			polyribonucleotide nucleotidyltransferase
+test-se_00052	CDS	1083	mgtE			magnesium transporter
+test-se_00053	CDS	381	rsmD			16S rRNA (guanine(966)-N(2))-methyltransferase RsmD
+test-se_00054	CDS	696	lysS			lysine--tRNA ligase
+test-se_00055	CDS	1155	nuoC			NADH-quinone oxidoreductase subunit C/D
+test-se_00056	CDS	906	rpsA			30S ribosomal protein S1
+test-se_00057	CDS	120				hypothetical protein
+test-se_00058	CDS	741	serS			serine--tRNA ligase
+test-se_00059	CDS	876	dapA			4-hydroxy-tetrahydrodipicolinate synthase
+test-se_00060	CDS	132				hypothetical protein
+test-se_00061	CDS	588	tuf			elongation factor Tu
+test-se_00062	CDS	315	rpsJ			30S ribosomal protein S10
+test-se_00063	CDS	303	rplX			50S ribosomal protein L24
+test-se_00064	CDS	504	rplE			50S ribosomal protein L5
+test-se_00065	tRNA	84				tRNA-Ser(gct)
+test-se_00066	CDS	201				hypothetical protein
+test-se_00067	CDS	192	gnd			decarboxylating 6-phosphogluconate dehydrogenase

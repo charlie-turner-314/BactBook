@@ -1,0 +1,777 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+test-ont_00001	CDS	144	mutS_1			DNA mismatch repair protein MutS
+test-ont_00002	CDS	159	mutS_2			DNA mismatch repair protein MutS
+test-ont_00003	CDS	471	mutS_3			DNA mismatch repair protein MutS
+test-ont_00004	CDS	198				hypothetical protein
+test-ont_00005	CDS	111				hypothetical protein
+test-ont_00006	CDS	132	mutS_4			DNA mismatch repair protein MutS
+test-ont_00007	CDS	198				hypothetical protein
+test-ont_00008	CDS	363				hypothetical protein
+test-ont_00009	CDS	141				hypothetical protein
+test-ont_00010	CDS	276	rsmH_1	2.1.1.199		Ribosomal RNA small subunit methyltransferase H
+test-ont_00011	CDS	282	rsmH_2	2.1.1.199		Ribosomal RNA small subunit methyltransferase H
+test-ont_00012	CDS	432	rpsI			30S ribosomal protein S9
+test-ont_00013	CDS	309	rplM			50S ribosomal protein L13
+test-ont_00014	CDS	456	hisG			ATP phosphoribosyltransferase
+test-ont_00015	CDS	204	gatA_1			Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatA
+test-ont_00016	CDS	168	gatA_2			Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatA
+test-ont_00017	CDS	153				hypothetical protein
+test-ont_00018	CDS	171	gatA_3			Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatA
+test-ont_00019	CDS	309	gatB			Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatB
+test-ont_00020	CDS	102				hypothetical protein
+test-ont_00021	CDS	255				NAD(P)/FAD-dependent oxidoreductase
+test-ont_00022	CDS	324	crtI	1.3.99.31	COG1233	Phytoene desaturase (lycopene-forming)
+test-ont_00023	CDS	183				hypothetical protein
+test-ont_00024	CDS	129				hypothetical protein
+test-ont_00025	CDS	264				hypothetical protein
+test-ont_00026	CDS	558				hypothetical protein
+test-ont_00027	CDS	459	prfA_1			peptide chain release factor 1
+test-ont_00028	CDS	327	prfA_2			Peptide chain release factor 1
+test-ont_00029	CDS	477				ribose-phosphate pyrophosphokinase
+test-ont_00030	CDS	111				ribose-phosphate pyrophosphokinase
+test-ont_00031	CDS	189				ribose-phosphate pyrophosphokinase
+test-ont_00032	CDS	288				hypothetical protein
+test-ont_00033	CDS	204				hypothetical protein
+test-ont_00034	tRNA	74				tRNA-Met(cat)
+test-ont_00035	tRNA	75				tRNA-Asn(gtt)
+test-ont_00036	CDS	414	trpC_1			indole-3-glycerol phosphate synthase TrpC
+test-ont_00037	CDS	213				hypothetical protein
+test-ont_00038	CDS	180				hypothetical protein
+test-ont_00039	CDS	192				hypothetical protein
+test-ont_00040	CDS	150	trpD_1	2.4.2.18		Anthranilate phosphoribosyltransferase
+test-ont_00041	CDS	204				aminodeoxychorismate/anthranilate synthase component II
+test-ont_00042	CDS	255	pabA			aminodeoxychorismate synthase component 2
+test-ont_00043	CDS	186	trpE_1			anthranilate synthase component I
+test-ont_00044	CDS	135				hypothetical protein
+test-ont_00045	CDS	630	trpE_2			anthranilate synthase component I
+test-ont_00046	CDS	207				hypothetical protein
+test-ont_00047	tRNA	74				tRNA-Lys(ttt)
+test-ont_00048	CDS	138				hypothetical protein
+test-ont_00049	tRNA	77				tRNA-Val(gac)
+test-ont_00050	CDS	279				Iron-sulfur cluster carrier protein
+test-ont_00051	CDS	228				Iron-sulfur cluster carrier protein
+test-ont_00052	tRNA	83				tRNA-Leu(taa)
+test-ont_00053	tRNA	72				tRNA-Cys(gca)
+test-ont_00054	CDS	252				Grx4 family monothiol glutaredoxin
+test-ont_00055	CDS	330				argininosuccinate synthase
+test-ont_00056	CDS	354				argininosuccinate synthase
+test-ont_00057	CDS	123				hypothetical protein
+test-ont_00058	CDS	213				co-chaperone GroES
+test-ont_00059	CDS	195	groL_1			60 kDa chaperonin
+test-ont_00060	CDS	174	groL_2			chaperonin GroEL
+test-ont_00061	CDS	138	groL_3			60 kDa chaperonin
+test-ont_00062	CDS	378	groL_4			chaperonin GroEL
+test-ont_00063	CDS	597	groL_5			chaperonin GroEL
+test-ont_00064	CDS	369	lepA_1			translation elongation factor 4
+test-ont_00065	CDS	219	lepA_2	3.6.5.-		Elongation factor 4
+test-ont_00066	CDS	486	lepA_3			translation elongation factor 4
+test-ont_00067	CDS	147				hypothetical protein
+test-ont_00068	CDS	132	argD			bifunctional acetylornithine/succinyldiaminopimelate transaminase
+test-ont_00069	CDS	138				aspartate aminotransferase family protein
+test-ont_00070	CDS	279				aspartate aminotransferase family protein
+test-ont_00071	CDS	264	valS			valine--tRNA ligase
+test-ont_00072	CDS	261				valine--tRNA ligase
+test-ont_00073	CDS	333				valine--tRNA ligase
+test-ont_00074	CDS	144				valine--tRNA ligase
+test-ont_00075	CDS	123				valine--tRNA ligase
+test-ont_00076	CDS	567				valine--tRNA ligase
+test-ont_00077	CDS	204				valine--tRNA ligase
+test-ont_00078	CDS	336				hypothetical protein
+test-ont_00079	CDS	294	ahpC			alkyl hydroperoxide reductase subunit C
+test-ont_00080	CDS	162				hypothetical protein
+test-ont_00081	CDS	177	yfhL		COG1145	Ferredoxin YfhL
+test-ont_00082	CDS	153				hypothetical protein
+test-ont_00083	CDS	258	trpA			tryptophan synthase subunit alpha
+test-ont_00084	CDS	315	trpB_1			tryptophan synthase subunit beta
+test-ont_00085	CDS	237	trpB_2			tryptophan synthase subunit beta
+test-ont_00086	CDS	117	trpB_3	4.2.1.20		Tryptophan synthase beta chain
+test-ont_00087	CDS	141				hypothetical protein
+test-ont_00088	CDS	129				hypothetical protein
+test-ont_00089	CDS	117				hypothetical protein
+test-ont_00090	CDS	180				hypothetical protein
+test-ont_00091	CDS	261				hypothetical protein
+test-ont_00092	CDS	291				hypothetical protein
+test-ont_00093	CDS	231	leuS_1			leucine--tRNA ligase
+test-ont_00094	CDS	258				hypothetical protein
+test-ont_00095	CDS	141	leuS_2	6.1.1.4	COG0495	Leucine--tRNA ligase subunit alpha
+test-ont_00096	CDS	681				aspartate kinase
+test-ont_00097	CDS	198				hypothetical protein
+test-ont_00098	CDS	162				hypothetical protein
+test-ont_00099	CDS	177				hypothetical protein
+test-ont_00100	CDS	192				hypothetical protein
+test-ont_00101	CDS	438	infB_1			translation initiation factor IF-2
+test-ont_00102	CDS	324				hypothetical protein
+test-ont_00103	CDS	105				hypothetical protein
+test-ont_00104	CDS	576	nusA_1			transcription termination factor NusA
+test-ont_00105	CDS	177				hypothetical protein
+test-ont_00106	CDS	222	nusA_2			transcription termination factor NusA
+test-ont_00107	CDS	171				hypothetical protein
+test-ont_00108	tRNA	75				tRNA-Met(cat)
+test-ont_00109	CDS	471	ftsH_1			ATP-dependent zinc metalloprotease FtsH
+test-ont_00110	CDS	501	ftsH_2			ATP-dependent zinc metalloprotease FtsH
+test-ont_00111	CDS	99	ftsH_3	3.4.24.-		ATP-dependent zinc metalloprotease FtsH
+test-ont_00112	CDS	342	ftsH_4			ATP-dependent zinc metalloprotease FtsH
+test-ont_00113	CDS	270				hypothetical protein
+test-ont_00114	CDS	225	carB_1			carbamoyl-phosphate synthase large subunit
+test-ont_00115	CDS	447	carB_2			carbamoyl-phosphate synthase large subunit
+test-ont_00116	CDS	108	carB_3			carbamoyl-phosphate synthase large subunit
+test-ont_00117	CDS	363	carB_4			carbamoyl-phosphate synthase large subunit
+test-ont_00118	CDS	210	carB_5			carbamoyl-phosphate synthase large subunit
+test-ont_00119	CDS	615	carB_6			carbamoyl-phosphate synthase large subunit
+test-ont_00120	CDS	312	carB_7			carbamoyl-phosphate synthase large subunit
+test-ont_00121	CDS	444	carA_1			glutamine-hydrolyzing carbamoyl-phosphate synthase small subunit
+test-ont_00122	CDS	483	carA_2			glutamine-hydrolyzing carbamoyl-phosphate synthase small subunit
+test-ont_00123	CDS	366				hypothetical protein
+test-ont_00124	CDS	177				hypothetical protein
+test-ont_00125	CDS	231	tyrS			tyrosine--tRNA ligase
+test-ont_00126	CDS	513				hypothetical protein
+test-ont_00127	CDS	117				hypothetical protein
+test-ont_00128	tRNA	76				tRNA-Ala(tgc)
+test-ont_00129	CDS	852	dapE			succinyl-diaminopimelate desuccinylase
+test-ont_00130	CDS	762	dapD			2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase
+test-ont_00131	CDS	135				hypothetical protein
+test-ont_00132	CDS	258				hypothetical protein
+test-ont_00133	CDS	213				hypothetical protein
+test-ont_00134	CDS	210	rpsB			30S ribosomal protein S2
+test-ont_00135	CDS	135	TSFM			Elongation factor Ts, mitochondrial
+test-ont_00136	CDS	405	tsf			translation elongation factor Ts
+test-ont_00137	CDS	303				hypothetical protein
+test-ont_00138	CDS	168	dnaE_1			DNA polymerase III subunit alpha
+test-ont_00139	CDS	183				hypothetical protein
+test-ont_00140	CDS	198				hypothetical protein
+test-ont_00141	CDS	669	dnaE_2			DNA polymerase III subunit alpha
+test-ont_00142	CDS	171	dnaE_3	2.7.7.7	COG0587	DNA polymerase III subunit alpha
+test-ont_00143	CDS	417	dnaE2	2.7.7.7		Error-prone DNA polymerase
+test-ont_00144	CDS	210	dnaE_4			DNA polymerase III subunit alpha
+test-ont_00145	CDS	159				hypothetical protein
+test-ont_00146	CDS	195				hypothetical protein
+test-ont_00147	CDS	255	tilS_1	6.3.4.19		tRNA(Ile)-lysidine synthase
+test-ont_00148	CDS	159	tilS_2	6.3.4.19		tRNA(Ile)-lysidine synthase
+test-ont_00149	CDS	240				hypothetical protein
+test-ont_00150	CDS	132	rho_1			transcription termination factor Rho
+test-ont_00151	CDS	132	rho_2			transcription termination factor Rho
+test-ont_00152	CDS	177	rho_3			transcription termination factor Rho
+test-ont_00153	CDS	222	rho_4			transcription termination factor Rho
+test-ont_00154	CDS	363				3-deoxy-7-phosphoheptulonate synthase
+test-ont_00155	CDS	549				3-deoxy-7-phosphoheptulonate synthase
+test-ont_00156	CDS	390	metE_1			5-methyltetrahydropteroyltriglutamate-- homocysteine S-methyltransferase
+test-ont_00157	CDS	261	metE_2			5-methyltetrahydropteroyltriglutamate-- homocysteine S-methyltransferase
+test-ont_00158	CDS	543	metE_3	2.1.1.14		5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase
+test-ont_00159	CDS	135	metE_4			5-methyltetrahydropteroyltriglutamate-- homocysteine S-methyltransferase
+test-ont_00160	CDS	168				hypothetical protein
+test-ont_00161	CDS	459	hslU_1			ATP-dependent protease ATPase subunit HslU
+test-ont_00162	CDS	198	hslU_2			HslU--HslV peptidase ATPase subunit
+test-ont_00163	CDS	144	hslU_3			ATP-dependent protease ATPase subunit HslU
+test-ont_00164	CDS	513	hslV			ATP-dependent protease subunit HslV
+test-ont_00165	CDS	270	aroK	2.7.1.71		Shikimate kinase
+test-ont_00166	CDS	519	aroB_1			3-dehydroquinate synthase
+test-ont_00167	CDS	300	aroB_2			3-dehydroquinate synthase
+test-ont_00168	CDS	519				MFS transporter
+test-ont_00169	CDS	273				hypothetical protein
+test-ont_00170	CDS	621				MFS transporter
+test-ont_00171	CDS	621	rne_1			ribonuclease E
+test-ont_00172	CDS	381	rne_2			ribonuclease E
+test-ont_00173	CDS	210	rne_3			ribonuclease E
+test-ont_00174	CDS	255				RluA family pseudouridine synthase
+test-ont_00175	CDS	159				hypothetical protein
+test-ont_00176	CDS	123	rpmF			50S ribosomal protein L32
+test-ont_00177	CDS	153	acpP			acyl carrier protein
+test-ont_00178	CDS	123	leuA_1	2.3.3.13		2-isopropylmalate synthase
+test-ont_00179	CDS	204	leuA_2			2-isopropylmalate synthase
+test-ont_00180	CDS	294	leuA_3			2-isopropylmalate synthase
+test-ont_00181	CDS	159				hypothetical protein
+test-ont_00182	CDS	144				cold-shock protein
+test-ont_00183	CDS	156				hypothetical protein
+test-ont_00184	CDS	204				ABC transporter permease
+test-ont_00185	CDS	138				hypothetical protein
+test-ont_00186	CDS	207				ABC transporter permease
+test-ont_00187	CDS	111				hypothetical protein
+test-ont_00188	tRNA	76				tRNA-Val(tac)
+test-ont_00189	CDS	201	infA_1			translation initiation factor IF-1
+test-ont_00190	CDS	360	mnmA_1			tRNA 2-thiouridine(34) synthase MnmA
+test-ont_00191	CDS	264				hypothetical protein
+test-ont_00192	CDS	138				hypothetical protein
+test-ont_00193	CDS	318				ABC transporter permease
+test-ont_00194	CDS	204				hypothetical protein
+test-ont_00195	tRNA	86				tRNA-Ser(gga)
+test-ont_00196	CDS	180				hypothetical protein
+test-ont_00197	CDS	153		1.1.1.343	COG1023	6-phosphogluconate dehydrogenase, NAD(+)-dependent, decarboxylating
+test-ont_00198	CDS	285	gnd			decarboxylating 6-phosphogluconate dehydrogenase
+test-ont_00199	CDS	159				hypothetical protein
+test-ont_00200	tRNA	73				tRNA-Gly(tcc)
+test-ont_00201	tRNA	74				tRNA-Thr(agt)
+test-ont_00202	tRNA	73				tRNA-Trp(cca)
+test-ont_00203	CDS	351				hypothetical protein
+test-ont_00204	CDS	183	nusG			transcription termination/antitermination protein NusG
+test-ont_00205	CDS	297	rplK			50S ribosomal protein L11
+test-ont_00206	CDS	249				hypothetical protein
+test-ont_00207	CDS	423				hypothetical protein
+test-ont_00208	CDS	213				hypothetical protein
+test-ont_00209	CDS	168	rpoB_1			DNA-directed RNA polymerase subunit beta
+test-ont_00210	CDS	138	rpoB_2			DNA-directed RNA polymerase subunit beta
+test-ont_00211	CDS	411	rpoB_3			DNA-directed RNA polymerase subunit beta
+test-ont_00212	CDS	105				hypothetical protein
+test-ont_00213	CDS	447	rpoB_4			DNA-directed RNA polymerase subunit beta
+test-ont_00214	CDS	249	rpoB_5			DNA-directed RNA polymerase subunit beta
+test-ont_00215	CDS	114				hypothetical protein
+test-ont_00216	CDS	906	rpoB_6			DNA-directed RNA polymerase subunit beta
+test-ont_00217	CDS	141				hypothetical protein
+test-ont_00218	CDS	516	rpoB_7			DNA-directed RNA polymerase subunit beta
+test-ont_00219	CDS	114	rpoC_1			DNA-directed RNA polymerase subunit beta'
+test-ont_00220	CDS	459	rpoC_2			DNA-directed RNA polymerase subunit beta'
+test-ont_00221	CDS	144	rpoC_3			DNA-directed RNA polymerase subunit beta'
+test-ont_00222	CDS	348	rpoC_4			DNA-directed RNA polymerase subunit beta'
+test-ont_00223	CDS	432	rpoC_5			DNA-directed RNA polymerase subunit beta'
+test-ont_00224	CDS	138				hypothetical protein
+test-ont_00225	CDS	123				hypothetical protein
+test-ont_00226	CDS	480	rpoC_6			DNA-directed RNA polymerase subunit beta'
+test-ont_00227	CDS	99				hypothetical protein
+test-ont_00228	CDS	321	rpoC_7			DNA-directed RNA polymerase subunit beta'
+test-ont_00229	CDS	201	rpoC_8			DNA-directed RNA polymerase subunit beta'
+test-ont_00230	CDS	144	rpoC_9			DNA-directed RNA polymerase subunit beta'
+test-ont_00231	CDS	312	rpoC_10			DNA-directed RNA polymerase subunit beta'
+test-ont_00232	CDS	102	rpsL			30S ribosomal protein S12
+test-ont_00233	CDS	297	rpsG			30S ribosomal protein S7
+test-ont_00234	CDS	225	fusA_1			elongation factor G
+test-ont_00235	CDS	303	fusA_2			elongation factor G
+test-ont_00236	CDS	249	fusA_3			elongation factor G
+test-ont_00237	CDS	807	fusA_4			elongation factor G
+test-ont_00238	CDS	462	fusA_5			elongation factor G
+test-ont_00239	CDS	516	tuf_1			elongation factor Tu
+test-ont_00240	CDS	165	tuf_2			elongation factor Tu
+test-ont_00241	CDS	105	tuf_3			elongation factor Tu
+test-ont_00242	CDS	189	rplC_1			50S ribosomal protein L3
+test-ont_00243	CDS	174	rplC_2			50S ribosomal protein L3
+test-ont_00244	CDS	243				hypothetical protein
+test-ont_00245	CDS	135				hypothetical protein
+test-ont_00246	CDS	153				hypothetical protein
+test-ont_00247	CDS	228				hypothetical protein
+test-ont_00248	CDS	450	rplB			50S ribosomal protein L2
+test-ont_00249	CDS	189	rpsS			30S ribosomal protein S19
+test-ont_00250	CDS	177	rplV			50S ribosomal protein L22
+test-ont_00251	CDS	435	rpsC_1			30S ribosomal protein S3
+test-ont_00252	CDS	240	rpsC_2			30S ribosomal protein S3
+test-ont_00253	CDS	135				hypothetical protein
+test-ont_00254	CDS	345	rplP			50S ribosomal protein L16
+test-ont_00255	CDS	312	rplN_1			50S ribosomal protein L14
+test-ont_00256	CDS	210				hypothetical protein
+test-ont_00257	CDS	360	rplE_1			50S ribosomal protein L5
+test-ont_00258	CDS	273	rpsH_1			30S ribosomal protein S8
+test-ont_00259	CDS	213				hypothetical protein
+test-ont_00260	CDS	117	rpsE			30S ribosomal protein S5
+test-ont_00261	CDS	150				hypothetical protein
+test-ont_00262	CDS	171				hypothetical protein
+test-ont_00263	CDS	210				hypothetical protein
+test-ont_00264	CDS	228				hypothetical protein
+test-ont_00265	CDS	327	rplF			50S ribosomal protein L6
+test-ont_00266	CDS	159	rpsH_2			30S ribosomal protein S8
+test-ont_00267	CDS	174	rpsN			30S ribosomal protein S14
+test-ont_00268	CDS	333	rplE_2			50S ribosomal protein L5
+test-ont_00269	CDS	141				hypothetical protein
+test-ont_00270	CDS	138	rplN_2			50S ribosomal protein L14
+test-ont_00271	CDS	159				hypothetical protein
+test-ont_00272	CDS	159				hypothetical protein
+test-ont_00273	CDS	294				hypothetical protein
+test-ont_00274	CDS	387	pnp_1			polyribonucleotide nucleotidyltransferase
+test-ont_00275	CDS	108				hypothetical protein
+test-ont_00276	CDS	348	pnp_2			polyribonucleotide nucleotidyltransferase
+test-ont_00277	CDS	135	pnp_3	2.7.7.8		Polyribonucleotide nucleotidyltransferase
+test-ont_00278	CDS	234	pnp_4			polyribonucleotide nucleotidyltransferase
+test-ont_00279	CDS	210	pnp_5			polyribonucleotide nucleotidyltransferase
+test-ont_00280	CDS	150				hypothetical protein
+test-ont_00281	tRNA	88				tRNA-Leu(tag)
+test-ont_00282	CDS	483	nfuA			Fe-S biogenesis protein NfuA
+test-ont_00283	CDS	318	csdE			cysteine desulfurase sulfur acceptor subunit CsdE
+test-ont_00284	CDS	384	hisI	3.5.4.19	COG0139	Phosphoribosyl-AMP cyclohydrolase
+test-ont_00285	tRNA	74				tRNA-Asp(gtc)
+test-ont_00286	CDS	171				hypothetical protein
+test-ont_00287	CDS	318				hypothetical protein
+test-ont_00288	CDS	630				hypothetical protein
+test-ont_00289	CDS	222				hypothetical protein
+test-ont_00290	CDS	117				hypothetical protein
+test-ont_00291	CDS	96				hypothetical protein
+test-ont_00292	CDS	96				hypothetical protein
+test-ont_00293	CDS	321	aceE_1			pyruvate dehydrogenase (acetyl-transferring), homodimeric type
+test-ont_00294	CDS	279				hypothetical protein
+test-ont_00295	CDS	381	aceE_2			pyruvate dehydrogenase (acetyl-transferring), homodimeric type
+test-ont_00296	CDS	273	aceE_3			pyruvate dehydrogenase (acetyl-transferring), homodimeric type
+test-ont_00297	CDS	276	aceE_4			pyruvate dehydrogenase (acetyl-transferring), homodimeric type
+test-ont_00298	CDS	147	aceE_5			pyruvate dehydrogenase (acetyl-transferring), homodimeric type
+test-ont_00299	CDS	321	aceE_6			pyruvate dehydrogenase (acetyl-transferring), homodimeric type
+test-ont_00300	CDS	129				hypothetical protein
+test-ont_00301	CDS	264	dapA_1			4-hydroxy-tetrahydrodipicolinate synthase
+test-ont_00302	CDS	135				hypothetical protein
+test-ont_00303	CDS	270	dapA_2			4-hydroxy-tetrahydrodipicolinate synthase
+test-ont_00304	CDS	156				hypothetical protein
+test-ont_00305	CDS	186				hypothetical protein
+test-ont_00306	CDS	357				hypothetical protein
+test-ont_00307	CDS	366	rpsA_1			30S ribosomal protein S1
+test-ont_00308	CDS	186	rpsA_2			30S ribosomal protein S1
+test-ont_00309	CDS	228	rpsA_3			30S ribosomal protein S1
+test-ont_00310	CDS	147	rpsA_4			30S ribosomal protein S1
+test-ont_00311	CDS	138				hypothetical protein
+test-ont_00312	CDS	378				bifunctional prephenate dehydrogenase/3-phosphoshikimate 1-carboxyvinyltransferase
+test-ont_00313	CDS	180				bifunctional prephenate dehydrogenase/3-phosphoshikimate 1-carboxyvinyltransferase
+test-ont_00314	CDS	312	aroA	2.5.1.19		3-phosphoshikimate 1-carboxyvinyltransferase
+test-ont_00315	CDS	321	pheA			prephenate dehydratase
+test-ont_00316	CDS	741	gyrA_1	5.6.2.2		DNA gyrase subunit A
+test-ont_00317	CDS	258	gyrA_2	5.6.2.2	COG0188	DNA gyrase subunit A
+test-ont_00318	CDS	204	gyrA_3	5.6.2.2		DNA gyrase subunit A
+test-ont_00319	CDS	192				hypothetical protein
+test-ont_00320	CDS	354	gyrA_4			DNA gyrase subunit A
+test-ont_00321	CDS	489	gyrA_5			DNA gyrase subunit A
+test-ont_00322	CDS	216	gyrA_6	5.6.2.2		DNA gyrase subunit A
+test-ont_00323	CDS	267				hypothetical protein
+test-ont_00324	CDS	414	secA_1		COG0653	Protein translocase subunit SecA
+test-ont_00325	CDS	189	secA_2			preprotein translocase subunit SecA
+test-ont_00326	CDS	180	secA_3			preprotein translocase subunit SecA
+test-ont_00327	CDS	228	secA_4			preprotein translocase subunit SecA
+test-ont_00328	CDS	180	secA_5			preprotein translocase subunit SecA
+test-ont_00329	CDS	225	secA_6			preprotein translocase subunit SecA
+test-ont_00330	CDS	258				hypothetical protein
+test-ont_00331	tRNA	76				tRNA-Arg(ccg)
+test-ont_00332	CDS	507	leuC_1			3-isopropylmalate dehydratase large subunit
+test-ont_00333	CDS	498	leuC_2			3-isopropylmalate dehydratase large subunit
+test-ont_00334	CDS	324	aroC_1			chorismate synthase
+test-ont_00335	CDS	228	aroC_2			chorismate synthase
+test-ont_00336	CDS	153				hypothetical protein
+test-ont_00337	CDS	135	aroC_3			chorismate synthase
+test-ont_00338	CDS	198				hypothetical protein
+test-ont_00339	CDS	201				cold-shock protein
+test-ont_00340	CDS	201				hypothetical protein
+test-ont_00341	CDS	195				hypothetical protein
+test-ont_00342	CDS	312	leuA_4			2-isopropylmalate synthase
+test-ont_00343	CDS	255	leuA_5	2.3.3.13	COG0119	2-isopropylmalate synthase
+test-ont_00344	CDS	168				hypothetical protein
+test-ont_00345	tRNA	74				tRNA-Arg(acg)
+test-ont_00346	CDS	474	serS			serine--tRNA ligase
+test-ont_00347	CDS	198				hypothetical protein
+test-ont_00348	CDS	303	argO			Arginine exporter protein ArgO
+test-ont_00349	CDS	291				phosphoribosylanthranilate isomerase
+test-ont_00350	CDS	336				phosphoribosylanthranilate isomerase
+test-ont_00351	CDS	534	truA			tRNA pseudouridine(38-40) synthase TruA
+test-ont_00352	CDS	180				hypothetical protein
+test-ont_00353	CDS	177	asd_1			aspartate-semialdehyde dehydrogenase
+test-ont_00354	CDS	174	asd_2			aspartate-semialdehyde dehydrogenase
+test-ont_00355	CDS	441	asd_3			aspartate-semialdehyde dehydrogenase
+test-ont_00356	CDS	171				hypothetical protein
+test-ont_00357	CDS	558	leuB_1			3-isopropylmalate dehydrogenase
+test-ont_00358	CDS	180	leuB_2			3-isopropylmalate dehydrogenase
+test-ont_00359	CDS	201	leuD_1	4.2.1.33		3-isopropylmalate dehydratase small subunit
+test-ont_00360	CDS	225	leuD_2			3-isopropylmalate dehydratase small subunit
+test-ont_00361	CDS	183	leuD_3			3-isopropylmalate dehydratase small subunit
+test-ont_00362	CDS	198				hypothetical protein
+test-ont_00363	CDS	162				hypothetical protein
+test-ont_00364	CDS	180	argI	2.1.3.3		Ornithine carbamoyltransferase, catabolic
+test-ont_00365	CDS	177				ornithine carbamoyltransferase
+test-ont_00366	CDS	126				ornithine carbamoyltransferase
+test-ont_00367	CDS	108				hypothetical protein
+test-ont_00368	CDS	207				hypothetical protein
+test-ont_00369	CDS	555	atpD_1			F0F1 ATP synthase subunit beta
+test-ont_00370	CDS	465	atpD_2			F0F1 ATP synthase subunit beta
+test-ont_00371	CDS	177	atpG			ATP synthase gamma chain
+test-ont_00372	CDS	654	atpA_1			F0F1 ATP synthase subunit alpha
+test-ont_00373	CDS	102	atpA_2			F0F1 ATP synthase subunit alpha
+test-ont_00374	CDS	318	atpA_3			F0F1 ATP synthase subunit alpha
+test-ont_00375	CDS	189				hypothetical protein
+test-ont_00376	CDS	279				hypothetical protein
+test-ont_00377	CDS	225	atpH			ATP synthase subunit c
+test-ont_00378	CDS	288	atpB			F0F1 ATP synthase subunit A
+test-ont_00379	CDS	93				hypothetical protein
+test-ont_00380	CDS	198				hypothetical protein
+test-ont_00381	CDS	282				hypothetical protein
+test-ont_00382	CDS	174				hypothetical protein
+test-ont_00383	CDS	162				hypothetical protein
+test-ont_00384	CDS	240	ilvA_1			threonine ammonia-lyase, biosynthetic
+test-ont_00385	CDS	294				hypothetical protein
+test-ont_00386	CDS	831	ilvA_2			threonine ammonia-lyase, biosynthetic
+test-ont_00387	CDS	231				hypothetical protein
+test-ont_00388	CDS	189	glyQ			glycine--tRNA ligase subunit alpha
+test-ont_00389	CDS	153				hypothetical protein
+test-ont_00390	CDS	516	glyS			glycine--tRNA ligase subunit beta
+test-ont_00391	CDS	207				hypothetical protein
+test-ont_00392	CDS	165				hypothetical protein
+test-ont_00393	CDS	147				hypothetical protein
+test-ont_00394	CDS	312				hypothetical protein
+test-ont_00395	tRNA	74				tRNA-Met(cat)
+test-ont_00396	CDS	201				hypothetical protein
+test-ont_00397	CDS	93	proS_1			proline--tRNA ligase
+test-ont_00398	CDS	267				proline--tRNA ligase
+test-ont_00399	CDS	222				hypothetical protein
+test-ont_00400	CDS	138				hypothetical protein
+test-ont_00401	CDS	177				hypothetical protein
+test-ont_00402	CDS	147				hypothetical protein
+test-ont_00403	CDS	198				hypothetical protein
+test-ont_00404	CDS	216	infC			Translation initiation factor IF-3
+test-ont_00405	CDS	192	rpmI			50S ribosomal protein L35
+test-ont_00406	CDS	249	rplT			50S ribosomal protein L20
+test-ont_00407	CDS	105				hypothetical protein
+test-ont_00408	CDS	417	pheS_1			phenylalanine--tRNA ligase subunit alpha
+test-ont_00409	CDS	180	pheS_2			phenylalanine--tRNA ligase subunit alpha
+test-ont_00410	CDS	129				hypothetical protein
+test-ont_00411	CDS	150				hypothetical protein
+test-ont_00412	CDS	126				hypothetical protein
+test-ont_00413	CDS	327	pheT			phenylalanine--tRNA ligase subunit beta
+test-ont_00414	CDS	126				hypothetical protein
+test-ont_00415	CDS	261				hypothetical protein
+test-ont_00416	CDS	117				hypothetical protein
+test-ont_00417	CDS	414	infB_2			translation initiation factor IF-2
+test-ont_00418	CDS	426	infB_3			translation initiation factor IF-2
+test-ont_00419	CDS	231	infB_4			translation initiation factor IF-2
+test-ont_00420	CDS	222				hypothetical protein
+test-ont_00421	CDS	114				hypothetical protein
+test-ont_00422	CDS	231	nusA_3			transcription termination factor NusA
+test-ont_00423	CDS	201	nusA_4			transcription termination factor NusA
+test-ont_00424	CDS	201	nusA_5			Transcription termination/antitermination protein NusA
+test-ont_00425	CDS	174				hypothetical protein
+test-ont_00426	CDS	108				hypothetical protein
+test-ont_00427	CDS	363				homoserine dehydrogenase
+test-ont_00428	CDS	285	rplS			50S ribosomal protein L19
+test-ont_00429	CDS	243	rimM			Ribosome maturation factor RimM
+test-ont_00430	CDS	300				hypothetical protein
+test-ont_00431	CDS	600	ilvC_1			ketol-acid reductoisomerase
+test-ont_00432	CDS	510	ilvC_2	1.1.1.86		Ketol-acid reductoisomerase (NADP(+))
+test-ont_00433	CDS	318				acetolactate synthase 3 large subunit
+test-ont_00434	CDS	165				acetolactate synthase 3 large subunit
+test-ont_00435	CDS	267				hypothetical protein
+test-ont_00436	CDS	237				acetolactate synthase 3 large subunit
+test-ont_00437	CDS	99				hypothetical protein
+test-ont_00438	CDS	390				acetolactate synthase 3 large subunit
+test-ont_00439	CDS	201				hypothetical protein
+test-ont_00440	CDS	222				hypothetical protein
+test-ont_00441	CDS	339				MarC family NAAT transporter
+test-ont_00442	CDS	213				hypothetical protein
+test-ont_00443	tRNA	74				tRNA-Phe(gaa)
+test-ont_00444	CDS	129				hypothetical protein
+test-ont_00445	CDS	231	hisB	4.2.1.19	COG0131	Imidazoleglycerol-phosphate dehydratase
+test-ont_00446	CDS	192	hisH_1	3.5.1.2		Imidazole glycerol phosphate synthase subunit HisH
+test-ont_00447	CDS	177	hisH_2			imidazole glycerol phosphate synthase subunit HisH
+test-ont_00448	CDS	216				hypothetical protein
+test-ont_00449	CDS	141				hypothetical protein
+test-ont_00450	CDS	105				hypothetical protein
+test-ont_00451	CDS	228				hypothetical protein
+test-ont_00452	CDS	174	hisA			1-(5-phosphoribosyl)-5-[(5- phosphoribosylamino)methylideneamino]imidazole-4- carboxamide isomerase
+test-ont_00453	CDS	153	hisF_1	4.3.2.10		Imidazole glycerol phosphate synthase subunit HisF
+test-ont_00454	CDS	258	hisF_2			imidazole glycerol phosphate synthase subunit HisF
+test-ont_00455	CDS	285	hisC			histidinol-phosphate transaminase
+test-ont_00456	CDS	150	thrB_1	2.7.1.39	COG2334	Homoserine kinase
+test-ont_00457	CDS	219	thrB_2	2.7.1.39		Homoserine kinase
+test-ont_00458	CDS	213				hypothetical protein
+test-ont_00459	CDS	168				hypothetical protein
+test-ont_00460	CDS	294				AI-2E family transporter
+test-ont_00461	CDS	105				hypothetical protein
+test-ont_00462	tRNA	73				tRNA-Thr(cgt)
+test-ont_00463	CDS	282				hypothetical protein
+test-ont_00464	CDS	132				hypothetical protein
+test-ont_00465	CDS	114				hypothetical protein
+test-ont_00466	CDS	198	rpmB			50S ribosomal protein L28
+test-ont_00467	CDS	132	rpoH_1			RNA polymerase sigma factor RpoH
+test-ont_00468	CDS	396	rpoH_2			RNA polymerase sigma factor RpoH
+test-ont_00469	CDS	192	aspS	6.1.1.12		Aspartate--tRNA(Asp/Asn) ligase
+test-ont_00470	CDS	192	lysS_1			lysine--tRNA ligase
+test-ont_00471	CDS	225	lysS_2			lysine--tRNA ligase
+test-ont_00472	CDS	102	lysS_3			lysine--tRNA ligase
+test-ont_00473	CDS	255	prfB_1			peptide chain release factor 2
+test-ont_00474	CDS	309	prfB_2			peptide chain release factor 2
+test-ont_00475	CDS	144				hypothetical protein
+test-ont_00476	CDS	342	ileS_1			isoleucine--tRNA ligase
+test-ont_00477	CDS	558	ileS_2			isoleucine--tRNA ligase
+test-ont_00478	CDS	198				hypothetical protein
+test-ont_00479	CDS	162	ileS_3			isoleucine--tRNA ligase
+test-ont_00480	CDS	264	ileS_4			isoleucine--tRNA ligase
+test-ont_00481	CDS	297				hypothetical protein
+test-ont_00482	CDS	543	ileS_5			isoleucine--tRNA ligase
+test-ont_00483	CDS	291	cgtA_1	3.6.5.-	COG0536	GTPase Obg/CgtA
+test-ont_00484	CDS	312	cgtA_2			Obg family GTPase CgtA
+test-ont_00485	CDS	165	obg	3.6.5.-		GTPase Obg
+test-ont_00486	CDS	117				hypothetical protein
+test-ont_00487	CDS	210				hypothetical protein
+test-ont_00488	CDS	276				hypothetical protein
+test-ont_00489	CDS	282	rplQ			50S ribosomal protein L17
+test-ont_00490	CDS	138				hypothetical protein
+test-ont_00491	CDS	129	rpoA_1			DNA-directed RNA polymerase subunit alpha
+test-ont_00492	CDS	684	rpoA_2			DNA-directed RNA polymerase subunit alpha
+test-ont_00493	CDS	306	rpsD			30S ribosomal protein S4
+test-ont_00494	CDS	204				hypothetical protein
+test-ont_00495	CDS	375	rpsM			30S ribosomal protein S13
+test-ont_00496	CDS	159				hypothetical protein
+test-ont_00497	CDS	123				hypothetical protein
+test-ont_00498	CDS	543	secY			preprotein translocase subunit SecY
+test-ont_00499	CDS	294	rplO			50S ribosomal protein L15
+test-ont_00500	CDS	189				ABC transporter ATP-binding protein
+test-ont_00501	tRNA	75				tRNA-Gly(gcc)
+test-ont_00502	tRNA	75				tRNA-Glu(ttc)
+test-ont_00503	CDS	258	infA_2			translation initiation factor IF-1
+test-ont_00504	CDS	132				hypothetical protein
+test-ont_00505	CDS	219	csd_1			cysteine desulfurase
+test-ont_00506	CDS	276				cysteine desulfurase
+test-ont_00507	CDS	132				hypothetical protein
+test-ont_00508	CDS	129				hypothetical protein
+test-ont_00509	CDS	207				hypothetical protein
+test-ont_00510	CDS	243				hypothetical protein
+test-ont_00511	CDS	264				hypothetical protein
+test-ont_00512	CDS	198	sufC			Fe-S cluster assembly ATPase SufC
+test-ont_00513	CDS	156				hypothetical protein
+test-ont_00514	CDS	126				hypothetical protein
+test-ont_00515	CDS	171				hypothetical protein
+test-ont_00516	CDS	387				putative ABC transporter ATP-binding protein
+test-ont_00517	CDS	495				hypothetical protein
+test-ont_00518	CDS	258				hypothetical protein
+test-ont_00519	CDS	153				hypothetical protein
+test-ont_00520	CDS	381				cysteine desulfurase
+test-ont_00521	CDS	219	csd_2			cysteine desulfurase
+test-ont_00522	CDS	288				hypothetical protein
+test-ont_00523	CDS	282	mnmA_2	2.8.1.13		tRNA-specific 2-thiouridylase MnmA
+test-ont_00524	CDS	132	infA_3			Translation initiation factor IF-1
+test-ont_00525	tRNA	74				tRNA-Glu(ttc)
+test-ont_00526	tRNA	75				tRNA-Gly(gcc)
+test-ont_00527	CDS	207				ABC transporter ATP-binding protein
+test-ont_00528	CDS	198				hypothetical protein
+test-ont_00529	CDS	318				ABC transporter ATP-binding protein
+test-ont_00530	CDS	291				ABC transporter permease
+test-ont_00531	CDS	423				ABC transporter permease
+test-ont_00532	tRNA	86				tRNA-Ser(gga)
+test-ont_00533	CDS	108				hypothetical protein
+test-ont_00534	CDS	141				hypothetical protein
+test-ont_00535	CDS	108				hypothetical protein
+test-ont_00536	CDS	225				hypothetical protein
+test-ont_00537	CDS	144				hypothetical protein
+test-ont_00538	CDS	141				hypothetical protein
+test-ont_00539	CDS	153	rpoD_1			RNA polymerase sigma factor RpoD
+test-ont_00540	CDS	306	rpoD_2			RNA polymerase sigma factor RpoD
+test-ont_00541	CDS	210				hypothetical protein
+test-ont_00542	CDS	138				hypothetical protein
+test-ont_00543	CDS	291	cyoA			cytochrome o ubiquinol oxidase subunit II
+test-ont_00544	CDS	147				hypothetical protein
+test-ont_00545	CDS	189	cyoB_1			cytochrome o ubiquinol oxidase subunit I
+test-ont_00546	CDS	210	cyoB_2			cytochrome o ubiquinol oxidase subunit I
+test-ont_00547	CDS	153	cyoB_3			cytochrome o ubiquinol oxidase subunit I
+test-ont_00548	CDS	270	cyoB_4			cytochrome o ubiquinol oxidase subunit I
+test-ont_00549	CDS	192	cyoB_5			cytochrome o ubiquinol oxidase subunit I
+test-ont_00550	CDS	288	cyoB_6			cytochrome o ubiquinol oxidase subunit I
+test-ont_00551	CDS	138				hypothetical protein
+test-ont_00552	CDS	174				hypothetical protein
+test-ont_00553	CDS	174				hypothetical protein
+test-ont_00554	CDS	210				hypothetical protein
+test-ont_00555	CDS	114				hypothetical protein
+test-ont_00556	CDS	144	dnaB_1			replicative DNA helicase
+test-ont_00557	CDS	183	dnaB_2			replicative DNA helicase
+test-ont_00558	CDS	129				hypothetical protein
+test-ont_00559	CDS	117				hypothetical protein
+test-ont_00560	CDS	171				hypothetical protein
+test-ont_00561	CDS	147	nuoK			NADH-quinone oxidoreductase subunit NuoK
+test-ont_00562	CDS	315				hypothetical protein
+test-ont_00563	CDS	129				hypothetical protein
+test-ont_00564	CDS	276	nuoI			NADH-quinone oxidoreductase subunit NuoI
+test-ont_00565	CDS	144	nuoH_1			NADH-quinone oxidoreductase subunit NuoH
+test-ont_00566	CDS	147	nuoH_2			NADH-quinone oxidoreductase subunit NuoH
+test-ont_00567	CDS	354	nuoH_3			NADH-quinone oxidoreductase subunit NuoH
+test-ont_00568	CDS	186	nuoH_4			NADH-quinone oxidoreductase subunit NuoH
+test-ont_00569	CDS	165				hypothetical protein
+test-ont_00570	CDS	159	nuoG_1	7.1.1.-	COG1034	NADH-quinone oxidoreductase subunit G
+test-ont_00571	CDS	117				hypothetical protein
+test-ont_00572	CDS	432	nuoG_2			NADH-quinone oxidoreductase subunit NuoG
+test-ont_00573	CDS	285	nuoG_3			NADH-quinone oxidoreductase subunit NuoG
+test-ont_00574	CDS	195	nuoF_1			NADH-quinone oxidoreductase subunit NuoF
+test-ont_00575	CDS	186				hypothetical protein
+test-ont_00576	CDS	159	nuoF_2			NADH-quinone oxidoreductase subunit NuoF
+test-ont_00577	CDS	273				hypothetical protein
+test-ont_00578	CDS	150	nuoE_1	7.1.1.-	COG1905	NADH-quinone oxidoreductase subunit E
+test-ont_00579	CDS	267	nuoE_2			NADH-quinone oxidoreductase subunit NuoE
+test-ont_00580	CDS	240	nuoC_1			NADH-quinone oxidoreductase subunit C/D
+test-ont_00581	CDS	102				hypothetical protein
+test-ont_00582	CDS	111	nuoC_2	7.1.1.-		NADH-quinone oxidoreductase subunit C/D
+test-ont_00583	CDS	429	nuoC_3			NADH-quinone oxidoreductase subunit C/D
+test-ont_00584	CDS	183	nuoC_4			NADH-quinone oxidoreductase subunit C/D
+test-ont_00585	CDS	354	nuoC_5			NADH-quinone oxidoreductase subunit C/D
+test-ont_00586	CDS	204				hypothetical protein
+test-ont_00587	CDS	294				NADH-quinone oxidoreductase subunit B
+test-ont_00588	CDS	162				hypothetical protein
+test-ont_00589	CDS	879	sufB			Fe-S cluster assembly protein SufB
+test-ont_00590	CDS	288				hypothetical protein
+test-ont_00591	CDS	183				hypothetical protein
+test-ont_00592	CDS	102				hypothetical protein
+test-ont_00593	CDS	225				hypothetical protein
+test-ont_00594	CDS	246	hisZ			ATP phosphoribosyltransferase regulatory subunit
+test-ont_00595	CDS	204				hypothetical protein
+test-ont_00596	CDS	123				hypothetical protein
+test-ont_00597	CDS	552	ilvD_1			dihydroxy-acid dehydratase
+test-ont_00598	CDS	543	ilvD_2			dihydroxy-acid dehydratase
+test-ont_00599	CDS	180	ilvD_3			dihydroxy-acid dehydratase
+test-ont_00600	CDS	198	ilvD_4			dihydroxy-acid dehydratase
+test-ont_00601	CDS	153	lon_1			endopeptidase La
+test-ont_00602	CDS	381	lon_2			endopeptidase La
+test-ont_00603	CDS	477	lon_3			endopeptidase La
+test-ont_00604	CDS	273				hypothetical protein
+test-ont_00605	CDS	168				hypothetical protein
+test-ont_00606	CDS	297				hypothetical protein
+test-ont_00607	CDS	174				hypothetical protein
+test-ont_00608	rRNA	1519				16S ribosomal RNA
+test-ont_00609	tRNA	76				tRNA-Ile(gat)
+test-ont_00610	rRNA	2861				23S ribosomal RNA
+test-ont_00611	rRNA	108				5S ribosomal RNA
+test-ont_00612	CDS	147				hypothetical protein
+test-ont_00613	CDS	99				hypothetical protein
+test-ont_00614	rRNA	109				5S ribosomal RNA
+test-ont_00615	rRNA	2403				23S ribosomal RNA (partial)
+test-ont_00616	CDS	180				hypothetical protein
+test-ont_00617	CDS	285				hypothetical protein
+test-ont_00618	CDS	108				hypothetical protein
+test-ont_00619	CDS	195				hypothetical protein
+test-ont_00620	CDS	171				hypothetical protein
+test-ont_00621	CDS	195	nuoM_1			NADH-quinone oxidoreductase subunit M
+test-ont_00622	CDS	264	nuoM_2	7.1.1.-	COG1008	NADH-quinone oxidoreductase subunit M
+test-ont_00623	CDS	177				hypothetical protein
+test-ont_00624	CDS	192	ndhB_1	7.1.1.-		NAD(P)H-quinone oxidoreductase subunit 2, chloroplastic
+test-ont_00625	CDS	546	nuoN_1			NADH-quinone oxidoreductase subunit NuoN
+test-ont_00626	CDS	336	nuoN_2			NADH-quinone oxidoreductase subunit NuoN
+test-ont_00627	CDS	249	ndhB_2	7.1.1.-		NAD(P)H-quinone oxidoreductase subunit 2, chloroplastic
+test-ont_00628	CDS	246	nuoN_3			NADH-quinone oxidoreductase subunit NuoN
+test-ont_00629	CDS	633	nuoM_3			NADH-quinone oxidoreductase subunit M
+test-ont_00630	CDS	372	ndhD	7.1.1.-		NAD(P)H-quinone oxidoreductase chain 4
+test-ont_00631	CDS	393				hypothetical protein
+test-ont_00632	CDS	135				hypothetical protein
+test-ont_00633	CDS	396	nuoL			NADH-quinone oxidoreductase subunit L
+test-ont_00634	tRNA	74				tRNA-Met(cat)
+test-ont_00635	tRNA	84				tRNA-Leu(gag)
+test-ont_00636	CDS	195				hypothetical protein
+test-ont_00637	CDS	276	ftsH_5			ATP-dependent zinc metalloprotease FtsH
+test-ont_00638	CDS	540	ftsH_6			ATP-dependent zinc metalloprotease FtsH
+test-ont_00639	CDS	132	ftsH_7	3.4.24.-		ATP-dependent zinc metalloprotease FtsH
+test-ont_00640	CDS	138				hypothetical protein
+test-ont_00641	CDS	252	carB_8			carbamoyl-phosphate synthase large subunit
+test-ont_00642	CDS	450	carB_9			carbamoyl-phosphate synthase large subunit
+test-ont_00643	CDS	108	carB_10			carbamoyl-phosphate synthase large subunit
+test-ont_00644	CDS	396	carB_11			carbamoyl-phosphate synthase large subunit
+test-ont_00645	CDS	153	carB_12			carbamoyl-phosphate synthase large subunit
+test-ont_00646	CDS	120	carB_13			carbamoyl-phosphate synthase large subunit
+test-ont_00647	CDS	99	carB_14			carbamoyl-phosphate synthase large subunit
+test-ont_00648	CDS	207	carB_15			Carbamoyl-phosphate synthase large chain
+test-ont_00649	CDS	138	carB_16			carbamoyl-phosphate synthase large subunit
+test-ont_00650	CDS	204	carB_17			carbamoyl-phosphate synthase large subunit
+test-ont_00651	CDS	306	carA_3			glutamine-hydrolyzing carbamoyl-phosphate synthase small subunit
+test-ont_00652	CDS	105				hypothetical protein
+test-ont_00653	CDS	261	carA_4			glutamine-hydrolyzing carbamoyl-phosphate synthase small subunit
+test-ont_00654	CDS	156	dapB	1.17.1.8		4-hydroxy-tetrahydrodipicolinate reductase
+test-ont_00655	CDS	114				hypothetical protein
+test-ont_00656	CDS	276				hypothetical protein
+test-ont_00657	CDS	198				hypothetical protein
+test-ont_00658	CDS	378	thrC_1			threonine synthase
+test-ont_00659	CDS	636	thrC_2			threonine synthase
+test-ont_00660	CDS	381				hypothetical protein
+test-ont_00661	CDS	174				hypothetical protein
+test-ont_00662	CDS	207				hypothetical protein
+test-ont_00663	CDS	252				hypothetical protein
+test-ont_00664	CDS	141				hypothetical protein
+test-ont_00665	CDS	144				hypothetical protein
+test-ont_00666	CDS	255				hypothetical protein
+test-ont_00667	CDS	168				hypothetical protein
+test-ont_00668	CDS	105				hypothetical protein
+test-ont_00669	CDS	186				hypothetical protein
+test-ont_00670	CDS	162	zwf_1			glucose-6-phosphate dehydrogenase
+test-ont_00671	CDS	297	zwf_2	1.1.1.49		Glucose-6-phosphate 1-dehydrogenase
+test-ont_00672	CDS	141				glucokinase
+test-ont_00673	CDS	111				hypothetical protein
+test-ont_00674	CDS	168	aroE	1.1.1.25		Shikimate dehydrogenase (NADP(+))
+test-ont_00675	CDS	387				glutamine--tRNA ligase/YqeY domain fusion protein
+test-ont_00676	CDS	432				glutamine--tRNA ligase/YqeY domain fusion protein
+test-ont_00677	CDS	141				hypothetical protein
+test-ont_00678	CDS	159	cysS			cysteine--tRNA ligase
+test-ont_00679	tRNA	73				tRNA-Pro(tgg)
+test-ont_00680	CDS	249				hypothetical protein
+test-ont_00681	tRNA	72				tRNA-His(gtg)
+test-ont_00682	tRNA	75				tRNA-Arg(tct)
+test-ont_00683	CDS	99				hypothetical protein
+test-ont_00684	CDS	255	lpdA_1			dihydrolipoyl dehydrogenase
+test-ont_00685	CDS	231	lpdA_2			dihydrolipoyl dehydrogenase
+test-ont_00686	CDS	135	lpdA_3			dihydrolipoyl dehydrogenase
+test-ont_00687	CDS	132	odhB			2-oxoglutarate dehydrogenase complex dihydrolipoyllysine-residue succinyltransferase
+test-ont_00688	CDS	171				hypothetical protein
+test-ont_00689	CDS	210				hypothetical protein
+test-ont_00690	CDS	102				hypothetical protein
+test-ont_00691	CDS	174				2-oxoglutarate dehydrogenase E1 component
+test-ont_00692	CDS	111	odhA_1	1.2.4.2		2-oxoglutarate dehydrogenase E1 component
+test-ont_00693	CDS	162	odhA_2	1.2.4.2		2-oxoglutarate dehydrogenase E1 component
+test-ont_00694	CDS	489				2-oxoglutarate dehydrogenase E1 component
+test-ont_00695	CDS	222				hypothetical protein
+test-ont_00696	CDS	108				hypothetical protein
+test-ont_00697	CDS	159	gltX_1			glutamate--tRNA ligase
+test-ont_00698	CDS	399	gltX_2			glutamate--tRNA ligase
+test-ont_00699	CDS	138				hypothetical protein
+test-ont_00700	CDS	168	leuS_3			leucine--tRNA ligase
+test-ont_00701	CDS	201	leuS_4			leucine--tRNA ligase
+test-ont_00702	CDS	555	leuS_5			leucine--tRNA ligase
+test-ont_00703	CDS	126				hypothetical protein
+test-ont_00704	CDS	108				hypothetical protein
+test-ont_00705	tRNA	87				tRNA-Ser(gct)
+test-ont_00706	CDS	351				hypothetical protein
+test-ont_00707	CDS	321				aspartate kinase
+test-ont_00708	CDS	222				aspartate kinase
+test-ont_00709	CDS	201				hypothetical protein
+test-ont_00710	CDS	222				aspartate kinase
+test-ont_00711	tRNA	84				tRNA-Ser(gct)
+test-ont_00712	CDS	162	mnmG_1			tRNA uridine-5-carboxymethylaminomethyl(34) synthesis enzyme MnmG
+test-ont_00713	CDS	240	mnmE_1			tRNA uridine-5-carboxymethylaminomethyl(34) synthesis GTPase MnmE
+test-ont_00714	CDS	291	mnmE_2			tRNA uridine-5-carboxymethylaminomethyl(34) synthesis GTPase MnmE
+test-ont_00715	CDS	114				hypothetical protein
+test-ont_00716	CDS	405	mnmG_2			tRNA uridine-5-carboxymethylaminomethyl(34) synthesis enzyme MnmG
+test-ont_00717	CDS	174				hypothetical protein
+test-ont_00718	CDS	279				hypothetical protein
+test-ont_00719	CDS	189				hypothetical protein
+test-ont_00720	tRNA	74				tRNA-Met(cat)
+test-ont_00721	CDS	288				hypothetical protein
+test-ont_00722	CDS	141				hypothetical protein
+test-ont_00723	CDS	132				hypothetical protein
+test-ont_00724	CDS	177				hypothetical protein
+test-ont_00725	tRNA	74				tRNA-Met(cat)
+test-ont_00726	tRNA	73				tRNA-Asn(gtt)
+test-ont_00727	CDS	96				hypothetical protein
+test-ont_00728	CDS	237				hypothetical protein
+test-ont_00729	CDS	306	trpC_2			Indole-3-glycerol phosphate synthase
+test-ont_00730	CDS	264				hypothetical protein
+test-ont_00731	CDS	198	trpD_2	2.4.2.18		Anthranilate phosphoribosyltransferase
+test-ont_00732	CDS	279				aminodeoxychorismate/anthranilate synthase component II
+test-ont_00733	CDS	270	clsA	2.7.8.-		Cardiolipin synthase A
+test-ont_00734	CDS	192				hypothetical protein
+test-ont_00735	CDS	264				hypothetical protein
+test-ont_00736	CDS	141	clpX			ATP-dependent Clp protease ATP-binding subunit ClpX
+test-ont_00737	CDS	108	clpP	3.4.21.92		ATP-dependent Clp protease proteolytic subunit
+test-ont_00738	CDS	297	dnaJ_1			molecular chaperone DnaJ
+test-ont_00739	CDS	543	dnaJ_2		COG0484	Chaperone protein DnaJ
+test-ont_00740	CDS	321	dnaK_1			molecular chaperone DnaK
+test-ont_00741	CDS	195	dnaK_2			molecular chaperone DnaK
+test-ont_00742	CDS	213	dnaK_3			Chaperone protein DnaK
+test-ont_00743	CDS	819	proS_2			proline--tRNA ligase
+test-ont_00744	CDS	516				proline--tRNA ligase
+test-ont_00745	CDS	168				proline--tRNA ligase
+test-ont_00746	CDS	141				hypothetical protein
+test-ont_00747	CDS	156				hypothetical protein
+test-ont_00748	CDS	96				hypothetical protein
+test-ont_00749	CDS	144				hypothetical protein
+test-ont_00750	CDS	99				hypothetical protein
+test-ont_00751	CDS	171				hypothetical protein
+test-ont_00752	CDS	234	hisS_1			histidine--tRNA ligase
+test-ont_00753	CDS	474	hisS_2			histidine--tRNA ligase
+test-ont_00754	CDS	297	der			GTPase Der
+test-ont_00755	CDS	324				hypothetical protein
+test-ont_00756	CDS	417				hypothetical protein
+test-ont_00757	CDS	300				hypothetical protein
+test-ont_00758	CDS	177				hypothetical protein
+test-ont_00759	CDS	303	gltP_1			Proton/glutamate-aspartate symporter
+test-ont_00760	CDS	162	gltP_2			glutamate/aspartate:proton symporter GltP
+test-ont_00761	CDS	225	gltP_3			Proton/glutamate-aspartate symporter
+test-ont_00762	CDS	186	aroQ			type II 3-dehydroquinate dehydratase
+test-ont_00763	CDS	291	OSGEPL1	2.3.1.234		tRNA N6-adenosine threonylcarbamoyltransferase, mitochondrial
+test-ont_00764	CDS	141				hypothetical protein
+test-ont_00765	CDS	294				hypothetical protein
+test-ont_00766	CDS	195	gyrB_1			DNA topoisomerase (ATP-hydrolyzing) subunit B
+test-ont_00767	CDS	321	gyrB_2			DNA topoisomerase (ATP-hydrolyzing) subunit B
+test-ont_00768	CDS	255	gltP_4			glutamate/aspartate:proton symporter GltP
+test-ont_00769	CDS	135	gltP_5			glutamate/aspartate:proton symporter GltP
+test-ont_00770	CDS	153				hypothetical protein
+test-ont_00771	CDS	120				hypothetical protein
+test-ont_00772	CDS	258				hypothetical protein
+test-ont_00773	CDS	279				hypothetical protein
+test-ont_00774	tRNA	83				tRNA-Tyr(gta)
+test-ont_00775	CDS	375	cyoE			heme o synthase
+test-ont_00776	CDS	141				hypothetical protein

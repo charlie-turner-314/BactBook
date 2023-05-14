@@ -1,0 +1,151 @@
+[flye] [2023-05-14 02:01:04] INFO: Starting Flye 2.9.1-b1780
+[flye] [2023-05-14 02:01:04] INFO: >>>STAGE: configure
+[flye] [2023-05-14 02:01:04] INFO: Configuring run
+[flye] [2023-05-14 02:01:04] INFO: Total read length: 14162700
+[flye] [2023-05-14 02:01:04] INFO: Input genome size: 358000
+[flye] [2023-05-14 02:01:04] INFO: Estimated coverage: 39
+[flye] [2023-05-14 02:01:04] INFO: Reads N50/N90: 3086 / 862
+[flye] [2023-05-14 02:01:04] INFO: Minimum overlap set to 1000
+[flye] [2023-05-14 02:01:04] INFO: >>>STAGE: assembly
+[flye] [2023-05-14 02:01:04] INFO: Assembling disjointigs
+[flye] [2023-05-14 02:01:04] INFO: Reading sequences
+[flye] [2023-05-14 02:01:08] INFO: Counting k-mers:
+[flye] 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[flye] [2023-05-14 02:02:59] INFO: Filling index table (1/2)
+[flye] 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[flye] [2023-05-14 02:03:06] INFO: Filling index table (2/2)
+[flye] 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[flye] [2023-05-14 02:03:14] INFO: Extending reads
+[flye] [2023-05-14 02:03:24] INFO: Overlap-based coverage: 12
+[flye] [2023-05-14 02:03:24] INFO: Median overlap divergence: 0.112173
+[flye] 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[flye] [2023-05-14 02:03:33] INFO: Assembled 41 disjointigs
+[flye] [2023-05-14 02:03:33] INFO: Generating sequence
+[flye] 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[flye] [2023-05-14 02:03:34] INFO: Filtering contained disjointigs
+[flye] 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[flye] [2023-05-14 02:03:34] INFO: Contained seqs: 1
+[flye] [2023-05-14 02:03:35] INFO: >>>STAGE: consensus
+[flye] [2023-05-14 02:03:35] INFO: Running Minimap2
+[flye] [2023-05-14 02:04:09] INFO: Computing consensus
+[flye] [2023-05-14 02:04:22] INFO: Alignment error rate: 0.158199
+[flye] [2023-05-14 02:04:22] INFO: >>>STAGE: repeat
+[flye] [2023-05-14 02:04:22] INFO: Building and resolving repeat graph
+[flye] [2023-05-14 02:04:22] INFO: Parsing disjointigs
+[flye] [2023-05-14 02:04:22] INFO: Building repeat graph
+[flye] 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[flye] [2023-05-14 02:04:23] INFO: Median overlap divergence: 0.0426902
+[flye] [2023-05-14 02:04:23] INFO: Parsing reads
+[flye] [2023-05-14 02:04:24] INFO: Aligning reads to the graph
+[flye] 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[flye] [2023-05-14 02:04:28] INFO: Aligned read sequence: 8938501 / 12266459 (0.728694)
+[flye] [2023-05-14 02:04:28] INFO: Median overlap divergence: 0.0594598
+[flye] [2023-05-14 02:04:28] INFO: Mean edge coverage: 18
+[flye] [2023-05-14 02:04:28] INFO: Simplifying the graph
+[flye] [2023-05-14 02:04:29] INFO: >>>STAGE: contigger
+[flye] [2023-05-14 02:04:29] INFO: Generating contigs
+[flye] [2023-05-14 02:04:29] INFO: Reading sequences
+[flye] [2023-05-14 02:04:29] INFO: Generated 55 contigs
+[flye] [2023-05-14 02:04:29] INFO: Added 0 scaffold connections
+[flye] [2023-05-14 02:04:29] INFO: >>>STAGE: finalize
+[flye] [2023-05-14 02:04:29] INFO: Assembly statistics:
+[flye] 
+[flye] 	Total length:	479764
+[flye] 	Fragments:	55
+[flye] 	Fragments N50:	24314
+[flye] 	Largest frg:	54794
+[flye] 	Scaffolds:	0
+[flye] 	Mean coverage:	18
+[flye] 
+[flye] [2023-05-14 02:04:29] INFO: Final assembly: /home/charlie/Documents/BactBook/bactopia-workshop/work/35/df2b17707e7175aa6ac0a71f700ada/results/flye/assembly.fasta
+[polishing - racon (1 of 1)] [M::mm_idx_gen::0.040*1.07] collected minimizers
+[polishing - racon (1 of 1)] [M::mm_idx_gen::0.065*1.71] sorted minimizers
+[polishing - racon (1 of 1)] [M::main::0.065*1.71] loaded/built the index for 55 target sequence(s)
+[polishing - racon (1 of 1)] [M::mm_mapopt_update::0.071*1.65] mid_occ = 10
+[polishing - racon (1 of 1)] [M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 55
+[polishing - racon (1 of 1)] [M::mm_idx_stat::0.075*1.62] distinct minimizers: 76163 (85.58% are singletons); average occurrences: 1.175; average spacing: 5.360; total length: 479764
+[polishing - racon (1 of 1)] [M::worker_pipeline::2.550*2.47] mapped 7100 sequences
+[polishing - racon (1 of 1)] [M::main] Version: 2.24-r1122
+[polishing - racon (1 of 1)] [M::main] CMD: minimap2 -t 3 -x map-ont flye.fasta READS.fq.gz
+[polishing - racon (1 of 1)] [M::main] Real time: 2.558 sec; CPU: 6.303 sec; Peak RSS: 0.026 GB
+[polishing - racon (1 of 1)] [racon::Polisher::initialize] loaded target sequences 0.009103 s
+[polishing - racon (1 of 1)] [racon::Polisher::initialize] loaded sequences 0.684233 s
+[polishing - racon (1 of 1)] [racon::Polisher::initialize] loaded overlaps 0.031959 s
+[polishing - racon (1 of 1)] [racon::Polisher::initialize] aligning overlaps [=>                  ] 0.212206 s[racon::Polisher::initialize] aligning overlaps [==>                 ] 0.293589 s[racon::Polisher::initialize] aligning overlaps [===>                ] 0.423036 s[racon::Polisher::initialize] aligning overlaps [====>               ] 0.547020 s[racon::Polisher::initialize] aligning overlaps [=====>              ] 0.640531 s[racon::Polisher::initialize] aligning overlaps [======>             ] 0.744649 s[racon::Polisher::initialize] aligning overlaps [=======>            ] 0.917332 s[racon::Polisher::initialize] aligning overlaps [========>           ] 1.043389 s[racon::Polisher::initialize] aligning overlaps [=========>          ] 1.168564 s[racon::Polisher::initialize] aligning overlaps [==========>         ] 1.270234 s[racon::Polisher::initialize] aligning overlaps [===========>        ] 1.338522 s[racon::Polisher::initialize] aligning overlaps [============>       ] 1.413708 s[racon::Polisher::initialize] aligning overlaps [=============>      ] 1.486384 s[racon::Polisher::initialize] aligning overlaps [==============>     ] 1.565638 s[racon::Polisher::initialize] aligning overlaps [===============>    ] 1.730009 s[racon::Polisher::initialize] aligning overlaps [================>   ] 1.882096 s[racon::Polisher::initialize] aligning overlaps [=================>  ] 2.053044 s[racon::Polisher::initialize] aligning overlaps [==================> ] 2.150229 s[racon::Polisher::initialize] aligning overlaps [===================>] 2.165949 s[racon::Polisher::initialize] aligning overlaps [====================] 2.184684 s
+[polishing - racon (1 of 1)] [racon::Polisher::initialize] transformed data into windows 0.054883 s
+[polishing - racon (1 of 1)] [racon::Polisher::polish] generating consensus [=>                  ] 0.759258 s[racon::Polisher::polish] generating consensus [==>                 ] 1.396478 s[racon::Polisher::polish] generating consensus [===>                ] 3.289477 s[racon::Polisher::polish] generating consensus [====>               ] 3.662590 s[racon::Polisher::polish] generating consensus [=====>              ] 4.072528 s[racon::Polisher::polish] generating consensus [======>             ] 4.531878 s[racon::Polisher::polish] generating consensus [=======>            ] 5.168117 s[racon::Polisher::polish] generating consensus [========>           ] 5.878722 s[racon::Polisher::polish] generating consensus [=========>          ] 6.021407 s[racon::Polisher::polish] generating consensus [==========>         ] 6.297151 s[racon::Polisher::polish] generating consensus [===========>        ] 7.284546 s[racon::Polisher::polish] generating consensus [============>       ] 7.654332 s[racon::Polisher::polish] generating consensus [=============>      ] 8.017006 s[racon::Polisher::polish] generating consensus [==============>     ] 8.634886 s[racon::Polisher::polish] generating consensus [===============>    ] 8.702558 s[racon::Polisher::polish] generating consensus [================>   ] 9.109413 s[racon::Polisher::polish] generating consensus [=================>  ] 9.307107 s[racon::Polisher::polish] generating consensus [==================> ] 10.682366 s[racon::Polisher::polish] generating consensus [===================>] 11.341565 s[racon::Polisher::polish] generating consensus [====================] 11.909618 s
+[polishing - racon (1 of 1)] [racon::Polisher::] total = 14.889774 s
+[stats] contigs.fa	sample	contigs.fa
+[stats] contigs.fa	total_contig	48
+[stats] contigs.fa	total_contig_length	465108
+[stats] contigs.fa	max_contig_length	56445
+[stats] contigs.fa	mean_contig_length	9689
+[stats] contigs.fa	median_contig_length	4276
+[stats] contigs.fa	min_contig_length	845
+[stats] contigs.fa	n50_contig_length	25920
+[stats] contigs.fa	l50_contig_count	6
+[stats] contigs.fa	num_contig_non_acgtn	0
+[stats] contigs.fa	contig_percent_a	35.90
+[stats] contigs.fa	contig_percent_c	13.43
+[stats] contigs.fa	contig_percent_g	12.34
+[stats] contigs.fa	contig_percent_t	38.33
+[stats] contigs.fa	contig_percent_n	0.00
+[stats] contigs.fa	contig_non_acgtn	0.00
+[stats] contigs.fa	contigs_greater_1m	0
+[stats] contigs.fa	contigs_greater_100k	0
+[stats] contigs.fa	contigs_greater_10k	11
+[stats] contigs.fa	contigs_greater_1k	45
+[stats] contigs.fa	percent_contigs_greater_1m	0.00
+[stats] contigs.fa	percent_contigs_greater_100k	0.00
+[stats] contigs.fa	percent_contigs_greater_10k	22.92
+[stats] contigs.fa	percent_contigs_greater_1k	93.75
+removed 'results/READS.fq.gz'
+removed 'results/flye/flye.log'
+removed 'results/flye/assembly.fasta'
+removed 'results/flye/assembly_info.txt'
+removed 'results/flye/00-assembly/draft_assembly.fasta.fai'
+removed 'results/flye/00-assembly/draft_assembly.fasta'
+removed directory 'results/flye/00-assembly'
+removed 'results/flye/10-consensus/minimap.bam.bai'
+removed 'results/flye/10-consensus/minimap.stderr'
+removed 'results/flye/10-consensus/consensus.fasta'
+removed directory 'results/flye/10-consensus'
+removed 'results/flye/params.json'
+removed 'results/flye/30-contigger/graph_final.fasta'
+removed 'results/flye/30-contigger/contigs_stats.txt'
+removed 'results/flye/30-contigger/scaffolds_links.txt'
+removed 'results/flye/30-contigger/contigs.fasta'
+removed 'results/flye/30-contigger/graph_final.gv'
+removed 'results/flye/30-contigger/graph_final.gfa'
+removed directory 'results/flye/30-contigger'
+removed 'results/flye/assembly_graph.gv'
+removed 'results/flye/20-repeat/read_alignment_dump'
+removed 'results/flye/20-repeat/repeat_graph_edges.fasta'
+removed 'results/flye/20-repeat/graph_before_rr.fasta'
+removed 'results/flye/20-repeat/graph_after_rr.gv'
+removed 'results/flye/20-repeat/repeat_graph_dump'
+removed 'results/flye/20-repeat/graph_before_rr.gv'
+removed directory 'results/flye/20-repeat'
+removed 'results/flye/polish/racon/1/consensus.fasta.amb'
+removed 'results/flye/polish/racon/1/consensus.fasta.bwt'
+removed 'results/flye/polish/racon/1/consensus.fasta.pac'
+removed 'results/flye/polish/racon/1/consensus.fasta'
+removed 'results/flye/polish/racon/1/consensus.fasta.sa'
+removed 'results/flye/polish/racon/1/aligments.paf'
+removed 'results/flye/polish/racon/1/consensus.fasta.ann'
+removed directory 'results/flye/polish/racon/1'
+removed directory 'results/flye/polish/racon'
+removed 'results/flye/polish/short_reads/R1.fq.gz'
+removed 'results/flye/polish/short_reads/polypolish/1/polypolish_R1-1.sam'
+removed 'results/flye/polish/short_reads/polypolish/1/polypolish-1.fasta'
+removed 'results/flye/polish/short_reads/polypolish/1/polypolish-R2-1.sam'
+removed directory 'results/flye/polish/short_reads/polypolish/1'
+removed directory 'results/flye/polish/short_reads/polypolish'
+removed 'results/flye/polish/short_reads/R2.fq.gz'
+removed 'results/flye/polish/short_reads/fastp.html'
+removed 'results/flye/polish/short_reads/fastp.json'
+removed 'results/flye/polish/short_reads/u.fastq.gz'
+removed directory 'results/flye/polish/short_reads'
+removed directory 'results/flye/polish'
+removed directory 'results/flye/'
+removed 'results/flye.fasta'

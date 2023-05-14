@@ -1,0 +1,942 @@
+Discrepancy Report Results
+
+Summary
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all same)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all same)
+DISC_FEATURE_COUNT:CDS: 60 present
+DISC_FEATURE_COUNT:tRNA: 4 present
+DISC_FEATURE_COUNT:rRNA: 3 present
+DISC_COUNT_NUCLEOTIDES:73 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:67 features have inconsistent gene locations.
+NO_ANNOTATION:38 bioseqs have no features
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:73 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:3 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:73 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:73 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:73 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:73 sequences do not include structured comments.
+MISSING_PROJECT:133 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::73 sources have 'strain' for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::73 sources have 'Genus species' for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 60 present
+DiscRep_ALL:DISC_FEATURE_COUNT::tRNA: 4 present
+DiscRep_ALL:DISC_FEATURE_COUNT::rRNA: 3 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::73 nucleotide Bioseqs are present
+test-se/test-se:Bactopia:test-se_1 (length 5649)
+test-se/test-se:Bactopia:test-se_2 (length 5371)
+test-se/test-se:Bactopia:test-se_3 (length 3569)
+test-se/test-se:Bactopia:test-se_4 (length 3480)
+test-se/test-se:Bactopia:test-se_5 (length 2993)
+test-se/test-se:Bactopia:test-se_6 (length 2896)
+test-se/test-se:Bactopia:test-se_7 (length 2849)
+test-se/test-se:Bactopia:test-se_8 (length 2791)
+test-se/test-se:Bactopia:test-se_9 (length 2558)
+test-se/test-se:Bactopia:test-se_10 (length 2547)
+test-se/test-se:Bactopia:test-se_11 (length 2177)
+test-se/test-se:Bactopia:test-se_12 (length 2125)
+test-se/test-se:Bactopia:test-se_13 (length 2003)
+test-se/test-se:Bactopia:test-se_14 (length 1959)
+test-se/test-se:Bactopia:test-se_15 (length 1879)
+test-se/test-se:Bactopia:test-se_16 (length 1859)
+test-se/test-se:Bactopia:test-se_17 (length 1833)
+test-se/test-se:Bactopia:test-se_18 (length 1815)
+test-se/test-se:Bactopia:test-se_19 (length 1790)
+test-se/test-se:Bactopia:test-se_20 (length 1753)
+test-se/test-se:Bactopia:test-se_21 (length 1749)
+test-se/test-se:Bactopia:test-se_22 (length 1626)
+test-se/test-se:Bactopia:test-se_23 (length 1597)
+test-se/test-se:Bactopia:test-se_24 (length 1580)
+test-se/test-se:Bactopia:test-se_25 (length 1489)
+test-se/test-se:Bactopia:test-se_26 (length 1482)
+test-se/test-se:Bactopia:test-se_27 (length 1474)
+test-se/test-se:Bactopia:test-se_28 (length 1458)
+test-se/test-se:Bactopia:test-se_29 (length 1408)
+test-se/test-se:Bactopia:test-se_30 (length 1398)
+test-se/test-se:Bactopia:test-se_31 (length 1374)
+test-se/test-se:Bactopia:test-se_32 (length 1360)
+test-se/test-se:Bactopia:test-se_33 (length 1321)
+test-se/test-se:Bactopia:test-se_34 (length 1253)
+test-se/test-se:Bactopia:test-se_35 (length 1248)
+test-se/test-se:Bactopia:test-se_36 (length 1211)
+test-se/test-se:Bactopia:test-se_37 (length 1205)
+test-se/test-se:Bactopia:test-se_38 (length 1160)
+test-se/test-se:Bactopia:test-se_39 (length 1146)
+test-se/test-se:Bactopia:test-se_40 (length 1104)
+test-se/test-se:Bactopia:test-se_41 (length 1086)
+test-se/test-se:Bactopia:test-se_42 (length 1036)
+test-se/test-se:Bactopia:test-se_43 (length 1034)
+test-se/test-se:Bactopia:test-se_44 (length 1020)
+test-se/test-se:Bactopia:test-se_45 (length 1006)
+test-se/test-se:Bactopia:test-se_46 (length 1001)
+test-se/test-se:Bactopia:test-se_47 (length 997)
+test-se/test-se:Bactopia:test-se_48 (length 996)
+test-se/test-se:Bactopia:test-se_49 (length 938)
+test-se/test-se:Bactopia:test-se_50 (length 925)
+test-se/test-se:Bactopia:test-se_51 (length 922)
+test-se/test-se:Bactopia:test-se_52 (length 896)
+test-se/test-se:Bactopia:test-se_53 (length 888)
+test-se/test-se:Bactopia:test-se_54 (length 876)
+test-se/test-se:Bactopia:test-se_55 (length 861)
+test-se/test-se:Bactopia:test-se_56 (length 839)
+test-se/test-se:Bactopia:test-se_57 (length 834)
+test-se/test-se:Bactopia:test-se_58 (length 830)
+test-se/test-se:Bactopia:test-se_59 (length 808)
+test-se/test-se:Bactopia:test-se_60 (length 767)
+test-se/test-se:Bactopia:test-se_61 (length 766)
+test-se/test-se:Bactopia:test-se_62 (length 765)
+test-se/test-se:Bactopia:test-se_63 (length 717)
+test-se/test-se:Bactopia:test-se_64 (length 707)
+test-se/test-se:Bactopia:test-se_65 (length 664)
+test-se/test-se:Bactopia:test-se_66 (length 617)
+test-se/test-se:Bactopia:test-se_67 (length 609)
+test-se/test-se:Bactopia:test-se_68 (length 583)
+test-se/test-se:Bactopia:test-se_69 (length 579)
+test-se/test-se:Bactopia:test-se_70 (length 548)
+test-se/test-se:Bactopia:test-se_71 (length 545)
+test-se/test-se:Bactopia:test-se_72 (length 528)
+test-se/test-se:Bactopia:test-se_73 (length 512)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::67 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	50S ribosomal protein L18	test-se_1:84-299	test-se_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	30S ribosomal protein S5	test-se_1:339-854	test-se_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	50S ribosomal protein L15	test-se_1:971-1423	test-se_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	preprotein translocase subunit SecY	test-se_1:1420-2613	test-se_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	50S ribosomal protein L36	test-se_1:2706-2819	test-se_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	30S ribosomal protein S13	test-se_1:2832-3182	test-se_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	30S ribosomal protein S11	test-se_1:3188-3580	test-se_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	30S ribosomal protein S4	test-se_1:3593-4204	test-se_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	DNA-directed RNA polymerase subunit alpha	test-se_1:4216-5205	test-se_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	50S ribosomal protein L17	test-se_1:5220-5570	test-se_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+test-se/test-se:rRNA	16S ribosomal RNA	test-se_2:649-2181	test-se_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+test-se/test-se:tRNA	Ile	test-se_2:2225-2299	test-se_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+test-se/test-se:rRNA	23S ribosomal RNA	test-se_2:2327-5194	test-se_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+test-se/test-se:rRNA	5S ribosomal RNA	test-se_2:5226-5334	test-se_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	30S ribosomal protein S12	test-se_3:13-363	test-se_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	30S ribosomal protein S7	test-se_3:368-841	test-se_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	elongation factor G	test-se_3:868-3003	test-se_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	argininosuccinate synthase	test-se_4:225-866	test-se_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	co-chaperone GroES	test-se_4:1079-1369	test-se_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	chaperonin GroEL	test-se_4:1405-3036	test-se_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	leucine--tRNA ligase	test-se_5:341-2932	test-se_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	50S ribosomal protein L2	test-se_6:217-1017	test-se_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	30S ribosomal protein S19	test-se_6:1019-1297	test-se_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	50S ribosomal protein L22	test-se_6:1311-1652	test-se_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	30S ribosomal protein S3	test-se_6:1667-2347	test-se_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	50S ribosomal protein L16	test-se_6:2349-2762	test-se_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	tryptophan synthase subunit beta	test-se_7:19-1200	test-se_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	tryptophan synthase subunit alpha	test-se_7:1206-2012	test-se_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	YfhL family 4Fe-4S dicluster ferredoxin	test-se_7:c2197-2009	test-se_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	alkyl hydroperoxide reductase subunit C	test-se_7:c2763-2200	test-se_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	DNA gyrase subunit A	test-se_8:84-2630	test-se_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	molecular chaperone DnaK	test-se_9:96-1481	test-se_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	molecular chaperone DnaJ	test-se_9:1497-2540	test-se_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	Obg family GTPase CgtA	test-se_12:87-800	test-se_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	30S ribosomal protein S20	test-se_12:793-1032	test-se_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+test-se/test-se:tRNA	Pro	test-se_13:c1889-1816	test-se_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	3-isopropylmalate dehydratase large subunit	test-se_14:60-1085	test-se_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+test-se/test-se:tRNA	Arg	test-se_14:1193-1268	test-se_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	2-oxoglutarate dehydrogenase complex dihydrolipoyllysine-residue succinyltransferase	test-se_15:137-313	test-se_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	dihydrolipoyl dehydrogenase	test-se_15:334-1752	test-se_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	phosphoribosylanthranilate isomerase	test-se_16:c1060-425	test-se_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	tRNA pseudouridine(38-40) synthase TruA	test-se_16:c1461-1081	test-se_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	Fe-S cluster assembly protein SufB	test-se_18:c1801-830	test-se_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	acetolactate synthase small subunit	test-se_19:67-558	test-se_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	ketol-acid reductoisomerase	test-se_19:580-1596	test-se_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	MarC family NAAT transporter	test-se_21:825-1469	test-se_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	F0F1 ATP synthase subunit beta	test-se_24:c1520-150	test-se_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	50S ribosomal protein L19	test-se_28:12-365	test-se_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	hypothetical protein	test-se_29:105-284	test-se_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	hypothetical protein	test-se_31:c1307-930	test-se_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	polyribonucleotide nucleotidyltransferase	test-se_33:1-1209	test-se_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	magnesium transporter	test-se_34:c1182-100	test-se_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	16S rRNA (guanine(966)-N(2))-methyltransferase RsmD	test-se_35:86-466	test-se_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	lysine--tRNA ligase	test-se_35:c1126-431	test-se_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	NADH-quinone oxidoreductase subunit C/D	test-se_36:c1162-8	test-se_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	30S ribosomal protein S1	test-se_38:c1013-108	test-se_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	hypothetical protein	test-se_39:903-1022	test-se_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	serine--tRNA ligase	test-se_41:c879-139	test-se_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	4-hydroxy-tetrahydrodipicolinate synthase	test-se_43:61-936	test-se_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	hypothetical protein	test-se_44:15-146	test-se_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	elongation factor Tu	test-se_46:12-599	test-se_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	30S ribosomal protein S10	test-se_46:604-918	test-se_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	50S ribosomal protein L24	test-se_47:103-405	test-se_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	50S ribosomal protein L5	test-se_47:402-905	test-se_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+test-se/test-se:tRNA	Ser	test-se_49:c671-588	test-se_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	hypothetical protein	test-se_61:c457-257	test-se_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test-se/test-se:CDS	decarboxylating 6-phosphogluconate dehydrogenase	test-se_71:c507-316	test-se_00067
+
+DiscRep_ALL:NO_ANNOTATION::38 bioseqs have no features
+test-se/test-se:Bactopia:test-se_10 (length 2547)
+test-se/test-se:Bactopia:test-se_11 (length 2177)
+test-se/test-se:Bactopia:test-se_17 (length 1833)
+test-se/test-se:Bactopia:test-se_20 (length 1753)
+test-se/test-se:Bactopia:test-se_22 (length 1626)
+test-se/test-se:Bactopia:test-se_23 (length 1597)
+test-se/test-se:Bactopia:test-se_25 (length 1489)
+test-se/test-se:Bactopia:test-se_26 (length 1482)
+test-se/test-se:Bactopia:test-se_27 (length 1474)
+test-se/test-se:Bactopia:test-se_30 (length 1398)
+test-se/test-se:Bactopia:test-se_32 (length 1360)
+test-se/test-se:Bactopia:test-se_37 (length 1205)
+test-se/test-se:Bactopia:test-se_40 (length 1104)
+test-se/test-se:Bactopia:test-se_42 (length 1036)
+test-se/test-se:Bactopia:test-se_45 (length 1006)
+test-se/test-se:Bactopia:test-se_48 (length 996)
+test-se/test-se:Bactopia:test-se_50 (length 925)
+test-se/test-se:Bactopia:test-se_51 (length 922)
+test-se/test-se:Bactopia:test-se_52 (length 896)
+test-se/test-se:Bactopia:test-se_53 (length 888)
+test-se/test-se:Bactopia:test-se_54 (length 876)
+test-se/test-se:Bactopia:test-se_55 (length 861)
+test-se/test-se:Bactopia:test-se_56 (length 839)
+test-se/test-se:Bactopia:test-se_57 (length 834)
+test-se/test-se:Bactopia:test-se_58 (length 830)
+test-se/test-se:Bactopia:test-se_59 (length 808)
+test-se/test-se:Bactopia:test-se_60 (length 767)
+test-se/test-se:Bactopia:test-se_62 (length 765)
+test-se/test-se:Bactopia:test-se_63 (length 717)
+test-se/test-se:Bactopia:test-se_64 (length 707)
+test-se/test-se:Bactopia:test-se_65 (length 664)
+test-se/test-se:Bactopia:test-se_66 (length 617)
+test-se/test-se:Bactopia:test-se_67 (length 609)
+test-se/test-se:Bactopia:test-se_68 (length 583)
+test-se/test-se:Bactopia:test-se_69 (length 579)
+test-se/test-se:Bactopia:test-se_70 (length 548)
+test-se/test-se:Bactopia:test-se_72 (length 528)
+test-se/test-se:Bactopia:test-se_73 (length 512)
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::73 comment descriptors were found (all same)
+test-se/test-se:Bactopia:test-se_1:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_2:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_3:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_4:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_5:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_6:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_7:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_8:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_9:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_10:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_11:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_12:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_13:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_14:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_15:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_16:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_17:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_18:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_19:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_20:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_21:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_22:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_23:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_24:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_25:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_26:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_27:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_28:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_29:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_30:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_31:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_32:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_33:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_34:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_35:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_36:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_37:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_38:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_39:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_40:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_41:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_42:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_43:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_44:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_45:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_46:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_47:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_48:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_49:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_50:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_51:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_52:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_53:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_54:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_55:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_56:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_57:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_58:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_59:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_60:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_61:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_62:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_63:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_64:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_65:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_66:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_67:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_68:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_69:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_70:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_71:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_72:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test-se/test-se:Bactopia:test-se_73:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::3 protein sequences are shorter than 50 aa.
+test-se/test-se:Bactopia:test-se_00005 (length 37)
+test-se/test-se:Bactopia:test-se_00057 (length 39)
+test-se/test-se:Bactopia:test-se_00060 (length 43)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::73 bioseqs are missing GenomeAssembly structured comments
+test-se/test-se:Bactopia:test-se_1 (length 5649)
+test-se/test-se:Bactopia:test-se_2 (length 5371)
+test-se/test-se:Bactopia:test-se_3 (length 3569)
+test-se/test-se:Bactopia:test-se_4 (length 3480)
+test-se/test-se:Bactopia:test-se_5 (length 2993)
+test-se/test-se:Bactopia:test-se_6 (length 2896)
+test-se/test-se:Bactopia:test-se_7 (length 2849)
+test-se/test-se:Bactopia:test-se_8 (length 2791)
+test-se/test-se:Bactopia:test-se_9 (length 2558)
+test-se/test-se:Bactopia:test-se_10 (length 2547)
+test-se/test-se:Bactopia:test-se_11 (length 2177)
+test-se/test-se:Bactopia:test-se_12 (length 2125)
+test-se/test-se:Bactopia:test-se_13 (length 2003)
+test-se/test-se:Bactopia:test-se_14 (length 1959)
+test-se/test-se:Bactopia:test-se_15 (length 1879)
+test-se/test-se:Bactopia:test-se_16 (length 1859)
+test-se/test-se:Bactopia:test-se_17 (length 1833)
+test-se/test-se:Bactopia:test-se_18 (length 1815)
+test-se/test-se:Bactopia:test-se_19 (length 1790)
+test-se/test-se:Bactopia:test-se_20 (length 1753)
+test-se/test-se:Bactopia:test-se_21 (length 1749)
+test-se/test-se:Bactopia:test-se_22 (length 1626)
+test-se/test-se:Bactopia:test-se_23 (length 1597)
+test-se/test-se:Bactopia:test-se_24 (length 1580)
+test-se/test-se:Bactopia:test-se_25 (length 1489)
+test-se/test-se:Bactopia:test-se_26 (length 1482)
+test-se/test-se:Bactopia:test-se_27 (length 1474)
+test-se/test-se:Bactopia:test-se_28 (length 1458)
+test-se/test-se:Bactopia:test-se_29 (length 1408)
+test-se/test-se:Bactopia:test-se_30 (length 1398)
+test-se/test-se:Bactopia:test-se_31 (length 1374)
+test-se/test-se:Bactopia:test-se_32 (length 1360)
+test-se/test-se:Bactopia:test-se_33 (length 1321)
+test-se/test-se:Bactopia:test-se_34 (length 1253)
+test-se/test-se:Bactopia:test-se_35 (length 1248)
+test-se/test-se:Bactopia:test-se_36 (length 1211)
+test-se/test-se:Bactopia:test-se_37 (length 1205)
+test-se/test-se:Bactopia:test-se_38 (length 1160)
+test-se/test-se:Bactopia:test-se_39 (length 1146)
+test-se/test-se:Bactopia:test-se_40 (length 1104)
+test-se/test-se:Bactopia:test-se_41 (length 1086)
+test-se/test-se:Bactopia:test-se_42 (length 1036)
+test-se/test-se:Bactopia:test-se_43 (length 1034)
+test-se/test-se:Bactopia:test-se_44 (length 1020)
+test-se/test-se:Bactopia:test-se_45 (length 1006)
+test-se/test-se:Bactopia:test-se_46 (length 1001)
+test-se/test-se:Bactopia:test-se_47 (length 997)
+test-se/test-se:Bactopia:test-se_48 (length 996)
+test-se/test-se:Bactopia:test-se_49 (length 938)
+test-se/test-se:Bactopia:test-se_50 (length 925)
+test-se/test-se:Bactopia:test-se_51 (length 922)
+test-se/test-se:Bactopia:test-se_52 (length 896)
+test-se/test-se:Bactopia:test-se_53 (length 888)
+test-se/test-se:Bactopia:test-se_54 (length 876)
+test-se/test-se:Bactopia:test-se_55 (length 861)
+test-se/test-se:Bactopia:test-se_56 (length 839)
+test-se/test-se:Bactopia:test-se_57 (length 834)
+test-se/test-se:Bactopia:test-se_58 (length 830)
+test-se/test-se:Bactopia:test-se_59 (length 808)
+test-se/test-se:Bactopia:test-se_60 (length 767)
+test-se/test-se:Bactopia:test-se_61 (length 766)
+test-se/test-se:Bactopia:test-se_62 (length 765)
+test-se/test-se:Bactopia:test-se_63 (length 717)
+test-se/test-se:Bactopia:test-se_64 (length 707)
+test-se/test-se:Bactopia:test-se_65 (length 664)
+test-se/test-se:Bactopia:test-se_66 (length 617)
+test-se/test-se:Bactopia:test-se_67 (length 609)
+test-se/test-se:Bactopia:test-se_68 (length 583)
+test-se/test-se:Bactopia:test-se_69 (length 579)
+test-se/test-se:Bactopia:test-se_70 (length 548)
+test-se/test-se:Bactopia:test-se_71 (length 545)
+test-se/test-se:Bactopia:test-se_72 (length 528)
+test-se/test-se:Bactopia:test-se_73 (length 512)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::73 molecule types are not set as mRNA.
+test-se/test-se:Bactopia:test-se_1 (length 5649)
+test-se/test-se:Bactopia:test-se_2 (length 5371)
+test-se/test-se:Bactopia:test-se_3 (length 3569)
+test-se/test-se:Bactopia:test-se_4 (length 3480)
+test-se/test-se:Bactopia:test-se_5 (length 2993)
+test-se/test-se:Bactopia:test-se_6 (length 2896)
+test-se/test-se:Bactopia:test-se_7 (length 2849)
+test-se/test-se:Bactopia:test-se_8 (length 2791)
+test-se/test-se:Bactopia:test-se_9 (length 2558)
+test-se/test-se:Bactopia:test-se_10 (length 2547)
+test-se/test-se:Bactopia:test-se_11 (length 2177)
+test-se/test-se:Bactopia:test-se_12 (length 2125)
+test-se/test-se:Bactopia:test-se_13 (length 2003)
+test-se/test-se:Bactopia:test-se_14 (length 1959)
+test-se/test-se:Bactopia:test-se_15 (length 1879)
+test-se/test-se:Bactopia:test-se_16 (length 1859)
+test-se/test-se:Bactopia:test-se_17 (length 1833)
+test-se/test-se:Bactopia:test-se_18 (length 1815)
+test-se/test-se:Bactopia:test-se_19 (length 1790)
+test-se/test-se:Bactopia:test-se_20 (length 1753)
+test-se/test-se:Bactopia:test-se_21 (length 1749)
+test-se/test-se:Bactopia:test-se_22 (length 1626)
+test-se/test-se:Bactopia:test-se_23 (length 1597)
+test-se/test-se:Bactopia:test-se_24 (length 1580)
+test-se/test-se:Bactopia:test-se_25 (length 1489)
+test-se/test-se:Bactopia:test-se_26 (length 1482)
+test-se/test-se:Bactopia:test-se_27 (length 1474)
+test-se/test-se:Bactopia:test-se_28 (length 1458)
+test-se/test-se:Bactopia:test-se_29 (length 1408)
+test-se/test-se:Bactopia:test-se_30 (length 1398)
+test-se/test-se:Bactopia:test-se_31 (length 1374)
+test-se/test-se:Bactopia:test-se_32 (length 1360)
+test-se/test-se:Bactopia:test-se_33 (length 1321)
+test-se/test-se:Bactopia:test-se_34 (length 1253)
+test-se/test-se:Bactopia:test-se_35 (length 1248)
+test-se/test-se:Bactopia:test-se_36 (length 1211)
+test-se/test-se:Bactopia:test-se_37 (length 1205)
+test-se/test-se:Bactopia:test-se_38 (length 1160)
+test-se/test-se:Bactopia:test-se_39 (length 1146)
+test-se/test-se:Bactopia:test-se_40 (length 1104)
+test-se/test-se:Bactopia:test-se_41 (length 1086)
+test-se/test-se:Bactopia:test-se_42 (length 1036)
+test-se/test-se:Bactopia:test-se_43 (length 1034)
+test-se/test-se:Bactopia:test-se_44 (length 1020)
+test-se/test-se:Bactopia:test-se_45 (length 1006)
+test-se/test-se:Bactopia:test-se_46 (length 1001)
+test-se/test-se:Bactopia:test-se_47 (length 997)
+test-se/test-se:Bactopia:test-se_48 (length 996)
+test-se/test-se:Bactopia:test-se_49 (length 938)
+test-se/test-se:Bactopia:test-se_50 (length 925)
+test-se/test-se:Bactopia:test-se_51 (length 922)
+test-se/test-se:Bactopia:test-se_52 (length 896)
+test-se/test-se:Bactopia:test-se_53 (length 888)
+test-se/test-se:Bactopia:test-se_54 (length 876)
+test-se/test-se:Bactopia:test-se_55 (length 861)
+test-se/test-se:Bactopia:test-se_56 (length 839)
+test-se/test-se:Bactopia:test-se_57 (length 834)
+test-se/test-se:Bactopia:test-se_58 (length 830)
+test-se/test-se:Bactopia:test-se_59 (length 808)
+test-se/test-se:Bactopia:test-se_60 (length 767)
+test-se/test-se:Bactopia:test-se_61 (length 766)
+test-se/test-se:Bactopia:test-se_62 (length 765)
+test-se/test-se:Bactopia:test-se_63 (length 717)
+test-se/test-se:Bactopia:test-se_64 (length 707)
+test-se/test-se:Bactopia:test-se_65 (length 664)
+test-se/test-se:Bactopia:test-se_66 (length 617)
+test-se/test-se:Bactopia:test-se_67 (length 609)
+test-se/test-se:Bactopia:test-se_68 (length 583)
+test-se/test-se:Bactopia:test-se_69 (length 579)
+test-se/test-se:Bactopia:test-se_70 (length 548)
+test-se/test-se:Bactopia:test-se_71 (length 545)
+test-se/test-se:Bactopia:test-se_72 (length 528)
+test-se/test-se:Bactopia:test-se_73 (length 512)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::73 technique are not set as TSA
+test-se/test-se:Bactopia:test-se_1 (length 5649)
+test-se/test-se:Bactopia:test-se_2 (length 5371)
+test-se/test-se:Bactopia:test-se_3 (length 3569)
+test-se/test-se:Bactopia:test-se_4 (length 3480)
+test-se/test-se:Bactopia:test-se_5 (length 2993)
+test-se/test-se:Bactopia:test-se_6 (length 2896)
+test-se/test-se:Bactopia:test-se_7 (length 2849)
+test-se/test-se:Bactopia:test-se_8 (length 2791)
+test-se/test-se:Bactopia:test-se_9 (length 2558)
+test-se/test-se:Bactopia:test-se_10 (length 2547)
+test-se/test-se:Bactopia:test-se_11 (length 2177)
+test-se/test-se:Bactopia:test-se_12 (length 2125)
+test-se/test-se:Bactopia:test-se_13 (length 2003)
+test-se/test-se:Bactopia:test-se_14 (length 1959)
+test-se/test-se:Bactopia:test-se_15 (length 1879)
+test-se/test-se:Bactopia:test-se_16 (length 1859)
+test-se/test-se:Bactopia:test-se_17 (length 1833)
+test-se/test-se:Bactopia:test-se_18 (length 1815)
+test-se/test-se:Bactopia:test-se_19 (length 1790)
+test-se/test-se:Bactopia:test-se_20 (length 1753)
+test-se/test-se:Bactopia:test-se_21 (length 1749)
+test-se/test-se:Bactopia:test-se_22 (length 1626)
+test-se/test-se:Bactopia:test-se_23 (length 1597)
+test-se/test-se:Bactopia:test-se_24 (length 1580)
+test-se/test-se:Bactopia:test-se_25 (length 1489)
+test-se/test-se:Bactopia:test-se_26 (length 1482)
+test-se/test-se:Bactopia:test-se_27 (length 1474)
+test-se/test-se:Bactopia:test-se_28 (length 1458)
+test-se/test-se:Bactopia:test-se_29 (length 1408)
+test-se/test-se:Bactopia:test-se_30 (length 1398)
+test-se/test-se:Bactopia:test-se_31 (length 1374)
+test-se/test-se:Bactopia:test-se_32 (length 1360)
+test-se/test-se:Bactopia:test-se_33 (length 1321)
+test-se/test-se:Bactopia:test-se_34 (length 1253)
+test-se/test-se:Bactopia:test-se_35 (length 1248)
+test-se/test-se:Bactopia:test-se_36 (length 1211)
+test-se/test-se:Bactopia:test-se_37 (length 1205)
+test-se/test-se:Bactopia:test-se_38 (length 1160)
+test-se/test-se:Bactopia:test-se_39 (length 1146)
+test-se/test-se:Bactopia:test-se_40 (length 1104)
+test-se/test-se:Bactopia:test-se_41 (length 1086)
+test-se/test-se:Bactopia:test-se_42 (length 1036)
+test-se/test-se:Bactopia:test-se_43 (length 1034)
+test-se/test-se:Bactopia:test-se_44 (length 1020)
+test-se/test-se:Bactopia:test-se_45 (length 1006)
+test-se/test-se:Bactopia:test-se_46 (length 1001)
+test-se/test-se:Bactopia:test-se_47 (length 997)
+test-se/test-se:Bactopia:test-se_48 (length 996)
+test-se/test-se:Bactopia:test-se_49 (length 938)
+test-se/test-se:Bactopia:test-se_50 (length 925)
+test-se/test-se:Bactopia:test-se_51 (length 922)
+test-se/test-se:Bactopia:test-se_52 (length 896)
+test-se/test-se:Bactopia:test-se_53 (length 888)
+test-se/test-se:Bactopia:test-se_54 (length 876)
+test-se/test-se:Bactopia:test-se_55 (length 861)
+test-se/test-se:Bactopia:test-se_56 (length 839)
+test-se/test-se:Bactopia:test-se_57 (length 834)
+test-se/test-se:Bactopia:test-se_58 (length 830)
+test-se/test-se:Bactopia:test-se_59 (length 808)
+test-se/test-se:Bactopia:test-se_60 (length 767)
+test-se/test-se:Bactopia:test-se_61 (length 766)
+test-se/test-se:Bactopia:test-se_62 (length 765)
+test-se/test-se:Bactopia:test-se_63 (length 717)
+test-se/test-se:Bactopia:test-se_64 (length 707)
+test-se/test-se:Bactopia:test-se_65 (length 664)
+test-se/test-se:Bactopia:test-se_66 (length 617)
+test-se/test-se:Bactopia:test-se_67 (length 609)
+test-se/test-se:Bactopia:test-se_68 (length 583)
+test-se/test-se:Bactopia:test-se_69 (length 579)
+test-se/test-se:Bactopia:test-se_70 (length 548)
+test-se/test-se:Bactopia:test-se_71 (length 545)
+test-se/test-se:Bactopia:test-se_72 (length 528)
+test-se/test-se:Bactopia:test-se_73 (length 512)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::73 sequences do not include structured comments.
+test-se/test-se:Bactopia:test-se_1 (length 5649)
+test-se/test-se:Bactopia:test-se_2 (length 5371)
+test-se/test-se:Bactopia:test-se_3 (length 3569)
+test-se/test-se:Bactopia:test-se_4 (length 3480)
+test-se/test-se:Bactopia:test-se_5 (length 2993)
+test-se/test-se:Bactopia:test-se_6 (length 2896)
+test-se/test-se:Bactopia:test-se_7 (length 2849)
+test-se/test-se:Bactopia:test-se_8 (length 2791)
+test-se/test-se:Bactopia:test-se_9 (length 2558)
+test-se/test-se:Bactopia:test-se_10 (length 2547)
+test-se/test-se:Bactopia:test-se_11 (length 2177)
+test-se/test-se:Bactopia:test-se_12 (length 2125)
+test-se/test-se:Bactopia:test-se_13 (length 2003)
+test-se/test-se:Bactopia:test-se_14 (length 1959)
+test-se/test-se:Bactopia:test-se_15 (length 1879)
+test-se/test-se:Bactopia:test-se_16 (length 1859)
+test-se/test-se:Bactopia:test-se_17 (length 1833)
+test-se/test-se:Bactopia:test-se_18 (length 1815)
+test-se/test-se:Bactopia:test-se_19 (length 1790)
+test-se/test-se:Bactopia:test-se_20 (length 1753)
+test-se/test-se:Bactopia:test-se_21 (length 1749)
+test-se/test-se:Bactopia:test-se_22 (length 1626)
+test-se/test-se:Bactopia:test-se_23 (length 1597)
+test-se/test-se:Bactopia:test-se_24 (length 1580)
+test-se/test-se:Bactopia:test-se_25 (length 1489)
+test-se/test-se:Bactopia:test-se_26 (length 1482)
+test-se/test-se:Bactopia:test-se_27 (length 1474)
+test-se/test-se:Bactopia:test-se_28 (length 1458)
+test-se/test-se:Bactopia:test-se_29 (length 1408)
+test-se/test-se:Bactopia:test-se_30 (length 1398)
+test-se/test-se:Bactopia:test-se_31 (length 1374)
+test-se/test-se:Bactopia:test-se_32 (length 1360)
+test-se/test-se:Bactopia:test-se_33 (length 1321)
+test-se/test-se:Bactopia:test-se_34 (length 1253)
+test-se/test-se:Bactopia:test-se_35 (length 1248)
+test-se/test-se:Bactopia:test-se_36 (length 1211)
+test-se/test-se:Bactopia:test-se_37 (length 1205)
+test-se/test-se:Bactopia:test-se_38 (length 1160)
+test-se/test-se:Bactopia:test-se_39 (length 1146)
+test-se/test-se:Bactopia:test-se_40 (length 1104)
+test-se/test-se:Bactopia:test-se_41 (length 1086)
+test-se/test-se:Bactopia:test-se_42 (length 1036)
+test-se/test-se:Bactopia:test-se_43 (length 1034)
+test-se/test-se:Bactopia:test-se_44 (length 1020)
+test-se/test-se:Bactopia:test-se_45 (length 1006)
+test-se/test-se:Bactopia:test-se_46 (length 1001)
+test-se/test-se:Bactopia:test-se_47 (length 997)
+test-se/test-se:Bactopia:test-se_48 (length 996)
+test-se/test-se:Bactopia:test-se_49 (length 938)
+test-se/test-se:Bactopia:test-se_50 (length 925)
+test-se/test-se:Bactopia:test-se_51 (length 922)
+test-se/test-se:Bactopia:test-se_52 (length 896)
+test-se/test-se:Bactopia:test-se_53 (length 888)
+test-se/test-se:Bactopia:test-se_54 (length 876)
+test-se/test-se:Bactopia:test-se_55 (length 861)
+test-se/test-se:Bactopia:test-se_56 (length 839)
+test-se/test-se:Bactopia:test-se_57 (length 834)
+test-se/test-se:Bactopia:test-se_58 (length 830)
+test-se/test-se:Bactopia:test-se_59 (length 808)
+test-se/test-se:Bactopia:test-se_60 (length 767)
+test-se/test-se:Bactopia:test-se_61 (length 766)
+test-se/test-se:Bactopia:test-se_62 (length 765)
+test-se/test-se:Bactopia:test-se_63 (length 717)
+test-se/test-se:Bactopia:test-se_64 (length 707)
+test-se/test-se:Bactopia:test-se_65 (length 664)
+test-se/test-se:Bactopia:test-se_66 (length 617)
+test-se/test-se:Bactopia:test-se_67 (length 609)
+test-se/test-se:Bactopia:test-se_68 (length 583)
+test-se/test-se:Bactopia:test-se_69 (length 579)
+test-se/test-se:Bactopia:test-se_70 (length 548)
+test-se/test-se:Bactopia:test-se_71 (length 545)
+test-se/test-se:Bactopia:test-se_72 (length 528)
+test-se/test-se:Bactopia:test-se_73 (length 512)
+
+DiscRep_ALL:MISSING_PROJECT::133 sequences do not include project.
+test-se/test-se:Bactopia:test-se_1 (length 5649)
+test-se/test-se:Bactopia:test-se_00001 (length 71)
+test-se/test-se:Bactopia:test-se_00002 (length 171)
+test-se/test-se:Bactopia:test-se_00003 (length 150)
+test-se/test-se:Bactopia:test-se_00004 (length 397)
+test-se/test-se:Bactopia:test-se_00005 (length 37)
+test-se/test-se:Bactopia:test-se_00006 (length 116)
+test-se/test-se:Bactopia:test-se_00007 (length 130)
+test-se/test-se:Bactopia:test-se_00008 (length 203)
+test-se/test-se:Bactopia:test-se_00009 (length 329)
+test-se/test-se:Bactopia:test-se_00010 (length 116)
+test-se/test-se:Bactopia:test-se_2 (length 5371)
+test-se/test-se:Bactopia:test-se_3 (length 3569)
+test-se/test-se:Bactopia:test-se_00015 (length 116)
+test-se/test-se:Bactopia:test-se_00016 (length 157)
+test-se/test-se:Bactopia:test-se_00017 (length 711)
+test-se/test-se:Bactopia:test-se_4 (length 3480)
+test-se/test-se:Bactopia:test-se_00018 (length 213)
+test-se/test-se:Bactopia:test-se_00019 (length 96)
+test-se/test-se:Bactopia:test-se_00020 (length 543)
+test-se/test-se:Bactopia:test-se_5 (length 2993)
+test-se/test-se:Bactopia:test-se_00021 (length 863)
+test-se/test-se:Bactopia:test-se_6 (length 2896)
+test-se/test-se:Bactopia:test-se_00022 (length 266)
+test-se/test-se:Bactopia:test-se_00023 (length 92)
+test-se/test-se:Bactopia:test-se_00024 (length 113)
+test-se/test-se:Bactopia:test-se_00025 (length 226)
+test-se/test-se:Bactopia:test-se_00026 (length 137)
+test-se/test-se:Bactopia:test-se_7 (length 2849)
+test-se/test-se:Bactopia:test-se_00027 (length 393)
+test-se/test-se:Bactopia:test-se_00028 (length 268)
+test-se/test-se:Bactopia:test-se_00029 (length 62)
+test-se/test-se:Bactopia:test-se_00030 (length 187)
+test-se/test-se:Bactopia:test-se_8 (length 2791)
+test-se/test-se:Bactopia:test-se_00031 (length 848)
+test-se/test-se:Bactopia:test-se_9 (length 2558)
+test-se/test-se:Bactopia:test-se_00032 (length 461)
+test-se/test-se:Bactopia:test-se_00033 (length 347)
+test-se/test-se:Bactopia:test-se_10 (length 2547)
+test-se/test-se:Bactopia:test-se_11 (length 2177)
+test-se/test-se:Bactopia:test-se_12 (length 2125)
+test-se/test-se:Bactopia:test-se_00034 (length 237)
+test-se/test-se:Bactopia:test-se_00035 (length 79)
+test-se/test-se:Bactopia:test-se_13 (length 2003)
+test-se/test-se:Bactopia:test-se_14 (length 1959)
+test-se/test-se:Bactopia:test-se_00037 (length 341)
+test-se/test-se:Bactopia:test-se_15 (length 1879)
+test-se/test-se:Bactopia:test-se_00039 (length 58)
+test-se/test-se:Bactopia:test-se_00040 (length 472)
+test-se/test-se:Bactopia:test-se_16 (length 1859)
+test-se/test-se:Bactopia:test-se_00041 (length 211)
+test-se/test-se:Bactopia:test-se_00042 (length 126)
+test-se/test-se:Bactopia:test-se_17 (length 1833)
+test-se/test-se:Bactopia:test-se_18 (length 1815)
+test-se/test-se:Bactopia:test-se_00043 (length 323)
+test-se/test-se:Bactopia:test-se_19 (length 1790)
+test-se/test-se:Bactopia:test-se_00044 (length 163)
+test-se/test-se:Bactopia:test-se_00045 (length 338)
+test-se/test-se:Bactopia:test-se_20 (length 1753)
+test-se/test-se:Bactopia:test-se_21 (length 1749)
+test-se/test-se:Bactopia:test-se_00046 (length 214)
+test-se/test-se:Bactopia:test-se_22 (length 1626)
+test-se/test-se:Bactopia:test-se_23 (length 1597)
+test-se/test-se:Bactopia:test-se_24 (length 1580)
+test-se/test-se:Bactopia:test-se_00047 (length 456)
+test-se/test-se:Bactopia:test-se_25 (length 1489)
+test-se/test-se:Bactopia:test-se_26 (length 1482)
+test-se/test-se:Bactopia:test-se_27 (length 1474)
+test-se/test-se:Bactopia:test-se_28 (length 1458)
+test-se/test-se:Bactopia:test-se_00048 (length 117)
+test-se/test-se:Bactopia:test-se_29 (length 1408)
+test-se/test-se:Bactopia:test-se_00049 (length 59)
+test-se/test-se:Bactopia:test-se_30 (length 1398)
+test-se/test-se:Bactopia:test-se_31 (length 1374)
+test-se/test-se:Bactopia:test-se_00050 (length 125)
+test-se/test-se:Bactopia:test-se_32 (length 1360)
+test-se/test-se:Bactopia:test-se_33 (length 1321)
+test-se/test-se:Bactopia:test-se_00051 (length 402)
+test-se/test-se:Bactopia:test-se_34 (length 1253)
+test-se/test-se:Bactopia:test-se_00052 (length 360)
+test-se/test-se:Bactopia:test-se_35 (length 1248)
+test-se/test-se:Bactopia:test-se_00053 (length 126)
+test-se/test-se:Bactopia:test-se_00054 (length 231)
+test-se/test-se:Bactopia:test-se_36 (length 1211)
+test-se/test-se:Bactopia:test-se_00055 (length 384)
+test-se/test-se:Bactopia:test-se_37 (length 1205)
+test-se/test-se:Bactopia:test-se_38 (length 1160)
+test-se/test-se:Bactopia:test-se_00056 (length 301)
+test-se/test-se:Bactopia:test-se_39 (length 1146)
+test-se/test-se:Bactopia:test-se_00057 (length 39)
+test-se/test-se:Bactopia:test-se_40 (length 1104)
+test-se/test-se:Bactopia:test-se_41 (length 1086)
+test-se/test-se:Bactopia:test-se_00058 (length 246)
+test-se/test-se:Bactopia:test-se_42 (length 1036)
+test-se/test-se:Bactopia:test-se_43 (length 1034)
+test-se/test-se:Bactopia:test-se_00059 (length 291)
+test-se/test-se:Bactopia:test-se_44 (length 1020)
+test-se/test-se:Bactopia:test-se_00060 (length 43)
+test-se/test-se:Bactopia:test-se_45 (length 1006)
+test-se/test-se:Bactopia:test-se_46 (length 1001)
+test-se/test-se:Bactopia:test-se_00061 (length 195)
+test-se/test-se:Bactopia:test-se_00062 (length 104)
+test-se/test-se:Bactopia:test-se_47 (length 997)
+test-se/test-se:Bactopia:test-se_00063 (length 100)
+test-se/test-se:Bactopia:test-se_00064 (length 167)
+test-se/test-se:Bactopia:test-se_48 (length 996)
+test-se/test-se:Bactopia:test-se_49 (length 938)
+test-se/test-se:Bactopia:test-se_50 (length 925)
+test-se/test-se:Bactopia:test-se_51 (length 922)
+test-se/test-se:Bactopia:test-se_52 (length 896)
+test-se/test-se:Bactopia:test-se_53 (length 888)
+test-se/test-se:Bactopia:test-se_54 (length 876)
+test-se/test-se:Bactopia:test-se_55 (length 861)
+test-se/test-se:Bactopia:test-se_56 (length 839)
+test-se/test-se:Bactopia:test-se_57 (length 834)
+test-se/test-se:Bactopia:test-se_58 (length 830)
+test-se/test-se:Bactopia:test-se_59 (length 808)
+test-se/test-se:Bactopia:test-se_60 (length 767)
+test-se/test-se:Bactopia:test-se_61 (length 766)
+test-se/test-se:Bactopia:test-se_00066 (length 66)
+test-se/test-se:Bactopia:test-se_62 (length 765)
+test-se/test-se:Bactopia:test-se_63 (length 717)
+test-se/test-se:Bactopia:test-se_64 (length 707)
+test-se/test-se:Bactopia:test-se_65 (length 664)
+test-se/test-se:Bactopia:test-se_66 (length 617)
+test-se/test-se:Bactopia:test-se_67 (length 609)
+test-se/test-se:Bactopia:test-se_68 (length 583)
+test-se/test-se:Bactopia:test-se_69 (length 579)
+test-se/test-se:Bactopia:test-se_70 (length 548)
+test-se/test-se:Bactopia:test-se_71 (length 545)
+test-se/test-se:Bactopia:test-se_00067 (length 63)
+test-se/test-se:Bactopia:test-se_72 (length 528)
+test-se/test-se:Bactopia:test-se_73 (length 512)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::73 Molinfos are missing field technique
+test-se/test-se:Bactopia:test-se_1 (length 5649)
+test-se/test-se:Bactopia:test-se_2 (length 5371)
+test-se/test-se:Bactopia:test-se_3 (length 3569)
+test-se/test-se:Bactopia:test-se_4 (length 3480)
+test-se/test-se:Bactopia:test-se_5 (length 2993)
+test-se/test-se:Bactopia:test-se_6 (length 2896)
+test-se/test-se:Bactopia:test-se_7 (length 2849)
+test-se/test-se:Bactopia:test-se_8 (length 2791)
+test-se/test-se:Bactopia:test-se_9 (length 2558)
+test-se/test-se:Bactopia:test-se_10 (length 2547)
+test-se/test-se:Bactopia:test-se_11 (length 2177)
+test-se/test-se:Bactopia:test-se_12 (length 2125)
+test-se/test-se:Bactopia:test-se_13 (length 2003)
+test-se/test-se:Bactopia:test-se_14 (length 1959)
+test-se/test-se:Bactopia:test-se_15 (length 1879)
+test-se/test-se:Bactopia:test-se_16 (length 1859)
+test-se/test-se:Bactopia:test-se_17 (length 1833)
+test-se/test-se:Bactopia:test-se_18 (length 1815)
+test-se/test-se:Bactopia:test-se_19 (length 1790)
+test-se/test-se:Bactopia:test-se_20 (length 1753)
+test-se/test-se:Bactopia:test-se_21 (length 1749)
+test-se/test-se:Bactopia:test-se_22 (length 1626)
+test-se/test-se:Bactopia:test-se_23 (length 1597)
+test-se/test-se:Bactopia:test-se_24 (length 1580)
+test-se/test-se:Bactopia:test-se_25 (length 1489)
+test-se/test-se:Bactopia:test-se_26 (length 1482)
+test-se/test-se:Bactopia:test-se_27 (length 1474)
+test-se/test-se:Bactopia:test-se_28 (length 1458)
+test-se/test-se:Bactopia:test-se_29 (length 1408)
+test-se/test-se:Bactopia:test-se_30 (length 1398)
+test-se/test-se:Bactopia:test-se_31 (length 1374)
+test-se/test-se:Bactopia:test-se_32 (length 1360)
+test-se/test-se:Bactopia:test-se_33 (length 1321)
+test-se/test-se:Bactopia:test-se_34 (length 1253)
+test-se/test-se:Bactopia:test-se_35 (length 1248)
+test-se/test-se:Bactopia:test-se_36 (length 1211)
+test-se/test-se:Bactopia:test-se_37 (length 1205)
+test-se/test-se:Bactopia:test-se_38 (length 1160)
+test-se/test-se:Bactopia:test-se_39 (length 1146)
+test-se/test-se:Bactopia:test-se_40 (length 1104)
+test-se/test-se:Bactopia:test-se_41 (length 1086)
+test-se/test-se:Bactopia:test-se_42 (length 1036)
+test-se/test-se:Bactopia:test-se_43 (length 1034)
+test-se/test-se:Bactopia:test-se_44 (length 1020)
+test-se/test-se:Bactopia:test-se_45 (length 1006)
+test-se/test-se:Bactopia:test-se_46 (length 1001)
+test-se/test-se:Bactopia:test-se_47 (length 997)
+test-se/test-se:Bactopia:test-se_48 (length 996)
+test-se/test-se:Bactopia:test-se_49 (length 938)
+test-se/test-se:Bactopia:test-se_50 (length 925)
+test-se/test-se:Bactopia:test-se_51 (length 922)
+test-se/test-se:Bactopia:test-se_52 (length 896)
+test-se/test-se:Bactopia:test-se_53 (length 888)
+test-se/test-se:Bactopia:test-se_54 (length 876)
+test-se/test-se:Bactopia:test-se_55 (length 861)
+test-se/test-se:Bactopia:test-se_56 (length 839)
+test-se/test-se:Bactopia:test-se_57 (length 834)
+test-se/test-se:Bactopia:test-se_58 (length 830)
+test-se/test-se:Bactopia:test-se_59 (length 808)
+test-se/test-se:Bactopia:test-se_60 (length 767)
+test-se/test-se:Bactopia:test-se_61 (length 766)
+test-se/test-se:Bactopia:test-se_62 (length 765)
+test-se/test-se:Bactopia:test-se_63 (length 717)
+test-se/test-se:Bactopia:test-se_64 (length 707)
+test-se/test-se:Bactopia:test-se_65 (length 664)
+test-se/test-se:Bactopia:test-se_66 (length 617)
+test-se/test-se:Bactopia:test-se_67 (length 609)
+test-se/test-se:Bactopia:test-se_68 (length 583)
+test-se/test-se:Bactopia:test-se_69 (length 579)
+test-se/test-se:Bactopia:test-se_70 (length 548)
+test-se/test-se:Bactopia:test-se_71 (length 545)
+test-se/test-se:Bactopia:test-se_72 (length 528)
+test-se/test-se:Bactopia:test-se_73 (length 512)
+

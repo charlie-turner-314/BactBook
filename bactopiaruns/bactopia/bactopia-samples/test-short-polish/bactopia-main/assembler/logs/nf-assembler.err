@@ -1,0 +1,657 @@
+[dragonflye] Hello stranger
+[dragonflye] You ran: /usr/local/bin/dragonflye --reads test-short-polish.fastq.gz --R1 test-short-polish_R1.fastq.gz --R2 test-short-polish_R2.fastq.gz --gsize 358000 --outdir results --assembler flye --polypolish 1 --minlen 500 --mincov 2 --force --keepfiles --depth 0 --minreadlen 0 --minquality 0 --racon 1 --medaka 0 --namefmt test-short-polish_%05d --cpus 4 --ram 7
+[dragonflye] This is dragonflye 1.0.14
+[dragonflye] Written by Robert A Petit III
+[dragonflye] Homepage is https://github.com/rpetit3/dragonflye
+[dragonflye] Operating system is linux
+[dragonflye] Perl version is v5.32.1
+[dragonflye] Machine has 8 CPU cores and 15.53 GB RAM
+[dragonflye] Using any2fasta - /usr/local/bin/any2fasta | any2fasta 0.4.2
+[dragonflye] Using assembly-scan - /usr/local/bin/assembly-scan | assembly-scan 1.0.0
+[dragonflye] Using bwa - /usr/local/bin/bwa | Version: 0.7.17-r1188
+[dragonflye] Using fastp - /usr/local/bin/fastp | fastp 0.23.2
+[dragonflye] Using flye - /usr/local/bin/flye | 2.9.1-b1780
+[dragonflye] Using kmc - /usr/local/bin/kmc | K-Mer Counter (KMC) ver. 3.2.1 (2022-01-04)
+[dragonflye] Using medaka - /usr/local/bin/medaka | medaka 1.5.0
+[dragonflye] Using miniasm - /usr/local/bin/miniasm | 0.3-r179
+[dragonflye] Using minimap2 - /usr/local/bin/minimap2 | 2.24-r1122
+[dragonflye] Using nanoq - /usr/local/bin/nanoq | nanoq 0.9.0
+[dragonflye] Using pigz - /usr/local/bin/pigz | pigz 2.6
+[dragonflye] Using pilon - /usr/local/bin/pilon | Pilon version 1.24 Thu Jan 28 13:00:45 2021 -0500
+[dragonflye] Using polypolish - /usr/local/bin/polypolish | Polypolish v0.5.0
+[dragonflye] Using porechop - /usr/local/bin/porechop | 0.2.4
+[dragonflye] Using racon - /usr/local/bin/racon | 1.5.0
+[dragonflye] Using rasusa - /usr/local/bin/rasusa | rasusa 0.7.0
+[dragonflye] Using raven - /usr/local/bin/raven | 1.8.1
+[dragonflye] Using samclip - /usr/local/bin/samclip | samclip 0.4.0
+[dragonflye] Using samtools - /usr/local/bin/samtools | Version: 1.15 (using htslib 1.14)
+[dragonflye] Using seqtk - /usr/local/bin/seqtk | Version: 1.3-r106
+[dragonflye] Using tempdir: /tmp/KZ60SMgnnS
+[dragonflye] Changing into folder: /home/charlie/Documents/BactBook/bactopia-workshop/work/35/df2b17707e7175aa6ac0a71f700ada/results
+[dragonflye] Collecting raw read statistics with 'seqtk'
+[dragonflye] Running: seqtk fqchk -q3 \/home\/charlie\/Documents\/BactBook\/bactopia\-workshop\/work\/3d\/b0ff26fcf7bb8f74964b9847e06d6a\/extra\/test\-short\-polish\.fastq\.gz 2>&1 1>/tmp/m7GbUBdZQ7 | sed 's/^/[seqtk] /' | tee -a dragonflye.log
+[dragonflye] Read stats: max_len = 46240
+[dragonflye] Read stats: total_bp = 14162700
+[dragonflye] Read stats: min_len = 252
+[dragonflye] Read stats: avg_len = 1995
+[dragonflye] Using genome size 358000 bp
+[dragonflye] Estimated sequencing depth: 39x
+[dragonflye] No read filtering requested or necessary.
+[dragonflye] No read depth reduction requested or necessary.
+[dragonflye] No read adapter trimming requested.
+[dragonflye] Running: ln -sf \/home\/charlie\/Documents\/BactBook\/bactopia\-workshop\/work\/3d\/b0ff26fcf7bb8f74964b9847e06d6a\/extra\/test\-short\-polish\.fastq\.gz READS.fq.gz 2>&1 | sed 's/^/[ln] /' | tee -a dragonflye.log
+[dragonflye] Collecting qc'd read statistics with 'seqtk'
+[dragonflye] Running: seqtk fqchk -q3 READS\.fq\.gz 2>&1 1>/tmp/CrG4GCWDaK | sed 's/^/[seqtk] /' | tee -a dragonflye.log
+[dragonflye] Final Read stats: max_len = 46240
+[dragonflye] Final Read stats: total_bp = 14162700
+[dragonflye] Final Read stats: min_len = 252
+[dragonflye] Final Read stats: avg_len = 1995
+[dragonflye] Average read length looks like 1995 bp
+[dragonflye] Assembling reads with 'flye'
+[dragonflye] Running: flye --nano-raw READS.fq.gz -g 358000 -i 0 --threads 4 -o flye  2>&1 | sed 's/^/[flye] /' | tee -a dragonflye.log
+[dragonflye] Polishing with Racon (1 rounds)
+[dragonflye] Running: minimap2 -t 3 -x map-ont flye.fasta READS.fq.gz 2>&1  1> flye/polish/racon/1/aligments.paf | sed 's/^/[polishing - racon (1 of 1)] /' | tee -a dragonflye.log
+[dragonflye] Running: racon -t 4 READS.fq.gz flye/polish/racon/1/aligments.paf flye.fasta 2>&1 1> flye/polish/racon/1/consensus.fasta | sed 's/^/[polishing - racon (1 of 1)] /' | tee -a dragonflye.log
+[dragonflye] Running: fastp --in1 /home/charlie/Documents/BactBook/bactopia-workshop/work/a6/3e9cbd3b8defdc338155ef0d306dcf/results/test-short-polish_R1.fastq.gz --in2 /home/charlie/Documents/BactBook/bactopia-workshop/work/a6/3e9cbd3b8defdc338155ef0d306dcf/results/test-short-polish_R2.fastq.gz --out1 flye/polish/short_reads/R1.fq.gz --out2 flye/polish/short_reads/R2.fq.gz --unpaired1 flye/polish/short_reads/u.fastq.gz --unpaired2 flye/polish/short_reads/u.fastq.gz | sed 's/^/[short read polishing - fastp] /' | tee -a dragonflye.log
+Read1 before filtering:
+total reads: 96680
+total bases: 9764471
+Q20 bases: 9586613(98.1785%)
+Q30 bases: 9130301(93.5053%)
+
+Read2 before filtering:
+total reads: 96680
+total bases: 9545739
+Q20 bases: 9160960(95.9691%)
+Q30 bases: 8544197(89.508%)
+
+Read1 after filtering:
+total reads: 96680
+total bases: 9764471
+Q20 bases: 9586613(98.1785%)
+Q30 bases: 9130301(93.5053%)
+
+Read2 after filtering:
+total reads: 96680
+total bases: 9545739
+Q20 bases: 9160960(95.9691%)
+Q30 bases: 8544197(89.508%)
+
+Filtering result:
+reads passed filter: 193360
+reads failed due to low quality: 0
+reads failed due to too many N: 0
+reads failed due to too short: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate: 0.0144808%
+
+Insert size peak (evaluated by paired-end reads): 96
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp --in1 /home/charlie/Documents/BactBook/bactopia-workshop/work/a6/3e9cbd3b8defdc338155ef0d306dcf/results/test-short-polish_R1.fastq.gz --in2 /home/charlie/Documents/BactBook/bactopia-workshop/work/a6/3e9cbd3b8defdc338155ef0d306dcf/results/test-short-polish_R2.fastq.gz --out1 flye/polish/short_reads/R1.fq.gz --out2 flye/polish/short_reads/R2.fq.gz --unpaired1 flye/polish/short_reads/u.fastq.gz --unpaired2 flye/polish/short_reads/u.fastq.gz 
+fastp v0.23.2, time used: 4 seconds
+[dragonflye] Polishing with Polypolish (1 rounds)
+[dragonflye] Running: bwa index flye/polish/racon/1/consensus.fasta | sed 's/^/[bwa-index] /' | tee -a dragonflye.log
+[bwa_index] Pack FASTA... 0.01 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 0.30 seconds elapse.
+[bwa_index] Update BWT... 0.01 sec
+[bwa_index] Pack forward-only FASTA... 0.01 sec
+[bwa_index] Construct SA from BWT and Occ... 0.14 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index flye/polish/racon/1/consensus.fasta
+[main] Real time: 0.515 sec; CPU: 0.479 sec
+[dragonflye] Running: bwa mem -t 4 -a flye/polish/racon/1/consensus.fasta flye/polish/short_reads/R1.fq.gz > flye/polish/short_reads/polypolish/1/polypolish_R1-1.sam | sed 's/^/[short read polishing - bwa-mem R1 (1 of 1)] /' | tee -a dragonflye.log
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 96680 sequences (9764471 bp)...
+[M::mem_process_seqs] Processed 96680 reads in 15.134 CPU sec, 3.804 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 4 -a flye/polish/racon/1/consensus.fasta flye/polish/short_reads/R1.fq.gz
+[main] Real time: 4.581 sec; CPU: 15.897 sec
+[dragonflye] Running: bwa mem -t 4 -a flye/polish/racon/1/consensus.fasta flye/polish/short_reads/R2.fq.gz > flye/polish/short_reads/polypolish/1/polypolish-R2-1.sam | sed 's/^/[short read polishing - bwa-mem R2 (1 of 1)] /' | tee -a dragonflye.log
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 96680 sequences (9545739 bp)...
+[M::mem_process_seqs] Processed 96680 reads in 13.071 CPU sec, 3.282 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 4 -a flye/polish/racon/1/consensus.fasta flye/polish/short_reads/R2.fq.gz
+[main] Real time: 3.894 sec; CPU: 13.669 sec
+[dragonflye] Polishing with Polypolish
+[dragonflye] Running: polypolish flye/polish/racon/1/consensus.fasta flye/polish/short_reads/polypolish/1/polypolish_R1-1.sam flye/polish/short_reads/polypolish/1/polypolish-R2-1.sam > flye/polish/short_reads/polypolish/1/polypolish-1.fasta | sed 's/^/[short read polishing - polypolish (1 of 1)] /' | tee -a dragonflye.log
+
+[1;4;93mStarting Polypolish[0m [2m(2023-05-14 02:05:00)[0m
+[2m    Polypolish is a tool for polishing genome assemblies with short reads.
+Unlike other tools in this category, Polypolish uses SAM files where each read
+has been aligned to all possible locations (not just a single best location).
+This allows it to repair errors in repeat regions that other alignment-based
+polishers cannot fix.[0m
+
+Polypolish version: 0.5.0
+
+Input assembly:
+  flye/polish/racon/1/consensus.fasta
+
+Input short-read alignments:
+  flye/polish/short_reads/polypolish/1/polypolish_R1-1.sam
+  flye/polish/short_reads/polypolish/1/polypolish-R2-1.sam
+
+Settings:
+  --fraction_invalid 0.2
+  --fraction_valid 0.5
+  --max_errors 10
+  --min_depth 5
+  not logging debugging information
+
+
+[1;4;93mLoading assembly[0m [2m(2023-05-14 02:05:00)[0m
+contig_1 (41,188 bp)
+contig_11 (8,362 bp)
+contig_13 (2,939 bp)
+contig_14 (25,955 bp)
+contig_15 (1,469 bp)
+contig_16 (6,082 bp)
+contig_17 (1,737 bp)
+contig_18 (558 bp)
+contig_2 (4,712 bp)
+contig_20 (24,494 bp)
+contig_21 (2,129 bp)
+contig_22 (1,481 bp)
+contig_23 (15,761 bp)
+contig_24 (3,049 bp)
+contig_25 (1,429 bp)
+contig_26 (56,464 bp)
+contig_27 (4,383 bp)
+contig_30 (8,181 bp)
+contig_31 (47,713 bp)
+contig_33 (17,248 bp)
+contig_36 (8,814 bp)
+contig_37 (9,936 bp)
+contig_38 (6,817 bp)
+contig_40 (842 bp)
+contig_41 (921 bp)
+contig_42 (457 bp)
+contig_44 (2,211 bp)
+contig_46 (10,150 bp)
+contig_47 (2,001 bp)
+contig_51 (10,614 bp)
+contig_52 (1,956 bp)
+contig_53 (8,573 bp)
+contig_54 (1,510 bp)
+contig_55 (3,915 bp)
+contig_56 (9,636 bp)
+contig_6 (37,252 bp)
+contig_60 (2,359 bp)
+contig_61 (925 bp)
+contig_62 (1,048 bp)
+contig_63 (2,465 bp)
+contig_64 (4,167 bp)
+contig_65 (1,455 bp)
+contig_66 (28,940 bp)
+contig_67 (2,053 bp)
+contig_68 (1,239 bp)
+contig_69 (6,481 bp)
+contig_70 (6,526 bp)
+contig_71 (9,745 bp)
+contig_72 (2,173 bp)
+contig_74 (2,358 bp)
+contig_8 (9,515 bp)
+contig_9 (4,018 bp)
+
+
+[1;4;93mLoading alignments[0m [2m(2023-05-14 02:05:00)[0m
+flye/polish/short_reads/polypolish/1/polypolish_R1-1.sam: 103,071 alignments from 93,775 reads
+flye/polish/short_reads/polypolish/1/polypolish-R2-1.sam: 102,255 alignments from 93,450 reads
+
+Filtering for high-quality end-to-end alignments:
+  186,854 alignments kept
+  18,472 alignments discarded
+
+
+[1;4;93mPolishing assembly sequences[0m [2m(2023-05-14 02:05:02)[0m
+[2m    For each position in the assembly, Polypolish determines the read depth
+at that position and collects all aligned bases. It then polishes the assembly
+by looking for positions where the pileup unambiguously supports a different
+sequence than the assembly.[0m
+
+Polishing contig_1 (41,188 bp):
+  mean read depth: 29.5x
+  5,229 bp have a depth of zero (87.3046% coverage)
+  172 positions changed (0.4176% of total positions)
+  estimated pre-polishing sequence accuracy: 99.5824%
+
+Polishing contig_11 (8,362 bp):
+  mean read depth: 2.1x
+  3,012 bp have a depth of zero (63.9799% coverage)
+  5 positions changed (0.0598% of total positions)
+  estimated pre-polishing sequence accuracy: 99.9402%
+
+Polishing contig_13 (2,939 bp):
+  mean read depth: 1.3x
+  1,220 bp have a depth of zero (58.4893% coverage)
+  1 position changed (0.0340% of total positions)
+  estimated pre-polishing sequence accuracy: 99.9660%
+
+Polishing contig_14 (25,955 bp):
+  mean read depth: 22.3x
+  6,579 bp have a depth of zero (74.6523% coverage)
+  113 positions changed (0.4354% of total positions)
+  estimated pre-polishing sequence accuracy: 99.5646%
+
+Polishing contig_15 (1,469 bp):
+  mean read depth: 21.4x
+  488 bp have a depth of zero (66.7801% coverage)
+  13 positions changed (0.8850% of total positions)
+  estimated pre-polishing sequence accuracy: 99.1150%
+
+Polishing contig_16 (6,082 bp):
+  mean read depth: 0.1x
+  5,670 bp have a depth of zero (6.7741% coverage)
+  0 positions changed (0.0000% of total positions)
+  estimated pre-polishing sequence accuracy: 100.0000%
+
+Polishing contig_17 (1,737 bp):
+  mean read depth: 2.4x
+  494 bp have a depth of zero (71.5602% coverage)
+  5 positions changed (0.2879% of total positions)
+  estimated pre-polishing sequence accuracy: 99.7121%
+
+Polishing contig_18 (558 bp):
+  mean read depth: 0.2x
+  359 bp have a depth of zero (35.6631% coverage)
+  0 positions changed (0.0000% of total positions)
+  estimated pre-polishing sequence accuracy: 100.0000%
+
+Polishing contig_2 (4,712 bp):
+  mean read depth: 0.9x
+  2,194 bp have a depth of zero (53.4380% coverage)
+  1 position changed (0.0212% of total positions)
+  estimated pre-polishing sequence accuracy: 99.9788%
+
+Polishing contig_20 (24,494 bp):
+  mean read depth: 6.1x
+  6,675 bp have a depth of zero (72.7484% coverage)
+  95 positions changed (0.3879% of total positions)
+  estimated pre-polishing sequence accuracy: 99.6121%
+
+Polishing contig_21 (2,129 bp):
+  mean read depth: 2.0x
+  1,002 bp have a depth of zero (52.9357% coverage)
+  2 positions changed (0.0939% of total positions)
+  estimated pre-polishing sequence accuracy: 99.9061%
+
+Polishing contig_22 (1,481 bp):
+  mean read depth: 0.4x
+  981 bp have a depth of zero (33.7610% coverage)
+  0 positions changed (0.0000% of total positions)
+  estimated pre-polishing sequence accuracy: 100.0000%
+
+Polishing contig_23 (15,761 bp):
+  mean read depth: 36.9x
+  140 bp have a depth of zero (99.1117% coverage)
+  130 positions changed (0.8248% of total positions)
+  estimated pre-polishing sequence accuracy: 99.1752%
+
+Polishing contig_24 (3,049 bp):
+  mean read depth: 0.9x
+  981 bp have a depth of zero (67.8255% coverage)
+  0 positions changed (0.0000% of total positions)
+  estimated pre-polishing sequence accuracy: 100.0000%
+
+Polishing contig_25 (1,429 bp):
+  mean read depth: 1.7x
+  496 bp have a depth of zero (65.2904% coverage)
+  6 positions changed (0.4199% of total positions)
+  estimated pre-polishing sequence accuracy: 99.5801%
+
+Polishing contig_26 (56,464 bp):
+  mean read depth: 25.3x
+  19,759 bp have a depth of zero (65.0060% coverage)
+  256 positions changed (0.4534% of total positions)
+  estimated pre-polishing sequence accuracy: 99.5466%
+
+Polishing contig_27 (4,383 bp):
+  mean read depth: 0.9x
+  2,641 bp have a depth of zero (39.7445% coverage)
+  7 positions changed (0.1597% of total positions)
+  estimated pre-polishing sequence accuracy: 99.8403%
+
+Polishing contig_30 (8,181 bp):
+  mean read depth: 6.4x
+  5,439 bp have a depth of zero (33.5167% coverage)
+  36 positions changed (0.4400% of total positions)
+  estimated pre-polishing sequence accuracy: 99.5600%
+
+Polishing contig_31 (47,713 bp):
+  mean read depth: 211.1x
+  10,501 bp have a depth of zero (77.9913% coverage)
+  407 positions changed (0.8530% of total positions)
+  estimated pre-polishing sequence accuracy: 99.1470%
+
+Polishing contig_33 (17,248 bp):
+  mean read depth: 69.7x
+  179 bp have a depth of zero (98.9622% coverage)
+  255 positions changed (1.4784% of total positions)
+  estimated pre-polishing sequence accuracy: 98.5216%
+
+Polishing contig_36 (8,814 bp):
+  mean read depth: 1.1x
+  5,931 bp have a depth of zero (32.7093% coverage)
+  6 positions changed (0.0681% of total positions)
+  estimated pre-polishing sequence accuracy: 99.9319%
+
+Polishing contig_37 (9,936 bp):
+  mean read depth: 5.5x
+  1,223 bp have a depth of zero (87.6912% coverage)
+  18 positions changed (0.1812% of total positions)
+  estimated pre-polishing sequence accuracy: 99.8188%
+
+Polishing contig_38 (6,817 bp):
+  mean read depth: 6.3x
+  558 bp have a depth of zero (91.8146% coverage)
+  30 positions changed (0.4401% of total positions)
+  estimated pre-polishing sequence accuracy: 99.5599%
+
+Polishing contig_40 (842 bp):
+  mean read depth: 3.7x
+  192 bp have a depth of zero (77.1971% coverage)
+  2 positions changed (0.2375% of total positions)
+  estimated pre-polishing sequence accuracy: 99.7625%
+
+Polishing contig_41 (921 bp):
+  mean read depth: 13.6x
+  6 bp have a depth of zero (99.3485% coverage)
+  6 positions changed (0.6515% of total positions)
+  estimated pre-polishing sequence accuracy: 99.3485%
+
+Polishing contig_42 (457 bp):
+  mean read depth: 28.9x
+  21 bp have a depth of zero (95.4048% coverage)
+  7 positions changed (1.5317% of total positions)
+  estimated pre-polishing sequence accuracy: 98.4683%
+
+Polishing contig_44 (2,211 bp):
+  mean read depth: 0.4x
+  1,438 bp have a depth of zero (34.9616% coverage)
+  0 positions changed (0.0000% of total positions)
+  estimated pre-polishing sequence accuracy: 100.0000%
+
+Polishing contig_46 (10,150 bp):
+  mean read depth: 7.7x
+  4,821 bp have a depth of zero (52.5025% coverage)
+  86 positions changed (0.8473% of total positions)
+  estimated pre-polishing sequence accuracy: 99.1527%
+
+Polishing contig_47 (2,001 bp):
+  mean read depth: 0.1x
+  1,712 bp have a depth of zero (14.4428% coverage)
+  0 positions changed (0.0000% of total positions)
+  estimated pre-polishing sequence accuracy: 100.0000%
+
+Polishing contig_51 (10,614 bp):
+  mean read depth: 0.4x
+  6,351 bp have a depth of zero (40.1639% coverage)
+  1 position changed (0.0094% of total positions)
+  estimated pre-polishing sequence accuracy: 99.9906%
+
+Polishing contig_52 (1,956 bp):
+  mean read depth: 1.4x
+  696 bp have a depth of zero (64.4172% coverage)
+  1 position changed (0.0511% of total positions)
+  estimated pre-polishing sequence accuracy: 99.9489%
+
+Polishing contig_53 (8,573 bp):
+  mean read depth: 5.6x
+  3,842 bp have a depth of zero (55.1849% coverage)
+  15 positions changed (0.1750% of total positions)
+  estimated pre-polishing sequence accuracy: 99.8250%
+
+Polishing contig_54 (1,510 bp):
+  mean read depth: 25.1x
+  170 bp have a depth of zero (88.7417% coverage)
+  14 positions changed (0.9272% of total positions)
+  estimated pre-polishing sequence accuracy: 99.0728%
+
+Polishing contig_55 (3,915 bp):
+  mean read depth: 4.3x
+  2,177 bp have a depth of zero (44.3934% coverage)
+  13 positions changed (0.3321% of total positions)
+  estimated pre-polishing sequence accuracy: 99.6679%
+
+Polishing contig_56 (9,636 bp):
+  mean read depth: 1.9x
+  4,647 bp have a depth of zero (51.7746% coverage)
+  29 positions changed (0.3010% of total positions)
+  estimated pre-polishing sequence accuracy: 99.6990%
+
+Polishing contig_6 (37,252 bp):
+  mean read depth: 13.8x
+  7,684 bp have a depth of zero (79.3729% coverage)
+  211 positions changed (0.5664% of total positions)
+  estimated pre-polishing sequence accuracy: 99.4336%
+
+Polishing contig_60 (2,359 bp):
+  mean read depth: 17.9x
+  49 bp have a depth of zero (97.9228% coverage)
+  38 positions changed (1.6109% of total positions)
+  estimated pre-polishing sequence accuracy: 98.3891%
+
+Polishing contig_61 (925 bp):
+  mean read depth: 0.6x
+  273 bp have a depth of zero (70.4865% coverage)
+  0 positions changed (0.0000% of total positions)
+  estimated pre-polishing sequence accuracy: 100.0000%
+
+Polishing contig_62 (1,048 bp):
+  mean read depth: 1.5x
+  353 bp have a depth of zero (66.3168% coverage)
+  0 positions changed (0.0000% of total positions)
+  estimated pre-polishing sequence accuracy: 100.0000%
+
+Polishing contig_63 (2,465 bp):
+  mean read depth: 37.6x
+  667 bp have a depth of zero (72.9412% coverage)
+  15 positions changed (0.6085% of total positions)
+  estimated pre-polishing sequence accuracy: 99.3915%
+
+Polishing contig_64 (4,167 bp):
+  mean read depth: 1.9x
+  1,816 bp have a depth of zero (56.4195% coverage)
+  14 positions changed (0.3360% of total positions)
+  estimated pre-polishing sequence accuracy: 99.6640%
+
+Polishing contig_65 (1,455 bp):
+  mean read depth: 1.1x
+  440 bp have a depth of zero (69.7595% coverage)
+  0 positions changed (0.0000% of total positions)
+  estimated pre-polishing sequence accuracy: 100.0000%
+
+Polishing contig_66 (28,940 bp):
+  mean read depth: 8.5x
+  7,694 bp have a depth of zero (73.4140% coverage)
+  56 positions changed (0.1935% of total positions)
+  estimated pre-polishing sequence accuracy: 99.8065%
+
+Polishing contig_67 (2,053 bp):
+  mean read depth: 0.5x
+  760 bp have a depth of zero (62.9810% coverage)
+  0 positions changed (0.0000% of total positions)
+  estimated pre-polishing sequence accuracy: 100.0000%
+
+Polishing contig_68 (1,239 bp):
+  mean read depth: 0.8x
+  633 bp have a depth of zero (48.9104% coverage)
+  0 positions changed (0.0000% of total positions)
+  estimated pre-polishing sequence accuracy: 100.0000%
+
+Polishing contig_69 (6,481 bp):
+  mean read depth: 9.1x
+  1,343 bp have a depth of zero (79.2779% coverage)
+  21 positions changed (0.3240% of total positions)
+  estimated pre-polishing sequence accuracy: 99.6760%
+
+Polishing contig_70 (6,526 bp):
+  mean read depth: 6.6x
+  1,478 bp have a depth of zero (77.3521% coverage)
+  26 positions changed (0.3984% of total positions)
+  estimated pre-polishing sequence accuracy: 99.6016%
+
+Polishing contig_71 (9,745 bp):
+  mean read depth: 4.4x
+  4,233 bp have a depth of zero (56.5623% coverage)
+  28 positions changed (0.2873% of total positions)
+  estimated pre-polishing sequence accuracy: 99.7127%
+
+Polishing contig_72 (2,173 bp):
+  mean read depth: 11.9x
+  1,078 bp have a depth of zero (50.3912% coverage)
+  18 positions changed (0.8283% of total positions)
+  estimated pre-polishing sequence accuracy: 99.1717%
+
+Polishing contig_74 (2,358 bp):
+  mean read depth: 1.5x
+  1,230 bp have a depth of zero (47.8372% coverage)
+  5 positions changed (0.2120% of total positions)
+  estimated pre-polishing sequence accuracy: 99.7880%
+
+Polishing contig_8 (9,515 bp):
+  mean read depth: 0.9x
+  5,811 bp have a depth of zero (38.9280% coverage)
+  1 position changed (0.0105% of total positions)
+  estimated pre-polishing sequence accuracy: 99.9895%
+
+Polishing contig_9 (4,018 bp):
+  mean read depth: 61.4x
+  19 bp have a depth of zero (99.5271% coverage)
+  58 positions changed (1.4435% of total positions)
+  estimated pre-polishing sequence accuracy: 98.5565%
+
+
+[1;4;93mFinished![0m [2m(2023-05-14 02:05:02)[0m
+Polished sequence (to stdout):
+  contig_1_polypolish (41,164 bp)
+  contig_11_polypolish (8,365 bp)
+  contig_13_polypolish (2,939 bp)
+  contig_14_polypolish (25,920 bp)
+  contig_15_polypolish (1,465 bp)
+  contig_16_polypolish (6,082 bp)
+  contig_17_polypolish (1,736 bp)
+  contig_18_polypolish (558 bp)
+  contig_2_polypolish (4,711 bp)
+  contig_20_polypolish (24,490 bp)
+  contig_21_polypolish (2,131 bp)
+  contig_22_polypolish (1,481 bp)
+  contig_23_polypolish (15,772 bp)
+  contig_24_polypolish (3,049 bp)
+  contig_25_polypolish (1,434 bp)
+  contig_26_polypolish (56,445 bp)
+  contig_27_polypolish (4,381 bp)
+  contig_30_polypolish (8,202 bp)
+  contig_31_polypolish (47,693 bp)
+  contig_33_polypolish (17,233 bp)
+  contig_36_polypolish (8,817 bp)
+  contig_37_polypolish (9,931 bp)
+  contig_38_polypolish (6,808 bp)
+  contig_40_polypolish (845 bp)
+  contig_41_polypolish (925 bp)
+  contig_42_polypolish (461 bp)
+  contig_44_polypolish (2,211 bp)
+  contig_46_polypolish (10,164 bp)
+  contig_47_polypolish (2,001 bp)
+  contig_51_polypolish (10,615 bp)
+  contig_52_polypolish (1,958 bp)
+  contig_53_polypolish (8,573 bp)
+  contig_54_polypolish (1,517 bp)
+  contig_55_polypolish (3,908 bp)
+  contig_56_polypolish (9,646 bp)
+  contig_6_polypolish (37,228 bp)
+  contig_60_polypolish (2,352 bp)
+  contig_61_polypolish (925 bp)
+  contig_62_polypolish (1,048 bp)
+  contig_63_polypolish (2,458 bp)
+  contig_64_polypolish (4,172 bp)
+  contig_65_polypolish (1,455 bp)
+  contig_66_polypolish (28,943 bp)
+  contig_67_polypolish (2,053 bp)
+  contig_68_polypolish (1,239 bp)
+  contig_69_polypolish (6,490 bp)
+  contig_70_polypolish (6,533 bp)
+  contig_71_polypolish (9,736 bp)
+  contig_72_polypolish (2,175 bp)
+  contig_74_polypolish (2,359 bp)
+  contig_8_polypolish (9,516 bp)
+  contig_9_polypolish (4,017 bp)
+
+Time to run: 0:00:01.905456
+
+[dragonflye] Using assembly file 'flye/polish/short_reads/polypolish/1/polypolish-1.fasta' => 'flye.fasta'
+[dragonflye] Matched contig_26 to contig_26_polypolish
+[dragonflye] Matched contig_31 to contig_31_polypolish
+[dragonflye] Matched contig_1 to contig_1_polypolish
+[dragonflye] Matched contig_6 to contig_6_polypolish
+[dragonflye] Matched contig_66 to contig_66_polypolish
+[dragonflye] Matched contig_14 to contig_14_polypolish
+[dragonflye] Matched contig_20 to contig_20_polypolish
+[dragonflye] Matched contig_33 to contig_33_polypolish
+[dragonflye] Matched contig_23 to contig_23_polypolish
+[dragonflye] Matched contig_51 to contig_51_polypolish
+[dragonflye] Matched contig_46 to contig_46_polypolish
+[dragonflye] Matched contig_37 to contig_37_polypolish
+[dragonflye] Matched contig_71 to contig_71_polypolish
+[dragonflye] Matched contig_56 to contig_56_polypolish
+[dragonflye] Matched contig_8 to contig_8_polypolish
+[dragonflye] Matched contig_36 to contig_36_polypolish
+[dragonflye] Matched contig_53 to contig_53_polypolish
+[dragonflye] Matched contig_11 to contig_11_polypolish
+[dragonflye] Matched contig_30 to contig_30_polypolish
+[dragonflye] Removing low coverage contig (0x < 2x): contig_30_polypolish
+[dragonflye] Matched contig_38 to contig_38_polypolish
+[dragonflye] Matched contig_70 to contig_70_polypolish
+[dragonflye] Matched contig_69 to contig_69_polypolish
+[dragonflye] Matched contig_16 to contig_16_polypolish
+[dragonflye] Matched contig_2 to contig_2_polypolish
+[dragonflye] Matched contig_27 to contig_27_polypolish
+[dragonflye] Matched contig_64 to contig_64_polypolish
+[dragonflye] Matched contig_9 to contig_9_polypolish
+[dragonflye] Matched contig_55 to contig_55_polypolish
+[dragonflye] Matched contig_24 to contig_24_polypolish
+[dragonflye] Matched contig_13 to contig_13_polypolish
+[dragonflye] Matched contig_63 to contig_63_polypolish
+[dragonflye] Matched contig_74 to contig_74_polypolish
+[dragonflye] Matched contig_60 to contig_60_polypolish
+[dragonflye] Matched contig_44 to contig_44_polypolish
+[dragonflye] Matched contig_72 to contig_72_polypolish
+[dragonflye] Matched contig_21 to contig_21_polypolish
+[dragonflye] Matched contig_67 to contig_67_polypolish
+[dragonflye] Matched contig_47 to contig_47_polypolish
+[dragonflye] Removing low coverage contig (1x < 2x): contig_47_polypolish
+[dragonflye] Matched contig_52 to contig_52_polypolish
+[dragonflye] Matched contig_17 to contig_17_polypolish
+[dragonflye] Matched contig_54 to contig_54_polypolish
+[dragonflye] Matched contig_22 to contig_22_polypolish
+[dragonflye] Matched contig_15 to contig_15_polypolish
+[dragonflye] Matched contig_65 to contig_65_polypolish
+[dragonflye] Matched contig_25 to contig_25_polypolish
+[dragonflye] Matched contig_68 to contig_68_polypolish
+[dragonflye] Matched contig_62 to contig_62_polypolish
+[dragonflye] Matched contig_61 to contig_61_polypolish
+[dragonflye] Matched contig_41 to contig_41_polypolish
+[dragonflye] Matched contig_40 to contig_40_polypolish
+[dragonflye] Matched contig_18 to contig_18_polypolish
+[dragonflye] Removing low coverage contig (0x < 2x): contig_18_polypolish
+[dragonflye] Matched contig_42 to contig_42_polypolish
+[dragonflye] Removing short contig (< 500 bp): contig_42_polypolish
+[dragonflye] Writing final assembly file => 'contigs.fa'
+[dragonflye] Assembly is 465108, estimated genome size was 358000 (+29.92%)
+[dragonflye] It contains 48 (min=500) contigs totalling 465108 bp.
+[dragonflye] Getting more stats now...
+[dragonflye] Running: assembly-scan --transpose contigs.fa 2>&1 | sed 's/^/[stats] /' | tee -a dragonflye.log
+[dragonflye] Using genome graph file 'flye/assembly_graph.gfa' => 'flye-unpolished.gfa'
+[dragonflye] Walltime used: 4 min 0 sec
+[dragonflye] Results in: /home/charlie/Documents/BactBook/bactopia-workshop/work/35/df2b17707e7175aa6ac0a71f700ada/results
+[dragonflye] Final assembly graph: /home/charlie/Documents/BactBook/bactopia-workshop/work/35/df2b17707e7175aa6ac0a71f700ada/results/flye-unpolished.gfa
+[dragonflye] Final assembly contigs: /home/charlie/Documents/BactBook/bactopia-workshop/work/35/df2b17707e7175aa6ac0a71f700ada/results/contigs.fa
+[dragonflye] Dragonfly facts were provided by the Smithsonian Magazine
+[dragonflye] Done.

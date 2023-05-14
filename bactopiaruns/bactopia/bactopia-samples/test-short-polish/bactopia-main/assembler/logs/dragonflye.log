@@ -1,0 +1,231 @@
+[dragonflye] Hello stranger
+[dragonflye] You ran: /usr/local/bin/dragonflye --reads test-short-polish.fastq.gz --R1 test-short-polish_R1.fastq.gz --R2 test-short-polish_R2.fastq.gz --gsize 358000 --outdir results --assembler flye --polypolish 1 --minlen 500 --mincov 2 --force --keepfiles --depth 0 --minreadlen 0 --minquality 0 --racon 1 --medaka 0 --namefmt test-short-polish_%05d --cpus 4 --ram 7
+[dragonflye] This is dragonflye 1.0.14
+[dragonflye] Written by Robert A Petit III
+[dragonflye] Homepage is https://github.com/rpetit3/dragonflye
+[dragonflye] Operating system is linux
+[dragonflye] Perl version is v5.32.1
+[dragonflye] Machine has 8 CPU cores and 15.53 GB RAM
+[dragonflye] Using any2fasta - /usr/local/bin/any2fasta | any2fasta 0.4.2
+[dragonflye] Using assembly-scan - /usr/local/bin/assembly-scan | assembly-scan 1.0.0
+[dragonflye] Using bwa - /usr/local/bin/bwa | Version: 0.7.17-r1188
+[dragonflye] Using fastp - /usr/local/bin/fastp | fastp 0.23.2
+[dragonflye] Using flye - /usr/local/bin/flye | 2.9.1-b1780
+[dragonflye] Using kmc - /usr/local/bin/kmc | K-Mer Counter (KMC) ver. 3.2.1 (2022-01-04)
+[dragonflye] Using medaka - /usr/local/bin/medaka | medaka 1.5.0
+[dragonflye] Using miniasm - /usr/local/bin/miniasm | 0.3-r179
+[dragonflye] Using minimap2 - /usr/local/bin/minimap2 | 2.24-r1122
+[dragonflye] Using nanoq - /usr/local/bin/nanoq | nanoq 0.9.0
+[dragonflye] Using pigz - /usr/local/bin/pigz | pigz 2.6
+[dragonflye] Using pilon - /usr/local/bin/pilon | Pilon version 1.24 Thu Jan 28 13:00:45 2021 -0500
+[dragonflye] Using polypolish - /usr/local/bin/polypolish | Polypolish v0.5.0
+[dragonflye] Using porechop - /usr/local/bin/porechop | 0.2.4
+[dragonflye] Using racon - /usr/local/bin/racon | 1.5.0
+[dragonflye] Using rasusa - /usr/local/bin/rasusa | rasusa 0.7.0
+[dragonflye] Using raven - /usr/local/bin/raven | 1.8.1
+[dragonflye] Using samclip - /usr/local/bin/samclip | samclip 0.4.0
+[dragonflye] Using samtools - /usr/local/bin/samtools | Version: 1.15 (using htslib 1.14)
+[dragonflye] Using seqtk - /usr/local/bin/seqtk | Version: 1.3-r106
+[dragonflye] Using tempdir: /tmp/KZ60SMgnnS
+[dragonflye] Changing into folder: /home/charlie/Documents/BactBook/bactopia-workshop/work/35/df2b17707e7175aa6ac0a71f700ada/results
+[dragonflye] Collecting raw read statistics with 'seqtk'
+[dragonflye] Running: seqtk fqchk -q3 \/home\/charlie\/Documents\/BactBook\/bactopia\-workshop\/work\/3d\/b0ff26fcf7bb8f74964b9847e06d6a\/extra\/test\-short\-polish\.fastq\.gz 2>&1 1>/tmp/m7GbUBdZQ7 | sed 's/^/[seqtk] /' | tee -a dragonflye.log
+[dragonflye] Read stats: max_len = 46240
+[dragonflye] Read stats: total_bp = 14162700
+[dragonflye] Read stats: min_len = 252
+[dragonflye] Read stats: avg_len = 1995
+[dragonflye] Using genome size 358000 bp
+[dragonflye] Estimated sequencing depth: 39x
+[dragonflye] No read filtering requested or necessary.
+[dragonflye] No read depth reduction requested or necessary.
+[dragonflye] No read adapter trimming requested.
+[dragonflye] Running: ln -sf \/home\/charlie\/Documents\/BactBook\/bactopia\-workshop\/work\/3d\/b0ff26fcf7bb8f74964b9847e06d6a\/extra\/test\-short\-polish\.fastq\.gz READS.fq.gz 2>&1 | sed 's/^/[ln] /' | tee -a dragonflye.log
+[dragonflye] Collecting qc'd read statistics with 'seqtk'
+[dragonflye] Running: seqtk fqchk -q3 READS\.fq\.gz 2>&1 1>/tmp/CrG4GCWDaK | sed 's/^/[seqtk] /' | tee -a dragonflye.log
+[dragonflye] Final Read stats: max_len = 46240
+[dragonflye] Final Read stats: total_bp = 14162700
+[dragonflye] Final Read stats: min_len = 252
+[dragonflye] Final Read stats: avg_len = 1995
+[dragonflye] Average read length looks like 1995 bp
+[dragonflye] Assembling reads with 'flye'
+[dragonflye] Running: flye --nano-raw READS.fq.gz -g 358000 -i 0 --threads 4 -o flye  2>&1 | sed 's/^/[flye] /' | tee -a dragonflye.log
+[flye] [2023-05-14 02:01:04] INFO: Starting Flye 2.9.1-b1780
+[flye] [2023-05-14 02:01:04] INFO: >>>STAGE: configure
+[flye] [2023-05-14 02:01:04] INFO: Configuring run
+[flye] [2023-05-14 02:01:04] INFO: Total read length: 14162700
+[flye] [2023-05-14 02:01:04] INFO: Input genome size: 358000
+[flye] [2023-05-14 02:01:04] INFO: Estimated coverage: 39
+[flye] [2023-05-14 02:01:04] INFO: Reads N50/N90: 3086 / 862
+[flye] [2023-05-14 02:01:04] INFO: Minimum overlap set to 1000
+[flye] [2023-05-14 02:01:04] INFO: >>>STAGE: assembly
+[flye] [2023-05-14 02:01:04] INFO: Assembling disjointigs
+[flye] [2023-05-14 02:01:04] INFO: Reading sequences
+[flye] [2023-05-14 02:01:08] INFO: Counting k-mers:
+[flye] 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[flye] [2023-05-14 02:02:59] INFO: Filling index table (1/2)
+[flye] 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[flye] [2023-05-14 02:03:06] INFO: Filling index table (2/2)
+[flye] 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[flye] [2023-05-14 02:03:14] INFO: Extending reads
+[flye] [2023-05-14 02:03:24] INFO: Overlap-based coverage: 12
+[flye] [2023-05-14 02:03:24] INFO: Median overlap divergence: 0.112173
+[flye] 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[flye] [2023-05-14 02:03:33] INFO: Assembled 41 disjointigs
+[flye] [2023-05-14 02:03:33] INFO: Generating sequence
+[flye] 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[flye] [2023-05-14 02:03:34] INFO: Filtering contained disjointigs
+[flye] 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[flye] [2023-05-14 02:03:34] INFO: Contained seqs: 1
+[flye] [2023-05-14 02:03:35] INFO: >>>STAGE: consensus
+[flye] [2023-05-14 02:03:35] INFO: Running Minimap2
+[flye] [2023-05-14 02:04:09] INFO: Computing consensus
+[flye] [2023-05-14 02:04:22] INFO: Alignment error rate: 0.158199
+[flye] [2023-05-14 02:04:22] INFO: >>>STAGE: repeat
+[flye] [2023-05-14 02:04:22] INFO: Building and resolving repeat graph
+[flye] [2023-05-14 02:04:22] INFO: Parsing disjointigs
+[flye] [2023-05-14 02:04:22] INFO: Building repeat graph
+[flye] 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[flye] [2023-05-14 02:04:23] INFO: Median overlap divergence: 0.0426902
+[flye] [2023-05-14 02:04:23] INFO: Parsing reads
+[flye] [2023-05-14 02:04:24] INFO: Aligning reads to the graph
+[flye] 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[flye] [2023-05-14 02:04:28] INFO: Aligned read sequence: 8938501 / 12266459 (0.728694)
+[flye] [2023-05-14 02:04:28] INFO: Median overlap divergence: 0.0594598
+[flye] [2023-05-14 02:04:28] INFO: Mean edge coverage: 18
+[flye] [2023-05-14 02:04:28] INFO: Simplifying the graph
+[flye] [2023-05-14 02:04:29] INFO: >>>STAGE: contigger
+[flye] [2023-05-14 02:04:29] INFO: Generating contigs
+[flye] [2023-05-14 02:04:29] INFO: Reading sequences
+[flye] [2023-05-14 02:04:29] INFO: Generated 55 contigs
+[flye] [2023-05-14 02:04:29] INFO: Added 0 scaffold connections
+[flye] [2023-05-14 02:04:29] INFO: >>>STAGE: finalize
+[flye] [2023-05-14 02:04:29] INFO: Assembly statistics:
+[flye] 
+[flye] 	Total length:	479764
+[flye] 	Fragments:	55
+[flye] 	Fragments N50:	24314
+[flye] 	Largest frg:	54794
+[flye] 	Scaffolds:	0
+[flye] 	Mean coverage:	18
+[flye] 
+[flye] [2023-05-14 02:04:29] INFO: Final assembly: /home/charlie/Documents/BactBook/bactopia-workshop/work/35/df2b17707e7175aa6ac0a71f700ada/results/flye/assembly.fasta
+[dragonflye] Polishing with Racon (1 rounds)
+[dragonflye] Running: minimap2 -t 3 -x map-ont flye.fasta READS.fq.gz 2>&1  1> flye/polish/racon/1/aligments.paf | sed 's/^/[polishing - racon (1 of 1)] /' | tee -a dragonflye.log
+[polishing - racon (1 of 1)] [M::mm_idx_gen::0.040*1.07] collected minimizers
+[polishing - racon (1 of 1)] [M::mm_idx_gen::0.065*1.71] sorted minimizers
+[polishing - racon (1 of 1)] [M::main::0.065*1.71] loaded/built the index for 55 target sequence(s)
+[polishing - racon (1 of 1)] [M::mm_mapopt_update::0.071*1.65] mid_occ = 10
+[polishing - racon (1 of 1)] [M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 55
+[polishing - racon (1 of 1)] [M::mm_idx_stat::0.075*1.62] distinct minimizers: 76163 (85.58% are singletons); average occurrences: 1.175; average spacing: 5.360; total length: 479764
+[polishing - racon (1 of 1)] [M::worker_pipeline::2.550*2.47] mapped 7100 sequences
+[polishing - racon (1 of 1)] [M::main] Version: 2.24-r1122
+[polishing - racon (1 of 1)] [M::main] CMD: minimap2 -t 3 -x map-ont flye.fasta READS.fq.gz
+[polishing - racon (1 of 1)] [M::main] Real time: 2.558 sec; CPU: 6.303 sec; Peak RSS: 0.026 GB
+[dragonflye] Running: racon -t 4 READS.fq.gz flye/polish/racon/1/aligments.paf flye.fasta 2>&1 1> flye/polish/racon/1/consensus.fasta | sed 's/^/[polishing - racon (1 of 1)] /' | tee -a dragonflye.log
+[polishing - racon (1 of 1)] [racon::Polisher::initialize] loaded target sequences 0.009103 s
+[polishing - racon (1 of 1)] [racon::Polisher::initialize] loaded sequences 0.684233 s
+[polishing - racon (1 of 1)] [racon::Polisher::initialize] loaded overlaps 0.031959 s
+[polishing - racon (1 of 1)] [racon::Polisher::initialize] aligning overlaps [=>                  ] 0.212206 s[racon::Polisher::initialize] aligning overlaps [==>                 ] 0.293589 s[racon::Polisher::initialize] aligning overlaps [===>                ] 0.423036 s[racon::Polisher::initialize] aligning overlaps [====>               ] 0.547020 s[racon::Polisher::initialize] aligning overlaps [=====>              ] 0.640531 s[racon::Polisher::initialize] aligning overlaps [======>             ] 0.744649 s[racon::Polisher::initialize] aligning overlaps [=======>            ] 0.917332 s[racon::Polisher::initialize] aligning overlaps [========>           ] 1.043389 s[racon::Polisher::initialize] aligning overlaps [=========>          ] 1.168564 s[racon::Polisher::initialize] aligning overlaps [==========>         ] 1.270234 s[racon::Polisher::initialize] aligning overlaps [===========>        ] 1.338522 s[racon::Polisher::initialize] aligning overlaps [============>       ] 1.413708 s[racon::Polisher::initialize] aligning overlaps [=============>      ] 1.486384 s[racon::Polisher::initialize] aligning overlaps [==============>     ] 1.565638 s[racon::Polisher::initialize] aligning overlaps [===============>    ] 1.730009 s[racon::Polisher::initialize] aligning overlaps [================>   ] 1.882096 s[racon::Polisher::initialize] aligning overlaps [=================>  ] 2.053044 s[racon::Polisher::initialize] aligning overlaps [==================> ] 2.150229 s[racon::Polisher::initialize] aligning overlaps [===================>] 2.165949 s[racon::Polisher::initialize] aligning overlaps [====================] 2.184684 s
+[polishing - racon (1 of 1)] [racon::Polisher::initialize] transformed data into windows 0.054883 s
+[polishing - racon (1 of 1)] [racon::Polisher::polish] generating consensus [=>                  ] 0.759258 s[racon::Polisher::polish] generating consensus [==>                 ] 1.396478 s[racon::Polisher::polish] generating consensus [===>                ] 3.289477 s[racon::Polisher::polish] generating consensus [====>               ] 3.662590 s[racon::Polisher::polish] generating consensus [=====>              ] 4.072528 s[racon::Polisher::polish] generating consensus [======>             ] 4.531878 s[racon::Polisher::polish] generating consensus [=======>            ] 5.168117 s[racon::Polisher::polish] generating consensus [========>           ] 5.878722 s[racon::Polisher::polish] generating consensus [=========>          ] 6.021407 s[racon::Polisher::polish] generating consensus [==========>         ] 6.297151 s[racon::Polisher::polish] generating consensus [===========>        ] 7.284546 s[racon::Polisher::polish] generating consensus [============>       ] 7.654332 s[racon::Polisher::polish] generating consensus [=============>      ] 8.017006 s[racon::Polisher::polish] generating consensus [==============>     ] 8.634886 s[racon::Polisher::polish] generating consensus [===============>    ] 8.702558 s[racon::Polisher::polish] generating consensus [================>   ] 9.109413 s[racon::Polisher::polish] generating consensus [=================>  ] 9.307107 s[racon::Polisher::polish] generating consensus [==================> ] 10.682366 s[racon::Polisher::polish] generating consensus [===================>] 11.341565 s[racon::Polisher::polish] generating consensus [====================] 11.909618 s
+[polishing - racon (1 of 1)] [racon::Polisher::] total = 14.889774 s
+[dragonflye] Running: fastp --in1 /home/charlie/Documents/BactBook/bactopia-workshop/work/a6/3e9cbd3b8defdc338155ef0d306dcf/results/test-short-polish_R1.fastq.gz --in2 /home/charlie/Documents/BactBook/bactopia-workshop/work/a6/3e9cbd3b8defdc338155ef0d306dcf/results/test-short-polish_R2.fastq.gz --out1 flye/polish/short_reads/R1.fq.gz --out2 flye/polish/short_reads/R2.fq.gz --unpaired1 flye/polish/short_reads/u.fastq.gz --unpaired2 flye/polish/short_reads/u.fastq.gz | sed 's/^/[short read polishing - fastp] /' | tee -a dragonflye.log
+[dragonflye] Polishing with Polypolish (1 rounds)
+[dragonflye] Running: bwa index flye/polish/racon/1/consensus.fasta | sed 's/^/[bwa-index] /' | tee -a dragonflye.log
+[dragonflye] Running: bwa mem -t 4 -a flye/polish/racon/1/consensus.fasta flye/polish/short_reads/R1.fq.gz > flye/polish/short_reads/polypolish/1/polypolish_R1-1.sam | sed 's/^/[short read polishing - bwa-mem R1 (1 of 1)] /' | tee -a dragonflye.log
+[dragonflye] Running: bwa mem -t 4 -a flye/polish/racon/1/consensus.fasta flye/polish/short_reads/R2.fq.gz > flye/polish/short_reads/polypolish/1/polypolish-R2-1.sam | sed 's/^/[short read polishing - bwa-mem R2 (1 of 1)] /' | tee -a dragonflye.log
+[dragonflye] Polishing with Polypolish
+[dragonflye] Running: polypolish flye/polish/racon/1/consensus.fasta flye/polish/short_reads/polypolish/1/polypolish_R1-1.sam flye/polish/short_reads/polypolish/1/polypolish-R2-1.sam > flye/polish/short_reads/polypolish/1/polypolish-1.fasta | sed 's/^/[short read polishing - polypolish (1 of 1)] /' | tee -a dragonflye.log
+[dragonflye] Using assembly file 'flye/polish/short_reads/polypolish/1/polypolish-1.fasta' => 'flye.fasta'
+[dragonflye] Matched contig_26 to contig_26_polypolish
+[dragonflye] Matched contig_31 to contig_31_polypolish
+[dragonflye] Matched contig_1 to contig_1_polypolish
+[dragonflye] Matched contig_6 to contig_6_polypolish
+[dragonflye] Matched contig_66 to contig_66_polypolish
+[dragonflye] Matched contig_14 to contig_14_polypolish
+[dragonflye] Matched contig_20 to contig_20_polypolish
+[dragonflye] Matched contig_33 to contig_33_polypolish
+[dragonflye] Matched contig_23 to contig_23_polypolish
+[dragonflye] Matched contig_51 to contig_51_polypolish
+[dragonflye] Matched contig_46 to contig_46_polypolish
+[dragonflye] Matched contig_37 to contig_37_polypolish
+[dragonflye] Matched contig_71 to contig_71_polypolish
+[dragonflye] Matched contig_56 to contig_56_polypolish
+[dragonflye] Matched contig_8 to contig_8_polypolish
+[dragonflye] Matched contig_36 to contig_36_polypolish
+[dragonflye] Matched contig_53 to contig_53_polypolish
+[dragonflye] Matched contig_11 to contig_11_polypolish
+[dragonflye] Matched contig_30 to contig_30_polypolish
+[dragonflye] Removing low coverage contig (0x < 2x): contig_30_polypolish
+[dragonflye] Matched contig_38 to contig_38_polypolish
+[dragonflye] Matched contig_70 to contig_70_polypolish
+[dragonflye] Matched contig_69 to contig_69_polypolish
+[dragonflye] Matched contig_16 to contig_16_polypolish
+[dragonflye] Matched contig_2 to contig_2_polypolish
+[dragonflye] Matched contig_27 to contig_27_polypolish
+[dragonflye] Matched contig_64 to contig_64_polypolish
+[dragonflye] Matched contig_9 to contig_9_polypolish
+[dragonflye] Matched contig_55 to contig_55_polypolish
+[dragonflye] Matched contig_24 to contig_24_polypolish
+[dragonflye] Matched contig_13 to contig_13_polypolish
+[dragonflye] Matched contig_63 to contig_63_polypolish
+[dragonflye] Matched contig_74 to contig_74_polypolish
+[dragonflye] Matched contig_60 to contig_60_polypolish
+[dragonflye] Matched contig_44 to contig_44_polypolish
+[dragonflye] Matched contig_72 to contig_72_polypolish
+[dragonflye] Matched contig_21 to contig_21_polypolish
+[dragonflye] Matched contig_67 to contig_67_polypolish
+[dragonflye] Matched contig_47 to contig_47_polypolish
+[dragonflye] Removing low coverage contig (1x < 2x): contig_47_polypolish
+[dragonflye] Matched contig_52 to contig_52_polypolish
+[dragonflye] Matched contig_17 to contig_17_polypolish
+[dragonflye] Matched contig_54 to contig_54_polypolish
+[dragonflye] Matched contig_22 to contig_22_polypolish
+[dragonflye] Matched contig_15 to contig_15_polypolish
+[dragonflye] Matched contig_65 to contig_65_polypolish
+[dragonflye] Matched contig_25 to contig_25_polypolish
+[dragonflye] Matched contig_68 to contig_68_polypolish
+[dragonflye] Matched contig_62 to contig_62_polypolish
+[dragonflye] Matched contig_61 to contig_61_polypolish
+[dragonflye] Matched contig_41 to contig_41_polypolish
+[dragonflye] Matched contig_40 to contig_40_polypolish
+[dragonflye] Matched contig_18 to contig_18_polypolish
+[dragonflye] Removing low coverage contig (0x < 2x): contig_18_polypolish
+[dragonflye] Matched contig_42 to contig_42_polypolish
+[dragonflye] Removing short contig (< 500 bp): contig_42_polypolish
+[dragonflye] Writing final assembly file => 'contigs.fa'
+[dragonflye] Assembly is 465108, estimated genome size was 358000 (+29.92%)
+[dragonflye] It contains 48 (min=500) contigs totalling 465108 bp.
+[dragonflye] Getting more stats now...
+[dragonflye] Running: assembly-scan --transpose contigs.fa 2>&1 | sed 's/^/[stats] /' | tee -a dragonflye.log
+[stats] contigs.fa	sample	contigs.fa
+[stats] contigs.fa	total_contig	48
+[stats] contigs.fa	total_contig_length	465108
+[stats] contigs.fa	max_contig_length	56445
+[stats] contigs.fa	mean_contig_length	9689
+[stats] contigs.fa	median_contig_length	4276
+[stats] contigs.fa	min_contig_length	845
+[stats] contigs.fa	n50_contig_length	25920
+[stats] contigs.fa	l50_contig_count	6
+[stats] contigs.fa	num_contig_non_acgtn	0
+[stats] contigs.fa	contig_percent_a	35.90
+[stats] contigs.fa	contig_percent_c	13.43
+[stats] contigs.fa	contig_percent_g	12.34
+[stats] contigs.fa	contig_percent_t	38.33
+[stats] contigs.fa	contig_percent_n	0.00
+[stats] contigs.fa	contig_non_acgtn	0.00
+[stats] contigs.fa	contigs_greater_1m	0
+[stats] contigs.fa	contigs_greater_100k	0
+[stats] contigs.fa	contigs_greater_10k	11
+[stats] contigs.fa	contigs_greater_1k	45
+[stats] contigs.fa	percent_contigs_greater_1m	0.00
+[stats] contigs.fa	percent_contigs_greater_100k	0.00
+[stats] contigs.fa	percent_contigs_greater_10k	22.92
+[stats] contigs.fa	percent_contigs_greater_1k	93.75
+[dragonflye] Using genome graph file 'flye/assembly_graph.gfa' => 'flye-unpolished.gfa'
+[dragonflye] Walltime used: 4 min 0 sec
+[dragonflye] Results in: /home/charlie/Documents/BactBook/bactopia-workshop/work/35/df2b17707e7175aa6ac0a71f700ada/results
+[dragonflye] Final assembly graph: /home/charlie/Documents/BactBook/bactopia-workshop/work/35/df2b17707e7175aa6ac0a71f700ada/results/flye-unpolished.gfa
+[dragonflye] Final assembly contigs: /home/charlie/Documents/BactBook/bactopia-workshop/work/35/df2b17707e7175aa6ac0a71f700ada/results/contigs.fa
+[dragonflye] Dragonfly facts were provided by the Smithsonian Magazine
+[dragonflye] Done.

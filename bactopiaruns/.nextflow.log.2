@@ -1,0 +1,307 @@
+May-14 12:14:24.583 [main] DEBUG nextflow.cli.Launcher - $> nextflow run /home/charlie/miniconda3/envs/bactopia//share/bactopia-3.0.0/main.nf -w /home/charlie/Documents/BactBook/bactopia-workshop/work/ --R1 'https://github.com/bactopia/bactopia-tests/raw/main/data/species/portiera/illumina/SRR2838702_R1.fastq.gz' --R2 'https://github.com/bactopia/bactopia-tests/raw/main/data/species/portiera/illumina/SRR2838702_R2.fastq.gz' --SE 'https://github.com/bactopia/bactopia-tests/raw/main/data/species/portiera/nanopore/ERR3772599.fastq.gz' --hybrid --sample test-hybrid --run_name test-hybrid --genome_size 358000 -profile docker
+May-14 12:14:24.803 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.04.1
+May-14 12:14:24.865 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/charlie/.nextflow/plugins; core-plugins: nf-amazon@1.16.2,nf-azure@1.0.1,nf-codecommit@0.1.4,nf-console@1.0.5,nf-ga4gh@1.0.5,nf-google@1.7.3,nf-tower@1.5.12,nf-wave@0.8.2
+May-14 12:14:24.895 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+May-14 12:14:24.897 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+May-14 12:14:24.907 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+May-14 12:14:24.936 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+May-14 12:14:24.982 [main] DEBUG nextflow.config.ConfigBuilder - Found config base: /home/charlie/miniconda3/envs/bactopia/share/bactopia-3.0.0/nextflow.config
+May-14 12:14:24.988 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/charlie/miniconda3/envs/bactopia/share/bactopia-3.0.0/nextflow.config
+May-14 12:14:25.082 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `docker`
+May-14 12:14:32.269 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [standard, sge, slurm, test, gcp, wsvl, singularity, aws, arcc, arm, docker]
+May-14 12:14:32.424 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declararion
+May-14 12:14:32.487 [main] INFO  nextflow.cli.CmdRun - Launching `/home/charlie/miniconda3/envs/bactopia/share/bactopia-3.0.0/main.nf` [mighty_lichterman] DSL2 - revision: 0cd9f79ba7
+May-14 12:14:32.488 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+May-14 12:14:32.489 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+May-14 12:14:32.516 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /home/charlie/.nextflow/secrets/store.json
+May-14 12:14:32.527 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@73c48264] - activable => nextflow.secret.LocalSecretsProvider@73c48264
+May-14 12:14:32.715 [main] DEBUG nextflow.Session - Session UUID: 9e0d1f93-cad1-4491-97b4-2f44650134a5
+May-14 12:14:32.715 [main] DEBUG nextflow.Session - Run name: mighty_lichterman
+May-14 12:14:32.717 [main] DEBUG nextflow.Session - Executor pool size: 8
+May-14 12:14:32.753 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+May-14 12:14:32.835 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.04.1 build 5866
+  Created: 15-04-2023 06:51 UTC (16:51 AEDT)
+  System: Linux 5.19.0-40-generic
+  Runtime: Groovy 3.0.16 on OpenJDK 64-Bit Server VM 17.0.3-internal+0-adhoc..src
+  Encoding: UTF-8 (UTF-8)
+  Process: 418534@charlie-Blade-Stealth [127.0.1.1]
+  CPUs: 8 - Mem: 15.5 GB (7 GB) - Swap: 2 GB (1.8 GB)
+May-14 12:14:32.934 [main] DEBUG nextflow.Session - Work-dir: /home/charlie/Documents/BactBook/bactopia-workshop/work [ext2/ext3]
+May-14 12:14:32.988 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+May-14 12:14:33.020 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+May-14 12:14:33.410 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+May-14 12:14:33.441 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+May-14 12:14:33.653 [main] DEBUG nextflow.Session - Session start
+May-14 12:14:33.668 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /home/charlie/Documents/BactBook/bactopia-workshop/bactopia/bactopia-comparative/bactopia/test-hybrid/nf-reports/bactopia-trace.txt
+May-14 12:14:33.693 [main] DEBUG nextflow.Session - Using default localLib path: /home/charlie/miniconda3/envs/bactopia/share/bactopia-3.0.0/lib
+May-14 12:14:33.702 [main] DEBUG nextflow.Session - Adding to the classpath library: /home/charlie/miniconda3/envs/bactopia/share/bactopia-3.0.0/lib
+May-14 12:14:33.704 [main] DEBUG nextflow.Session - Adding to the classpath library: /home/charlie/miniconda3/envs/bactopia/share/bactopia-3.0.0/lib/nfcore_external_java_deps.jar
+May-14 12:14:34.142 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+May-14 12:14:39.729 [main] WARN  nextflow.Nextflow - Maximum memory (32) was adjusted to fit your system (15)
+May-14 12:14:40.486 [main] INFO  nextflow.Nextflow - 
+
+-[2m-------------------------------------------[0m-
+[0;34m   _                _              _             [0m
+[0;34m  | |__   __ _  ___| |_ ___  _ __ (_) __ _       [0m
+[0;34m  | '_ \ / _` |/ __| __/ _ \| '_ \| |/ _` |   [0m
+[0;34m  | |_) | (_| | (__| || (_) | |_) | | (_| |      [0m
+[0;34m  |_.__/ \__,_|\___|\__\___/| .__/|_|\__,_| [0m
+[0;34m                            |_|                  [0m
+[0;36m  bactopia v3.0.0[0m
+[0;36m  Bactopia is a flexible pipeline for complete analysis of bacterial genomes [0m
+-[2m-------------------------------------------[0m-
+[1mCore Nextflow options[0m
+  [0;34mrunName          : [0;32mmighty_lichterman[0m
+  [0;34mcontainerEngine  : [0;32mdocker[0m
+  [0;34mcontainer        : [0;32mquay.io/bactopia/bactopia:3.0.0[0m
+  [0;34mlaunchDir        : [0;32m/home/charlie/Documents/BactBook/bactopia-workshop[0m
+  [0;34mworkDir          : [0;32m/home/charlie/Documents/BactBook/bactopia-workshop/work[0m
+  [0;34mprojectDir       : [0;32m/home/charlie/miniconda3/envs/bactopia/share/bactopia-3.0.0[0m
+  [0;34muserName         : [0;32mcharlie[0m
+  [0;34mprofile          : [0;32mdocker[0m
+  [0;34mconfigFiles      : [0;32m/home/charlie/miniconda3/envs/bactopia/share/bactopia-3.0.0/nextflow.config[0m
+
+[1mRequired Parameters[0m
+  [0;34mR1               : [0;32mhttps://github.com/bactopia/bactopia-tests/raw/main/data/species/portiera/illumina/SRR2838702_R1.fastq.gz[0m
+  [0;34mR2               : [0;32mhttps://github.com/bactopia/bactopia-tests/raw/main/data/species/portiera/illumina/SRR2838702_R2.fastq.gz[0m
+  [0;34mSE               : [0;32mhttps://github.com/bactopia/bactopia-tests/raw/main/data/species/portiera/nanopore/ERR3772599.fastq.gz[0m
+  [0;34mhybrid           : [0;32mtrue[0m
+  [0;34msample           : [0;32mtest-hybrid[0m
+
+[1mDataset Parameters[0m
+  [0;34mgenome_size      : [0;32m358000[0m
+
+[1mQC Reads Parameters[0m
+  [0;34muse_porechop     : [0;32mfalse[0m
+  [0;34madapters         : [0;32m/home/charlie/miniconda3/envs/bactopia/share/bactopia-3.0.0/data/EMPTY_ADAPTERS[0m
+  [0;34mphix             : [0;32m/home/charlie/miniconda3/envs/bactopia/share/bactopia-3.0.0/data/EMPTY_PHIX[0m
+
+[1mProkka Parameters[0m
+  [0;34mproteins         : [0;32m/home/charlie/miniconda3/envs/bactopia/share/bactopia-3.0.0/data/proteins.faa[0m
+
+[1mOptional Parameters[0m
+  [0;34moutdir           : [0;32mbactopia[0m
+  [0;34mrun_name         : [0;32mtest-hybrid[0m
+
+[1mNextflow Profile Parameters[0m
+  [0;34mcondadir         : [0;32m/home/charlie/.bactopia/conda[0m
+  [0;34mdatasets_cache   : [0;32m/home/charlie/.bactopia/datasets[0m
+  [0;34msingularity_cache: [0;32m/home/charlie/.bactopia/singularity[0m
+
+!! Only displaying parameters that differ from the pipeline defaults !!
+-[2m------------------------------------------------------------------[0m-
+If you use bactopia for your analysis please cite:
+
+* Bactopia
+  https://doi.org/10.1128/mSystems.00190-20
+
+* The nf-core framework
+  https://doi.org/10.1038/s41587-020-0439-x
+
+* Software dependencies
+  https://bactopia.github.io/acknowledgements/
+-[2m------------------------------------------------------------------[0m-
+May-14 12:14:42.458 [main] WARN  nextflow.Nextflow - Maximum memory (32) was adjusted to fit your system (15)
+May-14 12:14:43.204 [main] WARN  nextflow.Nextflow - Maximum memory (32) was adjusted to fit your system (15)
+May-14 12:14:43.824 [main] WARN  nextflow.Nextflow - Maximum memory (32) was adjusted to fit your system (15)
+May-14 12:14:45.256 [main] WARN  nextflow.Nextflow - Maximum memory (32) was adjusted to fit your system (15)
+May-14 12:14:45.880 [main] WARN  nextflow.Nextflow - Maximum memory (32) was adjusted to fit your system (15)
+May-14 12:14:46.386 [main] WARN  nextflow.Nextflow - Maximum memory (32) was adjusted to fit your system (15)
+May-14 12:14:47.763 [main] WARN  nextflow.Nextflow - Maximum memory (32) was adjusted to fit your system (15)
+May-14 12:14:48.346 [main] WARN  nextflow.Nextflow - Maximum memory (32) was adjusted to fit your system (15)
+May-14 12:14:49.500 [main] WARN  nextflow.Nextflow - Maximum memory (32) was adjusted to fit your system (15)
+May-14 12:14:50.480 [main] WARN  nextflow.Nextflow - Maximum memory (32) was adjusted to fit your system (15)
+May-14 12:14:51.050 [main] WARN  nextflow.Nextflow - Maximum memory (32) was adjusted to fit your system (15)
+May-14 12:14:52.335 [main] WARN  nextflow.Nextflow - Maximum memory (32) was adjusted to fit your system (15)
+May-14 12:14:53.284 [main] WARN  nextflow.Nextflow - Maximum memory (32) was adjusted to fit your system (15)
+May-14 12:14:54.260 [main] WARN  nextflow.Nextflow - Maximum memory (32) was adjusted to fit your system (15)
+May-14 12:14:54.283 [main] INFO  nextflow.Nextflow - 
+Each task will use 4 CPUs out of the available 8 CPUs. At most 
+2 task(s) will be run at a time, this can affect the efficiency 
+of Bactopia. You can use the '-qs' parameter to alter the number of 
+tasks to run at a time (e.g. '-qs 2', means only 2 tasks or a maximum 
+of 8 CPUs will be used at once)
+
+May-14 12:14:54.284 [main] INFO  nextflow.Nextflow - 
+May-14 12:14:54.514 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name BACTOPIA:DATASETS
+May-14 12:14:54.558 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-14 12:14:54.558 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-14 12:14:54.583 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+May-14 12:14:54.600 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=15.5 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+May-14 12:14:55.065 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name BACTOPIA:GATHER:GATHER_MODULE
+May-14 12:14:55.083 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-14 12:14:55.084 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-14 12:14:55.240 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name BACTOPIA:GATHER:CSVTK_CONCAT
+May-14 12:14:55.246 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-14 12:14:55.246 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-14 12:14:55.286 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name BACTOPIA:QC:QC_MODULE
+May-14 12:14:55.292 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-14 12:14:55.292 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-14 12:14:55.331 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:assemble_genome` matches labels `process_low,assemble_genome` for process with name BACTOPIA:ASSEMBLER:ASSEMBLER_MODULE
+May-14 12:14:55.333 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low,assemble_genome` for process with name BACTOPIA:ASSEMBLER:ASSEMBLER_MODULE
+May-14 12:14:55.336 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-14 12:14:55.337 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-14 12:14:55.369 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name BACTOPIA:ASSEMBLER:CSVTK_CONCAT
+May-14 12:14:55.373 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-14 12:14:55.374 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-14 12:14:55.410 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name BACTOPIA:SKETCHER:SKETCHER_MODULE
+May-14 12:14:55.414 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-14 12:14:55.415 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-14 12:14:55.457 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name BACTOPIA:ANNOTATOR:PROKKA_MODULE
+May-14 12:14:55.465 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-14 12:14:55.466 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-14 12:14:55.523 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name BACTOPIA:AMRFINDERPLUS:AMRFINDERPLUS_RUN
+May-14 12:14:55.533 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-14 12:14:55.533 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-14 12:14:55.537 [main] DEBUG nextflow.processor.TaskProcessor - Creating *combiner* operator for each param(s) at index(es): [1]
+May-14 12:14:55.578 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name BACTOPIA:AMRFINDERPLUS:GENES_CONCAT
+May-14 12:14:55.581 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-14 12:14:55.581 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-14 12:14:55.612 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name BACTOPIA:AMRFINDERPLUS:PROTEINS_CONCAT
+May-14 12:14:55.614 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-14 12:14:55.615 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-14 12:14:55.640 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name BACTOPIA:MLST:MLST_MODULE
+May-14 12:14:55.644 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-14 12:14:55.645 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-14 12:14:55.672 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name BACTOPIA:MLST:CSVTK_CONCAT
+May-14 12:14:55.674 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-14 12:14:55.675 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-14 12:14:55.788 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name BACTOPIA:DUMPSOFTWAREVERSIONS
+May-14 12:14:55.791 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-14 12:14:55.791 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-14 12:14:55.801 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: BACTOPIA:DATASETS, CSVTK_CONCAT, SKETCHER_MODULE, DUMPSOFTWAREVERSIONS, QC, GATHER, PROKKA, BACTOPIA:ASSEMBLER:CSVTK_CONCAT, BACTOPIA:DUMPSOFTWAREVERSIONS, QC_MODULE, BACTOPIA:GATHER:GATHER_MODULE, PROKKA_MODULE, BACTOPIA:MLST:CSVTK_CONCAT, ASSEMBLER, MLST, BACTOPIA:QC:QC_MODULE, BACTOPIA:AMRFINDERPLUS:AMRFINDERPLUS_RUN, BACTOPIA:AMRFINDERPLUS:GENES_CONCAT, GENES_CONCAT, SKETCHER, PROTEINS_CONCAT, DATASETS, AMRFINDERPLUS_RUN, ASSEMBLER_MODULE, MLST_MODULE, BACTOPIA:AMRFINDERPLUS:PROTEINS_CONCAT, GATHER_MODULE, BACTOPIA:GATHER:CSVTK_CONCAT, BACTOPIA:MLST:MLST_MODULE, CUSTOM_DUMPSOFTWAREVERSIONS, BACTOPIA:SKETCHER:SKETCHER_MODULE, BACTOPIA:ANNOTATOR:PROKKA_MODULE, BACTOPIA:ASSEMBLER:ASSEMBLER_MODULE
+May-14 12:14:55.808 [main] DEBUG nextflow.Session - Igniting dataflow network (29)
+May-14 12:14:55.809 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > BACTOPIA:DATASETS
+May-14 12:14:55.811 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > BACTOPIA:GATHER:GATHER_MODULE
+May-14 12:14:55.812 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > BACTOPIA:GATHER:CSVTK_CONCAT
+May-14 12:14:55.813 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > BACTOPIA:QC:QC_MODULE
+May-14 12:14:55.813 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > BACTOPIA:ASSEMBLER:ASSEMBLER_MODULE
+May-14 12:14:55.813 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > BACTOPIA:ASSEMBLER:CSVTK_CONCAT
+May-14 12:14:55.814 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > BACTOPIA:SKETCHER:SKETCHER_MODULE
+May-14 12:14:55.814 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > BACTOPIA:ANNOTATOR:PROKKA_MODULE
+May-14 12:14:55.816 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > BACTOPIA:AMRFINDERPLUS:AMRFINDERPLUS_RUN
+May-14 12:14:55.816 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > BACTOPIA:AMRFINDERPLUS:AMRFINDERPLUS_RUN
+May-14 12:14:55.817 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > BACTOPIA:AMRFINDERPLUS:GENES_CONCAT
+May-14 12:14:55.817 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > BACTOPIA:AMRFINDERPLUS:PROTEINS_CONCAT
+May-14 12:14:55.818 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > BACTOPIA:MLST:MLST_MODULE
+May-14 12:14:55.818 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > BACTOPIA:MLST:CSVTK_CONCAT
+May-14 12:14:55.818 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > BACTOPIA:DUMPSOFTWAREVERSIONS
+May-14 12:14:55.819 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+May-14 12:14:55.819 [main] DEBUG nextflow.Session - Session await
+May-14 12:14:55.960 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [skipping] Stored process > BACTOPIA:DATASETS
+May-14 12:14:59.640 [FileTransfer-2] DEBUG nextflow.file.FilePorter - Copying foreign file https://github.com/bactopia/bactopia-tests/raw/main/data/species/portiera/illumina/SRR2838702_R2.fastq.gz to work dir: /home/charlie/Documents/BactBook/bactopia-workshop/work/stage-9e0d1f93-cad1-4491-97b4-2f44650134a5/d5/9c0aadacee05904ea25714d5444dbc/SRR2838702_R2.fastq.gz
+May-14 12:14:59.640 [FileTransfer-1] DEBUG nextflow.file.FilePorter - Copying foreign file https://github.com/bactopia/bactopia-tests/raw/main/data/species/portiera/illumina/SRR2838702_R1.fastq.gz to work dir: /home/charlie/Documents/BactBook/bactopia-workshop/work/stage-9e0d1f93-cad1-4491-97b4-2f44650134a5/be/bb123eb813a4fce3f8bf2daa23cc35/SRR2838702_R1.fastq.gz
+May-14 12:14:59.641 [FileTransfer-3] DEBUG nextflow.file.FilePorter - Copying foreign file https://github.com/bactopia/bactopia-tests/raw/main/data/species/portiera/nanopore/ERR3772599.fastq.gz to work dir: /home/charlie/Documents/BactBook/bactopia-workshop/work/stage-9e0d1f93-cad1-4491-97b4-2f44650134a5/b0/d343c57e4a43b5870d2f901d84c0bb/ERR3772599.fastq.gz
+May-14 12:15:01.640 [Actor Thread 5] INFO  nextflow.file.FilePorter - Staging foreign file: https://github.com/bactopia/bactopia-tests/raw/main/data/species/portiera/illumina/SRR2838702_R1.fastq.gz
+May-14 12:15:03.642 [Actor Thread 5] INFO  nextflow.file.FilePorter - Staging foreign file: https://github.com/bactopia/bactopia-tests/raw/main/data/species/portiera/illumina/SRR2838702_R2.fastq.gz
+May-14 12:15:05.958 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+May-14 12:15:05.963 [Task submitter] INFO  nextflow.Session - [4c/55ead9] Submitted process > BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)
+May-14 12:15:15.093 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: BACTOPIA:GATHER:GATHER_MODULE (test-hybrid); status: COMPLETED; exit: 0; error: -; workDir: /home/charlie/Documents/BactBook/bactopia-workshop/work/4c/55ead9ebabd9cee150cd9648a527aa]
+May-14 12:15:15.350 [Task monitor] DEBUG nextflow.processor.TaskProcessor - Process BACTOPIA:GATHER:GATHER_MODULE > Skipping output binding because one or more optional files are missing: fileoutparam<3>
+May-14 12:15:15.351 [Task monitor] DEBUG nextflow.processor.TaskProcessor - Process BACTOPIA:GATHER:GATHER_MODULE > Skipping output binding because one or more optional files are missing: fileoutparam<6>
+May-14 12:15:15.381 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+May-14 12:15:15.534 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+May-14 12:15:15.535 [Task submitter] INFO  nextflow.Session - [28/d6f1a5] Submitted process > BACTOPIA:GATHER:CSVTK_CONCAT (meta)
+May-14 12:15:16.193 [Actor Thread 5] DEBUG nextflow.util.CacheHelper - [WARN] Unknown hashing type: class nextflow.util.MemoryUnit
+May-14 12:15:17.128 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: BACTOPIA:GATHER:CSVTK_CONCAT (meta); status: COMPLETED; exit: 0; error: -; workDir: /home/charlie/Documents/BactBook/bactopia-workshop/work/28/d6f1a5af6de8bb7c7376e9ac19fc12]
+May-14 12:15:17.140 [Task monitor] DEBUG nextflow.processor.TaskProcessor - Process BACTOPIA:GATHER:CSVTK_CONCAT > Skipping output binding because one or more optional files are missing: fileoutparam<1>
+May-14 12:15:17.180 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+May-14 12:15:17.181 [Task submitter] INFO  nextflow.Session - [4d/b91c85] Submitted process > BACTOPIA:QC:QC_MODULE (test-hybrid)
+May-14 12:16:03.523 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: BACTOPIA:QC:QC_MODULE (test-hybrid); status: COMPLETED; exit: 0; error: -; workDir: /home/charlie/Documents/BactBook/bactopia-workshop/work/4d/b91c85e53c6e3f0b86979bda4f982a]
+May-14 12:16:03.547 [Task monitor] DEBUG nextflow.processor.TaskProcessor - Process BACTOPIA:QC:QC_MODULE > Skipping output binding because one or more optional files are missing: fileoutparam<6>
+May-14 12:16:03.769 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+May-14 12:16:03.771 [Task submitter] INFO  nextflow.Session - [a6/ba8a38] Submitted process > BACTOPIA:ASSEMBLER:ASSEMBLER_MODULE (test-hybrid)
+May-14 12:19:54.774 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: BACTOPIA:ASSEMBLER:ASSEMBLER_MODULE (test-hybrid); status: RUNNING; exit: -; error: -; workDir: /home/charlie/Documents/BactBook/bactopia-workshop/work/a6/ba8a38fc75617963ac0fbedc852d67]
+May-14 12:24:54.776 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: BACTOPIA:ASSEMBLER:ASSEMBLER_MODULE (test-hybrid); status: RUNNING; exit: -; error: -; workDir: /home/charlie/Documents/BactBook/bactopia-workshop/work/a6/ba8a38fc75617963ac0fbedc852d67]
+May-14 12:29:54.832 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: BACTOPIA:ASSEMBLER:ASSEMBLER_MODULE (test-hybrid); status: RUNNING; exit: -; error: -; workDir: /home/charlie/Documents/BactBook/bactopia-workshop/work/a6/ba8a38fc75617963ac0fbedc852d67]
+May-14 12:33:53.811 [SIGINT handler] DEBUG nextflow.Session - Session aborted -- Cause: SIGINT
+May-14 12:33:53.877 [SIGINT handler] DEBUG nextflow.Session - The following nodes are still active:
+[process] BACTOPIA:ASSEMBLER:CSVTK_CONCAT
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: -
+  port 1: (value) bound ; channel: in_format
+  port 2: (value) bound ; channel: out_format
+  port 3: (cntrl) -     ; channel: $
+
+[process] BACTOPIA:SKETCHER:SKETCHER_MODULE
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: mash_db
+  port 2: (value) bound ; channel: sourmash_db
+  port 3: (cntrl) -     ; channel: $
+
+[process] BACTOPIA:ANNOTATOR:PROKKA_MODULE
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: proteins
+  port 2: (value) bound ; channel: prodigal_tf
+  port 3: (cntrl) -     ; channel: $
+
+[process] BACTOPIA:AMRFINDERPLUS:AMRFINDERPLUS_RUN
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: __$eachinparam<1>
+  port 2: (cntrl) -     ; channel: $
+
+[process] BACTOPIA:AMRFINDERPLUS:GENES_CONCAT
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: -
+  port 1: (value) bound ; channel: in_format
+  port 2: (value) bound ; channel: out_format
+  port 3: (cntrl) -     ; channel: $
+
+[process] BACTOPIA:AMRFINDERPLUS:PROTEINS_CONCAT
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: -
+  port 1: (value) bound ; channel: in_format
+  port 2: (value) bound ; channel: out_format
+  port 3: (cntrl) -     ; channel: $
+
+[process] BACTOPIA:MLST:MLST_MODULE
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: db
+  port 2: (cntrl) -     ; channel: $
+
+[process] BACTOPIA:MLST:CSVTK_CONCAT
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: -
+  port 1: (value) bound ; channel: in_format
+  port 2: (value) bound ; channel: out_format
+  port 3: (cntrl) -     ; channel: $
+
+[process] BACTOPIA:DUMPSOFTWAREVERSIONS
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: versions
+  port 1: (cntrl) -     ; channel: $
+
+May-14 12:33:53.884 [main] DEBUG nextflow.Session - Session await > all processes finished
+May-14 12:33:53.885 [main] DEBUG nextflow.Session - Session await > all barriers passed
+May-14 12:33:53.904 [main] INFO  nextflow.script.BaseScript - 
+    Bactopia Execution Summary
+    ---------------------------
+    Bactopia Version : 3.0.0
+    Nextflow Version : 23.04.1
+    Command Line     : nextflow run /home/charlie/miniconda3/envs/bactopia//share/bactopia-3.0.0/main.nf -w /home/charlie/Documents/BactBook/bactopia-workshop/work/ --R1 'https://github.com/bactopia/bactopia-tests/raw/main/data/species/portiera/illumina/SRR2838702_R1.fastq.gz' --R2 'https://github.com/bactopia/bactopia-tests/raw/main/data/species/portiera/illumina/SRR2838702_R2.fastq.gz' --SE 'https://github.com/bactopia/bactopia-tests/raw/main/data/species/portiera/nanopore/ERR3772599.fastq.gz' --hybrid --sample test-hybrid --run_name test-hybrid --genome_size 358000 -profile docker
+    Resumed          : false
+    Completed At     : 2023-05-14T12:33:53.896152504+10:00
+    Duration         : 19m 21s
+    Success          : false
+    Exit Code        : null
+    Error Report     : SIGINT
+    Launch Dir       : /home/charlie/Documents/BactBook/bactopia-workshop
+    
+May-14 12:33:53.919 [main] WARN  n.processor.TaskPollingMonitor - Killing running tasks (1)
+May-14 12:33:53.958 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=3; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=1; succeedDuration=3m 32s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=4; peakMemory=8 GB; ]
+May-14 12:33:53.960 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
+May-14 12:33:53.966 [main] DEBUG nextflow.trace.ReportObserver - Workflow completed -- rendering execution report
+May-14 12:33:53.975 [Actor Thread 8] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 2; slices: 1; internal sort time: 0.061 s; external sort time: 0.007 s; total time: 0.068 s
+May-14 12:33:54.008 [Actor Thread 8] DEBUG nextflow.file.FileCollector - Saved collect-files list to: /home/charlie/Documents/BactBook/bactopia-workshop/work/collect-file/5697dc3177380f5f330567fe2793fa39
+May-14 12:33:54.044 [Actor Thread 8] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-13225933239072019634
+May-14 12:33:54.103 [main] DEBUG nextflow.trace.ReportObserver - Execution report summary data:
+  [{"cpuUsage":{"mean":44.18,"min":44.18,"q1":44.18,"q2":44.18,"q3":44.18,"max":44.18,"minLabel":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","maxLabel":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q1Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q2Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q3Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)"},"process":"GATHER_MODULE","mem":{"mean":1009864704,"min":1009864704,"q1":1009864704,"q2":1009864704,"q3":1009864704,"max":1009864704,"minLabel":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","maxLabel":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q1Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q2Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q3Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)"},"memUsage":{"mean":11.76,"min":11.76,"q1":11.76,"q2":11.76,"q3":11.76,"max":11.76,"minLabel":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","maxLabel":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q1Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q2Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q3Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)"},"timeUsage":{"mean":0.11,"min":0.11,"q1":0.11,"q2":0.11,"q3":0.11,"max":0.11,"minLabel":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","maxLabel":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q1Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q2Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q3Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)"},"vmem":{"mean":5927256064,"min":5927256064,"q1":5927256064,"q2":5927256064,"q3":5927256064,"max":5927256064,"minLabel":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","maxLabel":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q1Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q2Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q3Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)"},"reads":{"mean":181576952,"min":181576952,"q1":181576952,"q2":181576952,"q3":181576952,"max":181576952,"minLabel":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","maxLabel":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q1Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q2Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q3Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)"},"cpu":{"mean":176.7,"min":176.7,"q1":176.7,"q2":176.7,"q3":176.7,"max":176.7,"minLabel":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","maxLabel":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q1Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q2Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q3Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)"},"time":{"mean":7908,"min":7908,"q1":7908,"q2":7908,"q3":7908,"max":7908,"minLabel":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","maxLabel":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q1Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q2Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q3Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)"},"writes":{"mean":178842509,"min":178842509,"q1":178842509,"q2":178842509,"q3":178842509,"max":178842509,"minLabel":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","maxLabel":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q1Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q2Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)","q3Label":"BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)"}},{"cpuUsage":{"mean":31.58,"min":31.58,"q1":31.58,"q2":31.58,"q3":31.58,"max":31.58,"minLabel":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","maxLabel":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","q1Label":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","q2Label":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","q3Label":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)"},"process":"CSVTK_CONCAT","mem":{"mean":3174400,"min":3174400,"q1":3174400,"q2":3174400,"q3":3174400,"max":3174400,"minLabel":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","maxLabel":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","q1Label":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","q2Label":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","q3Label":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)"},"memUsage":{"mean":0.04,"min":0.04,"q1":0.04,"q2":0.04,"q3":0.04,"max":0.04,"minLabel":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","maxLabel":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","q1Label":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","q2Label":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","q3Label":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)"},"timeUsage":null,"vmem":{"mean":5644288,"min":5644288,"q1":5644288,"q2":5644288,"q3":5644288,"max":5644288,"minLabel":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","maxLabel":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","q1Label":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","q2Label":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","q3Label":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)"},"reads":{"mean":56079,"min":56079,"q1":56079,"q2":56079,"q3":56079,"max":56079,"minLabel":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","maxLabel":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","q1Label":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","q2Label":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","q3Label":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)"},"cpu":{"mean":126.3,"min":126.3,"q1":126.3,"q2":126.3,"q3":126.3,"max":126.3,"minLabel":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","maxLabel":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","q1Label":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","q2Label":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","q3Label":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)"},"time":null,"writes":{"mean":401,"min":401,"q1":401,"q2":401,"q3":401,"max":401,"minLabel":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","maxLabel":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","q1Label":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","q2Label":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)","q3Label":"BACTOPIA:GATHER:CSVTK_CONCAT (meta)"}},{"cpuUsage":{"mean":66.13,"min":66.13,"q1":66.13,"q2":66.13,"q3":66.13,"max":66.13,"minLabel":"BACTOPIA:QC:QC_MODULE (test-hybrid)","maxLabel":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q1Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q2Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q3Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)"},"process":"QC_MODULE","mem":{"mean":1268965376,"min":1268965376,"q1":1268965376,"q2":1268965376,"q3":1268965376,"max":1268965376,"minLabel":"BACTOPIA:QC:QC_MODULE (test-hybrid)","maxLabel":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q1Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q2Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q3Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)"},"memUsage":{"mean":14.77,"min":14.77,"q1":14.77,"q2":14.77,"q3":14.77,"max":14.77,"minLabel":"BACTOPIA:QC:QC_MODULE (test-hybrid)","maxLabel":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q1Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q2Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q3Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)"},"timeUsage":{"mean":0.63,"min":0.63,"q1":0.63,"q2":0.63,"q3":0.63,"max":0.63,"minLabel":"BACTOPIA:QC:QC_MODULE (test-hybrid)","maxLabel":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q1Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q2Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q3Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)"},"vmem":{"mean":11865001984,"min":11865001984,"q1":11865001984,"q2":11865001984,"q3":11865001984,"max":11865001984,"minLabel":"BACTOPIA:QC:QC_MODULE (test-hybrid)","maxLabel":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q1Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q2Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q3Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)"},"reads":{"mean":595007037,"min":595007037,"q1":595007037,"q2":595007037,"q3":595007037,"max":595007037,"minLabel":"BACTOPIA:QC:QC_MODULE (test-hybrid)","maxLabel":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q1Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q2Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q3Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)"},"cpu":{"mean":264.5,"min":264.5,"q1":264.5,"q2":264.5,"q3":264.5,"max":264.5,"minLabel":"BACTOPIA:QC:QC_MODULE (test-hybrid)","maxLabel":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q1Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q2Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q3Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)"},"time":{"mean":45157,"min":45157,"q1":45157,"q2":45157,"q3":45157,"max":45157,"minLabel":"BACTOPIA:QC:QC_MODULE (test-hybrid)","maxLabel":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q1Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q2Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q3Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)"},"writes":{"mean":418675742,"min":418675742,"q1":418675742,"q2":418675742,"q3":418675742,"max":418675742,"minLabel":"BACTOPIA:QC:QC_MODULE (test-hybrid)","maxLabel":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q1Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q2Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)","q3Label":"BACTOPIA:QC:QC_MODULE (test-hybrid)"}},{"cpuUsage":null,"process":"ASSEMBLER_MODULE","mem":null,"memUsage":null,"timeUsage":null,"vmem":null,"reads":null,"cpu":null,"time":null,"writes":null}]
+May-14 12:33:54.734 [SIGINT handler] INFO  nextflow.Session - Adieu

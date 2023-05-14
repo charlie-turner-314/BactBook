@@ -1,0 +1,4 @@
+task_id	hash	native_id	process	tag	name	status	exit	module	container	cpus	time	disk	memory	attempt	start	complete	duration	realtime	queue	%cpu	%mem	rss	vmem
+1	88/440621	434043	BACTOPIA:GATHER:GATHER_MODULE	test-hybrid	BACTOPIA:GATHER:GATHER_MODULE (test-hybrid)	COMPLETED	0	-	quay.io/biocontainers/bactopia-gather:1.0.2--hdfd78af_0	4	2h	-	8 GB	1	2023-05-14 12:49:44.827	2023-05-14 12:49:53.592	8.8s	7.6s	-	180.9%	6.0%	961.4 MB	5.4 GB
+4	ab/151ef2	435091	BACTOPIA:GATHER:CSVTK_CONCAT	meta	BACTOPIA:GATHER:CSVTK_CONCAT (meta)	COMPLETED	0	-	quay.io/biocontainers/csvtk:0.25.0--h9ee0642_0	4	2h	-	8 GB	1	2023-05-14 12:49:54.052	2023-05-14 12:49:55.582	1.5s	0ms	-	125.5%	0.0%	3 MB	5.4 MB
+3	d8/9902c9	435357	BACTOPIA:QC:QC_MODULE	test-hybrid	BACTOPIA:QC:QC_MODULE (test-hybrid)	ABORTED	-	-	quay.io/biocontainers/bactopia-qc:1.0.0--hdfd78af_0	4	2h	-	8 GB	1	2023-05-14 12:49:55.682	-	-	-	-	-	-	-	-

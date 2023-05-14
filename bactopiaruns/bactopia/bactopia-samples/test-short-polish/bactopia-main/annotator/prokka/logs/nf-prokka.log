@@ -1,0 +1,408 @@
+[02:08:05] This is prokka 1.14.6
+[02:08:05] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[02:08:05] Homepage is https://github.com/tseemann/prokka
+[02:08:05] Local time is Sun May 14 02:08:05 2023
+[02:08:05] You are not telling me who you are!
+[02:08:05] Operating system is linux
+[02:08:05] You have BioPerl 1.007002
+[02:08:05] System has 8 cores.
+[02:08:05] Will use maximum of 4 cores.
+[02:08:05] Annotating as >>> Bacteria <<<
+[02:08:05] Creating new output folder: test-short-polish
+[02:08:05] Running: mkdir -p test\-short\-polish
+[02:08:05] Using filename prefix: test-short-polish.XXX
+[02:08:05] Setting HMMER_NCPU=1
+[02:08:05] Writing log to: test-short-polish/test-short-polish.log
+[02:08:05] Command: /usr/local/bin/prokka --evalue 1e-09 --coverage 80 --centre Bactopia --cpus 4 --prefix test-short-polish --locustag test-short-polish --proteins proteins.faa test-short-polish.fna
+[02:08:05] Appending to PATH: /usr/local/bin
+[02:08:05] Looking for 'aragorn' - found /usr/local/bin/aragorn
+[02:08:05] Determined aragorn version is 001002 from 'ARAGORN v1.2.38 Dean Laslett'
+[02:08:05] Looking for 'barrnap' - found /usr/local/bin/barrnap
+[02:08:05] Determined barrnap version is 000009 from 'barrnap 0.9'
+[02:08:05] Looking for 'blastp' - found /usr/local/bin/blastp
+[02:08:05] Determined blastp version is 002009 from 'blastp: 2.9.0+'
+[02:08:05] Looking for 'cmpress' - found /usr/local/bin/cmpress
+[02:08:05] Determined cmpress version is 001001 from '# INFERNAL 1.1.2 (July 2016)'
+[02:08:05] Looking for 'cmscan' - found /usr/local/bin/cmscan
+[02:08:05] Determined cmscan version is 001001 from '# INFERNAL 1.1.2 (July 2016)'
+[02:08:05] Looking for 'egrep' - found /bin/egrep
+[02:08:05] Looking for 'find' - found /usr/bin/find
+[02:08:05] Looking for 'grep' - found /bin/grep
+[02:08:05] Looking for 'hmmpress' - found /usr/local/bin/hmmpress
+[02:08:05] Determined hmmpress version is 003003 from '# HMMER 3.3 (Nov 2019); http://hmmer.org/'
+[02:08:05] Looking for 'hmmscan' - found /usr/local/bin/hmmscan
+[02:08:05] Determined hmmscan version is 003003 from '# HMMER 3.3 (Nov 2019); http://hmmer.org/'
+[02:08:05] Looking for 'java' - found /usr/local/bin/java
+[02:08:05] Looking for 'makeblastdb' - found /usr/local/bin/makeblastdb
+[02:08:05] Determined makeblastdb version is 002009 from 'makeblastdb: 2.9.0+'
+[02:08:05] Looking for 'minced' - found /usr/local/bin/minced
+[02:08:06] Determined minced version is 004002 from 'minced 0.4.2'
+[02:08:06] Looking for 'parallel' - found /usr/local/bin/parallel
+[02:08:06] Determined parallel version is 20200122 from 'GNU parallel 20200122'
+[02:08:06] Looking for 'prodigal' - found /usr/local/bin/prodigal
+[02:08:06] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[02:08:06] Looking for 'prokka-genbank_to_fasta_db' - found /usr/local/bin/prokka-genbank_to_fasta_db
+[02:08:06] Looking for 'sed' - found /bin/sed
+[02:08:06] Looking for 'tbl2asn' - found /usr/local/bin/tbl2asn
+[02:08:06] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[02:08:06] Using genetic code table 11.
+[02:08:06] Loading and checking input file: test-short-polish.fna
+[02:08:06] Wrote 48 contigs totalling 465108 bp.
+[02:08:06] Predicting tRNAs and tmRNAs
+[02:08:06] Running: aragorn -l -gc11  -w test\-short\-polish\/test\-short\-polish\.fna
+[02:08:06] 1 tRNA-Met [18530,18603] 35 (cat)
+[02:08:06] 2 tRNA-Asn c[18698,18772] 35 (gtt)
+[02:08:06] 3 tRNA-Lys c[22668,22741] 34 (ttt)
+[02:08:06] 4 tRNA-Val c[23448,23524] 37 (gac)
+[02:08:06] 5 tRNA-Leu c[25091,25173] 35 (taa)
+[02:08:06] 6 tRNA-Cys c[25218,25289] 33 (gca)
+[02:08:06] 1 tRNA-Ile [1487,1561] 35 (gat)
+[02:08:06] 2 tRNA-Trp c[39683,39755] 34 (cca)
+[02:08:06] 3 tRNA-Thr c[39773,39846] 34 (agt)
+[02:08:06] 4 tRNA-Gly c[39853,39925] 34 (tcc)
+[02:08:06] 5 tRNA-Ser c[42285,42370] 36 (gga)
+[02:08:06] 6 tRNA-Glu [45619,45692] 35 (ttc)
+[02:08:06] 7 tRNA-Gly [45707,45782] 36 (gcc)
+[02:08:06] 8 tRNA-Ser [47519,47601] 34 (gga)
+[02:08:06] 1 tRNA-Tyr [2569,2649] 35 (gta)
+[02:08:06] 2 tRNA-Leu [7919,8006] 36 (tag)
+[02:08:06] 3 tRNA-Asp c[12023,12096] 35 (gtc)
+[02:08:06] 4 tRNA-Val c[13063,13135] 34 (tac)
+[02:08:06] 5 tRNA-Arg c[31015,31090] 36 (ccg)
+[02:08:06] 1 tRNA-Phe c[27672,27745] 34 (gaa)
+[02:08:06] 2 tRNA-Thr c[35781,35853] 34 (cgt)
+[02:08:06] 1 tRNA-Ala c[28317,28392] 35 (tgc)
+[02:08:06] 1 tRNA-Arg c[1068,1141] 35 (acg)
+[02:08:06] 2 tRNA-Met c[25594,25667] 35 (cat)
+[02:08:06] tRNA [857,940] is a pseudo/wacky gene - skipping.
+[02:08:06] 2 tRNA-Ile [958,1032] 35 (tat)
+[02:08:06] 1 tRNA-Gly c[158,233] 36 (gcc)
+[02:08:06] 2 tRNA-Glu c[247,320] 35 (ttc)
+[02:08:06] 3 tRNA-Glu [10414,10488] 36 (ttc)
+[02:08:06] 4 tRNA-Gly [10502,10577] 36 (gcc)
+[02:08:06] 1 tRNA-Pro [9456,9532] 36 (tgg)
+[02:08:06] 1 tRNA-Met c[1583,1656] 35 (cat)
+[02:08:06] 2 tRNA-Leu c[1673,1757] 35 (gag)
+[02:08:06] 1 tRNA-Ser [1430,1517] 34 (tga)
+[02:08:06] 2 tRNA-Ser [1558,1651] 36 (cga)
+[02:08:06] 3 tRNA-Ser c[3851,3941] 35 (cga)
+[02:08:06] 4 tRNA-Ser c[3982,4071] 36 (tga)
+[02:08:06] 1 tRNA-Met c[323,395] 36 (cat)
+[02:08:06] 2 tRNA-Lys c[412,497] 32 (ttt)
+[02:08:06] 1 tRNA-Met c[2360,2433] 35 (cat)
+[02:08:06] 1 tRNA-His c[926,997] 33 (gtg)
+[02:08:06] 2 tRNA-Arg c[999,1072] 35 (tct)
+[02:08:06] 1 tRNA-Ser [2268,2356] 36 (tga)
+[02:08:06] tRNA [34,121] is a pseudo/wacky gene - skipping.
+[02:08:06] 1 tRNA-Ser [580,663] 35 (gct)
+[02:08:06] Found 43 tRNAs
+[02:08:06] Predicting Ribosomal RNAs
+[02:08:06] Running Barrnap with 4 threads
+[02:08:08] 1 gnl|Bactopia|test-short-polish_2 1 16S ribosomal RNA
+[02:08:08] 2 gnl|Bactopia|test-short-polish_2 1589 23S ribosomal RNA
+[02:08:08] 3 gnl|Bactopia|test-short-polish_2 4488 5S ribosomal RNA
+[02:08:08] Found 3 rRNAs
+[02:08:08] Skipping ncRNA search, enable with --rfam if desired.
+[02:08:08] Total of 46 tRNA + rRNA features
+[02:08:08] Searching for CRISPR repeats
+[02:08:09] Found 0 CRISPRs
+[02:08:09] Predicting coding sequences
+[02:08:09] Contigs total 465108 bp, so using single mode
+[02:08:09] Running: prodigal -i test\-short\-polish\/test\-short\-polish\.fna -c -m -g 11 -p single -f sco -q
+[02:08:10] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Bactopia|test-short-polish_1:23509..23709 on + strand
+[02:08:10] Excluding CDS which overlaps existing RNA (rRNA) at gnl|Bactopia|test-short-polish_2:377..505 on + strand
+[02:08:10] Excluding CDS which overlaps existing RNA (rRNA) at gnl|Bactopia|test-short-polish_2:1169..1345 on + strand
+[02:08:10] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Bactopia|test-short-polish_2:1458..1589 on + strand
+[02:08:10] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Bactopia|test-short-polish_2:45723..45884 on + strand
+[02:08:10] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Bactopia|test-short-polish_2:47347..47520 on + strand
+[02:08:10] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Bactopia|test-short-polish_3:13135..13665 on - strand
+[02:08:10] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Bactopia|test-short-polish_4:35740..35838 on - strand
+[02:08:10] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Bactopia|test-short-polish_30:941..1399 on + strand
+[02:08:10] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Bactopia|test-short-polish_31:1951..2340 on - strand
+[02:08:10] Found 562 CDS
+[02:08:10] Connecting features back to sequences
+[02:08:10] Not using genus-specific database. Try --usegenus to enable it.
+[02:08:10] Preparing user-supplied primary BLAST annotation source: proteins.faa
+[02:08:10] Guessed source was in fasta format.
+[02:08:10] Running: makeblastdb -dbtype prot -in proteins\.faa -out test\-short\-polish\/proteins -logfile /dev/null
+[02:08:12] Using /inference source as 'proteins.faa'
+[02:08:12] Annotating CDS, please be patient.
+[02:08:12] Will use 4 CPUs for similarity searching.
+[02:08:12] There are still 562 unannotated CDS left (started with 562)
+[02:08:12] Will use blast to search against test-short-polish/proteins with 4 CPUs
+[02:08:12] Running: cat test\-short\-polish\/test\-short\-polish\.proteins\.tmp\.44\.faa | parallel --gnu --plain -j 4 --block 9485 --recstart '>' --pipe blastp -query - -db test-short-polish/proteins -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > test\-short\-polish\/test\-short\-polish\.proteins\.tmp\.44\.blast 2> /dev/null
+[02:08:32] Deleting unwanted file: test-short-polish/test-short-polish.proteins.tmp.44.faa
+[02:08:32] Deleting unwanted file: test-short-polish/test-short-polish.proteins.tmp.44.blast
+[02:08:33] There are still 233 unannotated CDS left (started with 562)
+[02:08:33] Will use blast to search against /usr/local/db/kingdom/Bacteria/IS with 4 CPUs
+[02:08:33] Running: cat test\-short\-polish\/test\-short\-polish\.IS\.tmp\.44\.faa | parallel --gnu --plain -j 4 --block 2131 --recstart '>' --pipe blastp -query - -db /usr/local/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > test\-short\-polish\/test\-short\-polish\.IS\.tmp\.44\.blast 2> /dev/null
+[02:08:34] Deleting unwanted file: test-short-polish/test-short-polish.IS.tmp.44.faa
+[02:08:34] Deleting unwanted file: test-short-polish/test-short-polish.IS.tmp.44.blast
+[02:08:34] There are still 233 unannotated CDS left (started with 562)
+[02:08:34] Will use blast to search against /usr/local/db/kingdom/Bacteria/AMR with 4 CPUs
+[02:08:34] Running: cat test\-short\-polish\/test\-short\-polish\.AMR\.tmp\.44\.faa | parallel --gnu --plain -j 4 --block 2131 --recstart '>' --pipe blastp -query - -db /usr/local/db/kingdom/Bacteria/AMR -evalue 9.99999999999999e-301 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > test\-short\-polish\/test\-short\-polish\.AMR\.tmp\.44\.blast 2> /dev/null
+[02:08:36] Deleting unwanted file: test-short-polish/test-short-polish.AMR.tmp.44.faa
+[02:08:36] Deleting unwanted file: test-short-polish/test-short-polish.AMR.tmp.44.blast
+[02:08:36] There are still 233 unannotated CDS left (started with 562)
+[02:08:36] Will use blast to search against /usr/local/db/kingdom/Bacteria/sprot with 4 CPUs
+[02:08:36] Running: cat test\-short\-polish\/test\-short\-polish\.sprot\.tmp\.44\.faa | parallel --gnu --plain -j 4 --block 2131 --recstart '>' --pipe blastp -query - -db /usr/local/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > test\-short\-polish\/test\-short\-polish\.sprot\.tmp\.44\.blast 2> /dev/null
+[02:08:40] Deleting unwanted file: test-short-polish/test-short-polish.sprot.tmp.44.faa
+[02:08:40] Deleting unwanted file: test-short-polish/test-short-polish.sprot.tmp.44.blast
+[02:08:41] There are still 220 unannotated CDS left (started with 562)
+[02:08:41] Will use hmmer3 to search against /usr/local/db/hmm/HAMAP.hmm with 4 CPUs
+[02:08:41] Running: cat test\-short\-polish\/test\-short\-polish\.HAMAP\.hmm\.tmp\.44\.faa | parallel --gnu --plain -j 4 --block 1954 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /usr/local/db/hmm/HAMAP.hmm /dev/stdin > test\-short\-polish\/test\-short\-polish\.HAMAP\.hmm\.tmp\.44\.hmmer3 2> /dev/null
+[02:08:50] Deleting unwanted file: test-short-polish/test-short-polish.HAMAP.hmm.tmp.44.faa
+[02:08:50] Deleting unwanted file: test-short-polish/test-short-polish.HAMAP.hmm.tmp.44.hmmer3
+[02:08:50] Deleting unwanted file: test-short-polish/proteins.psq
+[02:08:50] Deleting unwanted file: test-short-polish/proteins.phr
+[02:08:50] Deleting unwanted file: test-short-polish/proteins.pin
+[02:08:50] Labelling remaining 189 proteins as 'hypothetical protein'
+[02:08:50] Possible /pseudo 'DNA mismatch repair protein MutS' at gnl|Bactopia|test-short-polish_1 position 1347
+[02:08:50] Possible /pseudo 'Ribosomal RNA small subunit methyltransferase H' at gnl|Bactopia|test-short-polish_1 position 5572
+[02:08:50] Possible /pseudo 'Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatA' at gnl|Bactopia|test-short-polish_1 position 9364
+[02:08:50] Possible /pseudo 'ribose-phosphate pyrophosphokinase' at gnl|Bactopia|test-short-polish_1 position 16209
+[02:08:50] Possible /pseudo 'aminodeoxychorismate/anthranilate synthase component II' at gnl|Bactopia|test-short-polish_1 position 20921
+[02:08:50] Possible /pseudo 'argininosuccinate synthase' at gnl|Bactopia|test-short-polish_1 position 25925
+[02:08:50] Possible /pseudo 'valine--tRNA ligase' at gnl|Bactopia|test-short-polish_1 position 33457
+[02:08:50] Possible /pseudo 'valine--tRNA ligase' at gnl|Bactopia|test-short-polish_1 position 34157
+[02:08:50] Possible /pseudo 'valine--tRNA ligase' at gnl|Bactopia|test-short-polish_1 position 34320
+[02:08:50] Possible /pseudo 'leucine--tRNA ligase' at gnl|Bactopia|test-short-polish_1 position 48985
+[02:08:50] Possible /pseudo 'leucine--tRNA ligase' at gnl|Bactopia|test-short-polish_1 position 56020
+[02:08:50] Possible /pseudo '2-oxoglutarate dehydrogenase complex dihydrolipoyllysine-residue succinyltransferase' at gnl|Bactopia|test-short-polish_2 position 13435
+[02:08:50] Possible /pseudo '2-oxoglutarate dehydrogenase complex dihydrolipoyllysine-residue succinyltransferase' at gnl|Bactopia|test-short-polish_2 position 13523
+[02:08:50] Possible /pseudo '2-oxoglutarate dehydrogenase complex dihydrolipoyllysine-residue succinyltransferase' at gnl|Bactopia|test-short-polish_2 position 20767
+[02:08:50] Possible /pseudo '2-oxoglutarate dehydrogenase complex dihydrolipoyllysine-residue succinyltransferase' at gnl|Bactopia|test-short-polish_2 position 23574
+[02:08:50] Possible /pseudo 'DNA-directed RNA polymerase subunit beta' at gnl|Bactopia|test-short-polish_2 position 33073
+[02:08:50] Possible /pseudo 'DNA-directed RNA polymerase subunit beta' at gnl|Bactopia|test-short-polish_2 position 33414
+[02:08:50] Possible /pseudo 'DNA-directed RNA polymerase subunit beta' at gnl|Bactopia|test-short-polish_2 position 35962
+[02:08:50] Possible /pseudo 'DNA-directed RNA polymerase subunit beta' at gnl|Bactopia|test-short-polish_2 position 36171
+[02:08:50] Possible /pseudo 'ABC transporter permease' at gnl|Bactopia|test-short-polish_2 position 42827
+[02:08:50] Possible /pseudo 'ABC transporter permease' at gnl|Bactopia|test-short-polish_2 position 47087
+[02:08:50] Possible /pseudo 'bifunctional prephenate dehydrogenase/3-phosphoshikimate 1-carboxyvinyltransferase' at gnl|Bactopia|test-short-polish_3 position 24131
+[02:08:50] Possible /pseudo 'preprotein translocase subunit SecA' at gnl|Bactopia|test-short-polish_3 position 30250
+[02:08:50] Possible /pseudo 'NADH-quinone oxidoreductase subunit M' at gnl|Bactopia|test-short-polish_4 position 743
+[02:08:50] Possible /pseudo 'NADH-quinone oxidoreductase subunit M' at gnl|Bactopia|test-short-polish_4 position 1020
+[02:08:50] Possible /pseudo 'NADH-quinone oxidoreductase subunit L' at gnl|Bactopia|test-short-polish_4 position 2321
+[02:08:50] Possible /pseudo 'NADH-quinone oxidoreductase subunit NuoI' at gnl|Bactopia|test-short-polish_4 position 4435
+[02:08:50] Possible /pseudo 'NADH-quinone oxidoreductase subunit NuoG' at gnl|Bactopia|test-short-polish_4 position 7226
+[02:08:50] Possible /pseudo 'NADH-quinone oxidoreductase subunit NuoG' at gnl|Bactopia|test-short-polish_4 position 7753
+[02:08:50] Possible /pseudo 'NADH-quinone oxidoreductase subunit NuoF' at gnl|Bactopia|test-short-polish_4 position 8584
+[02:08:50] Possible /pseudo 'NADH-quinone oxidoreductase subunit NuoF' at gnl|Bactopia|test-short-polish_4 position 9201
+[02:08:50] Possible /pseudo 'acetolactate synthase 3 large subunit' at gnl|Bactopia|test-short-polish_4 position 22363
+[02:08:50] Possible /pseudo 'imidazole glycerol phosphate synthase subunit HisF' at gnl|Bactopia|test-short-polish_4 position 32409
+[02:08:50] Possible /pseudo '2-isopropylmalate synthase' at gnl|Bactopia|test-short-polish_5 position 1807
+[02:08:50] Possible /pseudo 'ribonuclease E' at gnl|Bactopia|test-short-polish_5 position 6338
+[02:08:50] Possible /pseudo '3-dehydroquinate synthase' at gnl|Bactopia|test-short-polish_5 position 9901
+[02:08:50] Possible /pseudo '5-methyltetrahydropteroyltriglutamate-- homocysteine S-methyltransferase' at gnl|Bactopia|test-short-polish_5 position 13912
+[02:08:50] Possible /pseudo '5-methyltetrahydropteroyltriglutamate-- homocysteine S-methyltransferase' at gnl|Bactopia|test-short-polish_5 position 15194
+[02:08:50] Possible /pseudo '3-deoxy-7-phosphoheptulonate synthase' at gnl|Bactopia|test-short-polish_5 position 16395
+[02:08:50] Possible /pseudo 'transcription termination factor Rho' at gnl|Bactopia|test-short-polish_5 position 17540
+[02:08:50] Possible /pseudo 'DNA polymerase III subunit alpha' at gnl|Bactopia|test-short-polish_5 position 20750
+[02:08:50] Possible /pseudo 'DNA polymerase III subunit alpha' at gnl|Bactopia|test-short-polish_5 position 21180
+[02:08:50] Possible /pseudo 'DNA polymerase III subunit alpha' at gnl|Bactopia|test-short-polish_5 position 21844
+[02:08:50] Possible /pseudo 'translation elongation factor Ts' at gnl|Bactopia|test-short-polish_5 position 24213
+[02:08:50] Possible /pseudo '2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase' at gnl|Bactopia|test-short-polish_5 position 26851
+[02:08:50] Possible /pseudo 'succinyl-diaminopimelate desuccinylase' at gnl|Bactopia|test-short-polish_5 position 27753
+[02:08:50] Possible /pseudo 'aspartate-semialdehyde dehydrogenase' at gnl|Bactopia|test-short-polish_6 position 5350
+[02:08:50] Possible /pseudo 'aspartate-semialdehyde dehydrogenase' at gnl|Bactopia|test-short-polish_6 position 6104
+[02:08:50] Possible /pseudo '3-isopropylmalate dehydratase small subunit' at gnl|Bactopia|test-short-polish_6 position 7593
+[02:08:50] Possible /pseudo '3-isopropylmalate dehydratase small subunit' at gnl|Bactopia|test-short-polish_6 position 7777
+[02:08:50] Possible /pseudo 'ornithine carbamoyltransferase' at gnl|Bactopia|test-short-polish_6 position 9999
+[02:08:50] Possible /pseudo 'F0F1 ATP synthase subunit A' at gnl|Bactopia|test-short-polish_6 position 16566
+[02:08:50] Possible /pseudo 'threonine ammonia-lyase, biosynthetic' at gnl|Bactopia|test-short-polish_6 position 19142
+[02:08:50] Possible /pseudo 'ATP-dependent zinc metalloprotease FtsH' at gnl|Bactopia|test-short-polish_7 position 192
+[02:08:50] Possible /pseudo 'transcription termination factor NusA' at gnl|Bactopia|test-short-polish_7 position 2339
+[02:08:50] Possible /pseudo 'phenylalanine--tRNA ligase subunit alpha' at gnl|Bactopia|test-short-polish_7 position 10922
+[02:08:50] Possible /pseudo 'proline--tRNA ligase' at gnl|Bactopia|test-short-polish_7 position 14684
+[02:08:50] Possible /pseudo 'proline--tRNA ligase' at gnl|Bactopia|test-short-polish_7 position 15313
+[02:08:50] Possible /pseudo 'proline--tRNA ligase' at gnl|Bactopia|test-short-polish_7 position 15659
+[02:08:50] Possible /pseudo 'proline--tRNA ligase' at gnl|Bactopia|test-short-polish_7 position 15852
+[02:08:50] Possible /pseudo 'proline--tRNA ligase' at gnl|Bactopia|test-short-polish_7 position 17997
+[02:08:50] Possible /pseudo 'proline--tRNA ligase' at gnl|Bactopia|test-short-polish_7 position 18305
+[02:08:50] Possible /pseudo 'proline--tRNA ligase' at gnl|Bactopia|test-short-polish_7 position 19513
+[02:08:50] Possible /pseudo 'phenylalanine--tRNA ligase subunit alpha' at gnl|Bactopia|test-short-polish_7 position 23281
+[02:08:50] Possible /pseudo 'RNA polymerase sigma factor RpoH' at gnl|Bactopia|test-short-polish_9 position 695
+[02:08:50] Possible /pseudo 'lysine--tRNA ligase' at gnl|Bactopia|test-short-polish_9 position 2813
+[02:08:50] Possible /pseudo 'cysteine desulfurase' at gnl|Bactopia|test-short-polish_10 position 2385
+[02:08:50] Possible /pseudo 'Fe-S cluster assembly ATPase SufC' at gnl|Bactopia|test-short-polish_10 position 6533
+[02:08:50] Possible /pseudo 'cysteine desulfurase' at gnl|Bactopia|test-short-polish_10 position 8837
+[02:08:50] Possible /pseudo 'carbamoyl-phosphate synthase large subunit' at gnl|Bactopia|test-short-polish_12 position 4866
+[02:08:50] Possible /pseudo 'carbamoyl-phosphate synthase large subunit' at gnl|Bactopia|test-short-polish_12 position 5078
+[02:08:50] Possible /pseudo 'carbamoyl-phosphate synthase large subunit' at gnl|Bactopia|test-short-polish_12 position 5555
+[02:08:50] Possible /pseudo 'carbamoyl-phosphate synthase large subunit' at gnl|Bactopia|test-short-polish_12 position 6526
+[02:08:50] Possible /pseudo 'carbamoyl-phosphate synthase large subunit' at gnl|Bactopia|test-short-polish_12 position 6798
+[02:08:50] Possible /pseudo 'dihydroxy-acid dehydratase' at gnl|Bactopia|test-short-polish_13 position 5476
+[02:08:50] Possible /pseudo 'dihydroxy-acid dehydratase' at gnl|Bactopia|test-short-polish_13 position 6221
+[02:08:50] Possible /pseudo 'dihydroxy-acid dehydratase' at gnl|Bactopia|test-short-polish_13 position 6475
+[02:08:50] Possible /pseudo 'endopeptidase La' at gnl|Bactopia|test-short-polish_13 position 7494
+[02:08:50] Possible /pseudo 'endopeptidase La' at gnl|Bactopia|test-short-polish_13 position 8563
+[02:08:50] Possible /pseudo 'aspartate--tRNA ligase' at gnl|Bactopia|test-short-polish_14 position 8782
+[02:08:50] Possible /pseudo 'NADH-quinone oxidoreductase subunit M' at gnl|Bactopia|test-short-polish_15 position 1425
+[02:08:50] Possible /pseudo 'NADH-quinone oxidoreductase subunit NuoN' at gnl|Bactopia|test-short-polish_15 position 3105
+[02:08:50] Possible /pseudo 'NADH-quinone oxidoreductase subunit NuoN' at gnl|Bactopia|test-short-polish_15 position 6709
+[02:08:50] Possible /pseudo 'NADH-quinone oxidoreductase subunit M' at gnl|Bactopia|test-short-polish_15 position 7934
+[02:08:50] Possible /pseudo 'NADH-quinone oxidoreductase subunit M' at gnl|Bactopia|test-short-polish_15 position 8080
+[02:08:50] Possible /pseudo 'Fe-S cluster assembly protein SufB' at gnl|Bactopia|test-short-polish_17 position 3374
+[02:08:50] Possible /pseudo 'carbamoyl-phosphate synthase large subunit' at gnl|Bactopia|test-short-polish_19 position 4245
+[02:08:50] Possible /pseudo 'carbamoyl-phosphate synthase large subunit' at gnl|Bactopia|test-short-polish_19 position 4826
+[02:08:50] Possible /pseudo 'carbamoyl-phosphate synthase large subunit' at gnl|Bactopia|test-short-polish_19 position 5343
+[02:08:50] Possible /pseudo 'molecular chaperone DnaK' at gnl|Bactopia|test-short-polish_26 position 2796
+[02:08:50] Possible /pseudo 'aspartate--tRNA ligase' at gnl|Bactopia|test-short-polish_27 position 3536
+[02:08:50] Possible /pseudo 'glutamate/aspartate:proton symporter GltP' at gnl|Bactopia|test-short-polish_35 position 1717
+[02:08:50] Possible /pseudo '30S ribosomal protein S2' at gnl|Bactopia|test-short-polish_36 position 729
+[02:08:50] Possible /pseudo 'DNA topoisomerase (ATP-hydrolyzing) subunit B' at gnl|Bactopia|test-short-polish_38 position 871
+[02:08:50] Possible /pseudo 'glutamate/aspartate:proton symporter GltP' at gnl|Bactopia|test-short-polish_40 position 504
+[02:08:50] Found 178 unique /gene codes.
+[02:08:50] Fixed 2 duplicate /gene - sufD_1 sufD_2
+[02:08:50] Fixed 8 duplicate /gene - nuoM_1 nuoM_2 nuoM_3 nuoM_4 nuoM_5 nuoM_6 nuoM_7 nuoM_8
+[02:08:50] Fixed 2 duplicate /gene - rplN_1 rplN_2
+[02:08:50] Fixed 3 duplicate /gene - infA_1 infA_2 infA_3
+[02:08:50] Fixed 2 duplicate /gene - ndhA_1 ndhA_2
+[02:08:50] Fixed 2 duplicate /gene - nuoI_1 nuoI_2
+[02:08:50] Fixed 3 duplicate /gene - mutS_1 mutS_2 mutS_3
+[02:08:50] Fixed 2 duplicate /gene - lpdA_1 lpdA_2
+[02:08:50] Fixed 2 duplicate /gene - lysS_1 lysS_2
+[02:08:50] Fixed 3 duplicate /gene - asd_1 asd_2 asd_3
+[02:08:50] Fixed 2 duplicate /gene - dapE_1 dapE_2
+[02:08:50] Fixed 2 duplicate /gene - hisF_1 hisF_2
+[02:08:50] Fixed 5 duplicate /gene - rpoB_1 rpoB_2 rpoB_3 rpoB_4 rpoB_5
+[02:08:50] Fixed 2 duplicate /gene - fusA_1 fusA_2
+[02:08:50] Fixed 2 duplicate /gene - rpsN_1 rpsN_2
+[02:08:50] Fixed 4 duplicate /gene - ftsH_1 ftsH_2 ftsH_3 ftsH_4
+[02:08:50] Fixed 4 duplicate /gene - carA_1 carA_2 carA_3 carA_4
+[02:08:50] Fixed 2 duplicate /gene - thrC_1 thrC_2
+[02:08:50] Fixed 2 duplicate /gene - rpsE_1 rpsE_2
+[02:08:50] Fixed 2 duplicate /gene - nfuA_1 nfuA_2
+[02:08:50] Fixed 2 duplicate /gene - rplP_1 rplP_2
+[02:08:50] Fixed 4 duplicate /gene - ilvD_1 ilvD_2 ilvD_3 ilvD_4
+[02:08:50] Fixed 2 duplicate /gene - rplQ_1 rplQ_2
+[02:08:50] Fixed 5 duplicate /gene - nuoG_1 nuoG_2 nuoG_3 nuoG_4 nuoG_5
+[02:08:50] Fixed 2 duplicate /gene - rplR_1 rplR_2
+[02:08:50] Fixed 2 duplicate /gene - rsmH_1 rsmH_2
+[02:08:50] Fixed 2 duplicate /gene - csd_1 csd_2
+[02:08:50] Fixed 2 duplicate /gene - rplX_1 rplX_2
+[02:08:50] Fixed 2 duplicate /gene - gatA_1 gatA_2
+[02:08:50] Fixed 2 duplicate /gene - sufC_1 sufC_2
+[02:08:50] Fixed 2 duplicate /gene - sufB_1 sufB_2
+[02:08:50] Fixed 2 duplicate /gene - atpB_1 atpB_2
+[02:08:50] Fixed 4 duplicate /gene - trpD_1 trpD_2 trpD_3 trpD_4
+[02:08:50] Fixed 8 duplicate /gene - nusA_1 nusA_2 nusA_3 nusA_4 nusA_5 nusA_6 nusA_7 nusA_8
+[02:08:50] Fixed 2 duplicate /gene - infB_1 infB_2
+[02:08:50] Fixed 3 duplicate /gene - gyrB_1 gyrB_2 gyrB_3
+[02:08:50] Fixed 2 duplicate /gene - rpoD_1 rpoD_2
+[02:08:50] Fixed 2 duplicate /gene - pnp_1 pnp_2
+[02:08:50] Fixed 6 duplicate /gene - leuS_1 leuS_2 leuS_3 leuS_4 leuS_5 leuS_6
+[02:08:50] Fixed 2 duplicate /gene - pheT_1 pheT_2
+[02:08:50] Fixed 4 duplicate /gene - dnaE_1 dnaE_2 dnaE_3 dnaE_4
+[02:08:50] Fixed 2 duplicate /gene - mgtE_1 mgtE_2
+[02:08:50] Fixed 11 duplicate /gene - carB_1 carB_2 carB_3 carB_4 carB_5 carB_6 carB_7 carB_8 carB_9 carB_10 carB_11
+[02:08:50] Fixed 3 duplicate /gene - metE_1 metE_2 metE_3
+[02:08:50] Fixed 3 duplicate /gene - nuoF_1 nuoF_2 nuoF_3
+[02:08:50] Fixed 4 duplicate /gene - pheS_1 pheS_2 pheS_3 pheS_4
+[02:08:50] Fixed 2 duplicate /gene - prfA_1 prfA_2
+[02:08:50] Fixed 4 duplicate /gene - lon_1 lon_2 lon_3 lon_4
+[02:08:50] Fixed 3 duplicate /gene - leuD_1 leuD_2 leuD_3
+[02:08:50] Fixed 3 duplicate /gene - ilvA_1 ilvA_2 ilvA_3
+[02:08:50] Fixed 4 duplicate /gene - gltP_1 gltP_2 gltP_3 gltP_4
+[02:08:50] Fixed 2 duplicate /gene - hisC_1 hisC_2
+[02:08:50] Fixed 2 duplicate /gene - nuoL_1 nuoL_2
+[02:08:50] Fixed 3 duplicate /gene - mnmE_1 mnmE_2 mnmE_3
+[02:08:50] Fixed 2 duplicate /gene - aroB_1 aroB_2
+[02:08:50] Fixed 2 duplicate /gene - rpsC_1 rpsC_2
+[02:08:50] Fixed 2 duplicate /gene - rpmC_1 rpmC_2
+[02:08:50] Fixed 4 duplicate /gene - aspS_1 aspS_2 aspS_3 aspS_4
+[02:08:50] Fixed 3 duplicate /gene - proS_1 proS_2 proS_3
+[02:08:50] Fixed 2 duplicate /gene - rpoH_1 rpoH_2
+[02:08:50] Fixed 3 duplicate /gene - secA_1 secA_2 secA_3
+[02:08:50] Fixed 2 duplicate /gene - ileS_1 ileS_2
+[02:08:50] Fixed 2 duplicate /gene - dnaK_1 dnaK_2
+[02:08:50] Fixed 2 duplicate /gene - dapD_1 dapD_2
+[02:08:50] Fixed 3 duplicate /gene - rpsB_1 rpsB_2 rpsB_3
+[02:08:50] Fixed 2 duplicate /gene - rpsQ_1 rpsQ_2
+[02:08:50] Fixed 2 duplicate /gene - tsf_1 tsf_2
+[02:08:50] Fixed 2 duplicate /gene - leuA_1 leuA_2
+[02:08:50] Fixed 7 duplicate /gene - odhB_1 odhB_2 odhB_3 odhB_4 odhB_5 odhB_6 odhB_7
+[02:08:50] Fixed 4 duplicate /gene - nuoN_1 nuoN_2 nuoN_3 nuoN_4
+[02:08:50] Fixed 2 duplicate /gene - mnmG_1 mnmG_2
+[02:08:50] Fixed 2 duplicate /gene - rplE_1 rplE_2
+[02:08:50] Fixed 2 duplicate /gene - trpE_1 trpE_2
+[02:08:50] Fixed 2 duplicate /gene - aroC_1 aroC_2
+[02:08:50] Fixed 2 duplicate /gene - mnmA_1 mnmA_2
+[02:08:50] Fixed 2 duplicate /gene - rne_1 rne_2
+[02:08:50] Fixed 2 duplicate /gene - rho_1 rho_2
+[02:08:50] Fixed 2 duplicate /gene - rpsH_1 rpsH_2
+[02:08:50] Fixed 78 colliding /gene names.
+[02:08:50] Adding /locus_tag identifiers
+[02:08:50] Assigned 608 locus_tags to CDS and RNA features.
+[02:08:50] Writing outputs to test-short-polish/
+[02:08:51] Generating annotation statistics file
+[02:08:51] Generating Genbank and Sequin files
+[02:08:51] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z test\-short\-polish\/test\-short\-polish\.err -i test\-short\-polish\/test\-short\-polish\.fsa 2> /dev/null
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in test-short-polish/test-short-polish.gbf
+[tbl2asn-forever] Correcting dates in test-short-polish/test-short-polish.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 14-MAY-2023
+[02:08:54] Deleting unwanted file: test-short-polish/errorsummary.val
+[02:08:54] Deleting unwanted file: test-short-polish/test-short-polish.dr
+[02:08:54] Deleting unwanted file: test-short-polish/test-short-polish.fixedproducts
+[02:08:54] Deleting unwanted file: test-short-polish/test-short-polish.ecn
+[02:08:54] Deleting unwanted file: test-short-polish/test-short-polish.val
+[02:08:54] Repairing broken .GBK output that tbl2asn produces...
+[02:08:54] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < test\-short\-polish\/test\-short\-polish\.gbf > test\-short\-polish\/test\-short\-polish\.gbk
+[02:08:54] Deleting unwanted file: test-short-polish/test-short-polish.gbf
+[02:08:54] Output files:
+[02:08:54] test-short-polish/test-short-polish.gff
+[02:08:54] test-short-polish/test-short-polish.fsa
+[02:08:54] test-short-polish/test-short-polish.fna
+[02:08:54] test-short-polish/test-short-polish.txt
+[02:08:54] test-short-polish/test-short-polish.log
+[02:08:54] test-short-polish/test-short-polish.tsv
+[02:08:54] test-short-polish/test-short-polish.sqn
+[02:08:54] test-short-polish/test-short-polish.tbl
+[02:08:54] test-short-polish/test-short-polish.ffn
+[02:08:54] test-short-polish/test-short-polish.gbk
+[02:08:54] test-short-polish/test-short-polish.faa
+[02:08:54] test-short-polish/test-short-polish.err
+[02:08:54] Annotation finished successfully.
+[02:08:54] Walltime used: 0.82 minutes
+[02:08:54] If you use this result please cite the Prokka paper:
+[02:08:54] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[02:08:54] Type 'prokka --citation' for more details.
+[02:08:54] Share and enjoy!
+
+
+Building a new DB, current time: 05/14/2023 02:08:54
+New DB name:   /home/charlie/Documents/BactBook/bactopia-workshop/work/dc/93d6bf24962c0f468e9c0ef64a0ed5/blastdb/!{meta.id}.fna
+New DB title:  Assembled contigs for !{meta.id}
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 48 sequences in 0.0124469 seconds.
+
+
+Building a new DB, current time: 05/14/2023 02:08:54
+New DB name:   /home/charlie/Documents/BactBook/bactopia-workshop/work/dc/93d6bf24962c0f468e9c0ef64a0ed5/blastdb/!{meta.id}.ffn
+New DB title:  Predicted genes sequences for !{meta.id}
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 608 sequences in 0.03826 seconds.
+
+
+Building a new DB, current time: 05/14/2023 02:08:54
+New DB name:   /home/charlie/Documents/BactBook/bactopia-workshop/work/dc/93d6bf24962c0f468e9c0ef64a0ed5/blastdb/!{meta.id}.faa
+New DB title:  Predicted protein sequences for !{meta.id}
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 562 sequences in 0.0334032 seconds.
+blastdb/
+blastdb/!{meta.id}.faa.pin
+blastdb/!{meta.id}.ffn.nin
+blastdb/!{meta.id}.fna.nhr
+blastdb/!{meta.id}.ffn.nhr
+blastdb/!{meta.id}.fna.nsq
+blastdb/!{meta.id}.ffn.nsq
+blastdb/!{meta.id}.faa.phr
+blastdb/!{meta.id}.faa.psq
+blastdb/!{meta.id}.fna.nin

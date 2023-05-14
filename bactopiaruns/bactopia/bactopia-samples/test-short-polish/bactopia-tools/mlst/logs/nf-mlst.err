@@ -1,0 +1,8 @@
+[02:05:15] This is mlst 2.23.0 running on linux with Perl 5.032001
+[02:05:15] Checking mlst dependencies:
+[02:05:15] Found 'blastn' => /usr/local/bin/blastn
+[02:05:15] Found 'any2fasta' => /usr/local/bin/any2fasta
+[02:05:15] Found blastn: 2.13.0+ (002013)
+[02:05:15] Excluding 3 schemes: ecoli abaumannii vcholerae_2
+[02:05:16] Somehow this tool escaped my normal Australiana based naming system.
+[02:05:16] Done.

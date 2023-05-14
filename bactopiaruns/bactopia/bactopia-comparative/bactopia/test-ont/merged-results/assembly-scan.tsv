@@ -1,0 +1,2 @@
+sample	total_contig	total_contig_length	max_contig_length	mean_contig_length	median_contig_length	min_contig_length	n50_contig_length	l50_contig_count	num_contig_non_acgtn	contig_percent_a	contig_percent_c	contig_percent_g	contig_percent_t	contig_percent_n	contig_non_acgtn	contigs_greater_1m	contigs_greater_100k	contigs_greater_10k	contigs_greater_1k	percent_contigs_greater_1m	percent_contigs_greater_100k	percent_contigs_greater_10k	percent_contigs_greater_1k
+test-ont	38	422853	48034	11127	6900	941	20210	6	0	36.38	13.46	12.43	37.74	0.00	0.00	0	0	14	37	0.00	0.00	36.84	97.37

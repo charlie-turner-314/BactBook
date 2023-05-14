@@ -1,0 +1,187 @@
+[01:25:12] This is prokka 1.14.6
+[01:25:12] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[01:25:12] Homepage is https://github.com/tseemann/prokka
+[01:25:12] Local time is Sun May 14 01:25:12 2023
+[01:25:12] You are not telling me who you are!
+[01:25:12] Operating system is linux
+[01:25:12] You have BioPerl 1.007002
+[01:25:12] System has 8 cores.
+[01:25:12] Will use maximum of 2 cores.
+[01:25:12] Annotating as >>> Bacteria <<<
+[01:25:12] Creating new output folder: SRR2838702
+[01:25:12] Running: mkdir -p SRR2838702
+[01:25:12] Using filename prefix: SRR2838702.XXX
+[01:25:12] Setting HMMER_NCPU=1
+[01:25:12] Writing log to: SRR2838702/SRR2838702.log
+[01:25:12] Command: /usr/local/bin/prokka --evalue 1e-09 --coverage 80 --centre Bactopia --cpus 2 --prefix SRR2838702 --locustag SRR2838702 --proteins proteins.faa SRR2838702.fna
+[01:25:12] Appending to PATH: /usr/local/bin
+[01:25:12] Looking for 'aragorn' - found /usr/local/bin/aragorn
+[01:25:12] Determined aragorn version is 001002 from 'ARAGORN v1.2.38 Dean Laslett'
+[01:25:12] Looking for 'barrnap' - found /usr/local/bin/barrnap
+[01:25:12] Determined barrnap version is 000009 from 'barrnap 0.9'
+[01:25:12] Looking for 'blastp' - found /usr/local/bin/blastp
+[01:25:12] Determined blastp version is 002009 from 'blastp: 2.9.0+'
+[01:25:12] Looking for 'cmpress' - found /usr/local/bin/cmpress
+[01:25:12] Determined cmpress version is 001001 from '# INFERNAL 1.1.2 (July 2016)'
+[01:25:12] Looking for 'cmscan' - found /usr/local/bin/cmscan
+[01:25:12] Determined cmscan version is 001001 from '# INFERNAL 1.1.2 (July 2016)'
+[01:25:12] Looking for 'egrep' - found /bin/egrep
+[01:25:12] Looking for 'find' - found /usr/bin/find
+[01:25:12] Looking for 'grep' - found /bin/grep
+[01:25:12] Looking for 'hmmpress' - found /usr/local/bin/hmmpress
+[01:25:12] Determined hmmpress version is 003003 from '# HMMER 3.3 (Nov 2019); http://hmmer.org/'
+[01:25:12] Looking for 'hmmscan' - found /usr/local/bin/hmmscan
+[01:25:12] Determined hmmscan version is 003003 from '# HMMER 3.3 (Nov 2019); http://hmmer.org/'
+[01:25:12] Looking for 'java' - found /usr/local/bin/java
+[01:25:12] Looking for 'makeblastdb' - found /usr/local/bin/makeblastdb
+[01:25:12] Determined makeblastdb version is 002009 from 'makeblastdb: 2.9.0+'
+[01:25:12] Looking for 'minced' - found /usr/local/bin/minced
+[01:25:12] Determined minced version is 004002 from 'minced 0.4.2'
+[01:25:12] Looking for 'parallel' - found /usr/local/bin/parallel
+[01:25:12] Determined parallel version is 20200122 from 'GNU parallel 20200122'
+[01:25:12] Looking for 'prodigal' - found /usr/local/bin/prodigal
+[01:25:12] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[01:25:12] Looking for 'prokka-genbank_to_fasta_db' - found /usr/local/bin/prokka-genbank_to_fasta_db
+[01:25:12] Looking for 'sed' - found /bin/sed
+[01:25:12] Looking for 'tbl2asn' - found /usr/local/bin/tbl2asn
+[01:25:12] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[01:25:12] Using genetic code table 11.
+[01:25:12] Loading and checking input file: SRR2838702.fna
+[01:25:12] Wrote 80 contigs totalling 159095 bp.
+[01:25:12] Predicting tRNAs and tmRNAs
+[01:25:12] Running: aragorn -l -gc11  -w SRR2838702\/SRR2838702\.fna
+[01:25:12] 1 tRNA-Ile [2263,2337] 35 (gat)
+[01:25:12] 1 tRNA-Arg [1767,1842] 36 (ccg)
+[01:25:12] 1 tRNA-Thr c[786,858] 34 (cgt)
+[01:25:12] 1 tRNA-Pro c[1983,2056] 35 (tgg)
+[01:25:12] 1 tRNA-Ser c[839,922] 35 (gct)
+[01:25:12] 1 tRNA-Asp c[869,942] 35 (gtc)
+[01:25:12] Found 6 tRNAs
+[01:25:12] Predicting Ribosomal RNAs
+[01:25:12] Running Barrnap with 2 threads
+[01:25:13] 1 gnl|Bactopia|SRR2838702_5 687 16S ribosomal RNA
+[01:25:13] 2 gnl|Bactopia|SRR2838702_5 2365 23S ribosomal RNA
+[01:25:13] 3 gnl|Bactopia|SRR2838702_5 5264 5S ribosomal RNA
+[01:25:13] Found 3 rRNAs
+[01:25:13] Skipping ncRNA search, enable with --rfam if desired.
+[01:25:13] Total of 9 tRNA + rRNA features
+[01:25:13] Searching for CRISPR repeats
+[01:25:13] Found 0 CRISPRs
+[01:25:13] Predicting coding sequences
+[01:25:13] Contigs total 159095 bp, so using single mode
+[01:25:13] Running: prodigal -i SRR2838702\/SRR2838702\.fna -c -m -g 11 -p single -f sco -q
+[01:25:13] Excluding CDS which overlaps existing RNA (rRNA) at gnl|Bactopia|SRR2838702_5:1153..1281 on + strand
+[01:25:13] Found 98 CDS
+[01:25:13] Connecting features back to sequences
+[01:25:13] Not using genus-specific database. Try --usegenus to enable it.
+[01:25:13] Preparing user-supplied primary BLAST annotation source: proteins.faa
+[01:25:13] Guessed source was in fasta format.
+[01:25:13] Running: makeblastdb -dbtype prot -in proteins\.faa -out SRR2838702\/proteins -logfile /dev/null
+[01:25:17] Using /inference source as 'proteins.faa'
+[01:25:17] Annotating CDS, please be patient.
+[01:25:17] Will use 2 CPUs for similarity searching.
+[01:25:17] There are still 98 unannotated CDS left (started with 98)
+[01:25:17] Will use blast to search against SRR2838702/proteins with 2 CPUs
+[01:25:17] Running: cat SRR2838702\/SRR2838702\.proteins\.tmp\.35\.faa | parallel --gnu --plain -j 2 --block 6310 --recstart '>' --pipe blastp -query - -db SRR2838702/proteins -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > SRR2838702\/SRR2838702\.proteins\.tmp\.35\.blast 2> /dev/null
+[01:25:22] Deleting unwanted file: SRR2838702/SRR2838702.proteins.tmp.35.faa
+[01:25:22] Deleting unwanted file: SRR2838702/SRR2838702.proteins.tmp.35.blast
+[01:25:22] There are still 12 unannotated CDS left (started with 98)
+[01:25:22] Will use blast to search against /usr/local/db/kingdom/Bacteria/IS with 2 CPUs
+[01:25:22] Running: cat SRR2838702\/SRR2838702\.IS\.tmp\.35\.faa | parallel --gnu --plain -j 2 --block 284 --recstart '>' --pipe blastp -query - -db /usr/local/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > SRR2838702\/SRR2838702\.IS\.tmp\.35\.blast 2> /dev/null
+[01:25:22] Deleting unwanted file: SRR2838702/SRR2838702.IS.tmp.35.faa
+[01:25:22] Deleting unwanted file: SRR2838702/SRR2838702.IS.tmp.35.blast
+[01:25:22] There are still 12 unannotated CDS left (started with 98)
+[01:25:22] Will use blast to search against /usr/local/db/kingdom/Bacteria/AMR with 2 CPUs
+[01:25:22] Running: cat SRR2838702\/SRR2838702\.AMR\.tmp\.35\.faa | parallel --gnu --plain -j 2 --block 284 --recstart '>' --pipe blastp -query - -db /usr/local/db/kingdom/Bacteria/AMR -evalue 9.99999999999999e-301 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > SRR2838702\/SRR2838702\.AMR\.tmp\.35\.blast 2> /dev/null
+[01:25:22] Deleting unwanted file: SRR2838702/SRR2838702.AMR.tmp.35.faa
+[01:25:22] Deleting unwanted file: SRR2838702/SRR2838702.AMR.tmp.35.blast
+[01:25:22] There are still 12 unannotated CDS left (started with 98)
+[01:25:22] Will use blast to search against /usr/local/db/kingdom/Bacteria/sprot with 2 CPUs
+[01:25:22] Running: cat SRR2838702\/SRR2838702\.sprot\.tmp\.35\.faa | parallel --gnu --plain -j 2 --block 284 --recstart '>' --pipe blastp -query - -db /usr/local/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > SRR2838702\/SRR2838702\.sprot\.tmp\.35\.blast 2> /dev/null
+[01:25:23] Deleting unwanted file: SRR2838702/SRR2838702.sprot.tmp.35.faa
+[01:25:23] Deleting unwanted file: SRR2838702/SRR2838702.sprot.tmp.35.blast
+[01:25:23] There are still 12 unannotated CDS left (started with 98)
+[01:25:23] Will use hmmer3 to search against /usr/local/db/hmm/HAMAP.hmm with 2 CPUs
+[01:25:23] Running: cat SRR2838702\/SRR2838702\.HAMAP\.hmm\.tmp\.35\.faa | parallel --gnu --plain -j 2 --block 284 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /usr/local/db/hmm/HAMAP.hmm /dev/stdin > SRR2838702\/SRR2838702\.HAMAP\.hmm\.tmp\.35\.hmmer3 2> /dev/null
+[01:25:23] Deleting unwanted file: SRR2838702/SRR2838702.HAMAP.hmm.tmp.35.faa
+[01:25:23] Deleting unwanted file: SRR2838702/SRR2838702.HAMAP.hmm.tmp.35.hmmer3
+[01:25:23] Deleting unwanted file: SRR2838702/proteins.psq
+[01:25:23] Deleting unwanted file: SRR2838702/proteins.phr
+[01:25:23] Deleting unwanted file: SRR2838702/proteins.pin
+[01:25:23] Labelling remaining 12 proteins as 'hypothetical protein'
+[01:25:23] Found 73 unique /gene codes.
+[01:25:23] Fixed 0 colliding /gene names.
+[01:25:23] Adding /locus_tag identifiers
+[01:25:23] Assigned 107 locus_tags to CDS and RNA features.
+[01:25:23] Writing outputs to SRR2838702/
+[01:25:23] Generating annotation statistics file
+[01:25:23] Generating Genbank and Sequin files
+[01:25:23] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z SRR2838702\/SRR2838702\.err -i SRR2838702\/SRR2838702\.fsa 2> /dev/null
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in SRR2838702/SRR2838702.gbf
+[tbl2asn-forever] Correcting dates in SRR2838702/SRR2838702.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 14-MAY-2023
+[01:25:23] Deleting unwanted file: SRR2838702/errorsummary.val
+[01:25:23] Deleting unwanted file: SRR2838702/SRR2838702.dr
+[01:25:23] Deleting unwanted file: SRR2838702/SRR2838702.fixedproducts
+[01:25:23] Deleting unwanted file: SRR2838702/SRR2838702.ecn
+[01:25:23] Deleting unwanted file: SRR2838702/SRR2838702.val
+[01:25:23] Repairing broken .GBK output that tbl2asn produces...
+[01:25:23] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < SRR2838702\/SRR2838702\.gbf > SRR2838702\/SRR2838702\.gbk
+[01:25:23] Deleting unwanted file: SRR2838702/SRR2838702.gbf
+[01:25:23] Output files:
+[01:25:23] SRR2838702/SRR2838702.gff
+[01:25:23] SRR2838702/SRR2838702.fsa
+[01:25:23] SRR2838702/SRR2838702.ffn
+[01:25:23] SRR2838702/SRR2838702.log
+[01:25:23] SRR2838702/SRR2838702.tbl
+[01:25:23] SRR2838702/SRR2838702.gbk
+[01:25:23] SRR2838702/SRR2838702.txt
+[01:25:23] SRR2838702/SRR2838702.sqn
+[01:25:23] SRR2838702/SRR2838702.tsv
+[01:25:23] SRR2838702/SRR2838702.faa
+[01:25:23] SRR2838702/SRR2838702.err
+[01:25:23] SRR2838702/SRR2838702.fna
+[01:25:23] Annotation finished successfully.
+[01:25:23] Walltime used: 0.18 minutes
+[01:25:23] If you use this result please cite the Prokka paper:
+[01:25:23] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[01:25:23] Type 'prokka --citation' for more details.
+[01:25:23] Share and enjoy!
+
+
+Building a new DB, current time: 05/14/2023 01:25:23
+New DB name:   /home/charlie/Documents/BactBook/bactopia-workshop/work/14/6b0cfa30d44baeac88d53c7e6ae09a/blastdb/!{meta.id}.fna
+New DB title:  Assembled contigs for !{meta.id}
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 80 sequences in 0.00335288 seconds.
+
+
+Building a new DB, current time: 05/14/2023 01:25:23
+New DB name:   /home/charlie/Documents/BactBook/bactopia-workshop/work/14/6b0cfa30d44baeac88d53c7e6ae09a/blastdb/!{meta.id}.ffn
+New DB title:  Predicted genes sequences for !{meta.id}
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 107 sequences in 0.00323606 seconds.
+
+
+Building a new DB, current time: 05/14/2023 01:25:23
+New DB name:   /home/charlie/Documents/BactBook/bactopia-workshop/work/14/6b0cfa30d44baeac88d53c7e6ae09a/blastdb/!{meta.id}.faa
+New DB title:  Predicted protein sequences for !{meta.id}
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 98 sequences in 0.00256181 seconds.
+blastdb/
+blastdb/!{meta.id}.faa.pin
+blastdb/!{meta.id}.ffn.nin
+blastdb/!{meta.id}.fna.nhr
+blastdb/!{meta.id}.ffn.nhr
+blastdb/!{meta.id}.fna.nsq
+blastdb/!{meta.id}.ffn.nsq
+blastdb/!{meta.id}.faa.phr
+blastdb/!{meta.id}.faa.psq
+blastdb/!{meta.id}.fna.nin

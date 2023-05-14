@@ -1,0 +1,7 @@
+"BACTOPIA:GATHER:GATHER_MODULE":
+    art: 2.5.8
+    fastq-dl: 2.0.0
+    fastq-scan: 1.0.1
+    mash: 2.3
+    ncbi-genome-download: 0.3.1
+    pigz: 2.6

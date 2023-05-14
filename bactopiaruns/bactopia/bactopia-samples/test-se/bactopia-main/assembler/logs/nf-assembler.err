@@ -1,0 +1,334 @@
+[shovill-se] Hello stranger
+[shovill-se] You ran: /usr/local/bin/shovill-se --SE test-se.fastq.gz --gsize 358000 --outdir results --assembler skesa --minlen 500 --mincov 2 --force --keepfiles --depth 0 --noreadcorr --namefmt test-se_%05d --cpus 4 --ram 7
+[shovill-se] This is shovill-se 1.1.0
+[shovill-se] Written by Torsten Seemann
+[shovill-se] Homepage is https://github.com/tseemann/shovill
+[shovill-se] Operating system is linux
+[shovill-se] Perl version is v5.32.1
+[shovill-se] Machine has 8 CPU cores and 15.53 GB RAM
+[shovill-se] Using bwa - /usr/local/bin/bwa | Version: 0.7.17-r1188
+[shovill-se] Using flash - /usr/local/bin/flash | FLASH v1.2.11
+[shovill-se] Using java - /usr/local/bin/java | openjdk version "11.0.15-internal" 2022-04-19
+[shovill-se] Using kmc - /usr/local/bin/kmc | K-Mer Counter (KMC) ver. 3.2.1 (2022-01-04)
+[shovill-se] Using lighter - /usr/local/bin/lighter | Lighter v1.1.2
+[shovill-se] Using megahit - /usr/local/bin/megahit | MEGAHIT v1.2.9
+[shovill-se] Using megahit_toolkit - /usr/local/bin/megahit_toolkit | v1.2.9
+[shovill-se] Using pigz - /usr/local/bin/pigz | pigz 2.6
+[shovill-se] Using pilon - /usr/local/bin/pilon | Pilon version 1.24 Thu Jan 28 13:00:45 2021 -0500
+[shovill-se] Using samclip - /usr/local/bin/samclip | samclip 0.4.0
+[shovill-se] Using samtools - /usr/local/bin/samtools | Version: 1.15 (using htslib 1.14)
+[shovill-se] Using seqtk - /usr/local/bin/seqtk | Version: 1.3-r106
+[shovill-se] Using skesa - /usr/local/bin/skesa | SKESA 2.4.0
+[shovill-se] Using spades.py - /usr/local/bin/spades.py | SPAdes genome assembler v3.15.5
+[shovill-se] Using trimmomatic - /usr/local/bin/trimmomatic | 0.39
+[shovill-se] Using velvetg - /usr/local/bin/velvetg | Version 1.2.10
+[shovill-se] Using velveth - /usr/local/bin/velveth | Version 1.2.10
+[shovill-se] Found spades version: 003015000
+[shovill-se] Using tempdir: /tmp/hR6bnxg3t9
+[shovill-se] Changing into folder: /home/charlie/Documents/BactBook/bactopia-workshop/work/ba/ae1f478f97482535ea94b4fe11cba5/results
+[shovill-se] Collecting raw read statistics with 'seqtk'
+[shovill-se] Running: seqtk fqchk -q3 \/home\/charlie\/Documents\/BactBook\/bactopia\-workshop\/work\/94\/2e8aa4cf93eadbf5c41bbb22ca96fe\/results\/test\-se\.fastq\.gz >/tmp/S4U_uIzH8r 2>&1 | sed 's/^/[seqtk] /' | tee -a shovill-se.log
+[shovill-se] Read stats: avg_len = 101
+[shovill-se] Read stats: min_len = 101
+[shovill-se] Read stats: max_len = 101
+[shovill-se] Read stats: total_bp = 9862751
+[shovill-se] Using genome size 358000 bp
+[shovill-se] Estimated sequencing depth: 27 x
+[shovill-se] No read depth reduction requested or necessary.
+[shovill-se] Appending -Xmx7g to _JAVA_OPTIONS
+[shovill-se] Running: ln -sf \/home\/charlie\/Documents\/BactBook\/bactopia\-workshop\/work\/94\/2e8aa4cf93eadbf5c41bbb22ca96fe\/results\/test\-se\.fastq\.gz SE.fq.gz 2>&1 | sed 's/^/[ln] /' | tee -a shovill-se.log
+[shovill-se] Average read length looks like 101 bp
+[shovill-se] Setting k-mer range to (31 .. 75)
+[shovill-se] Estimated K-mers: 31 43 55 67 [kn=5, ks=12, kmin=31, kmax=75]
+[shovill-se] Using kmers: 31,43,55,67
+[shovill-se] Enabled --noreadcorr, so no read correction will be performed
+[shovill-se] Single-end reads, so no read stitching will be performed
+[shovill-se] Assembling reads with 'skesa'
+[shovill-se] Running: skesa --gz  --fastq SE.fq.gz --contigs_out skesa.fasta --min_contig 1 --memory 7 --cores 4 --vector_percent 1 2>&1 | sed 's/^/[skesa] /' | tee -a shovill-se.log
+[shovill-se] Checking for assembly errors in skesa.fasta
+[shovill-se] Running: bwa index skesa.fasta 2>&1 | sed 's/^/[bwa-index] /' | tee -a shovill-se.log
+[shovill-se] Running: samtools faidx skesa.fasta 2>&1 | sed 's/^/[faidx] /' | tee -a shovill-se.log
+[shovill-se] Running: (bwa mem -v 3 -x intractg -t 4 skesa.fasta SE.fq.gz | samclip --ref skesa.fasta.fai | samtools sort --threads 1 -m 3072m --reference skesa.fasta -T /tmp/hR6bnxg3t9 -o shovill-se.bam) 2>&1 | sed 's/^/[bwa+samtools-sort] /' | tee -a shovill-se.log
+[shovill-se] Running: samtools index shovill-se.bam 2>&1 | sed 's/^/[samtools-index] /' | tee -a shovill-se.log
+[shovill-se] Correcting errors in skesa.fasta
+[shovill-se] Running: pilon --genome skesa.fasta --frags shovill-se.bam --minmq 60 --minqual 3 --fix bases --output pilon --threads 4 --changes --mindepth 0.25 2>&1 | sed 's/^/[pilon] /' | tee -a shovill-se.log
+[shovill-se] Repaired 0 contigs from skesa.fasta at 0 positions.
+[shovill-se] Removing short contig (< 500 bp): Contig_243_7.12343_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_263_5.27215_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_69_8.15846_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_235_10.8985_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_119_22.9692_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_337_14.5099_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_251_12.3067_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_26_5.2549_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_47_9.57284_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_17_17.2203_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_11_34.2281_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_55_5.27467_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_113_6.6059_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_319_20.2324_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_16_10.6883_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_262_12.9457_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_279_5.67575_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_174_9.92011_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_195_10.1723_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_222_9.79656_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_265_5.90778_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_206_37.4548_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_228_9.4256_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_315_10.946_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_338_9.28197_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_248_10.6898_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_230_10.7879_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_180_8.45608_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_68_10.1241_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_306_8.19861_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_221_5.33798_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_5_5.36331_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_207_6.86909_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_130_8.16423_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_216_5.51493_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_104_5.44195_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_240_8.43561_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_109_6.91954_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_308_5.60385_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_245_7.51807_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_215_6.16529_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_2_4.1_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_37_8.57322_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_292_7.03814_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_82_3.04255_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_52_4.11159_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_120_9.28879_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_103_5.77729_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_212_5.87665_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_328_5.9292_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_112_4.74667_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_64_3.31556_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_282_3.24_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_176_30.2117_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_322_16.5_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_330_3.68349_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_264_3.93953_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_95_34.4065_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_165_14.7642_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_241_5.64286_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_285_14.7703_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_24_5.28155_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_75_5.72816_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_92_8.4697_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_154_9.82051_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_297_4.7732_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_231_5.70619_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_238_12.7135_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_137_13.2432_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_323_2.95676_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_96_4.17877_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_171_6.19101_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_3_7.35838_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_163_3.1462_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_252_37.4706_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_281_22.9048_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_256_4.2515_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_295_5.16168_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_249_4.3253_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_77_2.58896_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_45_2.95062_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_150_4.48125_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_108_21.6667_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_257_6.47742_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_201_5.93506_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_189_5.94631_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_324_4.45578_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_63_4.4863_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_218_11.7698_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_122_10.2044_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_98_72.0382_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_35_3.87023_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_200_3.78462_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_118_12.9922_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_187_11.3906_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_50_11.7734_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_56_2.9685_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_334_7.09524_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_8_3.27419_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_139_3.64516_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_237_14.1066_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_225_4.60656_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_76_5.35537_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_6_5.24793_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_106_3.66942_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_61_4.80992_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_239_3.00833_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_48_3.26667_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_304_4.87069_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_91_4.7913_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_60_7.64286_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_148_3.13636_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_184_2.88991_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_28_5.07339_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_46_3.90654_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_300_4.75962_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_30_18.068_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_320_5.1068_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_254_2.8835_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_316_5.12621_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_177_3.9505_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_31_6.35354_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_169_11.2959_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_242_4.06122_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_157_5.03061_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_39_5.15464_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_179_2.95745_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_115_3.93548_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_4_6.01099_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_286_3.27473_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_166_4.89011_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_209_9.82418_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_40_28.8132_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_255_4.08046_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_196_8.74713_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_71_3.88372_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_211_3.54762_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_303_3.95181_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_138_3.37349_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_83_3.84337_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_310_4.4878_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_81_3.40244_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_276_2.9125_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_197_6.84615_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_203_2.83333_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_193_3.24359_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_191_7.61842_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_15_4.39474_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_134_2.76_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_192_3.81333_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_311_5.0137_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_336_5.19444_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_204_4.39437_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_329_3.30986_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_259_2.64286_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_94_2.63768_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_159_4.15942_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_181_25.7391_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_80_5.21739_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_38_4.72059_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_86_2.5_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_344_7.75_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_167_3.71642_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_74_4.9403_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_156_4.8806_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_141_2.56061_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_291_11.2923_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_168_2.82812_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_161_26.5_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_19_6.31148_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_93_2.65_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_312_2.35_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_117_5.83333_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_162_7.28333_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_132_2.8_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_301_3.25424_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_253_7.08475_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_173_4.47458_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_78_4.37288_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_140_7.93103_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_124_2.84483_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_158_2.68421_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_183_3_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_266_5.17857_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_342_3.49091_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_309_6.16364_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_65_3.58182_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_326_3.38889_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_185_3.16667_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_236_3.64815_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_135_5.42593_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_223_2.62264_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_44_4.15385_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_99_4.86538_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_277_3.92308_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_13_3.23077_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_125_7.72549_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_100_3.68627_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_267_4.76_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_59_3.46_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_66_3.76_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_296_4.64583_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_217_4.14583_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_341_2.97917_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_302_4_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_175_4.38298_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_10_3.38298_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_149_6.68085_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_205_27.8478_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_274_3_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_14_4.93333_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_305_3.42222_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_287_3.68889_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_88_2.95556_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_190_11_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_22_3.56818_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_127_7.7907_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_133_3.72093_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_333_4.06977_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_229_4.67442_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_321_3_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_160_3.34884_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_293_4.90476_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_271_5.57143_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_51_5.19048_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_332_4.07143_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_21_3.2381_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_178_7.04762_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_170_5.09524_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_85_4_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_152_4.53659_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_147_4.825_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_340_5_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_199_3.6_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_331_4_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_186_3.87179_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_213_2.82051_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_32_4.62162_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_142_3_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_289_3.08108_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_250_2.11111_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_313_3.28571_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_110_3.14706_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_101_3_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_233_3.78788_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_284_3.12121_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_247_4_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_1_3.375_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_84_3.59375_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_90_3.875_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_290_2.96774_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_227_3.16129_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_41_3.7_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_278_3.43333_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_232_4_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_129_6_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_70_3.10345_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_62_3_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_42_2.92857_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_318_3.96296_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_34_3_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_53_2_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_194_3.56_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_210_4.875_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_226_3_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_202_3.625_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_317_2.79167_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_54_4_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_79_4_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_294_2.3913_pilon
+[shovill-se] Removing short contig (< 500 bp): Contig_307_4_pilon
+[shovill-se] Assembly is 108239, estimated genome size was 358000 (-69.77%)
+[shovill-se] Note: skesa does not produce a graph file
+[shovill-se] Walltime used: 0 min 39 sec
+[shovill-se] Results in: /home/charlie/Documents/BactBook/bactopia-workshop/work/ba/ae1f478f97482535ea94b4fe11cba5/results
+[shovill-se] Final assembly contigs: /home/charlie/Documents/BactBook/bactopia-workshop/work/ba/ae1f478f97482535ea94b4fe11cba5/results/contigs.fa
+[shovill-se] It contains 73 (min=500) contigs totalling 108239 bp.
+[shovill-se] Did you know? shovill-se is a play on the words 'Spades' and 'Illumina' ('shovel')
+[shovill-se] Done.

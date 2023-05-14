@@ -1,0 +1,22 @@
+Running: amrfinder -n test-short-polish.ffn --plus --ident_min -1 --coverage_min 0.5 --translation_table 11 --database amrfinderplus/ --threads 4 --name test-short-polish
+Software directory: '/usr/local/bin/'
+Software version: 3.11.11
+Database directory: '/home/charlie/Documents/BactBook/bactopia-workshop/work/0c/a9c89e1e9f8b6d1115eda64ce8c92a/amrfinderplus'
+Database version: 2023-04-17.1
+AMRFinder translated nucleotide search
+  - include -O ORGANISM, --organism ORGANISM option to add mutation searches and suppress common proteins
+[36mRunning blastx[0m
+[36mMaking report[0m
+AMRFinder took 12 seconds to complete
+Running: amrfinder -p test-short-polish.faa --plus --ident_min -1 --coverage_min 0.5 --translation_table 11 --database amrfinderplus/ --threads 4 --name test-short-polish
+Software directory: '/usr/local/bin/'
+Software version: 3.11.11
+Database directory: '/home/charlie/Documents/BactBook/bactopia-workshop/work/0c/a9c89e1e9f8b6d1115eda64ce8c92a/amrfinderplus'
+Database version: 2023-04-17.1
+AMRFinder protein-only search
+  - include -n NUC_FASTA, --nucleotide NUC_FASTA and -g GFF_FILE, --gff GFF_FILE options to add translated searches
+  - include -O ORGANISM, --organism ORGANISM option to add mutation searches and suppress common proteins
+[36mRunning blastp[0m
+[36mRunning hmmsearch[0m
+[36mMaking report[0m
+AMRFinder took 9 seconds to complete

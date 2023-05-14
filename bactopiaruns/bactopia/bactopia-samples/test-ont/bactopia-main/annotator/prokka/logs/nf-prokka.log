@@ -1,0 +1,474 @@
+[01:55:14] This is prokka 1.14.6
+[01:55:14] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[01:55:14] Homepage is https://github.com/tseemann/prokka
+[01:55:14] Local time is Sun May 14 01:55:14 2023
+[01:55:14] You are not telling me who you are!
+[01:55:14] Operating system is linux
+[01:55:14] You have BioPerl 1.007002
+[01:55:14] System has 8 cores.
+[01:55:14] Will use maximum of 4 cores.
+[01:55:14] Annotating as >>> Bacteria <<<
+[01:55:14] Creating new output folder: test-ont
+[01:55:14] Running: mkdir -p test\-ont
+[01:55:14] Using filename prefix: test-ont.XXX
+[01:55:14] Setting HMMER_NCPU=1
+[01:55:14] Writing log to: test-ont/test-ont.log
+[01:55:14] Command: /usr/local/bin/prokka --evalue 1e-09 --coverage 80 --centre Bactopia --cpus 4 --prefix test-ont --locustag test-ont --proteins proteins.faa test-ont.fna
+[01:55:14] Appending to PATH: /usr/local/bin
+[01:55:14] Looking for 'aragorn' - found /usr/local/bin/aragorn
+[01:55:14] Determined aragorn version is 001002 from 'ARAGORN v1.2.38 Dean Laslett'
+[01:55:14] Looking for 'barrnap' - found /usr/local/bin/barrnap
+[01:55:14] Determined barrnap version is 000009 from 'barrnap 0.9'
+[01:55:14] Looking for 'blastp' - found /usr/local/bin/blastp
+[01:55:15] Determined blastp version is 002009 from 'blastp: 2.9.0+'
+[01:55:15] Looking for 'cmpress' - found /usr/local/bin/cmpress
+[01:55:15] Determined cmpress version is 001001 from '# INFERNAL 1.1.2 (July 2016)'
+[01:55:15] Looking for 'cmscan' - found /usr/local/bin/cmscan
+[01:55:15] Determined cmscan version is 001001 from '# INFERNAL 1.1.2 (July 2016)'
+[01:55:15] Looking for 'egrep' - found /bin/egrep
+[01:55:15] Looking for 'find' - found /usr/bin/find
+[01:55:15] Looking for 'grep' - found /bin/grep
+[01:55:15] Looking for 'hmmpress' - found /usr/local/bin/hmmpress
+[01:55:15] Determined hmmpress version is 003003 from '# HMMER 3.3 (Nov 2019); http://hmmer.org/'
+[01:55:15] Looking for 'hmmscan' - found /usr/local/bin/hmmscan
+[01:55:15] Determined hmmscan version is 003003 from '# HMMER 3.3 (Nov 2019); http://hmmer.org/'
+[01:55:15] Looking for 'java' - found /usr/local/bin/java
+[01:55:15] Looking for 'makeblastdb' - found /usr/local/bin/makeblastdb
+[01:55:15] Determined makeblastdb version is 002009 from 'makeblastdb: 2.9.0+'
+[01:55:15] Looking for 'minced' - found /usr/local/bin/minced
+[01:55:15] Determined minced version is 004002 from 'minced 0.4.2'
+[01:55:15] Looking for 'parallel' - found /usr/local/bin/parallel
+[01:55:15] Determined parallel version is 20200122 from 'GNU parallel 20200122'
+[01:55:15] Looking for 'prodigal' - found /usr/local/bin/prodigal
+[01:55:15] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[01:55:15] Looking for 'prokka-genbank_to_fasta_db' - found /usr/local/bin/prokka-genbank_to_fasta_db
+[01:55:15] Looking for 'sed' - found /bin/sed
+[01:55:15] Looking for 'tbl2asn' - found /usr/local/bin/tbl2asn
+[01:55:15] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[01:55:15] Using genetic code table 11.
+[01:55:15] Loading and checking input file: test-ont.fna
+[01:55:15] Wrote 38 contigs totalling 422853 bp.
+[01:55:15] Predicting tRNAs and tmRNAs
+[01:55:15] Running: aragorn -l -gc11  -w test\-ont\/test\-ont\.fna
+[01:55:15] 1 tRNA-Met [18528,18601] 35 (cat)
+[01:55:15] 2 tRNA-Asn c[18696,18770] 35 (gtt)
+[01:55:15] 3 tRNA-Lys c[22662,22735] 34 (ttt)
+[01:55:15] 4 tRNA-Val c[23438,23514] 37 (gac)
+[01:55:15] 5 tRNA-Leu c[25082,25164] 35 (taa)
+[01:55:15] 6 tRNA-Cys c[25209,25280] 33 (gca)
+[01:55:15] 1 tRNA-Met c[3290,3364] 36 (cat)
+[01:55:15] tRNA c[3380,3463] is a pseudo/wacky gene - skipping.
+[01:55:15] 3 tRNA-Ala [13492,13567] 35 (tgc)
+[01:55:15] 1 tRNA-Val c[1898,1973] 36 (tac)
+[01:55:15] tRNA c[1987,2059] is a pseudo/wacky gene - skipping.
+[01:55:15] 3 tRNA-Ser [5279,5364] 36 (gga)
+[01:55:15] 4 tRNA-Gly [7770,7842] 34 (tcc)
+[01:55:15] 5 tRNA-Thr [7849,7922] 34 (agt)
+[01:55:15] 6 tRNA-Trp [7940,8012] 34 (cca)
+[01:55:15] 1 tRNA-Leu [4753,4840] 36 (tag)
+[01:55:15] 2 tRNA-Asp c[8848,8921] 35 (gtc)
+[01:55:15] tRNA c[9898,9971] is a pseudo/wacky gene - skipping.
+[01:55:15] 4 tRNA-Arg c[28118,28193] 36 (ccg)
+[01:55:15] 1 tRNA-Arg c[1071,1144] 35 (acg)
+[01:55:15] 2 tRNA-Met c[25626,25699] 35 (cat)
+[01:55:15] tRNA c[10042,10115] is a pseudo/wacky gene - skipping.
+[01:55:15] 2 tRNA-Phe c[10148,10221] 34 (gaa)
+[01:55:15] 3 tRNA-Thr c[18261,18333] 34 (cgt)
+[01:55:15] 1 tRNA-Gly c[1088,1162] 35 (gcc)
+[01:55:15] 2 tRNA-Glu c[1177,1251] 36 (ttc)
+[01:55:15] 3 tRNA-Glu [11287,11360] 35 (ttc)
+[01:55:15] 4 tRNA-Gly [11373,11447] 35 (gcc)
+[01:55:15] 5 tRNA-Ser [13184,13269] 36 (gga)
+[01:55:15] 1 tRNA-Ile [1694,1769] 35 (gat)
+[01:55:15] 1 tRNA-Met c[235,308] 35 (cat)
+[01:55:15] 2 tRNA-Leu c[325,408] 35 (gag)
+[01:55:15] 1 tRNA-Pro [5213,5285] 35 (tgg)
+[01:55:15] 2 tRNA-His c[6507,6578] 33 (gtg)
+[01:55:15] 3 tRNA-Arg c[6580,6654] 36 (tct)
+[01:55:15] 1 tRNA-Ser c[2488,2574] 37 (gct)
+[01:55:15] 2 tRNA-Ser [5937,6020] 34 (gct)
+[01:55:15] 1 tRNA-Met c[2360,2433] 35 (cat)
+[01:55:15] 1 tRNA-Met [1526,1599] 35 (cat)
+[01:55:15] 2 tRNA-Asn c[1696,1768] 34 (gtt)
+[01:55:15] 1 tRNA-Tyr c[192,274] 36 (gta)
+[01:55:15] tRNA [33,123] is a pseudo/wacky gene - skipping.
+[01:55:15] Found 37 tRNAs
+[01:55:15] Predicting Ribosomal RNAs
+[01:55:15] Running Barrnap with 4 threads
+[01:55:16] 1 gnl|Bactopia|test-ont_13 131 16S ribosomal RNA
+[01:55:16] 2 gnl|Bactopia|test-ont_13 1796 23S ribosomal RNA
+[01:55:16] 3 gnl|Bactopia|test-ont_13 4688 5S ribosomal RNA
+[01:55:16] 4 gnl|Bactopia|test-ont_13 8053 5S ribosomal RNA
+[01:55:16] 5 gnl|Bactopia|test-ont_13 8199 23S ribosomal RNA (partial)
+[01:55:16] Found 5 rRNAs
+[01:55:16] Skipping ncRNA search, enable with --rfam if desired.
+[01:55:16] Total of 42 tRNA + rRNA features
+[01:55:16] Searching for CRISPR repeats
+[01:55:16] Found 0 CRISPRs
+[01:55:16] Predicting coding sequences
+[01:55:16] Contigs total 422853 bp, so using single mode
+[01:55:16] Running: prodigal -i test\-ont\/test\-ont\.fna -c -m -g 11 -p single -f sco -q
+[01:55:16] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Bactopia|test-ont_1:23499..23717 on + strand
+[01:55:16] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Bactopia|test-ont_1:25039..25326 on - strand
+[01:55:16] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Bactopia|test-ont_2:3258..3491 on - strand
+[01:55:16] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Bactopia|test-ont_3:5127..5309 on - strand
+[01:55:16] Excluding CDS which overlaps existing RNA (rRNA) at gnl|Bactopia|test-ont_13:274..426 on - strand
+[01:55:16] Excluding CDS which overlaps existing RNA (rRNA) at gnl|Bactopia|test-ont_13:1064..1219 on - strand
+[01:55:16] Excluding CDS which overlaps existing RNA (rRNA) at gnl|Bactopia|test-ont_13:2932..3132 on + strand
+[01:55:16] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Bactopia|test-ont_18:6640..6930 on + strand
+[01:55:16] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Bactopia|test-ont_37:260..628 on - strand
+[01:55:16] Found 734 CDS
+[01:55:16] Connecting features back to sequences
+[01:55:16] Not using genus-specific database. Try --usegenus to enable it.
+[01:55:16] Preparing user-supplied primary BLAST annotation source: proteins.faa
+[01:55:16] Guessed source was in fasta format.
+[01:55:16] Running: makeblastdb -dbtype prot -in proteins\.faa -out test\-ont\/proteins -logfile /dev/null
+[01:55:17] Using /inference source as 'proteins.faa'
+[01:55:17] Annotating CDS, please be patient.
+[01:55:17] Will use 4 CPUs for similarity searching.
+[01:55:17] There are still 734 unannotated CDS left (started with 734)
+[01:55:17] Will use blast to search against test-ont/proteins with 4 CPUs
+[01:55:17] Running: cat test\-ont\/test\-ont\.proteins\.tmp\.44\.faa | parallel --gnu --plain -j 4 --block 8136 --recstart '>' --pipe blastp -query - -db test-ont/proteins -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > test\-ont\/test\-ont\.proteins\.tmp\.44\.blast 2> /dev/null
+[01:55:46] Deleting unwanted file: test-ont/test-ont.proteins.tmp.44.faa
+[01:55:46] Deleting unwanted file: test-ont/test-ont.proteins.tmp.44.blast
+[01:55:46] There are still 379 unannotated CDS left (started with 734)
+[01:55:46] Will use blast to search against /usr/local/db/kingdom/Bacteria/IS with 4 CPUs
+[01:55:46] Running: cat test\-ont\/test\-ont\.IS\.tmp\.44\.faa | parallel --gnu --plain -j 4 --block 3393 --recstart '>' --pipe blastp -query - -db /usr/local/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > test\-ont\/test\-ont\.IS\.tmp\.44\.blast 2> /dev/null
+[01:55:47] Deleting unwanted file: test-ont/test-ont.IS.tmp.44.faa
+[01:55:47] Deleting unwanted file: test-ont/test-ont.IS.tmp.44.blast
+[01:55:47] There are still 379 unannotated CDS left (started with 734)
+[01:55:47] Will use blast to search against /usr/local/db/kingdom/Bacteria/AMR with 4 CPUs
+[01:55:47] Running: cat test\-ont\/test\-ont\.AMR\.tmp\.44\.faa | parallel --gnu --plain -j 4 --block 3393 --recstart '>' --pipe blastp -query - -db /usr/local/db/kingdom/Bacteria/AMR -evalue 9.99999999999999e-301 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > test\-ont\/test\-ont\.AMR\.tmp\.44\.blast 2> /dev/null
+[01:55:48] Deleting unwanted file: test-ont/test-ont.AMR.tmp.44.faa
+[01:55:48] Deleting unwanted file: test-ont/test-ont.AMR.tmp.44.blast
+[01:55:48] There are still 379 unannotated CDS left (started with 734)
+[01:55:48] Will use blast to search against /usr/local/db/kingdom/Bacteria/sprot with 4 CPUs
+[01:55:48] Running: cat test\-ont\/test\-ont\.sprot\.tmp\.44\.faa | parallel --gnu --plain -j 4 --block 3393 --recstart '>' --pipe blastp -query - -db /usr/local/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > test\-ont\/test\-ont\.sprot\.tmp\.44\.blast 2> /dev/null
+[01:55:50] Modify product: Probable ABC transporter ATP-binding protein M6_Spy0273 => putative ABC transporter ATP-binding protein
+[01:55:50] Cleaned 1 /product names
+[01:55:50] Deleting unwanted file: test-ont/test-ont.sprot.tmp.44.faa
+[01:55:50] Deleting unwanted file: test-ont/test-ont.sprot.tmp.44.blast
+[01:55:50] There are still 362 unannotated CDS left (started with 734)
+[01:55:50] Will use hmmer3 to search against /usr/local/db/hmm/HAMAP.hmm with 4 CPUs
+[01:55:50] Running: cat test\-ont\/test\-ont\.HAMAP\.hmm\.tmp\.44\.faa | parallel --gnu --plain -j 4 --block 3197 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /usr/local/db/hmm/HAMAP.hmm /dev/stdin > test\-ont\/test\-ont\.HAMAP\.hmm\.tmp\.44\.hmmer3 2> /dev/null
+[01:55:56] Deleting unwanted file: test-ont/test-ont.HAMAP.hmm.tmp.44.faa
+[01:55:56] Deleting unwanted file: test-ont/test-ont.HAMAP.hmm.tmp.44.hmmer3
+[01:55:56] Deleting unwanted file: test-ont/proteins.psq
+[01:55:56] Deleting unwanted file: test-ont/proteins.phr
+[01:55:56] Deleting unwanted file: test-ont/proteins.pin
+[01:55:56] Labelling remaining 299 proteins as 'hypothetical protein'
+[01:55:56] Possible /pseudo 'DNA mismatch repair protein MutS' at gnl|Bactopia|test-ont_1 position 1019
+[01:55:56] Possible /pseudo 'DNA mismatch repair protein MutS' at gnl|Bactopia|test-ont_1 position 1248
+[01:55:56] Possible /pseudo 'Ribosomal RNA small subunit methyltransferase H' at gnl|Bactopia|test-ont_1 position 5579
+[01:55:56] Possible /pseudo 'Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatA' at gnl|Bactopia|test-ont_1 position 8748
+[01:55:56] Possible /pseudo 'ribose-phosphate pyrophosphokinase' at gnl|Bactopia|test-ont_1 position 16214
+[01:55:56] Possible /pseudo 'ribose-phosphate pyrophosphokinase' at gnl|Bactopia|test-ont_1 position 16356
+[01:55:56] Possible /pseudo 'Iron-sulfur cluster carrier protein' at gnl|Bactopia|test-ont_1 position 24043
+[01:55:56] Possible /pseudo 'argininosuccinate synthase' at gnl|Bactopia|test-ont_1 position 26481
+[01:55:56] Possible /pseudo 'chaperonin GroEL' at gnl|Bactopia|test-ont_1 position 28411
+[01:55:56] Possible /pseudo 'aspartate aminotransferase family protein' at gnl|Bactopia|test-ont_1 position 32659
+[01:55:56] Possible /pseudo 'valine--tRNA ligase' at gnl|Bactopia|test-ont_1 position 33475
+[01:55:56] Possible /pseudo 'valine--tRNA ligase' at gnl|Bactopia|test-ont_1 position 33827
+[01:55:56] Possible /pseudo 'valine--tRNA ligase' at gnl|Bactopia|test-ont_1 position 34174
+[01:55:56] Possible /pseudo 'valine--tRNA ligase' at gnl|Bactopia|test-ont_1 position 34314
+[01:55:56] Possible /pseudo 'valine--tRNA ligase' at gnl|Bactopia|test-ont_1 position 34501
+[01:55:56] Possible /pseudo 'valine--tRNA ligase' at gnl|Bactopia|test-ont_1 position 35089
+[01:55:56] Possible /pseudo 'tryptophan synthase subunit beta' at gnl|Bactopia|test-ont_1 position 38555
+[01:55:56] Possible /pseudo 'ATP-dependent zinc metalloprotease FtsH' at gnl|Bactopia|test-ont_2 position 4269
+[01:55:56] Possible /pseudo 'ATP-dependent zinc metalloprotease FtsH' at gnl|Bactopia|test-ont_2 position 4797
+[01:55:56] Possible /pseudo 'ATP-dependent zinc metalloprotease FtsH' at gnl|Bactopia|test-ont_2 position 5131
+[01:55:56] Possible /pseudo 'carbamoyl-phosphate synthase large subunit' at gnl|Bactopia|test-ont_2 position 6563
+[01:55:56] Possible /pseudo 'carbamoyl-phosphate synthase large subunit' at gnl|Bactopia|test-ont_2 position 6993
+[01:55:56] Possible /pseudo 'carbamoyl-phosphate synthase large subunit' at gnl|Bactopia|test-ont_2 position 7244
+[01:55:56] Possible /pseudo 'carbamoyl-phosphate synthase large subunit' at gnl|Bactopia|test-ont_2 position 7890
+[01:55:56] Possible /pseudo 'carbamoyl-phosphate synthase large subunit' at gnl|Bactopia|test-ont_2 position 8207
+[01:55:56] Possible /pseudo 'carbamoyl-phosphate synthase large subunit' at gnl|Bactopia|test-ont_2 position 8913
+[01:55:56] Possible /pseudo 'glutamine-hydrolyzing carbamoyl-phosphate synthase small subunit' at gnl|Bactopia|test-ont_2 position 9908
+[01:55:56] Possible /pseudo 'DNA polymerase III subunit alpha' at gnl|Bactopia|test-ont_2 position 21201
+[01:55:56] Possible /pseudo 'tRNA(Ile)-lysidine synthase' at gnl|Bactopia|test-ont_2 position 23037
+[01:55:56] Possible /pseudo 'transcription termination factor Rho' at gnl|Bactopia|test-ont_2 position 24227
+[01:55:56] Possible /pseudo 'transcription termination factor Rho' at gnl|Bactopia|test-ont_2 position 24383
+[01:55:56] Possible /pseudo 'transcription termination factor Rho' at gnl|Bactopia|test-ont_2 position 24796
+[01:55:56] Possible /pseudo '3-deoxy-7-phosphoheptulonate synthase' at gnl|Bactopia|test-ont_2 position 25606
+[01:55:56] Possible /pseudo '5-methyltetrahydropteroyltriglutamate-- homocysteine S-methyltransferase' at gnl|Bactopia|test-ont_2 position 26926
+[01:55:56] Possible /pseudo '3-dehydroquinate synthase' at gnl|Bactopia|test-ont_2 position 32209
+[01:55:56] Possible /pseudo 'ribonuclease E' at gnl|Bactopia|test-ont_2 position 35148
+[01:55:56] Possible /pseudo 'ribonuclease E' at gnl|Bactopia|test-ont_2 position 35693
+[01:55:56] Possible /pseudo '2-isopropylmalate synthase' at gnl|Bactopia|test-ont_2 position 39825
+[01:55:56] Possible /pseudo '2-isopropylmalate synthase' at gnl|Bactopia|test-ont_2 position 40432
+[01:55:56] Possible /pseudo 'DNA-directed RNA polymerase subunit beta' at gnl|Bactopia|test-ont_3 position 11544
+[01:55:56] Possible /pseudo 'DNA-directed RNA polymerase subunit beta' at gnl|Bactopia|test-ont_3 position 11653
+[01:55:56] Possible /pseudo 'DNA-directed RNA polymerase subunit beta' at gnl|Bactopia|test-ont_3 position 12736
+[01:55:56] Possible /pseudo 'DNA-directed RNA polymerase subunit beta'' at gnl|Bactopia|test-ont_3 position 15462
+[01:55:56] Possible /pseudo 'DNA-directed RNA polymerase subunit beta'' at gnl|Bactopia|test-ont_3 position 15917
+[01:55:56] Possible /pseudo 'DNA-directed RNA polymerase subunit beta'' at gnl|Bactopia|test-ont_3 position 16101
+[01:55:56] Possible /pseudo 'DNA-directed RNA polymerase subunit beta'' at gnl|Bactopia|test-ont_3 position 16424
+[01:55:56] Possible /pseudo 'DNA-directed RNA polymerase subunit beta'' at gnl|Bactopia|test-ont_3 position 18444
+[01:55:56] Possible /pseudo 'DNA-directed RNA polymerase subunit beta'' at gnl|Bactopia|test-ont_3 position 18638
+[01:55:56] Possible /pseudo 'DNA-directed RNA polymerase subunit beta'' at gnl|Bactopia|test-ont_3 position 18797
+[01:55:56] Possible /pseudo 'elongation factor G' at gnl|Bactopia|test-ont_3 position 20489
+[01:55:56] Possible /pseudo 'elongation factor G' at gnl|Bactopia|test-ont_3 position 20782
+[01:55:56] Possible /pseudo 'elongation factor G' at gnl|Bactopia|test-ont_3 position 21098
+[01:55:56] Possible /pseudo 'elongation factor G' at gnl|Bactopia|test-ont_3 position 21941
+[01:55:56] Possible /pseudo 'elongation factor Tu' at gnl|Bactopia|test-ont_3 position 23062
+[01:55:56] Possible /pseudo 'elongation factor Tu' at gnl|Bactopia|test-ont_3 position 23476
+[01:55:56] Possible /pseudo '50S ribosomal protein L3' at gnl|Bactopia|test-ont_3 position 24216
+[01:55:56] Possible /pseudo '30S ribosomal protein S3' at gnl|Bactopia|test-ont_3 position 27284
+[01:55:56] Possible /pseudo 'polyribonucleotide nucleotidyltransferase' at gnl|Bactopia|test-ont_4 position 2979
+[01:55:56] Possible /pseudo 'pyruvate dehydrogenase (acetyl-transferring), homodimeric type' at gnl|Bactopia|test-ont_4 position 12856
+[01:55:56] Possible /pseudo 'pyruvate dehydrogenase (acetyl-transferring), homodimeric type' at gnl|Bactopia|test-ont_4 position 13252
+[01:55:56] Possible /pseudo 'pyruvate dehydrogenase (acetyl-transferring), homodimeric type' at gnl|Bactopia|test-ont_4 position 13511
+[01:55:56] Possible /pseudo 'pyruvate dehydrogenase (acetyl-transferring), homodimeric type' at gnl|Bactopia|test-ont_4 position 13668
+[01:55:56] Possible /pseudo '30S ribosomal protein S1' at gnl|Bactopia|test-ont_4 position 19242
+[01:55:56] Possible /pseudo '30S ribosomal protein S1' at gnl|Bactopia|test-ont_4 position 19674
+[01:55:56] Possible /pseudo '30S ribosomal protein S1' at gnl|Bactopia|test-ont_4 position 19932
+[01:55:56] Possible /pseudo 'bifunctional prephenate dehydrogenase/3-phosphoshikimate 1-carboxyvinyltransferase' at gnl|Bactopia|test-ont_4 position 20872
+[01:55:56] Possible /pseudo 'DNA gyrase subunit A' at gnl|Bactopia|test-ont_4 position 23198
+[01:55:56] Possible /pseudo 'DNA gyrase subunit A' at gnl|Bactopia|test-ont_4 position 23452
+[01:55:56] Possible /pseudo 'DNA gyrase subunit A' at gnl|Bactopia|test-ont_4 position 24377
+[01:55:56] Possible /pseudo 'DNA gyrase subunit A' at gnl|Bactopia|test-ont_4 position 24946
+[01:55:56] Possible /pseudo 'preprotein translocase subunit SecA' at gnl|Bactopia|test-ont_4 position 26567
+[01:55:56] Possible /pseudo 'preprotein translocase subunit SecA' at gnl|Bactopia|test-ont_4 position 26772
+[01:55:56] Possible /pseudo 'preprotein translocase subunit SecA' at gnl|Bactopia|test-ont_4 position 27352
+[01:55:56] Possible /pseudo 'preprotein translocase subunit SecA' at gnl|Bactopia|test-ont_4 position 27645
+[01:55:56] Possible /pseudo '3-isopropylmalate dehydratase large subunit' at gnl|Bactopia|test-ont_4 position 28833
+[01:55:56] Possible /pseudo 'chorismate synthase' at gnl|Bactopia|test-ont_4 position 30178
+[01:55:56] Possible /pseudo '2-isopropylmalate synthase' at gnl|Bactopia|test-ont_4 position 37042
+[01:55:56] Possible /pseudo 'phosphoribosylanthranilate isomerase' at gnl|Bactopia|test-ont_5 position 3950
+[01:55:56] Possible /pseudo 'aspartate-semialdehyde dehydrogenase' at gnl|Bactopia|test-ont_5 position 5401
+[01:55:56] Possible /pseudo 'aspartate-semialdehyde dehydrogenase' at gnl|Bactopia|test-ont_5 position 5586
+[01:55:56] Possible /pseudo '3-isopropylmalate dehydrogenase' at gnl|Bactopia|test-ont_5 position 7161
+[01:55:56] Possible /pseudo '3-isopropylmalate dehydratase small subunit' at gnl|Bactopia|test-ont_5 position 7604
+[01:55:56] Possible /pseudo '3-isopropylmalate dehydratase small subunit' at gnl|Bactopia|test-ont_5 position 7788
+[01:55:56] Possible /pseudo 'ornithine carbamoyltransferase' at gnl|Bactopia|test-ont_5 position 10057
+[01:55:56] Possible /pseudo 'F0F1 ATP synthase subunit beta' at gnl|Bactopia|test-ont_5 position 11949
+[01:55:56] Possible /pseudo 'F0F1 ATP synthase subunit alpha' at gnl|Bactopia|test-ont_5 position 14090
+[01:55:56] Possible /pseudo 'F0F1 ATP synthase subunit alpha' at gnl|Bactopia|test-ont_5 position 14452
+[01:55:56] Possible /pseudo 'proline--tRNA ligase' at gnl|Bactopia|test-ont_6 position 1817
+[01:55:56] Possible /pseudo 'phenylalanine--tRNA ligase subunit alpha' at gnl|Bactopia|test-ont_6 position 9386
+[01:55:56] Possible /pseudo 'translation initiation factor IF-2' at gnl|Bactopia|test-ont_6 position 15823
+[01:55:56] Possible /pseudo 'translation initiation factor IF-2' at gnl|Bactopia|test-ont_6 position 16361
+[01:55:56] Possible /pseudo 'transcription termination factor NusA' at gnl|Bactopia|test-ont_6 position 17823
+[01:55:56] Possible /pseudo 'acetolactate synthase 3 large subunit' at gnl|Bactopia|test-ont_7 position 4020
+[01:55:56] Possible /pseudo 'Homoserine kinase' at gnl|Bactopia|test-ont_7 position 16971
+[01:55:56] Possible /pseudo 'RNA polymerase sigma factor RpoH' at gnl|Bactopia|test-ont_8 position 2560
+[01:55:56] Possible /pseudo 'lysine--tRNA ligase' at gnl|Bactopia|test-ont_8 position 4060
+[01:55:56] Possible /pseudo 'lysine--tRNA ligase' at gnl|Bactopia|test-ont_8 position 4370
+[01:55:56] Possible /pseudo 'peptide chain release factor 2' at gnl|Bactopia|test-ont_8 position 5556
+[01:55:56] Possible /pseudo 'isoleucine--tRNA ligase' at gnl|Bactopia|test-ont_8 position 7271
+[01:55:56] Possible /pseudo 'isoleucine--tRNA ligase' at gnl|Bactopia|test-ont_8 position 8139
+[01:55:56] Possible /pseudo 'DNA-directed RNA polymerase subunit alpha' at gnl|Bactopia|test-ont_8 position 13588
+[01:55:56] Possible /pseudo 'cysteine desulfurase' at gnl|Bactopia|test-ont_9 position 3353
+[01:55:56] Possible /pseudo 'cysteine desulfurase' at gnl|Bactopia|test-ont_9 position 9695
+[01:55:56] Possible /pseudo 'ABC transporter permease' at gnl|Bactopia|test-ont_9 position 12753
+[01:55:56] Possible /pseudo 'RNA polymerase sigma factor RpoD' at gnl|Bactopia|test-ont_10 position 4075
+[01:55:56] Possible /pseudo 'cytochrome o ubiquinol oxidase subunit I' at gnl|Bactopia|test-ont_10 position 5657
+[01:55:56] Possible /pseudo 'cytochrome o ubiquinol oxidase subunit I' at gnl|Bactopia|test-ont_10 position 5863
+[01:55:56] Possible /pseudo 'cytochrome o ubiquinol oxidase subunit I' at gnl|Bactopia|test-ont_10 position 6012
+[01:55:56] Possible /pseudo 'cytochrome o ubiquinol oxidase subunit I' at gnl|Bactopia|test-ont_10 position 6253
+[01:55:56] Possible /pseudo 'cytochrome o ubiquinol oxidase subunit I' at gnl|Bactopia|test-ont_10 position 6585
+[01:55:56] Possible /pseudo 'replicative DNA helicase' at gnl|Bactopia|test-ont_10 position 10039
+[01:55:56] Possible /pseudo 'NADH-quinone oxidoreductase subunit NuoH' at gnl|Bactopia|test-ont_11 position 1900
+[01:55:56] Possible /pseudo 'NADH-quinone oxidoreductase subunit NuoH' at gnl|Bactopia|test-ont_11 position 2137
+[01:55:56] Possible /pseudo 'NADH-quinone oxidoreductase subunit NuoH' at gnl|Bactopia|test-ont_11 position 2487
+[01:55:56] Possible /pseudo 'NADH-quinone oxidoreductase subunit NuoG' at gnl|Bactopia|test-ont_11 position 4783
+[01:55:56] Possible /pseudo 'NADH-quinone oxidoreductase subunit C/D' at gnl|Bactopia|test-ont_11 position 7659
+[01:55:56] Possible /pseudo 'NADH-quinone oxidoreductase subunit C/D' at gnl|Bactopia|test-ont_11 position 8096
+[01:55:56] Possible /pseudo 'NADH-quinone oxidoreductase subunit C/D' at gnl|Bactopia|test-ont_11 position 8361
+[01:55:56] Possible /pseudo 'dihydroxy-acid dehydratase' at gnl|Bactopia|test-ont_12 position 7584
+[01:55:56] Possible /pseudo 'dihydroxy-acid dehydratase' at gnl|Bactopia|test-ont_12 position 8159
+[01:55:56] Possible /pseudo 'dihydroxy-acid dehydratase' at gnl|Bactopia|test-ont_12 position 8471
+[01:55:56] Possible /pseudo 'endopeptidase La' at gnl|Bactopia|test-ont_12 position 9217
+[01:55:56] Possible /pseudo 'endopeptidase La' at gnl|Bactopia|test-ont_12 position 9741
+[01:55:56] Possible /pseudo 'NADH-quinone oxidoreductase subunit M' at gnl|Bactopia|test-ont_14 position 2085
+[01:55:56] Possible /pseudo 'NADH-quinone oxidoreductase subunit NuoN' at gnl|Bactopia|test-ont_14 position 6729
+[01:55:56] Possible /pseudo 'ATP-dependent zinc metalloprotease FtsH' at gnl|Bactopia|test-ont_15 position 1177
+[01:55:56] Possible /pseudo 'ATP-dependent zinc metalloprotease FtsH' at gnl|Bactopia|test-ont_15 position 1710
+[01:55:56] Possible /pseudo 'carbamoyl-phosphate synthase large subunit' at gnl|Bactopia|test-ont_15 position 3508
+[01:55:56] Possible /pseudo 'carbamoyl-phosphate synthase large subunit' at gnl|Bactopia|test-ont_15 position 3941
+[01:55:56] Possible /pseudo 'carbamoyl-phosphate synthase large subunit' at gnl|Bactopia|test-ont_15 position 4165
+[01:55:56] Possible /pseudo 'carbamoyl-phosphate synthase large subunit' at gnl|Bactopia|test-ont_15 position 4902
+[01:55:56] Possible /pseudo 'carbamoyl-phosphate synthase large subunit' at gnl|Bactopia|test-ont_15 position 5179
+[01:55:56] Possible /pseudo 'carbamoyl-phosphate synthase large subunit' at gnl|Bactopia|test-ont_15 position 5292
+[01:55:56] Possible /pseudo 'carbamoyl-phosphate synthase large subunit' at gnl|Bactopia|test-ont_15 position 5805
+[01:55:56] Possible /pseudo 'threonine synthase' at gnl|Bactopia|test-ont_16 position 4649
+[01:55:56] Possible /pseudo 'glutamine--tRNA ligase/YqeY domain fusion protein' at gnl|Bactopia|test-ont_18 position 1124
+[01:55:56] Possible /pseudo 'dihydrolipoyl dehydrogenase' at gnl|Bactopia|test-ont_19 position 593
+[01:55:56] Possible /pseudo 'dihydrolipoyl dehydrogenase' at gnl|Bactopia|test-ont_19 position 848
+[01:55:56] Possible /pseudo '2-oxoglutarate dehydrogenase E1 component' at gnl|Bactopia|test-ont_19 position 2980
+[01:55:56] Possible /pseudo '2-oxoglutarate dehydrogenase E1 component' at gnl|Bactopia|test-ont_19 position 3185
+[01:55:56] Possible /pseudo '2-oxoglutarate dehydrogenase E1 component' at gnl|Bactopia|test-ont_19 position 4000
+[01:55:56] Possible /pseudo 'glutamate--tRNA ligase' at gnl|Bactopia|test-ont_19 position 6063
+[01:55:56] Possible /pseudo 'leucine--tRNA ligase' at gnl|Bactopia|test-ont_20 position 635
+[01:55:56] Possible /pseudo 'leucine--tRNA ligase' at gnl|Bactopia|test-ont_20 position 876
+[01:55:56] Possible /pseudo 'aspartate kinase' at gnl|Bactopia|test-ont_20 position 3466
+[01:55:56] Possible /pseudo 'tRNA uridine-5-carboxymethylaminomethyl(34) synthesis GTPase MnmE' at gnl|Bactopia|test-ont_21 position 4995
+[01:55:56] Possible /pseudo 'molecular chaperone DnaK' at gnl|Bactopia|test-ont_25 position 2659
+[01:55:56] Possible /pseudo 'proline--tRNA ligase' at gnl|Bactopia|test-ont_26 position 1377
+[01:55:56] Possible /pseudo 'proline--tRNA ligase' at gnl|Bactopia|test-ont_26 position 1847
+[01:55:56] Possible /pseudo 'histidine--tRNA ligase' at gnl|Bactopia|test-ont_27 position 1509
+[01:55:56] Possible /pseudo 'DNA topoisomerase (ATP-hydrolyzing) subunit B' at gnl|Bactopia|test-ont_32 position 868
+[01:55:56] Possible /pseudo 'glutamate/aspartate:proton symporter GltP' at gnl|Bactopia|test-ont_33 position 504
+[01:55:56] Found 171 unique /gene codes.
+[01:55:56] Fixed 2 duplicate /gene - rpoD_1 rpoD_2
+[01:55:56] Fixed 3 duplicate /gene - gatA_1 gatA_2 gatA_3
+[01:55:56] Fixed 2 duplicate /gene - prfB_1 prfB_2
+[01:55:56] Fixed 3 duplicate /gene - asd_1 asd_2 asd_3
+[01:55:56] Fixed 4 duplicate /gene - dnaE_1 dnaE_2 dnaE_3 dnaE_4
+[01:55:56] Fixed 10 duplicate /gene - rpoC_1 rpoC_2 rpoC_3 rpoC_4 rpoC_5 rpoC_6 rpoC_7 rpoC_8 rpoC_9 rpoC_10
+[01:55:56] Fixed 2 duplicate /gene - odhA_1 odhA_2
+[01:55:56] Fixed 2 duplicate /gene - hisH_1 hisH_2
+[01:55:56] Fixed 2 duplicate /gene - rsmH_1 rsmH_2
+[01:55:56] Fixed 5 duplicate /gene - ileS_1 ileS_2 ileS_3 ileS_4 ileS_5
+[01:55:56] Fixed 2 duplicate /gene - thrB_1 thrB_2
+[01:55:56] Fixed 2 duplicate /gene - thrC_1 thrC_2
+[01:55:56] Fixed 3 duplicate /gene - lysS_1 lysS_2 lysS_3
+[01:55:56] Fixed 3 duplicate /gene - nuoN_1 nuoN_2 nuoN_3
+[01:55:56] Fixed 2 duplicate /gene - aroB_1 aroB_2
+[01:55:56] Fixed 6 duplicate /gene - secA_1 secA_2 secA_3 secA_4 secA_5 secA_6
+[01:55:56] Fixed 2 duplicate /gene - leuC_1 leuC_2
+[01:55:56] Fixed 3 duplicate /gene - lpdA_1 lpdA_2 lpdA_3
+[01:55:56] Fixed 7 duplicate /gene - rpoB_1 rpoB_2 rpoB_3 rpoB_4 rpoB_5 rpoB_6 rpoB_7
+[01:55:56] Fixed 3 duplicate /gene - nuoM_1 nuoM_2 nuoM_3
+[01:55:56] Fixed 6 duplicate /gene - gyrA_1 gyrA_2 gyrA_3 gyrA_4 gyrA_5 gyrA_6
+[01:55:56] Fixed 3 duplicate /gene - aroC_1 aroC_2 aroC_3
+[01:55:56] Fixed 2 duplicate /gene - rpoH_1 rpoH_2
+[01:55:56] Fixed 3 duplicate /gene - rne_1 rne_2 rne_3
+[01:55:56] Fixed 3 duplicate /gene - atpA_1 atpA_2 atpA_3
+[01:55:56] Fixed 6 duplicate /gene - cyoB_1 cyoB_2 cyoB_3 cyoB_4 cyoB_5 cyoB_6
+[01:55:56] Fixed 2 duplicate /gene - ndhB_1 ndhB_2
+[01:55:56] Fixed 5 duplicate /gene - nuoC_1 nuoC_2 nuoC_3 nuoC_4 nuoC_5
+[01:55:56] Fixed 2 duplicate /gene - csd_1 csd_2
+[01:55:56] Fixed 2 duplicate /gene - hisS_1 hisS_2
+[01:55:56] Fixed 2 duplicate /gene - gyrB_1 gyrB_2
+[01:55:56] Fixed 2 duplicate /gene - mnmA_1 mnmA_2
+[01:55:56] Fixed 3 duplicate /gene - lon_1 lon_2 lon_3
+[01:55:56] Fixed 2 duplicate /gene - pheS_1 pheS_2
+[01:55:56] Fixed 5 duplicate /gene - leuS_1 leuS_2 leuS_3 leuS_4 leuS_5
+[01:55:56] Fixed 2 duplicate /gene - prfA_1 prfA_2
+[01:55:56] Fixed 5 duplicate /gene - leuA_1 leuA_2 leuA_3 leuA_4 leuA_5
+[01:55:56] Fixed 2 duplicate /gene - dapA_1 dapA_2
+[01:55:56] Fixed 2 duplicate /gene - ilvA_1 ilvA_2
+[01:55:56] Fixed 2 duplicate /gene - hisF_1 hisF_2
+[01:55:56] Fixed 2 duplicate /gene - cgtA_1 cgtA_2
+[01:55:56] Fixed 2 duplicate /gene - dnaJ_1 dnaJ_2
+[01:55:56] Fixed 2 duplicate /gene - zwf_1 zwf_2
+[01:55:56] Fixed 2 duplicate /gene - trpD_1 trpD_2
+[01:55:56] Fixed 3 duplicate /gene - tuf_1 tuf_2 tuf_3
+[01:55:56] Fixed 3 duplicate /gene - trpB_1 trpB_2 trpB_3
+[01:55:56] Fixed 2 duplicate /gene - mnmE_1 mnmE_2
+[01:55:56] Fixed 5 duplicate /gene - groL_1 groL_2 groL_3 groL_4 groL_5
+[01:55:56] Fixed 4 duplicate /gene - carA_1 carA_2 carA_3 carA_4
+[01:55:56] Fixed 2 duplicate /gene - mnmG_1 mnmG_2
+[01:55:56] Fixed 2 duplicate /gene - tilS_1 tilS_2
+[01:55:56] Fixed 2 duplicate /gene - rpsC_1 rpsC_2
+[01:55:56] Fixed 5 duplicate /gene - pnp_1 pnp_2 pnp_3 pnp_4 pnp_5
+[01:55:56] Fixed 3 duplicate /gene - dnaK_1 dnaK_2 dnaK_3
+[01:55:56] Fixed 2 duplicate /gene - rpsH_1 rpsH_2
+[01:55:56] Fixed 2 duplicate /gene - rplN_1 rplN_2
+[01:55:56] Fixed 4 duplicate /gene - ilvD_1 ilvD_2 ilvD_3 ilvD_4
+[01:55:56] Fixed 17 duplicate /gene - carB_1 carB_2 carB_3 carB_4 carB_5 carB_6 carB_7 carB_8 carB_9 carB_10 carB_11 carB_12 carB_13 carB_14 carB_15 carB_16 carB_17
+[01:55:56] Fixed 3 duplicate /gene - hslU_1 hslU_2 hslU_3
+[01:55:56] Fixed 2 duplicate /gene - trpE_1 trpE_2
+[01:55:56] Fixed 3 duplicate /gene - lepA_1 lepA_2 lepA_3
+[01:55:56] Fixed 5 duplicate /gene - nusA_1 nusA_2 nusA_3 nusA_4 nusA_5
+[01:55:56] Fixed 2 duplicate /gene - rplE_1 rplE_2
+[01:55:56] Fixed 2 duplicate /gene - nuoE_1 nuoE_2
+[01:55:56] Fixed 2 duplicate /gene - trpC_1 trpC_2
+[01:55:56] Fixed 2 duplicate /gene - dnaB_1 dnaB_2
+[01:55:56] Fixed 4 duplicate /gene - mutS_1 mutS_2 mutS_3 mutS_4
+[01:55:56] Fixed 7 duplicate /gene - ftsH_1 ftsH_2 ftsH_3 ftsH_4 ftsH_5 ftsH_6 ftsH_7
+[01:55:56] Fixed 2 duplicate /gene - gltX_1 gltX_2
+[01:55:56] Fixed 2 duplicate /gene - leuB_1 leuB_2
+[01:55:56] Fixed 2 duplicate /gene - atpD_1 atpD_2
+[01:55:56] Fixed 3 duplicate /gene - infA_1 infA_2 infA_3
+[01:55:56] Fixed 3 duplicate /gene - nuoG_1 nuoG_2 nuoG_3
+[01:55:56] Fixed 5 duplicate /gene - fusA_1 fusA_2 fusA_3 fusA_4 fusA_5
+[01:55:56] Fixed 3 duplicate /gene - leuD_1 leuD_2 leuD_3
+[01:55:56] Fixed 2 duplicate /gene - proS_1 proS_2
+[01:55:56] Fixed 4 duplicate /gene - infB_1 infB_2 infB_3 infB_4
+[01:55:56] Fixed 2 duplicate /gene - rplC_1 rplC_2
+[01:55:56] Fixed 5 duplicate /gene - gltP_1 gltP_2 gltP_3 gltP_4 gltP_5
+[01:55:56] Fixed 4 duplicate /gene - rpsA_1 rpsA_2 rpsA_3 rpsA_4
+[01:55:56] Fixed 6 duplicate /gene - aceE_1 aceE_2 aceE_3 aceE_4 aceE_5 aceE_6
+[01:55:56] Fixed 2 duplicate /gene - ilvC_1 ilvC_2
+[01:55:56] Fixed 4 duplicate /gene - rho_1 rho_2 rho_3 rho_4
+[01:55:56] Fixed 4 duplicate /gene - metE_1 metE_2 metE_3 metE_4
+[01:55:56] Fixed 2 duplicate /gene - nuoF_1 nuoF_2
+[01:55:56] Fixed 2 duplicate /gene - rpoA_1 rpoA_2
+[01:55:56] Fixed 4 duplicate /gene - nuoH_1 nuoH_2 nuoH_3 nuoH_4
+[01:55:56] Fixed 87 colliding /gene names.
+[01:55:56] Adding /locus_tag identifiers
+[01:55:56] Assigned 776 locus_tags to CDS and RNA features.
+[01:55:56] Writing outputs to test-ont/
+[01:55:56] Generating annotation statistics file
+[01:55:56] Generating Genbank and Sequin files
+[01:55:56] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z test\-ont\/test\-ont\.err -i test\-ont\/test\-ont\.fsa 2> /dev/null
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in test-ont/test-ont.gbf
+[tbl2asn-forever] Correcting dates in test-ont/test-ont.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 14-MAY-2023
+[01:55:57] Deleting unwanted file: test-ont/errorsummary.val
+[01:55:57] Deleting unwanted file: test-ont/test-ont.dr
+[01:55:57] Deleting unwanted file: test-ont/test-ont.fixedproducts
+[01:55:57] Deleting unwanted file: test-ont/test-ont.ecn
+[01:55:57] Deleting unwanted file: test-ont/test-ont.val
+[01:55:57] Repairing broken .GBK output that tbl2asn produces...
+[01:55:57] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < test\-ont\/test\-ont\.gbf > test\-ont\/test\-ont\.gbk
+[01:55:57] Deleting unwanted file: test-ont/test-ont.gbf
+[01:55:57] Output files:
+[01:55:57] test-ont/test-ont.tsv
+[01:55:57] test-ont/test-ont.tbl
+[01:55:57] test-ont/test-ont.txt
+[01:55:57] test-ont/test-ont.fsa
+[01:55:57] test-ont/test-ont.log
+[01:55:57] test-ont/test-ont.fna
+[01:55:57] test-ont/test-ont.err
+[01:55:57] test-ont/test-ont.gff
+[01:55:57] test-ont/test-ont.ffn
+[01:55:57] test-ont/test-ont.faa
+[01:55:57] test-ont/test-ont.gbk
+[01:55:57] test-ont/test-ont.sqn
+[01:55:57] Annotation finished successfully.
+[01:55:57] Walltime used: 0.72 minutes
+[01:55:57] If you use this result please cite the Prokka paper:
+[01:55:57] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[01:55:57] Type 'prokka --citation' for more details.
+[01:55:57] Share and enjoy!
+
+
+Building a new DB, current time: 05/14/2023 01:55:57
+New DB name:   /home/charlie/Documents/BactBook/bactopia-workshop/work/1f/75a4f54a2668c38963f03df835ccd3/blastdb/!{meta.id}.fna
+New DB title:  Assembled contigs for !{meta.id}
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 38 sequences in 0.00364304 seconds.
+
+
+Building a new DB, current time: 05/14/2023 01:55:57
+New DB name:   /home/charlie/Documents/BactBook/bactopia-workshop/work/1f/75a4f54a2668c38963f03df835ccd3/blastdb/!{meta.id}.ffn
+New DB title:  Predicted genes sequences for !{meta.id}
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 776 sequences in 0.013413 seconds.
+
+
+Building a new DB, current time: 05/14/2023 01:55:57
+New DB name:   /home/charlie/Documents/BactBook/bactopia-workshop/work/1f/75a4f54a2668c38963f03df835ccd3/blastdb/!{meta.id}.faa
+New DB title:  Predicted protein sequences for !{meta.id}
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 734 sequences in 0.0207579 seconds.
+blastdb/
+blastdb/!{meta.id}.faa.pin
+blastdb/!{meta.id}.ffn.nin
+blastdb/!{meta.id}.fna.nhr
+blastdb/!{meta.id}.ffn.nhr
+blastdb/!{meta.id}.fna.nsq
+blastdb/!{meta.id}.ffn.nsq
+blastdb/!{meta.id}.faa.phr
+blastdb/!{meta.id}.faa.psq
+blastdb/!{meta.id}.fna.nin

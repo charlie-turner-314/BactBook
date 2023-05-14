@@ -1,0 +1,82 @@
+data: "<style>\n#nf-core-versions tbody:nth-child(even) {\n    background-color: #f2f2f2;\n\
+  }\n</style>\n<table class=\"table\" style=\"width:100%\" id=\"nf-core-versions\"\
+  >\n    <thead>\n        <tr>\n            <th> Process Name </th>\n            <th>\
+  \ Software </th>\n            <th> Version  </th>\n        </tr>\n    </thead>\n\
+  \n<tbody>\n<tr>\n    <td><samp>BACTOPIA:AMRFINDERPLUS:AMRFINDERPLUS_RUN</samp></td>\n\
+  \    <td><samp>amrfinderplus</samp></td>\n    <td><samp>3.11.11</samp></td>\n</tr>\n\
+  \n<tr>\n    <td><samp></samp></td>\n    <td><samp>amrfinderplus-database</samp></td>\n\
+  \    <td><samp>2023-04-17.1</samp></td>\n</tr>\n\n</tbody>\n<tbody>\n<tr>\n    <td><samp>BACTOPIA:ANNOTATOR:PROKKA_MODULE</samp></td>\n\
+  \    <td><samp>makeblastdb</samp></td>\n    <td><samp>2.9.0+</samp></td>\n</tr>\n\
+  \n<tr>\n    <td><samp></samp></td>\n    <td><samp>prokka</samp></td>\n    <td><samp>1.14.6</samp></td>\n\
+  </tr>\n\n</tbody>\n<tbody>\n<tr>\n    <td><samp>BACTOPIA:ASSEMBLER:ASSEMBLER_MODULE</samp></td>\n\
+  \    <td><samp>any2fasta</samp></td>\n    <td><samp>0.4.2</samp></td>\n</tr>\n\n\
+  <tr>\n    <td><samp></samp></td>\n    <td><samp>assembly-scan</samp></td>\n    <td><samp>1.0.0</samp></td>\n\
+  </tr>\n\n<tr>\n    <td><samp></samp></td>\n    <td><samp>bwa</samp></td>\n    <td><samp>0.7.17-r1188</samp></td>\n\
+  </tr>\n\n<tr>\n    <td><samp></samp></td>\n    <td><samp>flash</samp></td>\n   \
+  \ <td><samp>1.2.11</samp></td>\n</tr>\n\n<tr>\n    <td><samp></samp></td>\n    <td><samp>flye</samp></td>\n\
+  \    <td><samp>2.9.1-b1780</samp></td>\n</tr>\n\n<tr>\n    <td><samp></samp></td>\n\
+  \    <td><samp>medaka</samp></td>\n    <td><samp>1.5.0</samp></td>\n</tr>\n\n<tr>\n\
+  \    <td><samp></samp></td>\n    <td><samp>megahit</samp></td>\n    <td><samp>1.2.9</samp></td>\n\
+  </tr>\n\n<tr>\n    <td><samp></samp></td>\n    <td><samp>miniasm</samp></td>\n \
+  \   <td><samp>0.3-r179</samp></td>\n</tr>\n\n<tr>\n    <td><samp></samp></td>\n\
+  \    <td><samp>minimap2</samp></td>\n    <td><samp>2.24-r1122</samp></td>\n</tr>\n\
+  \n<tr>\n    <td><samp></samp></td>\n    <td><samp>nanoq</samp></td>\n    <td><samp>0.9.0</samp></td>\n\
+  </tr>\n\n<tr>\n    <td><samp></samp></td>\n    <td><samp>pigz</samp></td>\n    <td><samp>2.6</samp></td>\n\
+  </tr>\n\n<tr>\n    <td><samp></samp></td>\n    <td><samp>pilon</samp></td>\n   \
+  \ <td><samp>1.24</samp></td>\n</tr>\n\n<tr>\n    <td><samp></samp></td>\n    <td><samp>racon</samp></td>\n\
+  \    <td><samp>1.5.0</samp></td>\n</tr>\n\n<tr>\n    <td><samp></samp></td>\n  \
+  \  <td><samp>rasusa</samp></td>\n    <td><samp>0.7.0</samp></td>\n</tr>\n\n<tr>\n\
+  \    <td><samp></samp></td>\n    <td><samp>raven</samp></td>\n    <td><samp>1.8.1</samp></td>\n\
+  </tr>\n\n<tr>\n    <td><samp></samp></td>\n    <td><samp>samclip</samp></td>\n \
+  \   <td><samp>0.4.0</samp></td>\n</tr>\n\n<tr>\n    <td><samp></samp></td>\n   \
+  \ <td><samp>samtools</samp></td>\n    <td><samp>1.15</samp></td>\n</tr>\n\n<tr>\n\
+  \    <td><samp></samp></td>\n    <td><samp>shovill</samp></td>\n    <td><samp>1.1.0</samp></td>\n\
+  </tr>\n\n<tr>\n    <td><samp></samp></td>\n    <td><samp>shovill-se</samp></td>\n\
+  \    <td><samp>1.1.0</samp></td>\n</tr>\n\n<tr>\n    <td><samp></samp></td>\n  \
+  \  <td><samp>skesa</samp></td>\n    <td><samp>2.4.0</samp></td>\n</tr>\n\n<tr>\n\
+  \    <td><samp></samp></td>\n    <td><samp>spades.py</samp></td>\n    <td><samp>3.15.5</samp></td>\n\
+  </tr>\n\n<tr>\n    <td><samp></samp></td>\n    <td><samp>unicycler</samp></td>\n\
+  \    <td><samp>0.5.0</samp></td>\n</tr>\n\n<tr>\n    <td><samp></samp></td>\n  \
+  \  <td><samp>velvetg</samp></td>\n    <td><samp>1.2.10</samp></td>\n</tr>\n\n<tr>\n\
+  \    <td><samp></samp></td>\n    <td><samp>velveth</samp></td>\n    <td><samp>1.2.10</samp></td>\n\
+  </tr>\n\n</tbody>\n<tbody>\n<tr>\n    <td><samp>BACTOPIA:GATHER:GATHER_MODULE</samp></td>\n\
+  \    <td><samp>art</samp></td>\n    <td><samp>2.5.8</samp></td>\n</tr>\n\n<tr>\n\
+  \    <td><samp></samp></td>\n    <td><samp>fastq-dl</samp></td>\n    <td><samp>2.0.0</samp></td>\n\
+  </tr>\n\n<tr>\n    <td><samp></samp></td>\n    <td><samp>fastq-scan</samp></td>\n\
+  \    <td><samp>1.0.1</samp></td>\n</tr>\n\n<tr>\n    <td><samp></samp></td>\n  \
+  \  <td><samp>mash</samp></td>\n    <td><samp>2.3</samp></td>\n</tr>\n\n<tr>\n  \
+  \  <td><samp></samp></td>\n    <td><samp>ncbi-genome-download</samp></td>\n    <td><samp>0.3.1</samp></td>\n\
+  </tr>\n\n<tr>\n    <td><samp></samp></td>\n    <td><samp>pigz</samp></td>\n    <td><samp>2.6</samp></td>\n\
+  </tr>\n\n</tbody>\n<tbody>\n<tr>\n    <td><samp>BACTOPIA:MLST:MLST_MODULE</samp></td>\n\
+  \    <td><samp>mlst</samp></td>\n    <td><samp>2.23.0</samp></td>\n</tr>\n\n<tr>\n\
+  \    <td><samp></samp></td>\n    <td><samp>mlst-database</samp></td>\n    <td><samp>2.23.0-20230421</samp></td>\n\
+  </tr>\n\n</tbody>\n<tbody>\n<tr>\n    <td><samp>BACTOPIA:QC:QC_MODULE</samp></td>\n\
+  \    <td><samp>bbduk</samp></td>\n    <td><samp>39.01</samp></td>\n</tr>\n\n<tr>\n\
+  \    <td><samp></samp></td>\n    <td><samp>fastp</samp></td>\n    <td><samp>0.23.2</samp></td>\n\
+  </tr>\n\n<tr>\n    <td><samp></samp></td>\n    <td><samp>fastq-scan</samp></td>\n\
+  \    <td><samp>1.0.1</samp></td>\n</tr>\n\n<tr>\n    <td><samp></samp></td>\n  \
+  \  <td><samp>fastqc</samp></td>\n    <td><samp>0.11.9</samp></td>\n</tr>\n\n<tr>\n\
+  \    <td><samp></samp></td>\n    <td><samp>lighter</samp></td>\n    <td><samp>1.1.2</samp></td>\n\
+  </tr>\n\n<tr>\n    <td><samp></samp></td>\n    <td><samp>nanoplot</samp></td>\n\
+  \    <td><samp>1.41.0</samp></td>\n</tr>\n\n<tr>\n    <td><samp></samp></td>\n \
+  \   <td><samp>nanoq</samp></td>\n    <td><samp>0.9.0</samp></td>\n</tr>\n\n<tr>\n\
+  \    <td><samp></samp></td>\n    <td><samp>pigz</samp></td>\n    <td><samp>2.6</samp></td>\n\
+  </tr>\n\n<tr>\n    <td><samp></samp></td>\n    <td><samp>porechop</samp></td>\n\
+  \    <td><samp>0.2.4</samp></td>\n</tr>\n\n<tr>\n    <td><samp></samp></td>\n  \
+  \  <td><samp>rasusa</samp></td>\n    <td><samp>0.7.0</samp></td>\n</tr>\n\n</tbody>\n\
+  <tbody>\n<tr>\n    <td><samp>BACTOPIA:SKETCHER:SKETCHER_MODULE</samp></td>\n   \
+  \ <td><samp>mash</samp></td>\n    <td><samp>2.3</samp></td>\n</tr>\n\n<tr>\n   \
+  \ <td><samp></samp></td>\n    <td><samp>sourmash</samp></td>\n    <td><samp>4.6.1</samp></td>\n\
+  </tr>\n\n</tbody>\n<tbody>\n<tr>\n    <td><samp>Workflow</samp></td>\n    <td><samp>Nextflow</samp></td>\n\
+  \    <td><samp>23.04.1</samp></td>\n</tr>\n\n<tr>\n    <td><samp></samp></td>\n\
+  \    <td><samp>bactopia</samp></td>\n    <td><samp>3.0.0</samp></td>\n</tr>\n\n\
+  <tr>\n    <td><samp></samp></td>\n    <td><samp>date</samp></td>\n    <td><samp>2023-05-14\
+  \ 01:37:44.649188</samp></td>\n</tr>\n\n</tbody>\n<tbody>\n<tr>\n    <td><samp>custom_dumpsoftwareversions</samp></td>\n\
+  \    <td><samp>python</samp></td>\n    <td><samp>3.11.0</samp></td>\n</tr>\n\n<tr>\n\
+  \    <td><samp></samp></td>\n    <td><samp>yaml</samp></td>\n    <td><samp>6.0</samp></td>\n\
+  </tr>\n\n</tbody>\n</table>"
+description: are collected at run time from the software output.
+id: software_versions
+plot_type: html
+section_href: https://github.com/bactopia
+section_name: bactopia Software Versions

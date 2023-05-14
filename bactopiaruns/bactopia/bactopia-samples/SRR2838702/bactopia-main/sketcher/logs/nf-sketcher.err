@@ -1,0 +1,23 @@
+Sketching from stdin...
+Writing to SRR2838702-k21.msh...
+Sketching from stdin...
+Writing to SRR2838702-k31.msh...
+[K
+== This is sourmash version 4.6.1. ==
+[K== Please cite Brown and Irber (2016), doi:10.21105/joss.00027. ==
+
+[Kcomputing signatures for files: SRR2838702.fna.gz
+[KComputing a total of 1 signature(s) for each input.
+[K... reading sequences from SRR2838702.fna.gz
+[K... SRR2838702.fna.gz 80 sequences
+[Kcalculated 1 signature for 80 sequences taken from 1 files
+[Ksaved 1 signature(s) to 'SRR2838702.sig'
+ERROR: mash-refseq88.k21.msh.xz does not look like a sketch (.msh)
+[K
+== This is sourmash version 4.6.1. ==
+[K== Please cite Brown and Irber (2016), doi:10.21105/joss.00027. ==
+
+[K[K[K... loading database gtdb-rs207.genomic-reps.dna.k31.lca.json.gz[K[K[Kloaded 1 LCA databases. ksize=31, scaled=10000 moltype=DNA
+[Kfinding query signatures...
+[Koutputting classifications to -
+[K[K[K... classifying SRR2838702 (file 1 of 1)[K[K[Kclassified 1 signatures total

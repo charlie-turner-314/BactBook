@@ -1,0 +1,31 @@
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in SRR2838702/SRR2838702.gbf
+[tbl2asn-forever] Correcting dates in SRR2838702/SRR2838702.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 14-MAY-2023
+
+
+Building a new DB, current time: 05/14/2023 01:25:23
+New DB name:   /home/charlie/Documents/BactBook/bactopia-workshop/work/14/6b0cfa30d44baeac88d53c7e6ae09a/blastdb/!{meta.id}.fna
+New DB title:  Assembled contigs for !{meta.id}
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 80 sequences in 0.00335288 seconds.
+
+
+Building a new DB, current time: 05/14/2023 01:25:23
+New DB name:   /home/charlie/Documents/BactBook/bactopia-workshop/work/14/6b0cfa30d44baeac88d53c7e6ae09a/blastdb/!{meta.id}.ffn
+New DB title:  Predicted genes sequences for !{meta.id}
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 107 sequences in 0.00323606 seconds.
+
+
+Building a new DB, current time: 05/14/2023 01:25:23
+New DB name:   /home/charlie/Documents/BactBook/bactopia-workshop/work/14/6b0cfa30d44baeac88d53c7e6ae09a/blastdb/!{meta.id}.faa
+New DB title:  Predicted protein sequences for !{meta.id}
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 98 sequences in 0.00256181 seconds.

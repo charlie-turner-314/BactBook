@@ -1,0 +1,3 @@
+"BACTOPIA:ANNOTATOR:PROKKA_MODULE":
+    makeblastdb: 2.9.0+
+    prokka: 1.14.6

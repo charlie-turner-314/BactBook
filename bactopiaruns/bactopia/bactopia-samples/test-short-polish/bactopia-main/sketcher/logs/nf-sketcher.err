@@ -1,0 +1,23 @@
+Sketching from stdin...
+Writing to test-short-polish-k21.msh...
+Sketching from stdin...
+Writing to test-short-polish-k31.msh...
+[K
+== This is sourmash version 4.6.1. ==
+[K== Please cite Brown and Irber (2016), doi:10.21105/joss.00027. ==
+
+[Kcomputing signatures for files: test-short-polish.fna.gz
+[KComputing a total of 1 signature(s) for each input.
+[K... reading sequences from test-short-polish.fna.gz
+[K... test-short-polish.fna.gz 48 sequences
+[Kcalculated 1 signature for 48 sequences taken from 1 files
+[Ksaved 1 signature(s) to 'test-short-polish.sig'
+ERROR: mash-refseq88.k21.msh.xz does not look like a sketch (.msh)
+[K
+== This is sourmash version 4.6.1. ==
+[K== Please cite Brown and Irber (2016), doi:10.21105/joss.00027. ==
+
+[K[K[K... loading database gtdb-rs207.genomic-reps.dna.k31.lca.json.gz[K[K[Kloaded 1 LCA databases. ksize=31, scaled=10000 moltype=DNA
+[Kfinding query signatures...
+[Koutputting classifications to -
+[K[K[K... classifying test-short-polish (file 1 of 1)[K[K[Kclassified 1 signatures total

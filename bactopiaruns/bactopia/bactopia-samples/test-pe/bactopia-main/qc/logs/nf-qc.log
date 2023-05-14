@@ -1,0 +1,96 @@
+Skipping error correction since fastp was used
+java -ea -Xmx8160437862 -Xms8160437862 -cp /usr/local/opt/bbmap-39.01-0/current/ jgi.ReformatReads -Xmx8160437862 in=filt-r1.fq out=subsample-r1.fq in2=filt-r2.fq out2=subsample-r2.fq samplebasestarget=35800000 sampleseed=42 overwrite=t
+Executing jgi.ReformatReads [-Xmx8160437862, in=filt-r1.fq, out=subsample-r1.fq, in2=filt-r2.fq, out2=subsample-r2.fq, samplebasestarget=35800000, sampleseed=42, overwrite=t]
+
+Set INTERLEAVED to false
+Input is being processed as paired
+Input:                  	193360 reads          	19310210 bases
+Output:                 	193360 reads (100.00%) 	19310210 bases (100.00%)
+
+Time:                         	0.704 seconds.
+Reads Processed:        193k 	274.67k reads/sec
+Bases Processed:      19310k 	27.43m bases/sec
+Started analysis of test-pe_R1-original.fastq.gz
+Started analysis of test-pe_R2-original.fastq.gz
+Approx 5% complete for test-pe_R1-original.fastq.gz
+Started analysis of test-pe_R1-final.fastq.gz
+Approx 5% complete for test-pe_R2-original.fastq.gz
+Approx 10% complete for test-pe_R1-original.fastq.gz
+Approx 5% complete for test-pe_R1-final.fastq.gz
+Approx 10% complete for test-pe_R2-original.fastq.gz
+Approx 15% complete for test-pe_R1-original.fastq.gz
+Started analysis of test-pe_R2-final.fastq.gz
+Approx 10% complete for test-pe_R1-final.fastq.gz
+Approx 15% complete for test-pe_R2-original.fastq.gz
+Approx 20% complete for test-pe_R1-original.fastq.gz
+Approx 5% complete for test-pe_R2-final.fastq.gz
+Approx 20% complete for test-pe_R2-original.fastq.gz
+Approx 15% complete for test-pe_R1-final.fastq.gz
+Approx 25% complete for test-pe_R1-original.fastq.gz
+Approx 10% complete for test-pe_R2-final.fastq.gz
+Approx 25% complete for test-pe_R2-original.fastq.gz
+Approx 20% complete for test-pe_R1-final.fastq.gz
+Approx 30% complete for test-pe_R1-original.fastq.gz
+Approx 30% complete for test-pe_R2-original.fastq.gz
+Approx 15% complete for test-pe_R2-final.fastq.gz
+Approx 25% complete for test-pe_R1-final.fastq.gz
+Approx 35% complete for test-pe_R2-original.fastq.gz
+Approx 35% complete for test-pe_R1-original.fastq.gz
+Approx 30% complete for test-pe_R1-final.fastq.gz
+Approx 20% complete for test-pe_R2-final.fastq.gz
+Approx 40% complete for test-pe_R2-original.fastq.gz
+Approx 35% complete for test-pe_R1-final.fastq.gz
+Approx 40% complete for test-pe_R1-original.fastq.gz
+Approx 25% complete for test-pe_R2-final.fastq.gz
+Approx 45% complete for test-pe_R2-original.fastq.gz
+Approx 40% complete for test-pe_R1-final.fastq.gz
+Approx 45% complete for test-pe_R1-original.fastq.gz
+Approx 30% complete for test-pe_R2-final.fastq.gz
+Approx 50% complete for test-pe_R2-original.fastq.gz
+Approx 45% complete for test-pe_R1-final.fastq.gz
+Approx 35% complete for test-pe_R2-final.fastq.gz
+Approx 55% complete for test-pe_R2-original.fastq.gz
+Approx 50% complete for test-pe_R1-original.fastq.gz
+Approx 50% complete for test-pe_R1-final.fastq.gz
+Approx 60% complete for test-pe_R2-original.fastq.gz
+Approx 40% complete for test-pe_R2-final.fastq.gz
+Approx 55% complete for test-pe_R1-final.fastq.gz
+Approx 55% complete for test-pe_R1-original.fastq.gz
+Approx 65% complete for test-pe_R2-original.fastq.gz
+Approx 45% complete for test-pe_R2-final.fastq.gz
+Approx 60% complete for test-pe_R1-final.fastq.gz
+Approx 60% complete for test-pe_R1-original.fastq.gz
+Approx 50% complete for test-pe_R2-final.fastq.gz
+Approx 70% complete for test-pe_R2-original.fastq.gz
+Approx 65% complete for test-pe_R1-final.fastq.gz
+Approx 65% complete for test-pe_R1-original.fastq.gz
+Approx 55% complete for test-pe_R2-final.fastq.gz
+Approx 75% complete for test-pe_R2-original.fastq.gz
+Approx 70% complete for test-pe_R1-final.fastq.gz
+Approx 70% complete for test-pe_R1-original.fastq.gz
+Approx 60% complete for test-pe_R2-final.fastq.gz
+Approx 80% complete for test-pe_R2-original.fastq.gz
+Approx 75% complete for test-pe_R1-final.fastq.gz
+Approx 75% complete for test-pe_R1-original.fastq.gz
+Approx 65% complete for test-pe_R2-final.fastq.gz
+Approx 85% complete for test-pe_R2-original.fastq.gz
+Approx 80% complete for test-pe_R1-final.fastq.gz
+Approx 80% complete for test-pe_R1-original.fastq.gz
+Approx 70% complete for test-pe_R2-final.fastq.gz
+Approx 90% complete for test-pe_R2-original.fastq.gz
+Approx 85% complete for test-pe_R1-final.fastq.gz
+Approx 95% complete for test-pe_R2-original.fastq.gz
+Approx 85% complete for test-pe_R1-original.fastq.gz
+Approx 75% complete for test-pe_R2-final.fastq.gz
+Approx 90% complete for test-pe_R1-final.fastq.gz
+Analysis complete for test-pe_R2-original.fastq.gz
+Approx 90% complete for test-pe_R1-original.fastq.gz
+Approx 80% complete for test-pe_R2-final.fastq.gz
+Approx 95% complete for test-pe_R1-final.fastq.gz
+Approx 95% complete for test-pe_R1-original.fastq.gz
+Approx 85% complete for test-pe_R2-final.fastq.gz
+Analysis complete for test-pe_R1-final.fastq.gz
+Analysis complete for test-pe_R1-original.fastq.gz
+Approx 90% complete for test-pe_R2-final.fastq.gz
+Approx 95% complete for test-pe_R2-final.fastq.gz
+Analysis complete for test-pe_R2-final.fastq.gz

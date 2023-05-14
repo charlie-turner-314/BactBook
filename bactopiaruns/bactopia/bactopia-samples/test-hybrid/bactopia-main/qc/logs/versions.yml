@@ -1,0 +1,11 @@
+"BACTOPIA:QC:QC_MODULE":
+    bbduk: 39.01
+    fastp: 0.23.2
+    fastqc: 0.11.9
+    fastq-scan: 1.0.1
+    lighter: 1.1.2
+    nanoplot: 1.41.0
+    nanoq: 0.9.0
+    pigz: 2.6
+    porechop: 0.2.4
+    rasusa: 0.7.0

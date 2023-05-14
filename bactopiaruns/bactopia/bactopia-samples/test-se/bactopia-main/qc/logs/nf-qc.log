@@ -1,0 +1,53 @@
+Skipping error correction since fastp was used
+java -ea -Xmx8160437862 -Xms8160437862 -cp /usr/local/opt/bbmap-39.01-0/current/ jgi.ReformatReads -Xmx8160437862 in=filt-r1.fq out=subsample-r1.fq samplebasestarget=35800000 sampleseed=42 overwrite=t
+Executing jgi.ReformatReads [-Xmx8160437862, in=filt-r1.fq, out=subsample-r1.fq, samplebasestarget=35800000, sampleseed=42, overwrite=t]
+
+Input is being processed as unpaired
+Input:                  	97651 reads          	9862751 bases
+Output:                 	97651 reads (100.00%) 	9862751 bases (100.00%)
+
+Time:                         	1.910 seconds.
+Reads Processed:       97651 	51.13k reads/sec
+Bases Processed:       9862k 	5.16m bases/sec
+Started analysis of test-se-original.fastq.gz
+Approx 5% complete for test-se-original.fastq.gz
+Approx 10% complete for test-se-original.fastq.gz
+Approx 15% complete for test-se-original.fastq.gz
+Started analysis of test-se-final.fastq.gz
+Approx 20% complete for test-se-original.fastq.gz
+Approx 5% complete for test-se-final.fastq.gz
+Approx 25% complete for test-se-original.fastq.gz
+Approx 10% complete for test-se-final.fastq.gz
+Approx 15% complete for test-se-final.fastq.gz
+Approx 30% complete for test-se-original.fastq.gz
+Approx 20% complete for test-se-final.fastq.gz
+Approx 35% complete for test-se-original.fastq.gz
+Approx 25% complete for test-se-final.fastq.gz
+Approx 40% complete for test-se-original.fastq.gz
+Approx 30% complete for test-se-final.fastq.gz
+Approx 45% complete for test-se-original.fastq.gz
+Approx 35% complete for test-se-final.fastq.gz
+Approx 50% complete for test-se-original.fastq.gz
+Approx 40% complete for test-se-final.fastq.gz
+Approx 55% complete for test-se-original.fastq.gz
+Approx 45% complete for test-se-final.fastq.gz
+Approx 60% complete for test-se-original.fastq.gz
+Approx 50% complete for test-se-final.fastq.gz
+Approx 65% complete for test-se-original.fastq.gz
+Approx 55% complete for test-se-final.fastq.gz
+Approx 70% complete for test-se-original.fastq.gz
+Approx 60% complete for test-se-final.fastq.gz
+Approx 75% complete for test-se-original.fastq.gz
+Approx 65% complete for test-se-final.fastq.gz
+Approx 80% complete for test-se-original.fastq.gz
+Approx 70% complete for test-se-final.fastq.gz
+Approx 85% complete for test-se-original.fastq.gz
+Approx 75% complete for test-se-final.fastq.gz
+Approx 90% complete for test-se-original.fastq.gz
+Approx 80% complete for test-se-final.fastq.gz
+Approx 95% complete for test-se-original.fastq.gz
+Approx 85% complete for test-se-final.fastq.gz
+Analysis complete for test-se-original.fastq.gz
+Approx 90% complete for test-se-final.fastq.gz
+Approx 95% complete for test-se-final.fastq.gz
+Analysis complete for test-se-final.fastq.gz

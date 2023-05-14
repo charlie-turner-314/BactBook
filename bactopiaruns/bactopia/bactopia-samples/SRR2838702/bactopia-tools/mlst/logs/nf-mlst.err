@@ -1,0 +1,8 @@
+[01:25:10] This is mlst 2.23.0 running on linux with Perl 5.032001
+[01:25:10] Checking mlst dependencies:
+[01:25:10] Found 'blastn' => /usr/local/bin/blastn
+[01:25:10] Found 'any2fasta' => /usr/local/bin/any2fasta
+[01:25:10] Found blastn: 2.13.0+ (002013)
+[01:25:10] Excluding 3 schemes: abaumannii ecoli vcholerae_2
+[01:25:10] Please also cite 'Jolley & Maiden 2010, BMC Bioinf, 11:595' if you use mlst.
+[01:25:10] Done.
