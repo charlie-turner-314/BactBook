@@ -7,6 +7,7 @@ const cors = require('cors');
 const bcrypt = require('bcrypt');
 //const cookie = require('cookie');
 const session = require('express-session');
+const getAllSamples = require("./queries/getAllSamples");
 
 const options = {
     client: 'pg',
@@ -114,7 +115,8 @@ app.use("/removeGroup", removeGroupRouter);
 app.use("/getCloseSamples", getCloseSampleRouter);
 
 // index page
-app.get('/', function (req, res) {
+app.get('/', async function (req, res) {
+    console.log(await getAllSamples());
     let userLoggedIn = req.session.userStatus === "loggedIn";
     let favorites = [];
     let suggested = [];
